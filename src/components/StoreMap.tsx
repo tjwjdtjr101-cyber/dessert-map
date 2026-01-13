@@ -1,286 +1,366 @@
 import { useEffect, useRef, useState } from 'react';
-import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
-import L from 'leaflet';
 import { Store } from '../data/stores';
-import 'leaflet/dist/leaflet.css';
 
 interface StoreMapProps {
   stores: Store[];
   onSelectStore: (store: Store) => void;
-  onMapReady?: (map: any) => void;
+  onMapReady?: (mapInstance: any) => void;
 }
 
-function LocationControl() {
-  const map = useMap();
-  const [userMarker, setUserMarker] = useState<L.Marker | null>(null);
-
-  useEffect(() => {
-    const locationControl = L.control({ position: 'bottomright' });
-
-    locationControl.onAdd = () => {
-      const button = L.DomUtil.create('button', 'location-button');
-      button.innerHTML = '📍';
-      button.style.cssText = `
-        width: 50px;
-        height: 50px;
-        background-color: #FF8C42;
-        color: white;
-        border: none;
-        border-radius: 10px;
-        font-size: 24px;
-        cursor: pointer;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-        transition: all 0.3s ease;
-      `;
-
-      L.DomEvent.disableClickPropagation(button);
-
-      button.onmouseenter = () => {
-        button.style.backgroundColor = '#FF7A2E';
-        button.style.transform = 'scale(1.1)';
-      };
-
-      button.onmouseleave = () => {
-        button.style.backgroundColor = '#FF8C42';
-        button.style.transform = 'scale(1)';
-      };
-
-      button.onclick = () => {
-        if (navigator.geolocation) {
-          button.innerHTML = '⏳';
-          navigator.geolocation.getCurrentPosition(
-            (position) => {
-              const { latitude, longitude } = position.coords;
-
-              if (userMarker) {
-                map.removeLayer(userMarker);
-              }
-
-              const customIcon = L.divIcon({
-                html: `
-                  <div style="width: 28px; height: 28px; position: relative;">
-                    <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <circle cx="14" cy="14" r="8" fill="#3B82F6"/>
-                      <circle cx="14" cy="14" r="12" stroke="#3B82F6" stroke-width="3" fill="none"/>
-                    </svg>
-                  </div>
-                `,
-                className: 'user-location-marker',
-                iconSize: [28, 28],
-                iconAnchor: [14, 14],
-              });
-
-              const marker = L.marker([latitude, longitude], { icon: customIcon })
-                .addTo(map)
-                .bindPopup('현재 위치')
-                .openPopup();
-
-              setUserMarker(marker);
-              map.setView([latitude, longitude], 15);
-              button.innerHTML = '📍';
-            },
-            () => {
-              alert('현재 위치를 가져올 수 없습니다.');
-              button.innerHTML = '📍';
-            }
-          );
-        }
-      };
-
-      return button;
-    };
-
-    locationControl.addTo(map);
-
-    return () => {
-      locationControl.remove();
-    };
-  }, [map, userMarker]);
-
-  return null;
-}
-
-function MapInitializer({ onMapReady }: { onMapReady?: (map: any) => void }) {
-  const map = useMap();
-
-  useEffect(() => {
-    if (onMapReady) {
-      onMapReady(map);
-    }
-  }, [map, onMapReady]);
-
-  return null;
+declare global {
+  interface Window {
+    naver: any;
+  }
 }
 
 export default function StoreMap({ stores, onSelectStore, onMapReady }: StoreMapProps) {
-  const categoryEmojis: Record<string, string> = {
-    dubai: '🍪',
-    bungeoppang: '🐟',
-    goguma: '🍠',
-    cake: '🎂',
-  };
+  const mapRef = useRef<HTMLDivElement>(null);
+  const mapInstanceRef = useRef<any>(null);
+  const markersRef = useRef<any[]>([]);
+  const [userLocation, setUserLocation] = useState<{ lat: number; lng: number } | null>(null);
+  const userMarkerRef = useRef<any>(null);
+  const [isMapLoaded, setIsMapLoaded] = useState(false);
+  const [mapError, setMapError] = useState<string | null>(null);
 
-  const createCustomIcon = (store: Store) => {
-    const emoji = categoryEmojis[store.category] || '🍪';
+  /**
+   * ✅ [수정] 네이버 지도 스크립트 로드/준비 완료 체크
+   * - window.naver.maps 존재 확인
+   * - onJSContentLoaded가 있으면 그 시점을 "진짜 준비 완료"로 사용
+   */
+  useEffect(() => {
+    console.log('현재 접속 URL:', window.location.href);
+    console.log('현재 도메인:', window.location.hostname);
+    console.log('프로토콜:', window.location.protocol);
 
-    return L.divIcon({
-      html: `
-        <div style="position: relative;">
-          <svg width="40" height="48" viewBox="0 0 40 48" xmlns="http://www.w3.org/2000/svg">
-            <defs>
-              <filter id="shadow-${store.id}" x="-50%" y="-50%" width="200%" height="200%">
-                <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.4"/>
-              </filter>
-            </defs>
-            <circle cx="20" cy="18" r="17" fill="white" stroke="#FF8C42" stroke-width="2.5" filter="url(#shadow-${store.id})"/>
-            <text x="20" y="26" font-size="22" text-anchor="middle" dominant-baseline="middle">${emoji}</text>
-            <polygon points="20,42 14,28 26,28" fill="#FF8C42"/>
-          </svg>
-        </div>
-      `,
-      className: 'custom-marker',
-      iconSize: [40, 48],
-      iconAnchor: [20, 48],
-      popupAnchor: [0, -48],
+    const timeoutId = window.setTimeout(() => {
+      if (!window.naver?.maps) {
+        console.error('네이버 지도 API 로드 실패');
+        setMapError(
+          `네이버 지도 인증/로드에 실패했습니다.\n` +
+            `현재 URL: ${window.location.href}\n\n` +
+            `네이버 클라우드 플랫폼 → Maps → Application → Web 서비스 URL에\n` +
+            `현재 주소가 등록되어 있는지 확인해주세요.`
+        );
+      }
+    }, 8000);
+
+    const waitForMaps = () => {
+      if (window.naver?.maps) {
+        console.log('naver.maps 객체 감지됨');
+
+        // v3에서 제공되는 경우: JS 로딩 완료 시점이 더 정확함
+        if (typeof window.naver.maps.onJSContentLoaded === 'function') {
+          window.naver.maps.onJSContentLoaded = () => {
+            console.log('네이버 지도 JS Content Loaded');
+            window.clearTimeout(timeoutId);
+            setIsMapLoaded(true);
+          };
+        } else {
+          window.clearTimeout(timeoutId);
+          setIsMapLoaded(true);
+        }
+        return;
+      }
+
+      window.setTimeout(waitForMaps, 100);
+    };
+
+    waitForMaps();
+
+    return () => window.clearTimeout(timeoutId);
+  }, []);
+
+  /**
+   * 지도 생성 (1회)
+   */
+  useEffect(() => {
+    if (!mapRef.current || !window.naver?.maps || !isMapLoaded) return;
+    if (mapInstanceRef.current) return;
+
+    const mapOptions = {
+      center: new window.naver.maps.LatLng(37.5665, 126.978),
+      zoom: 12,
+      zoomControl: true,
+      zoomControlOptions: {
+        position: window.naver.maps.Position.TOP_RIGHT,
+      },
+    };
+
+    const map = new window.naver.maps.Map(mapRef.current, mapOptions);
+    mapInstanceRef.current = map;
+    onMapReady?.(map);
+
+    // 📍 내 위치 버튼
+    const locationButton = document.createElement('button');
+    locationButton.innerHTML = '📍';
+    locationButton.style.cssText = `
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      width: 50px;
+      height: 50px;
+      background-color: #FF8C42;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-size: 24px;
+      cursor: pointer;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+      z-index: 1000;
+      transition: all 0.3s ease;
+    `;
+
+    locationButton.addEventListener('mouseenter', () => {
+      locationButton.style.backgroundColor = '#FF7A2E';
+      locationButton.style.transform = 'scale(1.1)';
     });
-  };
 
-  return (
-    <div className="w-full h-[500px] rounded-xl overflow-hidden shadow-xl">
-      <MapContainer
-        center={[37.5665, 126.978]}
-        zoom={12}
-        style={{ width: '100%', height: '100%' }}
-        zoomControl={true}
-      >
-        <TileLayer
-          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-        />
+    locationButton.addEventListener('mouseleave', () => {
+      locationButton.style.backgroundColor = '#FF8C42';
+      locationButton.style.transform = 'scale(1)';
+    });
 
-        <MapInitializer onMapReady={onMapReady} />
-        <LocationControl />
+    locationButton.addEventListener('click', () => {
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition((position) => {
+          const { latitude, longitude } = position.coords;
+          const newLocation = { lat: latitude, lng: longitude };
+          setUserLocation(newLocation);
 
-        {stores.map((store) => (
-          <Marker
-            key={store.id}
-            position={[store.lat, store.lng]}
-            icon={createCustomIcon(store)}
-          >
-            <Popup maxWidth={300} className="custom-popup">
-              <div style={{ padding: '8px', fontFamily: 'system-ui, -apple-system, sans-serif' }}>
-                <div style={{ marginBottom: '12px', paddingBottom: '12px', borderBottom: '2px solid #FF8C42' }}>
-                  <h3 style={{ fontWeight: 'bold', fontSize: '18px', color: '#111827', margin: '0 0 4px 0' }}>
-                    {store.name}
-                  </h3>
-                  <p style={{ fontSize: '12px', color: '#6b7280', margin: '0' }}>
-                    {store.address}
-                  </p>
+          map.setCenter(new window.naver.maps.LatLng(latitude, longitude));
+          map.setZoom(15);
+
+          if (userMarkerRef.current) {
+            userMarkerRef.current.setMap(null);
+          }
+
+          const userMarker = new window.naver.maps.Marker({
+            position: new window.naver.maps.LatLng(latitude, longitude),
+            map: map,
+            icon: {
+              content: `
+                <div style="width: 28px; height: 28px; position: relative;">
+                  <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="14" cy="14" r="8" fill="#3B82F6"/>
+                    <circle cx="14" cy="14" r="12" stroke="#3B82F6" stroke-width="3" fill="none"/>
+                  </svg>
                 </div>
+              `,
+              anchor: new window.naver.maps.Point(14, 14),
+            },
+          });
 
-                <div style={{ marginBottom: '12px' }}>
-                  {store.rating && (
-                    <p style={{ fontSize: '14px', margin: '0 0 8px 0' }}>
-                      <span style={{ color: '#fbbf24' }}>⭐</span>{' '}
-                      <span style={{ fontWeight: '600' }}>{store.rating}</span>
-                    </p>
-                  )}
-                  <p style={{ fontSize: '14px', color: '#374151', margin: '0 0 8px 0' }}>
-                    <span style={{ fontWeight: '600' }}>가격:</span> {store.price.toLocaleString()}원
-                  </p>
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                    <span style={{ fontWeight: '600', fontSize: '14px', color: '#374151' }}>상태:</span>
-                    <span
-                      style={{
-                        fontSize: '12px',
-                        fontWeight: 'bold',
-                        padding: '4px 8px',
-                        borderRadius: '9999px',
-                        ...(store.status === 'available'
-                          ? { backgroundColor: '#d1fae5', color: '#065f46' }
-                          : store.status === 'soldout'
-                          ? { backgroundColor: '#fee2e2', color: '#991b1b' }
-                          : { backgroundColor: '#fed7aa', color: '#9a3412' }),
-                      }}
-                    >
-                      {store.status === 'available' ? '판매중' : store.status === 'soldout' ? '품절' : '확인필요'}
-                    </span>
-                  </div>
-                </div>
+          userMarkerRef.current = userMarker;
+        });
+      }
+    });
 
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
-                  <button
-                    onClick={() => onSelectStore(store)}
-                    style={{
-                      width: '100%',
-                      backgroundColor: '#FF8C42',
-                      color: 'white',
-                      fontWeight: 'bold',
-                      padding: '8px',
-                      borderRadius: '8px',
-                      border: 'none',
-                      cursor: 'pointer',
-                      fontSize: '14px',
-                      transition: 'background-color 0.2s',
-                    }}
-                    onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = '#FF7A2E')}
-                    onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = '#FF8C42')}
-                  >
-                    상세보기
-                  </button>
-                  <a
-                    href={`https://map.naver.com/search/${encodeURIComponent(store.address)}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    style={{
-                      width: '100%',
-                      backgroundColor: '#f3f4f6',
-                      color: '#374151',
-                      fontWeight: 'bold',
-                      padding: '8px',
-                      borderRadius: '8px',
-                      cursor: 'pointer',
-                      fontSize: '14px',
-                      textAlign: 'center',
-                      textDecoration: 'none',
-                      display: 'block',
-                      transition: 'background-color 0.2s',
-                    }}
-                    onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = '#e5e7eb')}
-                    onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = '#f3f4f6')}
-                  >
-                    길찾기
-                  </a>
-                </div>
+    if (mapRef.current) {
+      mapRef.current.appendChild(locationButton);
+    }
+
+    return () => {
+      markersRef.current.forEach((marker) => marker.setMap(null));
+      markersRef.current = [];
+      if (userMarkerRef.current) {
+        userMarkerRef.current.setMap(null);
+        userMarkerRef.current = null;
+      }
+    };
+  }, [onMapReady, isMapLoaded]);
+
+  /**
+   * 마커 렌더링
+   */
+  useEffect(() => {
+    if (!mapInstanceRef.current || !window.naver?.maps || !isMapLoaded || !Array.isArray(stores)) return;
+
+    markersRef.current.forEach((marker) => marker.setMap(null));
+    markersRef.current = [];
+
+    const categoryEmojis: Record<string, string> = {
+      dubai: '🍪',
+      bungeoppang: '🐟',
+      goguma: '🍠',
+      cake: '🎂',
+    };
+
+    stores.forEach((store) => {
+      const emoji = categoryEmojis[store.category] || '🍪';
+
+      const marker = new window.naver.maps.Marker({
+        position: new window.naver.maps.LatLng(store.lat, store.lng),
+        map: mapInstanceRef.current,
+        icon: {
+          content: `
+            <div style="position: relative; cursor: pointer;">
+              <svg width="40" height="48" viewBox="0 0 40 48" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <filter id="shadow-${store.id}" x="-50%" y="-50%" width="200%" height="200%">
+                    <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.4"/>
+                  </filter>
+                </defs>
+                <circle cx="20" cy="18" r="17" fill="white" stroke="#FF8C42" stroke-width="2.5" filter="url(#shadow-${store.id})"/>
+                <text x="20" y="26" font-size="22" text-anchor="middle" dominant-baseline="middle">${emoji}</text>
+                <polygon points="20,42 14,28 26,28" fill="#FF8C42"/>
+              </svg>
+            </div>
+          `,
+          anchor: new window.naver.maps.Point(20, 48),
+        },
+      });
+
+      const infoWindow = new window.naver.maps.InfoWindow({
+        content: `
+          <div style="padding: 16px; width: 280px; font-family: system-ui, -apple-system, sans-serif;">
+            <div style="margin-bottom: 12px; padding-bottom: 12px; border-bottom: 2px solid #FF8C42;">
+              <h3 style="font-weight: bold; font-size: 18px; color: #111827; margin: 0 0 4px 0;">${store.name}</h3>
+              <p style="font-size: 12px; color: #6b7280; margin: 0;">${store.address}</p>
+            </div>
+            <div style="margin-bottom: 12px;">
+              ${
+                store.rating
+                  ? `<p style="font-size: 14px; margin: 0 0 8px 0;"><span style="color: #fbbf24;">⭐</span> <span style="font-weight: 600;">${store.rating}</span></p>`
+                  : ''
+              }
+              <p style="font-size: 14px; color: #374151; margin: 0 0 8px 0;"><span style="font-weight: 600;">가격:</span> ${store.price.toLocaleString()}원</p>
+              <div style="display: flex; align-items: center; gap: 8px;">
+                <span style="font-weight: 600; font-size: 14px; color: #374151;">상태:</span>
+                <span style="
+                  font-size: 12px;
+                  font-weight: bold;
+                  padding: 4px 8px;
+                  border-radius: 9999px;
+                  ${
+                    store.status === 'available'
+                      ? 'background-color: #d1fae5; color: #065f46;'
+                      : store.status === 'soldout'
+                      ? 'background-color: #fee2e2; color: #991b1b;'
+                      : 'background-color: #fed7aa; color: #9a3412;'
+                  }
+                ">
+                  ${store.status === 'available' ? '판매중' : store.status === 'soldout' ? '품절' : '확인필요'}
+                </span>
               </div>
-            </Popup>
-          </Marker>
-        ))}
-      </MapContainer>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 8px;">
+              <button
+                id="detail-btn-${store.id}"
+                style="
+                  width: 100%;
+                  background-color: #FF8C42;
+                  color: white;
+                  font-weight: bold;
+                  padding: 8px;
+                  border-radius: 8px;
+                  border: none;
+                  cursor: pointer;
+                  font-size: 14px;
+                  transition: background-color 0.2s;
+                "
+                onmouseover="this.style.backgroundColor='#FF7A2E'"
+                onmouseout="this.style.backgroundColor='#FF8C42'"
+              >
+                상세보기
+              </button>
+              <a
+                href="https://map.naver.com/search/${encodeURIComponent(store.address)}"
+                target="_blank"
+                style="
+                  width: 100%;
+                  background-color: #f3f4f6;
+                  color: #374151;
+                  font-weight: bold;
+                  padding: 8px;
+                  border-radius: 8px;
+                  border: none;
+                  cursor: pointer;
+                  font-size: 14px;
+                  text-align: center;
+                  text-decoration: none;
+                  display: block;
+                  transition: background-color 0.2s;
+                "
+                onmouseover="this.style.backgroundColor='#e5e7eb'"
+                onmouseout="this.style.backgroundColor='#f3f4f6'"
+              >
+                길찾기
+              </a>
+            </div>
+          </div>
+        `,
+        borderWidth: 0,
+        disableAnchor: true,
+        backgroundColor: 'transparent',
+        pixelOffset: new window.naver.maps.Point(0, -10),
+      });
 
-      <style>{`
-        .leaflet-container {
-          font-family: system-ui, -apple-system, sans-serif;
+      window.naver.maps.Event.addListener(marker, 'click', () => {
+        if (infoWindow.getMap()) {
+          infoWindow.close();
+        } else {
+          infoWindow.open(mapInstanceRef.current, marker);
+
+          setTimeout(() => {
+            const detailBtn = document.getElementById(`detail-btn-${store.id}`);
+            if (detailBtn) {
+              detailBtn.addEventListener('click', () => {
+                onSelectStore(store);
+                infoWindow.close();
+              });
+            }
+          }, 100);
         }
-        .custom-marker {
-          background: none;
-          border: none;
-        }
-        .user-location-marker {
-          background: none;
-          border: none;
-        }
-        .leaflet-popup-content-wrapper {
-          border-radius: 12px;
-          box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-        }
-        .leaflet-popup-content {
-          margin: 0;
-        }
-        .leaflet-popup-tip-container {
-          display: none;
-        }
-      `}</style>
-    </div>
-  );
+      });
+
+      markersRef.current.push(marker);
+    });
+  }, [stores, onSelectStore, isMapLoaded]);
+
+  if (mapError) {
+    return (
+      <div className="w-full h-[500px] rounded-xl overflow-hidden shadow-xl bg-red-50 flex items-center justify-center">
+        <div className="text-center p-8 max-w-2xl">
+          <div className="text-6xl mb-4">❌</div>
+          <h3 className="text-xl font-bold text-red-800 mb-2">지도 인증 실패</h3>
+          <p className="text-red-600 mb-4 whitespace-pre-line">{mapError}</p>
+          <div className="text-sm text-gray-700 bg-white p-4 rounded-lg text-left">
+            <p className="font-semibold mb-3 text-base">해결 방법:</p>
+            <ol className="list-decimal list-inside space-y-2">
+              <li className="mb-2">
+                <strong>현재 URL을 복사하세요</strong> (브라우저 주소창)
+              </li>
+              <li className="mb-2">
+                <strong>네이버 클라우드 플랫폼</strong> → <strong>AI·NAVER API</strong> → <strong>Application</strong>
+              </li>
+              <li className="mb-2">
+                <strong>서비스 환경</strong>에서 <strong>Web 서비스 URL</strong>에 현재 URL 추가
+              </li>
+              <li className="mb-2">
+                또는 클라이언트 ID가 <strong>Web Dynamic Map</strong> 서비스용인지 확인
+              </li>
+            </ol>
+            <div className="mt-4 p-3 bg-yellow-50 border border-yellow-200 rounded">
+              <p className="text-xs font-semibold text-yellow-800 mb-1">💡 TIP</p>
+              <p className="text-xs text-yellow-700">Bolt 환경은 프리뷰(iframe) 대신 새 탭에서 열어 테스트하세요.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  if (!isMapLoaded) {
+    return (
+      <div className="w-full h-[500px] rounded-xl overflow-hidden shadow-xl bg-gray-50 flex items-center justify-center">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-16 w-16 border-4 border-[#FF8C42] border-t-transparent mx-auto mb-4"></div>
+          <p className="text-gray-600 font-medium">지도를 불러오는 중...</p>
+        </div>
+      </div>
+    );
+  }
+
+  // ✅ (선택) id="map" 추가: 콘솔에서 document.getElementById("map") 확인 가능
+  return <div id="map" ref={mapRef} className="w-full h-[500px] rounded-xl overflow-hidden shadow-xl" />;
 }
