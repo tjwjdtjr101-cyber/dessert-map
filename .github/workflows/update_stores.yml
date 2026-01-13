@@ -1,0 +1,38 @@
+name: Update stores daily
+
+on:
+  schedule:
+    - cron: "0 18 * * *"   # 매일 KST 03:00
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: pip install requests
+
+      - name: Run updater
+        env:
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+        run: python scripts/update_stores.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "store-bot"
+          git config user.email "store-bot@users.noreply.github.com"
+          git add public/stores.json
+          git commit -m "chore: update stores.json" || echo "No changes"
+          git push
