@@ -1,9 +1,5 @@
 name: Update stores daily
 
-concurrency:
-  group: update-stores
-  cancel-in-progress: true
-
 on:
   schedule:
     - cron: "0 18 * * *"   # 매일 KST 03:00
@@ -11,6 +7,10 @@ on:
 
 permissions:
   contents: write
+
+concurrency:
+  group: update-stores
+  cancel-in-progress: true
 
 jobs:
   update:
@@ -27,7 +27,9 @@ jobs:
           python-version: "3.11"
 
       - name: Install deps
-        run: pip install requests
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
 
       - name: Run updater
         env:
@@ -39,7 +41,14 @@ jobs:
         run: |
           git config user.name "store-bot"
           git config user.email "store-bot@users.noreply.github.com"
+
+          # remote 최신을 확실히 기준으로 맞춤
+          git fetch origin main
+          git reset --hard origin/main
+
+          # updater 결과 파일만 다시 올림
           git add public/stores.json
           git commit -m "chore: update stores.json" || echo "No changes"
-          git pull --rebase origin main || true
-          git push origin HEAD:main
+
+          # non-fast-forward여도 안전하게 반영 (lease로 보호)
+          git push --force-with-lease origin HEAD:main
