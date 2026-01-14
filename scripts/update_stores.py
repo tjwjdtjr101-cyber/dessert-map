@@ -128,6 +128,8 @@ for gu in DISTRICTS:
 
                 try:
                     items = search_local(query, start=start, display=DISPLAY)
+
+                    print(f"[{query}] start={start} items={len(items)}")
                 except Exception:
                     time.sleep(0.5)
                     continue
