@@ -189,6 +189,8 @@ for gu in DISTRICTS:
 
                 time.sleep(0.2)
 
+              print("category_counts:", dict(category_counts))
+
 # ✅ JSON 저장
 os.makedirs("public", exist_ok=True)
 out_path = "public/stores.json"
