@@ -64,7 +64,7 @@ while len(stores) < TARGET:
                 address = (it.get("roadAddress") or it.get("address") or "").strip()
 
                 if not any(k in address for k in ["서울", "강남", "성수", "마포"]):
-                continue
+                    continue
 
                 pos = try_parse_latlng(it.get("mapx"), it.get("mapy"))
                 if not pos:
