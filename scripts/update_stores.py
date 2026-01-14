@@ -65,8 +65,8 @@ while len(stores) < TARGET:
                 name = clean_html(it.get("title", ""))
                 address = (it.get("roadAddress") or it.get("address") or "").strip()
 
-                if not address.startswith("서울"):
-                    continue
+                if not any(k in address for k in ["서울", "강남", "성수", "마포"]):
+                continue
 
                 pos = try_parse_latlng(it.get("mapx"), it.get("mapy"))
                 if not pos:
