@@ -1,6 +1,5 @@
 export type StockStatus = 'available' | 'soldout' | 'check';
-export type Category = 'all' | 'dubai' | 'bungeoppang' | 'goguma' | 'cake';
-
+categories: Exclude<Category, 'all'>[]; 
 export interface Store {
   id: number;
   name: string;
