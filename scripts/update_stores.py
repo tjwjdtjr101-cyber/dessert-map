@@ -159,6 +159,7 @@ for gu in DISTRICTS:
                         continue
 
                     # ✅ 새 매장 추가
+                    print(f"ADD {name} | {address}")
                     if not can_take_category(category):
                         continue
 
