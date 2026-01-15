@@ -42,7 +42,8 @@ PER_CATEGORY_LIMIT = {
 # ✅ 파일이 너무 커지지 않게 전체 상한(선택)
 TOTAL_HARD_CAP = 5000
 
-START_RANGE = range(1, 101, 5)
+# 검색 페이지 범위 (조금 넓혀 중복 감소)
+START_RANGE = range(1, 301, 5)
 DISPLAY = 5
 
 
