@@ -31,10 +31,20 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
 
+      - name: Check Naver secrets presence
+        env:
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_SEARCH_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_SEARCH_SECRET }}
+        run: |
+          if [ -z "$NAVER_CLIENT_ID" ]; then echo "NAVER_CLIENT_ID=EMPTY"; else echo "NAVER_CLIENT_ID=SET"; fi
+          if [ -z "$NAVER_CLIENT_SECRET" ]; then echo "NAVER_CLIENT_SECRET=EMPTY"; else echo "NAVER_CLIENT_SECRET=SET"; fi
+          echo "ID_LEN=${#NAVER_CLIENT_ID}"
+          echo "SECRET_LEN=${#NAVER_CLIENT_SECRET}"
+
       - name: Run updater
         env:
-          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
-          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_SEARCH_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_SEARCH_SECRET }}
         run: python scripts/update_stores.py
 
       - name: Commit changes
@@ -42,9 +52,6 @@ jobs:
           git config user.name "store-bot"
           git config user.email "store-bot@users.noreply.github.com"
 
-          # remote 최신을 확실히 기준으로 맞춤
-          git fetch origin main
-          git reset --hard origin/main
 
           # updater 결과 파일만 다시 올림
           git add public/stores.json
