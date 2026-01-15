@@ -99,8 +99,9 @@ def ensure_list_categories(store: dict):
 os.makedirs("public", exist_ok=True)
 out_path = "public/stores.json"
 
-by_key = {}  # key -> store
+by_key = {}
 category_counts = defaultdict(int)
+next_id = 1
 
 existing = []
 if os.path.exists(out_path):
