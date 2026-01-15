@@ -1,7 +1,13 @@
-import os, re, json, time
+import os
+import re
+import json
+import time
 import requests
 from collections import defaultdict
 
+# -----------------------------
+# ENV
+# -----------------------------
 CLIENT_ID = os.environ["NAVER_CLIENT_ID"]
 CLIENT_SECRET = os.environ["NAVER_CLIENT_SECRET"]
 
@@ -10,6 +16,9 @@ HEADERS = {
     "X-Naver-Client-Secret": CLIENT_SECRET,
 }
 
+# -----------------------------
+# CONFIG
+# -----------------------------
 DISTRICTS = [
     "강남구", "서초구", "송파구", "성동구", "마포구",
     "용산구", "영등포구", "강동구", "광진구", "동대문구",
@@ -22,36 +31,32 @@ CATEGORIES = {
     "goguma": ["군고구마", "고구마 간식", "군고구마 맛집"],
 }
 
-PER_CATEGORY_LIMIT = {
-    "dubai": 60,
-    "cake": 120,
-    "bungeoppang": 120,
-    "goguma": 80,
-}
-
-# ✅ "오늘" 신규로 추가할 목표 수
+# ✅ 하루 신규 추가 목표
 NEW_DAILY_TARGET = 50
 
+# ✅ 카테고리별 누적 상한
 PER_CATEGORY_LIMIT = {
-  "dubai": 1000,
-  "cake": 1000,
-  "bungeoppang": 1000,
-  "goguma": 1000,
+    "dubai": 1000,
+    "cake": 1000,
+    "bungeoppang": 1000,
+    "goguma": 1000,
 }
 
-# ✅ 파일이 너무 커지지 않게 전체 상한(선택)
-TOTAL_HARD_CAP = 5000
+# ✅ 전체 안전 상한 (선택)
+TOTAL_HARD_CAP = 4000
 
-# 검색 페이지 범위 (조금 넓혀 중복 감소)
+# 검색 페이지 범위
 START_RANGE = range(1, 301, 5)
 DISPLAY = 5
 
 
+# -----------------------------
+# UTILS
+# -----------------------------
 def clean_html(s: str) -> str:
     return re.sub(r"<.*?>", "", s or "").strip()
 
 def normalize_key(name: str, address: str, lat=None, lng=None) -> str:
-    # 이름/주소 기반 키 + (가능하면 좌표까지 포함하면 더 안정적)
     n = re.sub(r"\s+", " ", (name or "").strip()).lower()
     a = re.sub(r"\s+", " ", (address or "").strip()).lower()
     if lat is not None and lng is not None:
@@ -84,26 +89,25 @@ def try_parse_latlng(mapx, mapy):
 def is_seoul_address(address: str) -> bool:
     return (address or "").startswith("서울") or "서울" in (address or "")
 
-def ensure_list_categories(store: dict):
-    # 과거 데이터가 categories 없고 category 하나만 있을 수도 있으니 방어
+def ensure_categories(store: dict):
     if "categories" not in store or not isinstance(store["categories"], list):
         c = store.get("category")
         store["categories"] = [c] if c else []
-    # 중복 제거
     store["categories"] = list(dict.fromkeys(store["categories"]))
+    # 프론트 호환 유지
+    store["category"] = store["categories"][0] if store["categories"] else ""
 
 
 # -----------------------------
-# ✅ 1) 기존 stores.json 로드해서 누적 기반 만들기
+# LOAD EXISTING (누적)
 # -----------------------------
 os.makedirs("public", exist_ok=True)
 out_path = "public/stores.json"
 
 by_key = {}
 category_counts = defaultdict(int)
-next_id = 1
-
 existing = []
+
 if os.path.exists(out_path):
     try:
         with open(out_path, "r", encoding="utf-8") as f:
@@ -112,26 +116,31 @@ if os.path.exists(out_path):
         existing = []
 
 max_id = 0
+
 for s in existing:
-    ensure_list_categories(s)
+    ensure_categories(s)
 
-    max_id = max(max_id, int(s.get("id", 0)) if str(s.get("id", "0")).isdigit() else 0)
+    sid = s.get("id")
+    if isinstance(sid, int):
+        max_id = max(max_id, sid)
 
-    # 기존 데이터 키 생성(좌표 있으면 포함)
-    key = normalize_key(s.get("name", ""), s.get("address", ""), s.get("lat"), s.get("lng"))
+    key = normalize_key(
+        s.get("name", ""),
+        s.get("address", ""),
+        s.get("lat"),
+        s.get("lng"),
+    )
     by_key[key] = s
 
     for cat in s.get("categories", []):
-        if cat:
-            category_counts[cat] += 1
+        category_counts[cat] += 1
 
 next_id = max_id + 1
+new_added = 0
 
-print(f"Loaded existing stores: {len(existing)} / next_id={next_id}")
+print(f"Loaded {len(existing)} existing stores, next_id={next_id}")
 print("Existing category_counts:", dict(category_counts))
 
-# ✅ 오늘 신규로 추가한 개수
-new_added = 0
 
 def can_take_category(cat: str) -> bool:
     return category_counts[cat] < PER_CATEGORY_LIMIT.get(cat, 0)
@@ -141,7 +150,7 @@ def total_count() -> int:
 
 
 # -----------------------------
-# ✅ 2) 수집 시작: "없는 매장만" 추가하고 오늘 목표 50개 채우면 종료
+# COLLECT
 # -----------------------------
 for gu in DISTRICTS:
     if new_added >= NEW_DAILY_TARGET:
@@ -172,7 +181,8 @@ for gu in DISTRICTS:
                 try:
                     items = search_local(query, start=start, display=DISPLAY)
                     print(f"[{query}] start={start} items={len(items)}")
-                except Exception:
+                except Exception as e:
+                    print("search error:", e)
                     time.sleep(0.5)
                     continue
 
@@ -193,14 +203,17 @@ for gu in DISTRICTS:
 
                     key = normalize_key(name, address, lat, lng)
 
-                    # ✅ 이미 있는 매장이면 categories만 업데이트(신규 추가로 치지 않음)
+                    # ✅ 이미 존재하는 매장
                     if key in by_key:
                         s = by_key[key]
-                        ensure_list_categories(s)
+                        ensure_categories(s)
+
                         if category not in s["categories"] and can_take_category(category):
                             s["categories"].append(category)
+                            s["category"] = s["categories"][0]
                             category_counts[category] += 1
                             print(f"➕ category added: {category} -> {name}")
+
                         continue
 
                     # ✅ 신규 매장 추가
@@ -214,9 +227,11 @@ for gu in DISTRICTS:
                         "district": district_from(address),
                         "lat": lat,
                         "lng": lng,
-                        "categories": [category],
 
-                        # 프론트 호환 필드 유지
+                        # 누적 구조
+                        "categories": [category],
+                        "category": category,  # 프론트 호환
+
                         "status": "available",
                         "price": 5500,
                         "rating": 4.6,
@@ -234,12 +249,12 @@ for gu in DISTRICTS:
                 time.sleep(0.2)
 
 # -----------------------------
-# ✅ 3) 누적 저장
+# SAVE
 # -----------------------------
-stores = sorted(by_key.values(), key=lambda x: int(x.get("id", 0)))
+stores = sorted(by_key.values(), key=lambda x: x["id"])
 
 with open(out_path, "w", encoding="utf-8") as f:
     json.dump(stores, f, ensure_ascii=False, indent=2)
 
-print(f"✅ wrote {len(stores)} stores to {out_path} (today new: {new_added})")
+print(f"✅ total stores: {len(stores)}, today new: {new_added}")
 print("✅ category_counts:", dict(category_counts))
