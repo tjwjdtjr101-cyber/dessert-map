@@ -11,7 +11,7 @@ function App() {
   const [activeCategory, setActiveCategory] = useState<Category>('all');
   const mapRef = useRef<any>(null);
 
-  const filteredStores = activeCategory === 'all' ? stores : stores.filter((s) => s.category === activeCategory);
+  const filteredStores = activeCategory === 'all' ? stores : stores.filter((s) => s.categories.includes(activeCategory));
 
   const handleZoomToStore = (lat: number, lng: number) => {
     if (mapRef.current) {
