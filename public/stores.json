@@ -3407,5 +3407,855 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 201,
+    "name": "베리블리스",
+    "address": "서울특별시 마포구 와우산로27길 20 1층.",
+    "district": "마포구",
+    "lat": 37.554271,
+    "lng": 126.927339,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 202,
+    "name": "태극당 서울역점",
+    "address": "서울특별시 용산구 청파로 378 3층 215호",
+    "district": "용산구",
+    "lat": 37.5543,
+    "lng": 126.971006,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 203,
+    "name": "노들노들 붕어빵 노들역점",
+    "address": "서울특별시 동작구 노량진로 250 1층",
+    "district": "동작구",
+    "lat": 37.511911,
+    "lng": 126.954235,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 204,
+    "name": "총각네 동부이촌점",
+    "address": "서울특별시 용산구 이촌로75길 10-3",
+    "district": "용산구",
+    "lat": 37.520459,
+    "lng": 126.974388,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 205,
+    "name": "가이아호두파이",
+    "address": "서울특별시 영등포구 국제금융로6길 33 1층 102호",
+    "district": "영등포구",
+    "lat": 37.520758,
+    "lng": 126.926957,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 206,
+    "name": "애드커피",
+    "address": "서울특별시 영등포구 당산로 175 101호, 102호 애드커피",
+    "district": "영등포구",
+    "lat": 37.529964,
+    "lng": 126.898512,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 207,
+    "name": "문래 마이스페이스",
+    "address": "서울특별시 영등포구 도림로141길 15 1층",
+    "district": "영등포구",
+    "lat": 37.513907,
+    "lng": 126.89216,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 208,
+    "name": "니드 쿠키&amp;베이커리",
+    "address": "서울특별시 영등포구 당산로29길 7 1층",
+    "district": "영등포구",
+    "lat": 37.525937,
+    "lng": 126.894434,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 209,
+    "name": "디저트 한입만",
+    "address": "서울특별시 영등포구 신길로39길 22",
+    "district": "영등포구",
+    "lat": 37.507067,
+    "lng": 126.908567,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 210,
+    "name": "히키쿠키",
+    "address": "서울특별시 영등포구 선유로53길 30-16 1층",
+    "district": "영등포구",
+    "lat": 37.538817,
+    "lng": 126.896006,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 211,
+    "name": "플로리다후르츠 여의도 IFC몰",
+    "address": "서울특별시 영등포구 국제금융로 10 IFC몰동 L1층 150호",
+    "district": "영등포구",
+    "lat": 37.524762,
+    "lng": 126.926005,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 212,
+    "name": "미도제과점",
+    "address": "서울특별시 영등포구 영등포로57길 9 지하 2층 201호",
+    "district": "영등포구",
+    "lat": 37.517373,
+    "lng": 126.917725,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 213,
+    "name": "한정선 더현대서울점",
+    "address": "서울특별시 영등포구 여의대로 108 더현대서울 지하1층",
+    "district": "영등포구",
+    "lat": 37.526209,
+    "lng": 126.928534,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 214,
+    "name": "퀸빅토리아마켓",
+    "address": "서울특별시 영등포구 문래북로 8 118호, 119호",
+    "district": "영등포구",
+    "lat": 37.521433,
+    "lng": 126.885391,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 215,
+    "name": "꼬메르제과",
+    "address": "서울특별시 동작구 여의대방로22길 121 상가동 1층 1212호 꼬메르제과",
+    "district": "동작구",
+    "lat": 37.498214,
+    "lng": 126.926169,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 216,
+    "name": "쉐프조부띠끄 서울영등포점",
+    "address": "서울특별시 영등포구 양산로31길 4 1층",
+    "district": "영등포구",
+    "lat": 37.523075,
+    "lng": 126.904608,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 217,
+    "name": "쉐프조  문래본점",
+    "address": "서울특별시 영등포구 문래로 98 한영빌딩 104호,105호,106호",
+    "district": "영등포구",
+    "lat": 37.519276,
+    "lng": 126.892719,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 218,
+    "name": "브레드컴퍼니쉐프조",
+    "address": "서울특별시 영등포구 당산로31길 20 1층",
+    "district": "영등포구",
+    "lat": 37.526889,
+    "lng": 126.894598,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 219,
+    "name": "셰프의 아이들",
+    "address": "서울특별시 영등포구 당산로 102 1층, 2층",
+    "district": "영등포구",
+    "lat": 37.523694,
+    "lng": 126.896446,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 220,
+    "name": "카페 레이어드 더현대서울점",
+    "address": "서울특별시 영등포구 여의대로 108 지하 1층",
+    "district": "영등포구",
+    "lat": 37.526164,
+    "lng": 126.928373,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 221,
+    "name": "카페동양화점",
+    "address": "서울특별시 영등포구 영등포로27길 13 1층 카페동양화점",
+    "district": "영등포구",
+    "lat": 37.522225,
+    "lng": 126.899159,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 222,
+    "name": "노해",
+    "address": "서울특별시 영등포구 영등포로 118 성지빌딩 1층 103호",
+    "district": "영등포구",
+    "lat": 37.521354,
+    "lng": 126.894724,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 223,
+    "name": "더스크블루",
+    "address": "서울특별시 영등포구 당산로38길 10 2층",
+    "district": "영등포구",
+    "lat": 37.528806,
+    "lng": 126.899106,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 224,
+    "name": "로스톤",
+    "address": "서울특별시 영등포구 대림로31가길 13 1-4층",
+    "district": "영등포구",
+    "lat": 37.495604,
+    "lng": 126.896638,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 225,
+    "name": "베르데커피",
+    "address": "서울특별시 영등포구 도림로139가길 5 1층",
+    "district": "영등포구",
+    "lat": 37.513957,
+    "lng": 126.893614,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 226,
+    "name": "맨홀커피웨스턴책방",
+    "address": "서울특별시 영등포구 영등포로27길 24 맨홀커피 웨스턴 책방 1층",
+    "district": "영등포구",
+    "lat": 37.522992,
+    "lng": 126.899526,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 227,
+    "name": "카페 퍼즐 &amp; TS",
+    "address": "서울특별시 영등포구 양평로 96 1층, 2층",
+    "district": "영등포구",
+    "lat": 37.536697,
+    "lng": 126.896777,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 228,
+    "name": "레자미오네뜨 더현대서울점",
+    "address": "서울특별시 영등포구 여의대로 108 더현대서울 B1층",
+    "district": "영등포구",
+    "lat": 37.525603,
+    "lng": 126.929118,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 229,
+    "name": "커피사피엔스 문래NS타워점",
+    "address": "서울특별시 영등포구 문래북로 8 에이스NS타워 지식산업센터 114호",
+    "district": "영등포구",
+    "lat": 37.521545,
+    "lng": 126.88551,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 230,
+    "name": "바나프레소 여의도역점",
+    "address": "서울특별시 영등포구 국제금융로2길 37",
+    "district": "영등포구",
+    "lat": 37.52318,
+    "lng": 126.924475,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 231,
+    "name": "바나프레소 당산SK점",
+    "address": "서울특별시 영등포구 당산로41길 11 당산SKV1센터",
+    "district": "영등포구",
+    "lat": 37.530812,
+    "lng": 126.89837,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 232,
+    "name": "팥들었슈",
+    "address": "서울특별시 동작구 보라매로 110 1층",
+    "district": "동작구",
+    "lat": 37.498954,
+    "lng": 126.92856,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 233,
+    "name": "청자다방 문래역점",
+    "address": "서울특별시 영등포구 문래로 89 1층 102호",
+    "district": "영등포구",
+    "lat": 37.51961,
+    "lng": 126.891846,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 234,
+    "name": "과일자라다",
+    "address": "서울특별시 영등포구 국제금융로 86 롯데캐슬아이비 1층 123호 과일자라다",
+    "district": "영등포구",
+    "lat": 37.520547,
+    "lng": 126.931744,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 235,
+    "name": "카페쇼콜라",
+    "address": "서울특별시 구로구 구로동로8길 89-12 1층 카페쇼콜라",
+    "district": "구로구",
+    "lat": 37.489784,
+    "lng": 126.887386,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 236,
+    "name": "건강한 유말랭",
+    "address": "서울특별시 동작구 여의대방로 22 우성쇼핑센터 B1층 21호",
+    "district": "동작구",
+    "lat": 37.493432,
+    "lng": 126.91102,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 237,
+    "name": "붕어빵 앤 디저트카페",
+    "address": "서울특별시 관악구 관악로30길 11-1 1층 붕어빵&디저트CAFE",
+    "district": "관악구",
+    "lat": 37.486545,
+    "lng": 126.958407,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 238,
+    "name": "굽낭",
+    "address": "서울특별시 강동구 양재대로128길 13 1층",
+    "district": "강동구",
+    "lat": 37.544945,
+    "lng": 127.143604,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 239,
+    "name": "재미야미",
+    "address": "서울특별시 강동구 진황도로 202 1층 재미야미 디저트카페",
+    "district": "강동구",
+    "lat": 37.528324,
+    "lng": 127.143627,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 240,
+    "name": "에이프리카페",
+    "address": "서울특별시 강동구 천호대로158길 19 1층 에이프리카페(afreecafe)",
+    "district": "강동구",
+    "lat": 37.536556,
+    "lng": 127.126392,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 241,
+    "name": "구움, 담",
+    "address": "서울특별시 강동구 명일로17길 9 1층 101호 구움, 담 카페",
+    "district": "강동구",
+    "lat": 37.538435,
+    "lng": 127.14568,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 242,
+    "name": "달래디저트",
+    "address": "서울특별시 강동구 구천면로 428 1층 108호 달래디저트",
+    "district": "강동구",
+    "lat": 37.550219,
+    "lng": 127.145973,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 243,
+    "name": "쿡희희",
+    "address": "서울특별시 강동구 상일로15길 34-30 1층 103호 쿡희희",
+    "district": "강동구",
+    "lat": 37.558415,
+    "lng": 127.170525,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 244,
+    "name": "카페토무",
+    "address": "서울특별시 강동구 구천면로 510 1층 카페토무",
+    "district": "강동구",
+    "lat": 37.549045,
+    "lng": 127.155017,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 245,
+    "name": "피크플래버",
+    "address": "서울특별시 강동구 올림픽로88길 25 1층",
+    "district": "강동구",
+    "lat": 37.546434,
+    "lng": 127.127846,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 246,
+    "name": "브랜뉴하이몬드",
+    "address": "서울특별시 강동구 천호옛14길 11 브랜뉴하이몬드 1, 2층",
+    "district": "강동구",
+    "lat": 37.5363,
+    "lng": 127.126121,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 247,
+    "name": "Boonie",
+    "address": "서울특별시 강동구 동남로49길 60-11 1층",
+    "district": "강동구",
+    "lat": 37.533203,
+    "lng": 127.146529,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 248,
+    "name": "스팀비",
+    "address": "서울특별시 강동구 천호대로170길 51 1층 102, 103호",
+    "district": "강동구",
+    "lat": 37.533123,
+    "lng": 127.132566,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 249,
+    "name": "비스케",
+    "address": "서울특별시 강동구 성내로13길 33-5 1층 102호",
+    "district": "강동구",
+    "lat": 37.529588,
+    "lng": 127.127356,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 250,
+    "name": "MUCH MORE",
+    "address": "서울특별시 강동구 올림픽로48길 27 1층 101호",
+    "district": "강동구",
+    "lat": 37.52902,
+    "lng": 127.12176,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
