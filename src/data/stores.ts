@@ -14,11 +14,10 @@ export interface Store {
   status: StockStatus;
   price: number;
 
-  // ✅ 단일 -> 다중
+  // ✅ 배치 JSON 구조와 일치
   categories: StoreCategory[];
-  // ✅ 프론트 호환용(배치 json에도 있음)
-  category: StoreCategory;
-  
+  category: StoreCategory;   // ← 반드시 추가
+
   instagramHandle?: string;
   distance?: string;
   rating?: number;
