@@ -16,7 +16,9 @@ export interface Store {
 
   // ✅ 단일 -> 다중
   categories: StoreCategory[];
-
+  // ✅ 프론트 호환용(배치 json에도 있음)
+  category: StoreCategory;
+  
   instagramHandle?: string;
   distance?: string;
   rating?: number;
