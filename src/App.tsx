@@ -1,4 +1,4 @@
-import { useState, useRef } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import { MapPin, Bell } from 'lucide-react';
 import StoreMap from './components/StoreMap';
 import StoreDetailModal from './components/StoreDetailModal';
