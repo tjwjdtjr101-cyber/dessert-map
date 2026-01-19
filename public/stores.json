@@ -2004,7 +2004,8 @@
     "lat": 37.561528,
     "lng": 127.03152,
     "categories": [
-      "cake"
+      "cake",
+      "dubai"
     ],
     "category": "cake",
     "status": "available",
@@ -4252,6 +4253,859 @@
       "cake"
     ],
     "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 251,
+    "name": "블리스라운드 역삼점",
+    "address": "서울특별시 강남구 테헤란로25길 7 창성재단빌딩 1층",
+    "district": "강남구",
+    "lat": 37.500944,
+    "lng": 127.035085,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 252,
+    "name": "위베이브베이크샵 사당점",
+    "address": "서울특별시 서초구 방배천로2안길 41 1층",
+    "district": "서초구",
+    "lat": 37.478884,
+    "lng": 126.983852,
+    "categories": [
+      "dubai",
+      "cake"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 253,
+    "name": "올라하이",
+    "address": "서울특별시 서초구 방배천로2안길 120",
+    "district": "서초구",
+    "lat": 37.482327,
+    "lng": 126.984193,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 254,
+    "name": "용암해수김치 약수점",
+    "address": "서울특별시 중구 동호로7길 31 104호",
+    "district": "중구",
+    "lat": 37.552322,
+    "lng": 127.010873,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 255,
+    "name": "그린코너",
+    "address": "서울특별시 용산구 한강대로11길 26 1층",
+    "district": "용산구",
+    "lat": 37.525652,
+    "lng": 126.962355,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 256,
+    "name": "써터커피",
+    "address": "서울특별시 영등포구 신풍로 105 1층 102호",
+    "district": "영등포구",
+    "lat": 37.500127,
+    "lng": 126.917815,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 257,
+    "name": "꼬메131",
+    "address": "서울특별시 강동구 올림픽로91길 30 힐스테이트 상가 1층",
+    "district": "강동구",
+    "lat": 37.549356,
+    "lng": 127.125613,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 258,
+    "name": "거상",
+    "address": "서울특별시 강동구 천중로 227 1층 102호",
+    "district": "강동구",
+    "lat": 37.540877,
+    "lng": 127.145728,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 259,
+    "name": "윌비오케이크",
+    "address": "서울특별시 강동구 천중로35길 67 1층 103호",
+    "district": "강동구",
+    "lat": 37.54418,
+    "lng": 127.138384,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 260,
+    "name": "카페 오텀",
+    "address": "서울특별시 강동구 성내로18길 29 1층 101호",
+    "district": "강동구",
+    "lat": 37.525599,
+    "lng": 127.128651,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 261,
+    "name": "꿉",
+    "address": "서울특별시 강동구 양재대로102길 41 1층 102호",
+    "district": "강동구",
+    "lat": 37.532352,
+    "lng": 127.140673,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 262,
+    "name": "메모러블모먼트",
+    "address": "서울특별시 강동구 양재대로83길 14 메모러블모먼트",
+    "district": "강동구",
+    "lat": 37.523466,
+    "lng": 127.133698,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 263,
+    "name": "브레딕트 강동점",
+    "address": "서울특별시 강동구 상일로6길 39 1층",
+    "district": "강동구",
+    "lat": 37.549748,
+    "lng": 127.17554,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 264,
+    "name": "붕어제작소 명일점",
+    "address": "서울특별시 강동구 동남로71길 32",
+    "district": "강동구",
+    "lat": 37.551985,
+    "lng": 127.154508,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 265,
+    "name": "바나프레소 강동역점",
+    "address": "서울특별시 강동구 천호대로 1099 정산타워빌딩",
+    "district": "강동구",
+    "lat": 37.535693,
+    "lng": 127.134037,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 266,
+    "name": "하르당 상일동역점",
+    "address": "서울특별시 강동구 고덕로 390",
+    "district": "강동구",
+    "lat": 37.55686,
+    "lng": 127.169072,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 267,
+    "name": "퐁치 커피익스프레스 강동점",
+    "address": "서울특별시 강동구 성안로 191 지산빌딩 1층 101호",
+    "district": "강동구",
+    "lat": 37.540087,
+    "lng": 127.136504,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 268,
+    "name": "포레문",
+    "address": "서울특별시 강동구 성안로 119 1층 103호",
+    "district": "강동구",
+    "lat": 37.533997,
+    "lng": 127.13359,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 269,
+    "name": "CU 강풀만화거리점",
+    "address": "서울특별시 강동구 천호대로168가길 57 1층",
+    "district": "강동구",
+    "lat": 37.535632,
+    "lng": 127.129149,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 270,
+    "name": "길동찰옥수수",
+    "address": "서울특별시 강동구 천중로52길 15 1층",
+    "district": "강동구",
+    "lat": 37.540026,
+    "lng": 127.144101,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 271,
+    "name": "뉴베이크",
+    "address": "서울특별시 광진구 뚝섬로 601 1층",
+    "district": "광진구",
+    "lat": 37.532993,
+    "lng": 127.076763,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 272,
+    "name": "윤숲과자점",
+    "address": "서울특별시 광진구 능동로37길 40 1층",
+    "district": "광진구",
+    "lat": 37.558756,
+    "lng": 127.077787,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 273,
+    "name": "은비스브레드 건국대점",
+    "address": "서울특별시 광진구 능동로 69 자양호반써밋 상가동 118호 은비스브레드",
+    "district": "광진구",
+    "lat": 37.537338,
+    "lng": 127.069068,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 274,
+    "name": "마이 디어 버터하우스",
+    "address": "서울특별시 광진구 능동로13길 74 1층",
+    "district": "광진구",
+    "lat": 37.544917,
+    "lng": 127.069108,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 275,
+    "name": "베러댄쿠키 군자",
+    "address": "서울특별시 광진구 군자로 167 1층",
+    "district": "광진구",
+    "lat": 37.555803,
+    "lng": 127.07718,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 276,
+    "name": "레브 디저트카페",
+    "address": "서울특별시 광진구 능동로15길 11 1층",
+    "district": "광진구",
+    "lat": 37.545077,
+    "lng": 127.072173,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 277,
+    "name": "스위츠포레스트",
+    "address": "서울특별시 광진구 면목로 86 1층 101호",
+    "district": "광진구",
+    "lat": 37.561314,
+    "lng": 127.07886,
+    "categories": [
+      "dubai",
+      "cake"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 278,
+    "name": "카페 오캄",
+    "address": "서울특별시 광진구 동일로22길 117-23 1층~3층",
+    "district": "광진구",
+    "lat": 37.541614,
+    "lng": 127.070851,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 279,
+    "name": "환원당",
+    "address": "서울특별시 광진구 능동로 166",
+    "district": "광진구",
+    "lat": 37.545292,
+    "lng": 127.073513,
+    "categories": [
+      "dubai",
+      "cake"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 280,
+    "name": "브레드팩토리빵야",
+    "address": "서울특별시 광진구 뚝섬로56길 38-1 1층",
+    "district": "광진구",
+    "lat": 37.529656,
+    "lng": 127.082611,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 281,
+    "name": "베리스베어",
+    "address": "서울특별시 광진구 면목로 58 1층 베리스베어",
+    "district": "광진구",
+    "lat": 37.559141,
+    "lng": 127.077658,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 282,
+    "name": "cafe 462",
+    "address": "서울특별시 광진구 동일로24길 54 1층",
+    "district": "광진구",
+    "lat": 37.54318,
+    "lng": 127.067899,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 283,
+    "name": "레스트인무드",
+    "address": "서울특별시 광진구 천호대로134길 31 1층 카페 레스트인무드",
+    "district": "광진구",
+    "lat": 37.548079,
+    "lng": 127.089754,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 284,
+    "name": "갸또마루",
+    "address": "서울특별시 광진구 면목로 182 5층 갸또마루",
+    "district": "광진구",
+    "lat": 37.569276,
+    "lng": 127.083195,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 285,
+    "name": "윤숲",
+    "address": "서울특별시 광진구 긴고랑로20길 51 1층 101호(중곡동, 글램하우스 )",
+    "district": "광진구",
+    "lat": 37.559084,
+    "lng": 127.082789,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 286,
+    "name": "네모네베이커리 구의이스트폴점",
+    "address": "서울특별시 광진구 아차산로 402 Nc이스트폴 B1층",
+    "district": "광진구",
+    "lat": 37.536697,
+    "lng": 127.087822,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 287,
+    "name": "책방고즈넉",
+    "address": "서울특별시 광진구 동일로60길 41-13",
+    "district": "광진구",
+    "lat": 37.557853,
+    "lng": 127.076311,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 288,
+    "name": "킨보이서울",
+    "address": "서울특별시 광진구 아차산로39길 16 1층",
+    "district": "광진구",
+    "lat": 37.538712,
+    "lng": 127.076842,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 289,
+    "name": "비애드 카페앤바",
+    "address": "서울특별시 광진구 동일로22길 117-15 1, 2층",
+    "district": "광진구",
+    "lat": 37.541347,
+    "lng": 127.070744,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 290,
+    "name": "느긋 베이커리카페",
+    "address": "서울특별시 광진구 천호대로124길 24 베이커리카페 느긋",
+    "district": "광진구",
+    "lat": 37.552348,
+    "lng": 127.087877,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 291,
+    "name": "모이오",
+    "address": "서울특별시 광진구 자양로28길 36 1층 모이오",
+    "district": "광진구",
+    "lat": 37.541931,
+    "lng": 127.086219,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 292,
+    "name": "투또톤토",
+    "address": "서울특별시 광진구 능동로 125 1층 투또톤토",
+    "district": "광진구",
+    "lat": 37.542129,
+    "lng": 127.071433,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 293,
+    "name": "케익다방 건대본점",
+    "address": "서울특별시 광진구 동일로20길 83 201호",
+    "district": "광진구",
+    "lat": 37.540168,
+    "lng": 127.068162,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 294,
+    "name": "현대붕어빵",
+    "address": "서울특별시 광진구 아차산로29길 12 1층 현대붕어빵",
+    "district": "광진구",
+    "lat": 37.541432,
+    "lng": 127.068453,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 295,
+    "name": "붕오",
+    "address": "서울특별시 광진구 자양로13다길 45 1층",
+    "district": "광진구",
+    "lat": 37.533199,
+    "lng": 127.077428,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 296,
+    "name": "설빙 건대지점",
+    "address": "서울특별시 광진구 아차산로 225 2층",
+    "district": "광진구",
+    "lat": 37.540912,
+    "lng": 127.068549,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 297,
+    "name": "바나프레소 건대역점",
+    "address": "서울특별시 광진구 아차산로 221 바나프레소",
+    "district": "광진구",
+    "lat": 37.54108,
+    "lng": 127.068235,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 298,
+    "name": "빵캔커피 아차산점",
+    "address": "서울특별시 광진구 영화사로 34 1층",
+    "district": "광진구",
+    "lat": 37.556647,
+    "lng": 127.090619,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 299,
+    "name": "청자다방 중곡동점",
+    "address": "서울특별시 광진구 영화사로 3 1층 102호 청자다방 중곡동점",
+    "district": "광진구",
+    "lat": 37.558591,
+    "lng": 127.088283,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 300,
+    "name": "청자다방 용마폭포점",
+    "address": "서울특별시 중랑구 용마산로 248 1층 104호",
+    "district": "중랑구",
+    "lat": 37.575213,
+    "lng": 127.088478,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
     "status": "available",
     "price": 5500,
     "rating": 4.6,
