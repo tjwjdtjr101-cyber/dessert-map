@@ -4,7 +4,7 @@ import StoreMap from './components/StoreMap';
 import StoreDetailModal from './components/StoreDetailModal';
 import CategoryFilter from './components/CategoryFilter';
 import StoreListView from './components/StoreListView';
-import { stores, Store, Category } from './data/stores';
+import { Store, Category, StoreCategory } from './data/stores';
 
 function App() {
   const [selectedStore, setSelectedStore] = useState<Store | null>(null);
