@@ -197,7 +197,7 @@ export default function App() {
 
       <footer className="bg-white border-t border-gray-200 py-8">
         <div className="container mx-auto px-4 text-center">
-          <p className="text-gray-600 text-sm">© 2024 Dubai Dessert. 모든 디저트 정보는 실시간으로 업데이트됩니다.</p>
+          <p className="text-gray-600 text-sm">© 2026 Dubai Dessert. 모든 디저트 정보는 실시간으로 업데이트됩니다.</p>
         </div>
       </footer>
 
