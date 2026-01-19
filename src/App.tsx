@@ -124,23 +124,6 @@ export default function App() {
               </button>
             </nav>
           </div>
-
-          {/* ✅ 로딩/에러 표시(원하면 지워도 됨) */}
-          <div className="mt-3">
-            {isLoading && (
-              <div className="text-xs text-gray-500">stores.json 불러오는 중...</div>
-            )}
-            {!isLoading && loadError && (
-              <div className="text-xs text-red-600">
-                stores.json 로드 실패: {loadError} (임시로 더미 데이터 표시 중)
-              </div>
-            )}
-            {!isLoading && !loadError && (
-              <div className="text-xs text-gray-500">
-                데이터 로드 완료: {stores.length}개
-              </div>
-            )}
-          </div>
         </div>
       </header>
 
@@ -188,12 +171,14 @@ export default function App() {
         </div>
       </div>
 
-      <StoreListView
-        stores={filteredStores as unknown as Store[]}
-        category={activeCategory}
-        onStoreSelect={setSelectedStore}
-        onZoomToStore={handleZoomToStore}
-      />
+      {!isLoading && (
+        <StoreListView
+          stores={filteredStores as unknown as Store[]}
+          category={activeCategory}
+          onStoreSelect={setSelectedStore}
+          onZoomToStore={handleZoomToStore}
+        />
+      )}
 
       <footer className="bg-white border-t border-gray-200 py-8">
         <div className="container mx-auto px-4 text-center">
