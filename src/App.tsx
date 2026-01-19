@@ -7,16 +7,22 @@ import StoreListView from './components/StoreListView';
 import { Store, Category, StoreCategory } from './data/stores';
 
 function App() {
-  const [selectedStore, setSelectedStore] = useState<Store | null>(null);
-  const [activeCategory, setActiveCategory] = useState<Category>('all');
-  const mapRef = useRef<any>(null);
+const [stores, setStores] = useState<Store[]>([]);
+const [loadError, setLoadError] = useState<string | null>(null);
 
-  const filteredStores = activeCategory === 'all' ? stores : stores.filter((s) => s.categories.includes(activeCategory));
-
-  const handleZoomToStore = (lat: number, lng: number) => {
-    if (mapRef.current) {
-      mapRef.current.setView([lat, lng], 16);
+useEffect(() => {
+  (async () => {
+    try {
+      const res = await fetch('/stores.json?ts=' + Date.now(), { cache: 'no-store' });
+      if (!res.ok) throw new Error(`stores.json fetch failed: ${res.status}`);
+      const data = await res.json();
+      setStores(Array.isArray(data) ? data : []);
+    } catch (e: any) {
+      setLoadError(e?.message ?? 'failed to load stores.json');
+      setStores([]);
     }
+  })();
+}, []);
   };
 
   return (
