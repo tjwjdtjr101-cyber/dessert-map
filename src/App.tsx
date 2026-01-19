@@ -7,23 +7,28 @@ import StoreListView from './components/StoreListView';
 import { Store, Category, StoreCategory } from './data/stores';
 
 function App() {
-const [stores, setStores] = useState<Store[]>([]);
-const [loadError, setLoadError] = useState<string | null>(null);
+  const [stores, setStores] = useState<Store[]>([]);           // ✅ 추가: 서버/정적json에서 온 stores
+  const [loadError, setLoadError] = useState<string | null>(null); // ✅ 선택(디버깅용)
 
-useEffect(() => {
-  (async () => {
-    try {
-      const res = await fetch('/stores.json?ts=' + Date.now(), { cache: 'no-store' });
-      if (!res.ok) throw new Error(`stores.json fetch failed: ${res.status}`);
-      const data = await res.json();
-      setStores(Array.isArray(data) ? data : []);
-    } catch (e: any) {
-      setLoadError(e?.message ?? 'failed to load stores.json');
-      setStores([]);
-    }
-  })();
-}, []);
-  };
+  const [selectedStore, setSelectedStore] = useState<Store | null>(null);
+  const [activeCategory, setActiveCategory] = useState<Category>('all');
+  const mapRef = useRef<any>(null);
+
+  // ✅ 추가: 앱 시작 시 stores.json 로드
+  useEffect(() => {
+    (async () => {
+      try {
+        const res = await fetch("/stores.json?ts=" + Date.now(), { cache: "no-store" });
+        if (!res.ok) throw new Error(`stores.json fetch failed: ${res.status}`);
+        const data = await res.json();
+        setStores(Array.isArray(data) ? data : []);
+        setLoadError(null);
+      } catch (e: any) {
+        setLoadError(e?.message ?? "failed to load stores.json");
+        setStores([]);
+      }
+    })();
+  }, []);
 
   return (
     <div className="min-h-screen bg-[#FFF9F5]">
