@@ -189,7 +189,7 @@ export default function StoreMap({ stores, onSelectStore, onMapReady }: StoreMap
       const emoji = categoryEmojis[store.category] || '🍪';
 
       const marker = new window.naver.maps.Marker({
-        position: new window.naver.maps.LatLng(store.lat, store.lng),
+        position: new window.naver.maps.LatLng(  Number(store.lat),Number(store.lng)),
         map: mapInstanceRef.current,
         icon: {
           content: `
