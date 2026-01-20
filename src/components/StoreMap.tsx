@@ -15,7 +15,7 @@ declare global {
   }
 }
 
-export default function StoreMap({ stores, onSelectStore, onMapReady }: StoreMapProps) {
+export default function StoreMap({ stores, activeCategory, onSelectStore, onMapReady }: StoreMapProps) {
   const mapRef = useRef<HTMLDivElement>(null);
   const mapInstanceRef = useRef<any>(null);
   const markersRef = useRef<any[]>([]);
