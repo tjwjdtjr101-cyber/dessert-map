@@ -50,6 +50,7 @@ export default function App() {
   const mapRef = useRef<any>(null);
 
   useEffect(() => {
+    console.log("🚀 fetching stores.json");
     let cancelled = false;
 
     (async () => {
