@@ -1,10 +1,8 @@
 import { useEffect, useRef, useState } from 'react';
 import { Store } from '../data/stores';
 
-
-
 interface StoreMapProps {
-  const [runtimeStores, setRuntimeStores] = useState<Store[]>([]);
+  // ✅ 기존 props 유지 (부모가 뭐를 넘기든 상관없이 StoreMap이 직접 runtimeStores를 가져오게 함)
   stores: Store[];
   onSelectStore: (store: Store) => void;
   onMapReady?: (mapInstance: any) => void;
@@ -20,15 +18,42 @@ export default function StoreMap({ stores, onSelectStore, onMapReady }: StoreMap
   const mapRef = useRef<HTMLDivElement>(null);
   const mapInstanceRef = useRef<any>(null);
   const markersRef = useRef<any[]>([]);
-  const [userLocation, setUserLocation] = useState<{ lat: number; lng: number } | null>(null);
   const userMarkerRef = useRef<any>(null);
+
+  const [userLocation, setUserLocation] = useState<{ lat: number; lng: number } | null>(null);
   const [isMapLoaded, setIsMapLoaded] = useState(false);
   const [mapError, setMapError] = useState<string | null>(null);
 
+  // ✅ StoreMap이 직접 stores.json을 로드해서 사용
+  const [runtimeStores, setRuntimeStores] = useState<Store[]>([]);
+
   /**
-   * ✅ [수정] 네이버 지도 스크립트 로드/준비 완료 체크
-   * - window.naver.maps 존재 확인
-   * - onJSContentLoaded가 있으면 그 시점을 "진짜 준비 완료"로 사용
+   * ✅ stores.json 로드 (StoreMap에서 직접)
+   */
+  useEffect(() => {
+    (async () => {
+      try {
+        console.log('🚀 StoreMap fetching /stores.json');
+        const res = await fetch('/stores.json?ts=' + Date.now(), { cache: 'no-store' });
+        if (!res.ok) throw new Error(`stores.json fetch failed: ${res.status}`);
+
+        const data = await res.json();
+        if (Array.isArray(data)) {
+          setRuntimeStores(data);
+          console.log('✅ StoreMap loaded stores:', data.length);
+        } else {
+          setRuntimeStores([]);
+          console.warn('⚠️ stores.json is not an array');
+        }
+      } catch (e) {
+        console.error('❌ StoreMap failed to load stores.json', e);
+        setRuntimeStores([]);
+      }
+    })();
+  }, []);
+
+  /**
+   * ✅ [기존] 네이버 지도 스크립트 로드/준비 완료 체크
    */
   useEffect(() => {
     console.log('현재 접속 URL:', window.location.href);
@@ -51,7 +76,6 @@ export default function StoreMap({ stores, onSelectStore, onMapReady }: StoreMap
       if (window.naver?.maps) {
         console.log('naver.maps 객체 감지됨');
 
-        // v3에서 제공되는 경우: JS 로딩 완료 시점이 더 정확함
         if (typeof window.naver.maps.onJSContentLoaded === 'function') {
           window.naver.maps.onJSContentLoaded = () => {
             console.log('네이버 지도 JS Content Loaded');
@@ -174,10 +198,12 @@ export default function StoreMap({ stores, onSelectStore, onMapReady }: StoreMap
 
   /**
    * 마커 렌더링
+   * - ✅ runtimeStores(=stores.json) 기준으로 렌더
    */
   useEffect(() => {
-    if (!mapInstanceRef.current || !window.naver?.maps || !isMapLoaded || !Array.isArray(stores)) return;
+    if (!mapInstanceRef.current || !window.naver?.maps || !isMapLoaded || !Array.isArray(runtimeStores)) return;
 
+    // 기존 마커 제거
     markersRef.current.forEach((marker) => marker.setMap(null));
     markersRef.current = [];
 
@@ -188,11 +214,24 @@ export default function StoreMap({ stores, onSelectStore, onMapReady }: StoreMap
       cake: '🎂',
     };
 
-    stores.forEach((store) => {
-      const emoji = categoryEmojis[store.category] || '🍪';
+    runtimeStores.forEach((store: any) => {
+      // ✅ 좌표 방어
+      if (store.lat == null || store.lng == null) return;
+      const lat = Number(store.lat);
+      const lng = Number(store.lng);
+      if (!Number.isFinite(lat) || !Number.isFinite(lng)) return;
+
+      // ✅ category 방어 (category 없으면 categories[0])
+      const cat = store.category ?? store.categories?.[0] ?? 'dubai';
+      const emoji = categoryEmojis[String(cat)] || '🍪';
+
+      // ✅ price/status 방어
+      const safePrice = typeof store.price === 'number' ? store.price : Number(store.price);
+      const priceText = Number.isFinite(safePrice) ? safePrice.toLocaleString() : '-';
+      const safeStatus = store.status ?? 'unknown';
 
       const marker = new window.naver.maps.Marker({
-        position: new window.naver.maps.LatLng(  Number(store.lat),Number(store.lng)),
+        position: new window.naver.maps.LatLng(lat, lng),
         map: mapInstanceRef.current,
         icon: {
           content: `
@@ -217,8 +256,8 @@ export default function StoreMap({ stores, onSelectStore, onMapReady }: StoreMap
         content: `
           <div style="padding: 16px; width: 280px; font-family: system-ui, -apple-system, sans-serif;">
             <div style="margin-bottom: 12px; padding-bottom: 12px; border-bottom: 2px solid #FF8C42;">
-              <h3 style="font-weight: bold; font-size: 18px; color: #111827; margin: 0 0 4px 0;">${store.name}</h3>
-              <p style="font-size: 12px; color: #6b7280; margin: 0;">${store.address}</p>
+              <h3 style="font-weight: bold; font-size: 18px; color: #111827; margin: 0 0 4px 0;">${store.name ?? ''}</h3>
+              <p style="font-size: 12px; color: #6b7280; margin: 0;">${store.address ?? ''}</p>
             </div>
             <div style="margin-bottom: 12px;">
               ${
@@ -226,7 +265,7 @@ export default function StoreMap({ stores, onSelectStore, onMapReady }: StoreMap
                   ? `<p style="font-size: 14px; margin: 0 0 8px 0;"><span style="color: #fbbf24;">⭐</span> <span style="font-weight: 600;">${store.rating}</span></p>`
                   : ''
               }
-              <p style="font-size: 14px; color: #374151; margin: 0 0 8px 0;"><span style="font-weight: 600;">가격:</span> ${store.price.toLocaleString()}원</p>
+              <p style="font-size: 14px; color: #374151; margin: 0 0 8px 0;"><span style="font-weight: 600;">가격:</span> ${priceText}원</p>
               <div style="display: flex; align-items: center; gap: 8px;">
                 <span style="font-weight: 600; font-size: 14px; color: #374151;">상태:</span>
                 <span style="
@@ -235,14 +274,14 @@ export default function StoreMap({ stores, onSelectStore, onMapReady }: StoreMap
                   padding: 4px 8px;
                   border-radius: 9999px;
                   ${
-                    store.status === 'available'
+                    safeStatus === 'available'
                       ? 'background-color: #d1fae5; color: #065f46;'
-                      : store.status === 'soldout'
+                      : safeStatus === 'soldout'
                       ? 'background-color: #fee2e2; color: #991b1b;'
                       : 'background-color: #fed7aa; color: #9a3412;'
                   }
                 ">
-                  ${store.status === 'available' ? '판매중' : store.status === 'soldout' ? '품절' : '확인필요'}
+                  ${safeStatus === 'available' ? '판매중' : safeStatus === 'soldout' ? '품절' : '확인필요'}
                 </span>
               </div>
             </div>
@@ -267,7 +306,7 @@ export default function StoreMap({ stores, onSelectStore, onMapReady }: StoreMap
                 상세보기
               </button>
               <a
-                href="https://map.naver.com/search/${encodeURIComponent(store.address)}"
+                href="https://map.naver.com/search/${encodeURIComponent(store.address ?? '')}"
                 target="_blank"
                 style="
                   width: 100%;
@@ -308,7 +347,7 @@ export default function StoreMap({ stores, onSelectStore, onMapReady }: StoreMap
             const detailBtn = document.getElementById(`detail-btn-${store.id}`);
             if (detailBtn) {
               detailBtn.addEventListener('click', () => {
-                onSelectStore(store);
+                onSelectStore(store as Store);
                 infoWindow.close();
               });
             }
@@ -318,7 +357,7 @@ export default function StoreMap({ stores, onSelectStore, onMapReady }: StoreMap
 
       markersRef.current.push(marker);
     });
-  }, [stores, onSelectStore, isMapLoaded]);
+  }, [runtimeStores, onSelectStore, isMapLoaded]);
 
   if (mapError) {
     return (
@@ -339,9 +378,7 @@ export default function StoreMap({ stores, onSelectStore, onMapReady }: StoreMap
               <li className="mb-2">
                 <strong>서비스 환경</strong>에서 <strong>Web 서비스 URL</strong>에 현재 URL 추가
               </li>
-              <li className="mb-2">
-                또는 클라이언트 ID가 <strong>Web Dynamic Map</strong> 서비스용인지 확인
-              </li>
+              <li className="mb-2">또는 클라이언트 ID가 <strong>Web Dynamic Map</strong> 서비스용인지 확인</li>
             </ol>
             <div className="mt-4 p-3 bg-yellow-50 border border-yellow-200 rounded">
               <p className="text-xs font-semibold text-yellow-800 mb-1">💡 TIP</p>
@@ -364,6 +401,5 @@ export default function StoreMap({ stores, onSelectStore, onMapReady }: StoreMap
     );
   }
 
-  // ✅ (선택) id="map" 추가: 콘솔에서 document.getElementById("map") 확인 가능
   return <div id="map" ref={mapRef} className="w-full h-[500px] rounded-xl overflow-hidden shadow-xl" />;
 }
