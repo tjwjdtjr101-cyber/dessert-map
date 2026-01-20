@@ -8,6 +8,8 @@ import StoreListView from './components/StoreListView';
 // ✅ 더미 데이터는 "fallback" 용도로만 사용
 import { stores as fallbackStores, Store, Category, StoreCategory } from './data/stores';
 
+console.log("🔥 App.tsx LOADED", new Date().toISOString());
+
 type StoreWithCompat = Store & {
   // stores.json이 category를 포함할 수도 / 안 할 수도 있어서 호환 필드 추가
   category?: StoreCategory;
