@@ -4,6 +4,7 @@ import { Store } from '../data/stores';
 interface StoreMapProps {
   // ✅ 기존 props 유지 (부모가 뭐를 넘기든 상관없이 StoreMap이 직접 runtimeStores를 가져오게 함)
   stores: Store[];
+  activeCategory: Category; // ✅ 추가
   onSelectStore: (store: Store) => void;
   onMapReady?: (mapInstance: any) => void;
 }
