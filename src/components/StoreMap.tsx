@@ -1,7 +1,10 @@
 import { useEffect, useRef, useState } from 'react';
 import { Store } from '../data/stores';
 
+
+
 interface StoreMapProps {
+  const [runtimeStores, setRuntimeStores] = useState<Store[]>([]);
   stores: Store[];
   onSelectStore: (store: Store) => void;
   onMapReady?: (mapInstance: any) => void;
