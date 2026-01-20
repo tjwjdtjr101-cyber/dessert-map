@@ -229,7 +229,9 @@
     "lat": 37.502845,
     "lng": 127.027839,
     "categories": [
-      "cake"
+      "cake",
+      "bungeoppang",
+      "goguma"
     ],
     "category": "cake",
     "status": "available",
@@ -844,7 +846,9 @@
     "lat": 37.504821,
     "lng": 127.004014,
     "categories": [
-      "cake"
+      "cake",
+      "bungeoppang",
+      "goguma"
     ],
     "category": "cake",
     "status": "available",
@@ -5106,6 +5110,889 @@
       "goguma"
     ],
     "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 301,
+    "name": "쇼토",
+    "address": "서울특별시 강남구 압구정로18길 14-6 1층",
+    "district": "강남구",
+    "lat": 37.523859,
+    "lng": 127.024386,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 302,
+    "name": "히트커피 로스터스 신사",
+    "address": "서울특별시 강남구 도산대로17길 34 1층",
+    "district": "강남구",
+    "lat": 37.520924,
+    "lng": 127.024097,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 303,
+    "name": "빠니드 엠 무니",
+    "address": "서울특별시 강남구 압구정로56길 16",
+    "district": "강남구",
+    "lat": 37.526782,
+    "lng": 127.039802,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 304,
+    "name": "강남구청",
+    "address": "서울특별시 강남구 학동로 426 강남구청",
+    "district": "강남구",
+    "lat": 37.517305,
+    "lng": 127.047502,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 305,
+    "name": "코엑스",
+    "address": "서울특별시 강남구 영동대로 513",
+    "district": "강남구",
+    "lat": 37.511662,
+    "lng": 127.059427,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 306,
+    "name": "별마당 도서관",
+    "address": "서울특별시 강남구 영동대로 513 스타필드 코엑스몰 B1",
+    "district": "강남구",
+    "lat": 37.510058,
+    "lng": 127.060177,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 307,
+    "name": "현대백화점 무역센터점",
+    "address": "서울특별시 강남구 테헤란로 517",
+    "district": "강남구",
+    "lat": 37.508586,
+    "lng": 127.059908,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 308,
+    "name": "베이크샵 피봇",
+    "address": "서울특별시 서초구 방배로23길 5 1층",
+    "district": "서초구",
+    "lat": 37.486411,
+    "lng": 126.993906,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 309,
+    "name": "토비커피",
+    "address": "서울특별시 서초구 방배천로24길 11 1층 토비커피 이수역점",
+    "district": "서초구",
+    "lat": 37.484968,
+    "lng": 126.984178,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 310,
+    "name": "서초구청",
+    "address": "서울특별시 서초구 남부순환로 2584 서초구청",
+    "district": "서초구",
+    "lat": 37.483569,
+    "lng": 127.032598,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 311,
+    "name": "예술의전당",
+    "address": "서울특별시 서초구 남부순환로 2406",
+    "district": "서초구",
+    "lat": 37.478536,
+    "lng": 127.010742,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 312,
+    "name": "신세계백화점 강남점",
+    "address": "서울특별시 서초구 신반포로 176",
+    "district": "서초구",
+    "lat": 37.505001,
+    "lng": 127.004249,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 313,
+    "name": "예술의전당오페라하우스",
+    "address": "서울특별시 서초구 남부순환로 2406",
+    "district": "서초구",
+    "lat": 37.479396,
+    "lng": 127.014085,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 314,
+    "name": "므나커피",
+    "address": "서울특별시 송파구 새말로15길 19 1, 2층",
+    "district": "송파구",
+    "lat": 37.485941,
+    "lng": 127.129167,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 315,
+    "name": "송파구청",
+    "address": "서울특별시 송파구 올림픽로 326 송파구청",
+    "district": "송파구",
+    "lat": 37.514564,
+    "lng": 127.105919,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 316,
+    "name": "롯데월드 어드벤처",
+    "address": "서울특별시 송파구 올림픽로 240",
+    "district": "송파구",
+    "lat": 37.511088,
+    "lng": 127.098282,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 317,
+    "name": "롯데월드몰",
+    "address": "서울특별시 송파구 올림픽로 300 롯데월드몰",
+    "district": "송파구",
+    "lat": 37.513494,
+    "lng": 127.104079,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 318,
+    "name": "롯데백화점 잠실점",
+    "address": "서울특별시 송파구 올림픽로 240 롯데백화점 잠실점",
+    "district": "송파구",
+    "lat": 37.512155,
+    "lng": 127.099383,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 319,
+    "name": "롯데월드 아쿠아리움",
+    "address": "서울특별시 송파구 올림픽로 300 롯데월드몰 B1",
+    "district": "송파구",
+    "lat": 37.51345,
+    "lng": 127.104798,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 320,
+    "name": "크림라벨 서울숲 본점",
+    "address": "서울특별시 성동구 서울숲2길 34 1층",
+    "district": "성동구",
+    "lat": 37.546553,
+    "lng": 127.042309,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 321,
+    "name": "성동구청",
+    "address": "서울특별시 성동구 고산자로 270",
+    "district": "성동구",
+    "lat": 37.563434,
+    "lng": 127.036952,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 322,
+    "name": "베통 성수",
+    "address": "서울특별시 성동구 연무장7가길 8 베통 성수",
+    "district": "성동구",
+    "lat": 37.542936,
+    "lng": 127.055221,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 323,
+    "name": "서울숲",
+    "address": "서울특별시 성동구 뚝섬로 273",
+    "district": "성동구",
+    "lat": 37.541964,
+    "lng": 127.038566,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 324,
+    "name": "아임도넛 성수점",
+    "address": "서울특별시 성동구 연무장길 37-30 1층",
+    "district": "성동구",
+    "lat": 37.543652,
+    "lng": 127.053932,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 325,
+    "name": "소문난성수감자탕",
+    "address": "서울특별시 성동구 연무장길 45",
+    "district": "성동구",
+    "lat": 37.542837,
+    "lng": 127.054387,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 326,
+    "name": "스트로베리32 연남본점",
+    "address": "서울특별시 마포구 연남로5길 8 1층 스트로베리32",
+    "district": "마포구",
+    "lat": 37.562207,
+    "lng": 126.921355,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 327,
+    "name": "발코니가든",
+    "address": "서울특별시 마포구 어울마당로 155-1 4층",
+    "district": "마포구",
+    "lat": 37.556906,
+    "lng": 126.927123,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 328,
+    "name": "깊이",
+    "address": "서울특별시 마포구 양화로11길 60 1층",
+    "district": "마포구",
+    "lat": 37.552156,
+    "lng": 126.913499,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 329,
+    "name": "마포구청",
+    "address": "서울특별시 마포구 월드컵로 212 마포구청",
+    "district": "마포구",
+    "lat": 37.566325,
+    "lng": 126.901491,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 330,
+    "name": "AK PLAZA 홍대",
+    "address": "서울특별시 마포구 양화로 188",
+    "district": "마포구",
+    "lat": 37.558187,
+    "lng": 126.926095,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 331,
+    "name": "바다회사랑 서교점",
+    "address": "서울특별시 마포구 동교로 143",
+    "district": "마포구",
+    "lat": 37.555416,
+    "lng": 126.917812,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 332,
+    "name": "연하동 연남본점",
+    "address": "서울특별시 마포구 연남로 6",
+    "district": "마포구",
+    "lat": 37.560499,
+    "lng": 126.923536,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 333,
+    "name": "하이디라오 홍대점",
+    "address": "서울특별시 마포구 양화로 176 동교동 와이즈파크 5층",
+    "district": "마포구",
+    "lat": 37.557251,
+    "lng": 126.924999,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 334,
+    "name": "콤포타블 커피 남산점",
+    "address": "서울특별시 용산구 두텁바위로60길 49 대원정사 별관 4층",
+    "district": "용산구",
+    "lat": 37.54932,
+    "lng": 126.983425,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 335,
+    "name": "카페 르상스",
+    "address": "서울특별시 용산구 대사관로 35 사운즈 한남 1층",
+    "district": "용산구",
+    "lat": 37.53375,
+    "lng": 127.002148,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 336,
+    "name": "히트커피로스터스 이태원",
+    "address": "서울특별시 용산구 이태원로 182 2층",
+    "district": "용산구",
+    "lat": 37.534374,
+    "lng": 126.994293,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 337,
+    "name": "용산구청",
+    "address": "서울특별시 용산구 녹사평대로 150",
+    "district": "용산구",
+    "lat": 37.532527,
+    "lng": 126.99049,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 338,
+    "name": "국립중앙박물관",
+    "address": "서울특별시 용산구 서빙고로 137 국립중앙박물관",
+    "district": "용산구",
+    "lat": 37.524087,
+    "lng": 126.980388,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 339,
+    "name": "CGV 용산아이파크몰",
+    "address": "서울특별시 용산구 한강대로23길 55 현대아이파크몰 6층",
+    "district": "용산구",
+    "lat": 37.530291,
+    "lng": 126.965174,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 340,
+    "name": "아이파크몰 용산점",
+    "address": "서울특별시 용산구 한강대로23길 55",
+    "district": "용산구",
+    "lat": 37.529425,
+    "lng": 126.965167,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 341,
+    "name": "그랜드 하얏트 서울",
+    "address": "서울특별시 용산구 소월로 322",
+    "district": "용산구",
+    "lat": 37.539601,
+    "lng": 126.997452,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 342,
+    "name": "안단단",
+    "address": "서울특별시 영등포구 선유동2로 5 1층 안단단",
+    "district": "영등포구",
+    "lat": 37.529772,
+    "lng": 126.894394,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 343,
+    "name": "브로트아트 여의도 본점",
+    "address": "서울특별시 영등포구 국제금융로7길 3 수정상가 1층",
+    "district": "영등포구",
+    "lat": 37.522458,
+    "lng": 126.931148,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 344,
+    "name": "영등포구청",
+    "address": "서울특별시 영등포구 당산로 123",
+    "district": "영등포구",
+    "lat": 37.526436,
+    "lng": 126.896004,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 345,
+    "name": "현대백화점 더현대 서울",
+    "address": "서울특별시 영등포구 여의대로 108 더현대 서울",
+    "district": "영등포구",
+    "lat": 37.52599,
+    "lng": 126.928382,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 346,
+    "name": "타임스퀘어",
+    "address": "서울특별시 영등포구 영중로 15 타임스퀘어",
+    "district": "영등포구",
+    "lat": 37.517163,
+    "lng": 126.902965,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 347,
+    "name": "콘래드 서울 호텔",
+    "address": "서울특별시 영등포구 국제금융로 10 서울 국제금융 센터",
+    "district": "영등포구",
+    "lat": 37.525572,
+    "lng": 126.926614,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 348,
+    "name": "콘래드 서울 제스트",
+    "address": "서울특별시 영등포구 국제금융로 10 콘래드 서울 2층",
+    "district": "영등포구",
+    "lat": 37.525246,
+    "lng": 126.926961,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 349,
+    "name": "두리앙과자점",
+    "address": "서울특별시 강동구 상일로5길 31 두리앙과자점",
+    "district": "강동구",
+    "lat": 37.548835,
+    "lng": 127.171286,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 350,
+    "name": "카페씨모",
+    "address": "서울특별시 강동구 고덕로38길 69",
+    "district": "강동구",
+    "lat": 37.551474,
+    "lng": 127.142694,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
     "status": "available",
     "price": 5500,
     "rating": 4.6,
