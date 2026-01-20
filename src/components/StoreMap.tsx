@@ -1,10 +1,11 @@
 import { useEffect, useRef, useState } from 'react';
-import { Store } from '../data/stores';
+import { Store, Category } from '../data/stores';
 
 interface StoreMapProps {
-  // ✅ 기존 props 유지 (부모가 뭐를 넘기든 상관없이 StoreMap이 직접 runtimeStores를 가져오게 함)
+  // 부모가 넘기는 필터된 stores는 유지(지금은 runtimeStores 기반이라 참고용)
   stores: Store[];
-  activeCategory: Category; // ✅ 추가
+  // ✅ 카테고리 상태를 받아서 지도도 필터링
+  activeCategory: Category;
   onSelectStore: (store: Store) => void;
   onMapReady?: (mapInstance: any) => void;
 }
@@ -199,7 +200,8 @@ export default function StoreMap({ stores, activeCategory, onSelectStore, onMapR
 
   /**
    * 마커 렌더링
-   * - ✅ runtimeStores(=stores.json) 기준으로 렌더
+   * - ✅ runtimeStores 기준으로 렌더
+   * - ✅ activeCategory 기준으로 필터링
    */
   useEffect(() => {
     if (!mapInstanceRef.current || !window.naver?.maps || !isMapLoaded || !Array.isArray(runtimeStores)) return;
@@ -215,14 +217,25 @@ export default function StoreMap({ stores, activeCategory, onSelectStore, onMapR
       cake: '🎂',
     };
 
-    runtimeStores.forEach((store: any) => {
+    // ✅ 카테고리 필터 적용
+    const storesToRender =
+      activeCategory === 'all'
+        ? runtimeStores
+        : runtimeStores.filter((s: any) => {
+            const cats = Array.isArray(s.categories) ? s.categories : s.category ? [s.category] : [];
+            return cats.includes(activeCategory);
+          });
+
+    console.log('🧩 Map category:', activeCategory, 'rendering:', storesToRender.length);
+
+    storesToRender.forEach((store: any) => {
       // ✅ 좌표 방어
       if (store.lat == null || store.lng == null) return;
       const lat = Number(store.lat);
       const lng = Number(store.lng);
       if (!Number.isFinite(lat) || !Number.isFinite(lng)) return;
 
-      // ✅ category 방어 (category 없으면 categories[0])
+      // ✅ category 방어
       const cat = store.category ?? store.categories?.[0] ?? 'dubai';
       const emoji = categoryEmojis[String(cat)] || '🍪';
 
@@ -358,7 +371,7 @@ export default function StoreMap({ stores, activeCategory, onSelectStore, onMapR
 
       markersRef.current.push(marker);
     });
-  }, [runtimeStores, onSelectStore, isMapLoaded]);
+  }, [runtimeStores, activeCategory, onSelectStore, isMapLoaded]);
 
   if (mapError) {
     return (
