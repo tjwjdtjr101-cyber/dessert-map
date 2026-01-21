@@ -159,9 +159,7 @@ export default function App() {
 
           {/* Today */}
         <div className="rounded-[18px] border border-black/70 bg-[#F6F1E6] shadow-[0_10px_30px_rgba(0,0,0,0.15)] overflow-hidden">
-            <div className="bg-black/85 text-white px-4 py-2 font-extrabold tracking-[0.24em] text-[11px]">
-              TODAY
-            </div>
+            <div className="bg-black/85 text-white px-4 py-2 font-extrabold tracking-[0.24em] text-[11px]"> TODAY</div>
             
             <div className="p-5">
               <div className="text-[54px] font-black leading-none text-black">{todayCount}+</div>
