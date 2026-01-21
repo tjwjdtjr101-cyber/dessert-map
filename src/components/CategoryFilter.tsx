@@ -25,18 +25,18 @@ export default function CategoryFilter({ activeCategory, onCategoryChange }: Cat
             onClick={() => onCategoryChange(cat.id)}
             className={[
               'shrink-0',
-              'flex items-center gap-1.5',
-              'px-2.5 py-1',                 // ✅ 작아짐
+              'w-9 h-9',                         // ✅ 정사각형
               'rounded-full',
               'border border-black/70',
+              'grid place-items-center',
               'bg-[#F6F1E6]',
-              'font-extrabold text-[9.5px] tracking-wide whitespace-nowrap', // ✅ 글자 작게
-              'leading-none',
               'transition',
               activeCategory === cat.id
-                ? 'bg-black/90 text-white'
-                : 'text-black hover:bg-white/70',
+                ? 'bg-black text-white scale-105'
+                : 'text-black hover:bg-white/80',
             ].join(' ')}
+            title={`${cat.ko} (${cat.en})`}
+            aria-label={cat.ko}
             aria-pressed={isActive}
           >
             <span className="text-[18px] leading-none">{cat.emoji}</span>
