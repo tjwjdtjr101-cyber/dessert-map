@@ -104,7 +104,7 @@ export default function App() {
   const todayCount = Math.min(filteredStores.length, 24);
 
   return (
-    <div className="min-h-screen bg-[#FFD400]">
+    <div className="min-h-screen bg-[radial-gradient(1200px_500px_at_20%_0%,#FFE7A3_0%,#FFD86B_40%,#F8C44E_100%)]">
       {/* Top Bar */}
       <header className="sticky top-0 z-50 bg-[#FFD400] border-b-2 border-black">
         <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
