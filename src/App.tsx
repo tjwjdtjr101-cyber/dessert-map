@@ -181,23 +181,22 @@ export default function App() {
           <div className="mt-6 flex flex-col items-center gap-3">
             <CategoryFilter activeCategory={activeCategory} onCategoryChange={setActiveCategory} />
 
-            {/* ✅ 검색 영역 */}
-            <div className="w-full max-w-4xl">
-              <label className="sr-only" htmlFor="store-search">Search</label>
-
-              {/* 인풋(카운트 제거) */}
-              <div className="border-2 border-black shadow-[4px_4px_0_#111] bg-white px-3 py-2">
-                <div className="flex items-center gap-2">
-                  <Search className="w-5 h-5" />
-                  <input
-                    id="store-search"
-                    value={searchQuery}
-                    onChange={(e) => setSearchQuery(e.target.value)}
-                    placeholder="서울특별시에서 검색 (가게명/주소/구)"
-                    className="w-full outline-none font-bold placeholder:text-black/40"
-                  />
-                </div>
+          <div className="w-full max-w-3xl">
+            <label className="sr-only" htmlFor="store-search">Search</label>
+            <div className="flex items-center gap-2 border-2 border-black shadow-[4px_4px_0_#111] bg-white px-3 py-2">
+              <Search className="w-5 h-5" />
+              <input
+                id="store-search"
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                placeholder="서울특별시에서 검색 (가게명/주소/구)"
+                className="w-full outline-none font-bold placeholder:text-black/40"
+              />
+              <div className="text-[11px] font-black opacity-70 whitespace-nowrap">
+                {filteredStores.length}곳
               </div>
+            </div>
+          </div>
 
               {/* ✅ 카운트 배지(인풋 아래 우측) */}
               <div className="mt-2 flex justify-end">
