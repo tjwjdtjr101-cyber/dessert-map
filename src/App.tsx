@@ -118,7 +118,10 @@ export default function App() {
       <header className="sticky top-0 z-50 bg-[#F7C600] border-b-2 border-black">
         <div className="max-w-6xl mx-auto px-4 h-14 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <button className="w-9 h-9 border-2 border-black bg-white shadow-[2px_2px_0_#111] grid place-items-center" aria-label="Menu">
+            <button
+              className="w-9 h-9 border-2 border-black bg-white shadow-[2px_2px_0_#111] grid place-items-center"
+              aria-label="Menu"
+            >
               <Menu className="w-5 h-5" />
             </button>
             <div className="flex items-center gap-2">
@@ -130,10 +133,16 @@ export default function App() {
           </div>
 
           <div className="flex items-center gap-2">
-            <button className="w-9 h-9 border-2 border-black bg-white shadow-[2px_2px_0_#111] grid place-items-center" aria-label="Notifications">
+            <button
+              className="w-9 h-9 border-2 border-black bg-white shadow-[2px_2px_0_#111] grid place-items-center"
+              aria-label="Notifications"
+            >
               <Bell className="w-5 h-5" />
             </button>
-            <button className="w-9 h-9 border-2 border-black bg-[#FF2D7A] shadow-[2px_2px_0_#111] grid place-items-center" aria-label="Profile">
+            <button
+              className="w-9 h-9 border-2 border-black bg-[#FF2D7A] shadow-[2px_2px_0_#111] grid place-items-center"
+              aria-label="Profile"
+            >
               <User className="w-5 h-5 text-white" />
             </button>
           </div>
@@ -141,8 +150,8 @@ export default function App() {
       </header>
 
       <main className="max-w-6xl mx-auto px-4 pt-4 space-y-4">
-        {/* Hero (스크린샷 레이아웃 + 1번(레트로) 톤) */}
-        <section className="border-2 border-black shadow-[4px_4px_0_#111] bg-white p-6 md:p-8 max-w-5xl mx-auto">
+        {/* Hero */}
+        <section className="border-2 border-black shadow-[4px_4px_0_#111] bg-white p-6 md:p-8">
           <div className="flex items-center justify-center">
             <span className="px-3 py-1 border-2 border-black bg-[#FFF3B0] shadow-[2px_2px_0_#111] text-[11px] font-black">
               ⚡ 실시간 재고 업데이트
@@ -172,9 +181,11 @@ export default function App() {
           <div className="mt-6 flex flex-col items-center gap-3">
             <CategoryFilter activeCategory={activeCategory} onCategoryChange={setActiveCategory} />
 
+            {/* ✅ 검색 영역 */}
             <div className="w-full max-w-4xl">
               <label className="sr-only" htmlFor="store-search">Search</label>
-              
+
+              {/* 인풋(카운트 제거) */}
               <div className="border-2 border-black shadow-[4px_4px_0_#111] bg-white px-3 py-2">
                 <div className="flex items-center gap-2">
                   <Search className="w-5 h-5" />
@@ -187,11 +198,13 @@ export default function App() {
                   />
                 </div>
               </div>
-            
-              <div className="mt-2 text-right text-[11px] font-black opacity-70">
-                {filteredStores.length}곳
+
+              {/* ✅ 카운트 배지(인풋 아래 우측) */}
+              <div className="mt-2 flex justify-end">
+                <span className="px-2 py-1 text-[11px] font-black border-2 border-black bg-[#FFF3B0] shadow-[2px_2px_0_#111]">
+                  {filteredStores.length}곳
+                </span>
               </div>
-            </div>
             </div>
           </div>
         </section>
