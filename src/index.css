@@ -30,10 +30,8 @@ body {
 
 /* ✅ (선택) 두바이 마커 이미지에만 라인/쉐도우 주고 싶을 때 */
 .dubai-marker {
-  border-radius: 9999px;
-  border: 3px solid #000;
-  box-shadow: 3px 3px 0 #000;
-  background: #fff;
+  border: 1px solid rgba(0,0,0,0.35);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.14);
 }
 
 
