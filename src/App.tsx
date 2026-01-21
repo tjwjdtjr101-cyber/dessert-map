@@ -146,15 +146,15 @@ export default function App() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 items-stretch">
           {/* Poster */}
 <div className="md:col-span-2 rounded-[18px] border border-black/70 bg-[#F7C95A] shadow-[0_10px_30px_rgba(0,0,0,0.15)] px-8 py-10">
-            <div className="font-black tracking-[0.28em] text-xs md:text-sm">REAL TIME</div>
+            <div className="font-extrabold tracking-[0.18em] text-xs">REAL TIME</div>
 
-            <div className="mt-6 font-black leading-[0.82] text-black">
-              <div className="text-[64px] md:text-[92px] tracking-tight">DESSERT</div>
-              <div className="text-[64px] md:text-[92px] tracking-tight">STOCK</div>
+            <div className="mt-6 font-black leading-[0.9] text-black">
+              <div className="text-[56px] md:text-[74px] tracking-tight">DESSERT</div>
+              <div className="text-[56px] md:text-[74px] tracking-tight">STOCK</div>
             </div>
-
-            <div className="mt-8 h-[2px] bg-black w-full" />
-            <div className="mt-5 font-black tracking-[0.42em] text-xs md:text-sm">SEOUL · 2026</div>
+            
+            <div className="mt-7 h-px bg-black/70 w-full" />
+            <div className="mt-4 font-extrabold tracking-[0.24em] text-xs">SEOUL · 2026</div>
           </div>
 
           {/* Today */}
