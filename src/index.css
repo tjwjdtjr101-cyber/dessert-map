@@ -1,17 +1,3 @@
-/* Soft paper background */
-html, body {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-/* 노랑 + 종이결 + 그레인 + 가장자리 살짝 어둡게(비네팅) */
-.retro-paper {
-  background-color: #F7C600;
-  background-image:
-    radial-gradient( rgba(0,0,0,0.10) 1px, transparent 1px ),
-    radial-gradient( rgba(0,0,0,0.06) 1px, transparent 1px ),
-    radial-gradient( circle at 50% 20%, rgba(255,255,255,0.35), transparent 55% ),
-    radial-gradient( circle at 50% 50%, rgba(0,0,0,0.18), transparent 60% );
-  background-size: 18px 18px, 36px 36px, 100% 100%, 140% 140%;
-  background-position: 0 0, 9px 9px, center, center;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
