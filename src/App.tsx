@@ -176,7 +176,7 @@ export default function App() {
           </div>
 
           {/* Filters */}
-          <div className="mt-1">
+          <div className="mt-2">
             <CategoryFilter activeCategory={activeCategory} onCategoryChange={setActiveCategory} />
           </div>
         </section>
