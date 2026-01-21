@@ -122,31 +122,30 @@ export default function StoreMap({ stores, activeCategory, onSelectStore, onMapR
     // 📍 내 위치 버튼
     const locationButton = document.createElement('button');
     locationButton.innerHTML = '📍';
+    // 스크린샷 톤: 흰 배경 + 굵은 보더 + 레트로 그림자
     locationButton.style.cssText = `
       position: absolute;
-      bottom: 20px;
-      right: 20px;
-      width: 50px;
-      height: 50px;
-      background-color: #FF8C42;
-      color: white;
-      border: none;
-      border-radius: 10px;
-      font-size: 24px;
+      bottom: 14px;
+      right: 14px;
+      width: 44px;
+      height: 44px;
+      background-color: #ffffff;
+      color: #111111;
+      border: 2px solid #111111;
+      border-radius: 0px;
+      font-size: 18px;
       cursor: pointer;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+      box-shadow: 2px 2px 0 #111111;
       z-index: 1000;
-      transition: all 0.3s ease;
+      transition: transform 0.12s ease;
     `;
 
     locationButton.addEventListener('mouseenter', () => {
-      locationButton.style.backgroundColor = '#FF7A2E';
-      locationButton.style.transform = 'scale(1.1)';
+      locationButton.style.transform = 'translate(1px, 1px)';
     });
 
     locationButton.addEventListener('mouseleave', () => {
-      locationButton.style.backgroundColor = '#FF8C42';
-      locationButton.style.transform = 'scale(1)';
+      locationButton.style.transform = 'translate(0px, 0px)';
     });
 
     locationButton.addEventListener('click', () => {
@@ -375,7 +374,7 @@ export default function StoreMap({ stores, activeCategory, onSelectStore, onMapR
 
   if (mapError) {
     return (
-      <div className="w-full h-[500px] rounded-xl overflow-hidden shadow-xl bg-red-50 flex items-center justify-center">
+      <div className="w-full h-[320px] md:h-[420px] overflow-hidden border-2 border-black shadow-[4px_4px_0_#111] bg-red-50 flex items-center justify-center">
         <div className="text-center p-8 max-w-2xl">
           <div className="text-6xl mb-4">❌</div>
           <h3 className="text-xl font-bold text-red-800 mb-2">지도 인증 실패</h3>
@@ -406,7 +405,7 @@ export default function StoreMap({ stores, activeCategory, onSelectStore, onMapR
 
   if (!isMapLoaded) {
     return (
-      <div className="w-full h-[500px] rounded-xl overflow-hidden shadow-xl bg-gray-50 flex items-center justify-center">
+      <div className="w-full h-[320px] md:h-[420px] overflow-hidden border-2 border-black shadow-[4px_4px_0_#111] bg-gray-50 flex items-center justify-center">
         <div className="text-center">
           <div className="animate-spin rounded-full h-16 w-16 border-4 border-[#FF8C42] border-t-transparent mx-auto mb-4"></div>
           <p className="text-gray-600 font-medium">지도를 불러오는 중...</p>
@@ -415,5 +414,5 @@ export default function StoreMap({ stores, activeCategory, onSelectStore, onMapR
     );
   }
 
-  return <div id="map" ref={mapRef} className="w-full h-[500px] rounded-xl overflow-hidden shadow-xl" />;
+  return <div id="map" ref={mapRef} className="w-full h-[320px] md:h-[420px] overflow-hidden border-2 border-black shadow-[4px_4px_0_#111]" />;
 }
