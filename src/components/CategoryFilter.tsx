@@ -13,7 +13,10 @@ const categories: Array<{ id: Category; ko: string; en: string; emoji: string }>
   { id: 'cake', ko: '케이크', en: 'CAKE', emoji: '🎂' },
 ];
 
-export default function CategoryFilter({ activeCategory, onCategoryChange }: CategoryFilterProps) {
+export default function CategoryFilter({
+  activeCategory,
+  onCategoryChange,
+}: CategoryFilterProps) {
   return (
     <div className="flex gap-2 overflow-x-auto pb-1 scrollbar-hide">
       {categories.map((cat) => {
@@ -25,25 +28,21 @@ export default function CategoryFilter({ activeCategory, onCategoryChange }: Cat
             onClick={() => onCategoryChange(cat.id)}
             className={[
               'shrink-0',
-              'w-9 h-9',                         // ✅ 정사각형
+              'w-9 h-9',                     // ✅ 정사각형 버튼 (36px)
               'rounded-full',
               'border border-black/70',
               'grid place-items-center',
               'bg-[#F6F1E6]',
               'transition',
-              activeCategory === cat.id
+              isActive
                 ? 'bg-black text-white scale-105'
                 : 'text-black hover:bg-white/80',
             ].join(' ')}
-            title={`${cat.ko} (${cat.en})`}
+            title={`${cat.ko} (${cat.en})`}   // 마우스 올리면 이름 표시
             aria-label={cat.ko}
-            aria-pressed={isActive}
           >
+            {/* ✅ 화면에는 이모지만 표시 */}
             <span className="text-[18px] leading-none">{cat.emoji}</span>
-            <span className="leading-tight">
-              <span className="block text-[12px]">{cat.ko}</span>
-              <span className="block text-[10px] opacity-80 tracking-widest">{cat.en}</span>
-            </span>
           </button>
         );
       })}
