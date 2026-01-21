@@ -192,4 +192,3 @@ export default function App() {
 
       <StoreDetailModal store={selectedStore} onClose={() => setSelectedStore(null)} />
     </div>
-}
