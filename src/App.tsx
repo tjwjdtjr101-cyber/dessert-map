@@ -145,7 +145,7 @@ export default function App() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 items-stretch">
           {/* Poster */}
-          <div className="md:col-span-2 rounded-[12px] border-[3px] border-black bg-[#FFD400] shadow-[4px_4px_0_#000] px-8 py-10">
+<div className="md:col-span-2 rounded-[18px] border border-black/70 bg-[#F7C95A] shadow-[0_10px_30px_rgba(0,0,0,0.15)] px-8 py-10">
             <div className="font-black tracking-[0.28em] text-xs md:text-sm">REAL TIME</div>
 
             <div className="mt-6 font-black leading-[0.82] text-black">
