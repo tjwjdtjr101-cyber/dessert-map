@@ -145,7 +145,7 @@ export default function App() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 items-stretch">
           {/* Poster */}
-<div className="md:col-span-2 rounded-[18px] border border-black/70 bg-[#F7C95A] shadow-[0_10px_30px_rgba(0,0,0,0.15)] px-8 py-10">
+          <div className="md:col-span-2 rounded-[18px] border border-black/70 bg-[#F7C95A] shadow-[0_10px_30px_rgba(0,0,0,0.15)] px-8 py-10">
             <div className="font-extrabold tracking-[0.18em] text-xs">REAL TIME</div>
 
             <div className="mt-6 font-black leading-[0.9] text-black">
@@ -158,17 +158,17 @@ export default function App() {
           </div>
 
           {/* Today */}
-<div className="rounded-[18px] border border-black/70 bg-[#F6F1E6] shadow-[0_10px_30px_rgba(0,0,0,0.15)] overflow-hidden">
-            <div className="bg-black text-white px-4 py-2 font-black tracking-[0.30em] text-[11px]">
+        <div className="rounded-[18px] border border-black/70 bg-[#F6F1E6] shadow-[0_10px_30px_rgba(0,0,0,0.15)] overflow-hidden">
+            <div className="bg-black/85 text-white px-4 py-2 font-extrabold tracking-[0.24em] text-[11px]">
               TODAY
             </div>
-
-            <div className="p-4">
-              <div className="text-[56px] font-black leading-none">{todayCount}+</div>
-              <div className="mt-1 text-[11px] font-black tracking-[0.30em]">STORES</div>
-
-              <div className="mt-6 border-2 border-black rounded-[10px] px-4 py-3 flex items-center justify-between">
-                <div className="text-[11px] font-black tracking-[0.22em]">FEATURED</div>
+            
+            <div className="p-5">
+              <div className="text-[54px] font-black leading-none text-black">{todayCount}+</div>
+              <div className="mt-1 text-[11px] font-extrabold tracking-[0.24em] text-black/80">STORES</div>
+            
+              <div className="mt-6 border border-black/60 rounded-[14px] px-4 py-3 flex items-center justify-between bg-white/60">
+                <div className="text-[11px] font-extrabold tracking-[0.2em] text-black/80">FEATURED</div>
                 <div className="text-xl">🥐</div>
               </div>
             </div>
