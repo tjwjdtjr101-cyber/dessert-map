@@ -188,7 +188,7 @@ export default function App() {
 
       {/* Map */}
       <section className="max-w-6xl mx-auto px-4 mt-5">
-        <div className="relative h-[280px] md:h-[340px] rounded-[12px] border-[3px] border-black overflow-hidden bg-white shadow-[4px_4px_0_#000]">
+        <div className="relative h-[280px] md:h-[340px] rounded-[18px] border border-black/70 overflow-hidden bg-white/70 shadow-[0_10px_30px_rgba(0,0,0,0.15)]">
           <StoreMap
             stores={filteredStores as unknown as Store[]}
             activeCategory={activeCategory}
