@@ -26,12 +26,13 @@ export default function CategoryFilter({ activeCategory, onCategoryChange }: Cat
             className={[
               'flex items-center gap-2',
               'px-4 py-2',
-              'border-[3px] border-black',
-              'shadow-[3px_3px_0_#000]',
-              'font-black text-xs tracking-wide whitespace-nowrap',
-              'transition-transform',
-              'active:translate-x-[1px] active:translate-y-[1px]',
-              isActive ? 'bg-black text-white' : 'bg-white text-black hover:bg-gray-100',
+              'rounded-full',
+              'border border-black/70',
+              'bg-[#F6F1E6]',
+              'shadow-[0_6px_14px_rgba(0,0,0,0.12)]',
+              'font-extrabold text-[11px] tracking-wide whitespace-nowrap',
+              'transition',
+              isActive ? 'bg-black/85 text-white' : 'text-black hover:bg-white/70',
             ].join(' ')}
             aria-pressed={isActive}
           >
