@@ -151,7 +151,7 @@ export default function App() {
 
       <main className="max-w-6xl mx-auto px-4 pt-4 space-y-4">
         {/* Hero */}
-        <section className="bg-[#F6F1E6] border-2 border-black rounded-3xl shadow-[0_18px_45px_rgba(0,0,0,0.22)] p-8 md:p-10">
+        <div className="bg-[#F6F1E6] border-2 border-black rounded-2xl shadow-[0_14px_30px_rgba(0,0,0,0.18)] px-4 py-3">
           <div className="flex items-center justify-center">
             <span className="px-3 py-1 border-2 border-black bg-[#FFF3B0] shadow-[2px_2px_0_#111] text-[11px] font-black">
               ⚡ 실시간 재고 업데이트
