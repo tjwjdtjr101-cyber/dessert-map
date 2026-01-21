@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { Bell, Menu, User, Home, Search, Map as MapIcon, MoreHorizontal, Plus } from 'lucide-react';
+import { Bell, Home, Map as MapIcon, Menu, MoreHorizontal, Plus, Search, User } from 'lucide-react';
+
 import StoreMap from './components/StoreMap';
 import StoreDetailModal from './components/StoreDetailModal';
 import CategoryFilter from './components/CategoryFilter';
@@ -8,10 +9,7 @@ import StoreListView from './components/StoreListView';
 // ✅ 더미 데이터는 "fallback" 용도로만 사용
 import { stores as fallbackStores, Store, Category, StoreCategory } from './data/stores';
 
-console.log("🔥 App.tsx LOADED", new Date().toISOString());
-
 type StoreWithCompat = Store & {
-  // stores.json이 category를 포함할 수도 / 안 할 수도 있어서 호환 필드 추가
   category?: StoreCategory;
   categories?: StoreCategory[];
 };
@@ -36,7 +34,6 @@ function normalizeStores(raw: any): StoreWithCompat[] {
         category,
       } as StoreWithCompat;
     })
-    // 최소 필수 필드가 없는 건 제거(지도/리스트 깨짐 방지)
     .filter((s) => typeof s?.id === 'number' && typeof s?.lat === 'number' && typeof s?.lng === 'number');
 }
 
@@ -52,7 +49,6 @@ export default function App() {
   const mapRef = useRef<any>(null);
 
   useEffect(() => {
-    console.log("🚀 fetching stores.json");
     let cancelled = false;
 
     (async () => {
@@ -60,7 +56,6 @@ export default function App() {
       setLoadError(null);
 
       try {
-        // ✅ 캐시 회피(호스팅/브라우저 캐시 때문에 최신이 안 뜨는 케이스 방지)
         const res = await fetch('/stores.json?ts=' + Date.now(), { cache: 'no-store' });
         if (!res.ok) throw new Error(`stores.json fetch failed: ${res.status}`);
 
@@ -72,7 +67,6 @@ export default function App() {
           setIsLoading(false);
         }
       } catch (e: any) {
-        // ✅ 실패 시 fallback 더미 데이터라도 보여주기
         const normalizedFallback = normalizeStores(fallbackStores);
 
         if (!cancelled) {
@@ -113,7 +107,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen retro-paper text-[#111] pb-20">
+    <div className="min-h-screen bg-[#F7C600] text-[#111] pb-20">
       {/* Top App Bar */}
       <header className="sticky top-0 z-50 bg-[#F7C600] border-b-2 border-black">
         <div className="max-w-6xl mx-auto px-4 h-14 flex items-center justify-between">
@@ -124,11 +118,10 @@ export default function App() {
             >
               <Menu className="w-5 h-5" />
             </button>
-            <div className="flex items-center gap-2">
-              <div className="font-black leading-none">
-                <div className="text-sm">DESSERT</div>
-                <div className="text-[10px] -mt-0.5 opacity-80">FINDER</div>
-              </div>
+
+            <div className="font-black leading-none">
+              <div className="text-sm">DESSERT</div>
+              <div className="text-[10px] -mt-0.5 opacity-80">FINDER</div>
             </div>
           </div>
 
@@ -139,6 +132,7 @@ export default function App() {
             >
               <Bell className="w-5 h-5" />
             </button>
+
             <button
               className="w-9 h-9 border-2 border-black bg-[#FF2D7A] shadow-[2px_2px_0_#111] grid place-items-center"
               aria-label="Profile"
@@ -151,7 +145,7 @@ export default function App() {
 
       <main className="max-w-6xl mx-auto px-4 pt-4 space-y-4">
         {/* Hero */}
-        <div className="bg-[#F6F1E6] border-2 border-black rounded-2xl shadow-[0_14px_30px_rgba(0,0,0,0.18)] px-4 py-3">
+        <section className="border-2 border-black shadow-[4px_4px_0_#111] bg-white p-6 md:p-8">
           <div className="flex items-center justify-center">
             <span className="px-3 py-1 border-2 border-black bg-[#FFF3B0] shadow-[2px_2px_0_#111] text-[11px] font-black">
               ⚡ 실시간 재고 업데이트
@@ -181,24 +175,23 @@ export default function App() {
           <div className="mt-6 flex flex-col items-center gap-3">
             <CategoryFilter activeCategory={activeCategory} onCategoryChange={setActiveCategory} />
 
-          <div className="w-full max-w-3xl">
-            <label className="sr-only" htmlFor="store-search">Search</label>
-            <div className="flex items-center gap-2 border-2 border-black shadow-[4px_4px_0_#111] bg-white px-3 py-2">
-              <Search className="w-5 h-5" />
-              <input
-                id="store-search"
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                placeholder="서울특별시에서 검색 (가게명/주소/구)"
-                className="w-full outline-none font-bold placeholder:text-black/40"
-              />
-              <div className="text-[11px] font-black opacity-70 whitespace-nowrap">
-                {filteredStores.length}곳
-              </div>
-            </div>
-          </div>
+            {/* Search */}
+            <div className="w-full max-w-4xl">
+              <label className="sr-only" htmlFor="store-search">Search</label>
 
-              {/* ✅ 카운트 배지(인풋 아래 우측) */}
+              <div className="border-2 border-black shadow-[4px_4px_0_#111] bg-white px-3 py-2">
+                <div className="flex items-center gap-2">
+                  <Search className="w-5 h-5" />
+                  <input
+                    id="store-search"
+                    value={searchQuery}
+                    onChange={(e) => setSearchQuery(e.target.value)}
+                    placeholder="서울특별시에서 검색 (가게명/주소/구)"
+                    className="w-full outline-none font-bold placeholder:text-black/40"
+                  />
+                </div>
+              </div>
+
               <div className="mt-2 flex justify-end">
                 <span className="px-2 py-1 text-[11px] font-black border-2 border-black bg-[#FFF3B0] shadow-[2px_2px_0_#111]">
                   {filteredStores.length}곳
@@ -252,17 +245,24 @@ export default function App() {
             <Home className="w-5 h-5" />
             HOME
           </button>
+
           <button className="flex flex-col items-center text-[10px] font-black gap-1 opacity-90">
             <Search className="w-5 h-5" />
             SEARCH
           </button>
-          <button className="w-11 h-11 border-2 border-black bg-[#FF2D7A] shadow-[2px_2px_0_#000] grid place-items-center -mt-6">
+
+          <button
+            className="w-11 h-11 border-2 border-black bg-[#FF2D7A] shadow-[2px_2px_0_#000] grid place-items-center -mt-6"
+            aria-label="Add"
+          >
             <Plus className="w-6 h-6" />
           </button>
+
           <button className="flex flex-col items-center text-[10px] font-black gap-1 opacity-90">
             <MapIcon className="w-5 h-5" />
             MAP
           </button>
+
           <button className="flex flex-col items-center text-[10px] font-black gap-1 opacity-90">
             <MoreHorizontal className="w-5 h-5" />
             MORE
