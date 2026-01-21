@@ -4732,7 +4732,8 @@
     "lat": 37.541614,
     "lng": 127.070851,
     "categories": [
-      "dubai"
+      "dubai",
+      "cake"
     ],
     "category": "dubai",
     "status": "available",
@@ -5993,6 +5994,810 @@
       "cake"
     ],
     "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 351,
+    "name": "씨라이프 코엑스 아쿠아리움",
+    "address": "서울특별시 강남구 영동대로 513",
+    "district": "강남구",
+    "lat": 37.513374,
+    "lng": 127.058315,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 352,
+    "name": "싱싱청과야채",
+    "address": "서울특별시 서초구 방배로 147 가동 1층 2호",
+    "district": "서초구",
+    "lat": 37.486846,
+    "lng": 126.993942,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 353,
+    "name": "이리데센트",
+    "address": "서울특별시 성동구 서울숲4길 20-1 1층",
+    "district": "성동구",
+    "lat": 37.547152,
+    "lng": 127.043176,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 354,
+    "name": "연남토마 성수점",
+    "address": "서울특별시 성동구 서울숲4길 16-20",
+    "district": "성동구",
+    "lat": 37.547011,
+    "lng": 127.042321,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 355,
+    "name": "미쁘동 연남본점",
+    "address": "서울특별시 마포구 동교로38길 33-21 2층",
+    "district": "마포구",
+    "lat": 37.562112,
+    "lng": 126.926205,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 356,
+    "name": "홍대 육지",
+    "address": "서울특별시 마포구 독막로3길 34 1F",
+    "district": "마포구",
+    "lat": 37.549743,
+    "lng": 126.917427,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 357,
+    "name": "전쟁기념사업회 전쟁기념관",
+    "address": "서울특별시 용산구 이태원로 29",
+    "district": "용산구",
+    "lat": 37.536464,
+    "lng": 126.977148,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 358,
+    "name": "하이디라오 영등포지점",
+    "address": "서울특별시 영등포구 경인로 870 2층",
+    "district": "영등포구",
+    "lat": 37.516983,
+    "lng": 126.909283,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 359,
+    "name": "오뉴 천호",
+    "address": "서울특별시 강동구 천호대로 1005 4층 오뉴",
+    "district": "강동구",
+    "lat": 37.538983,
+    "lng": 127.124398,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 360,
+    "name": "빠네렌토 본점",
+    "address": "서울특별시 강동구 동남로 881 서희스타힐스",
+    "district": "강동구",
+    "lat": 37.55236,
+    "lng": 127.155639,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 361,
+    "name": "커피사피엔스 천호역점",
+    "address": "서울특별시 강동구 천호대로 1024 1층 120호 커피사피엔스",
+    "district": "강동구",
+    "lat": 37.537403,
+    "lng": 127.125844,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 362,
+    "name": "강동구청",
+    "address": "서울특별시 강동구 성내로 25 강동구청",
+    "district": "강동구",
+    "lat": 37.530126,
+    "lng": 127.123771,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 363,
+    "name": "강동구청제2청사",
+    "address": "서울특별시 강동구 성내로 25 강동구청",
+    "district": "강동구",
+    "lat": 37.529861,
+    "lng": 127.124395,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 364,
+    "name": "이케아 강동점",
+    "address": "서울특별시 강동구 고덕비즈밸리로 51",
+    "district": "강동구",
+    "lat": 37.566852,
+    "lng": 127.156941,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 365,
+    "name": "쿠우쿠우 골드 강동점",
+    "address": "서울특별시 강동구 양재대로 1571 홈플러스 지하 1층",
+    "district": "강동구",
+    "lat": 37.545715,
+    "lng": 127.142255,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 366,
+    "name": "현대백화점 천호점",
+    "address": "서울특별시 강동구 천호대로 1005 현대백화점천호점",
+    "district": "강동구",
+    "lat": 37.538861,
+    "lng": 127.124406,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 367,
+    "name": "윤키",
+    "address": "서울특별시 광진구 능동로38길 27 1층 윤키",
+    "district": "광진구",
+    "lat": 37.557314,
+    "lng": 127.081521,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 368,
+    "name": "메종 드 프레지에",
+    "address": "서울특별시 광진구 구의강변로 86 105호",
+    "district": "광진구",
+    "lat": 37.538093,
+    "lng": 127.093895,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 369,
+    "name": "누모",
+    "address": "서울특별시 광진구 뚝섬로34길 67 광진트라팰리스 B동 105호",
+    "district": "광진구",
+    "lat": 37.532097,
+    "lng": 127.067467,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 370,
+    "name": "광진구청",
+    "address": "서울특별시 광진구 아차산로 400",
+    "district": "광진구",
+    "lat": 37.53629,
+    "lng": 127.087722,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 371,
+    "name": "그랜드 워커힐 서울",
+    "address": "서울특별시 광진구 워커힐로 177 그랜드워커힐 서울",
+    "district": "광진구",
+    "lat": 37.555169,
+    "lng": 127.110774,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 372,
+    "name": "하이디라오 건대지점",
+    "address": "서울특별시 광진구 능동로 110 스타시티 영존 A동 2F",
+    "district": "광진구",
+    "lat": 37.540435,
+    "lng": 127.071214,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 373,
+    "name": "멕시칼리",
+    "address": "서울특별시 광진구 천호대로 634",
+    "district": "광진구",
+    "lat": 37.553623,
+    "lng": 127.087589,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 374,
+    "name": "서울어린이대공원",
+    "address": "서울특별시 광진구 능동로 216",
+    "district": "광진구",
+    "lat": 37.549899,
+    "lng": 127.080921,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 375,
+    "name": "온니당",
+    "address": "서울특별시 동대문구 답십리로63길 125 1층",
+    "district": "동대문구",
+    "lat": 37.578179,
+    "lng": 127.069294,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 376,
+    "name": "무드베이킹",
+    "address": "서울특별시 동대문구 회기로25길 22 1층 101호",
+    "district": "동대문구",
+    "lat": 37.591003,
+    "lng": 127.055561,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 377,
+    "name": "본노엘 답십리",
+    "address": "서울특별시 동대문구 전농로 75-18 1층",
+    "district": "동대문구",
+    "lat": 37.571795,
+    "lng": 127.056224,
+    "categories": [
+      "dubai",
+      "cake"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 378,
+    "name": "밍글베이커리",
+    "address": "서울특별시 동대문구 황물로1길 40 1층",
+    "district": "동대문구",
+    "lat": 37.572766,
+    "lng": 127.050818,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 379,
+    "name": "핸섬로스팅커피",
+    "address": "서울특별시 동대문구 고산자로56길 23 1층",
+    "district": "동대문구",
+    "lat": 37.58885,
+    "lng": 127.038143,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 380,
+    "name": "오프닝",
+    "address": "서울특별시 동대문구 사가정로 274 1층",
+    "district": "동대문구",
+    "lat": 37.57978,
+    "lng": 127.075327,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 381,
+    "name": "드쉼",
+    "address": "서울특별시 동대문구 천호대로33길 43 1층 드쉼",
+    "district": "동대문구",
+    "lat": 37.575437,
+    "lng": 127.041481,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 382,
+    "name": "바유 청량리점",
+    "address": "서울특별시 동대문구 제기로 155-1 1층, 바유",
+    "district": "동대문구",
+    "lat": 37.586072,
+    "lng": 127.050576,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 383,
+    "name": "백두대간",
+    "address": "서울특별시 동대문구 보문로 12-7 1층",
+    "district": "동대문구",
+    "lat": 37.576929,
+    "lng": 127.023698,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 384,
+    "name": "팥애정 전농동사거리점",
+    "address": "서울특별시 동대문구 전농로 147 1층 3호",
+    "district": "동대문구",
+    "lat": 37.577951,
+    "lng": 127.057349,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 385,
+    "name": "다온카페",
+    "address": "서울특별시 동대문구 회기로31나길 42 1층",
+    "district": "동대문구",
+    "lat": 37.590982,
+    "lng": 127.057097,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 386,
+    "name": "바나프레소 회기역사거리점",
+    "address": "서울특별시 동대문구 회기로 176",
+    "district": "동대문구",
+    "lat": 37.590077,
+    "lng": 127.055517,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 387,
+    "name": "바나프레소 경희대점",
+    "address": "서울특별시 동대문구 경희대로4길 1",
+    "district": "동대문구",
+    "lat": 37.592615,
+    "lng": 127.052656,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 388,
+    "name": "바나프레소 동대문구청점",
+    "address": "서울특별시 동대문구 고산자로28길 21 1층 바나프레소",
+    "district": "동대문구",
+    "lat": 37.575175,
+    "lng": 127.039532,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 389,
+    "name": "동대문구청",
+    "address": "서울특별시 동대문구 천호대로 145 동대문구청",
+    "district": "동대문구",
+    "lat": 37.574524,
+    "lng": 127.03965,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 390,
+    "name": "경희대학교서울캠퍼스평화의전당",
+    "address": "서울특별시 동대문구 경희대로 26",
+    "district": "동대문구",
+    "lat": 37.598692,
+    "lng": 127.052747,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 391,
+    "name": "스타벅스 경동1960점",
+    "address": "서울특별시 동대문구 고산자로36길 3",
+    "district": "동대문구",
+    "lat": 37.579614,
+    "lng": 127.038685,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 392,
+    "name": "안동집 손칼국시",
+    "address": "서울특별시 동대문구 고산자로36길 3 신관 지하1층",
+    "district": "동대문구",
+    "lat": 37.579038,
+    "lng": 127.039143,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 393,
+    "name": "L65호텔웨딩컨벤션",
+    "address": "서울특별시 동대문구 왕산로 200 청량리역 롯데캐슬스카이-L65 타워동 6층",
+    "district": "동대문구",
+    "lat": 37.579886,
+    "lng": 127.046159,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 394,
+    "name": "요거트앤",
+    "address": "서울특별시 동대문구 신이문로 24 1층 104호",
+    "district": "동대문구",
+    "lat": 37.602877,
+    "lng": 127.064766,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 395,
+    "name": "온디앨리",
+    "address": "서울특별시 성북구 돌곶이로14길 49 1층 온디앨리",
+    "district": "성북구",
+    "lat": 37.608878,
+    "lng": 127.062456,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 396,
+    "name": "뉴칼레도니아",
+    "address": "서울특별시 성북구 보문로31길 11 뉴칼레도니아",
+    "district": "성북구",
+    "lat": 37.588546,
+    "lng": 127.016198,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
     "status": "available",
     "price": 5500,
     "rating": 4.6,
