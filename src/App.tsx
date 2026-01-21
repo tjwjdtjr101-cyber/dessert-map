@@ -172,7 +172,7 @@ export default function App() {
           <div className="mt-6 flex flex-col items-center gap-3">
             <CategoryFilter activeCategory={activeCategory} onCategoryChange={setActiveCategory} />
 
-            <div className="w-full max-w-3xl">
+            <div className="w-full max-w-4xl">
               <label className="sr-only" htmlFor="store-search">Search</label>
               <div className="flex items-center gap-2 border-2 border-black shadow-[4px_4px_0_#111] bg-white px-3 py-2">
                 <Search className="w-5 h-5" />
