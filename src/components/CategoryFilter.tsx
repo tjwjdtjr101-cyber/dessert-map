@@ -24,15 +24,18 @@ export default function CategoryFilter({ activeCategory, onCategoryChange }: Cat
             key={cat.id}
             onClick={() => onCategoryChange(cat.id)}
             className={[
-              'flex items-center gap-2',
-              'px-3 py-1.5',                 // ✅ 더 작게
+              'shrink-0',
+              'flex items-center gap-1.5',
+              'px-2.5 py-1',                 // ✅ 작아짐
               'rounded-full',
               'border border-black/70',
               'bg-[#F6F1E6]',
-              'shadow-[0_4px_10px_rgba(0,0,0,0.10)]',
-              'font-extrabold text-[10px] tracking-wide whitespace-nowrap', // ✅ 글자 더 작게
+              'font-extrabold text-[9.5px] tracking-wide whitespace-nowrap', // ✅ 글자 작게
+              'leading-none',
               'transition',
-              isActive ? 'bg-black/85 text-white' : 'text-black hover:bg-white/70',
+              activeCategory === cat.id
+                ? 'bg-black/90 text-white'
+                : 'text-black hover:bg-white/70',
             ].join(' ')}
             aria-pressed={isActive}
           >
