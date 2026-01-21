@@ -1,29 +1,20 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 html,
 body {
   margin: 0;
   padding: 0;
-  font-family: "Montserrat", system-ui, sans-serif;
+  font-family: "Montserrat", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
   background: #ffd400;
 }
 
-::-webkit-scrollbar {
-  display: none;
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .scrollbar-hide {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
-.dubai-marker {
-  border-radius: 9999px;
-  border: 3px solid #000;
-  box-shadow: 3px 3px 0 #000;
-  background: #fff;
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
 }
-
-* { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
-html, body { font-family: "Montserrat", system-ui, sans-serif; }
