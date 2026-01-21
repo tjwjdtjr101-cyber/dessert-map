@@ -98,12 +98,7 @@ export default function App() {
           - 원하면 md:max-w-6xl 로 바꾸면 “웹 확장 버전” 됨 */}
       <div className="mx-auto w-full max-w-[420px] md:max-w-6xl px-3 md:px-6 pb-10">
         
-        {/* Error badge */}
-        {loadError ? (
-          <div className="mt-3 inline-flex items-center gap-2 border border-black/60 bg-white/70 px-3 py-1 rounded-full text-[11px] font-bold shadow-[0_10px_30px_rgba(0,0,0,0.15)]">
-            ⚠️ {loadError}
-          </div>
-        ) : null}
+
 
         {/* HERO (모바일 1열) */}
         <section className="mt-4">
