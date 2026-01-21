@@ -112,14 +112,18 @@ export default function StoreMap({ activeCategory, onSelectStore, onMapReady }: 
           map,
           icon: {
             content: `
-              <div style="width:28px; height:28px;">
-                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <circle cx="14" cy="14" r="8" fill="#3B82F6"/>
-                  <circle cx="14" cy="14" r="12" stroke="#3B82F6" stroke-width="3" fill="none"/>
-                </svg>
-              </div>
-            `,
-            anchor: new window.naver.maps.Point(14, 14),
+  <div style="
+    width:32px;height:32px;border-radius:9999px;
+    background:rgba(255,255,255,0.92);
+    border:1px solid rgba(0,0,0,0.35);
+    box-shadow:0 8px 18px rgba(0,0,0,0.14);
+    display:flex;align-items:center;justify-content:center;
+    font-size:17px;
+  ">
+    <span style="transform: translateY(-0.5px);">${emoji}</span>
+  </div>
+`,
+anchor: new window.naver.maps.Point(16, 16),
           },
         });
 
