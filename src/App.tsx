@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { MapPin, Bell } from 'lucide-react';
+import { MapPin, Bell, Search } from 'lucide-react';
 import StoreMap from './components/StoreMap';
 import StoreDetailModal from './components/StoreDetailModal';
 import CategoryFilter from './components/CategoryFilter';
@@ -8,10 +8,9 @@ import StoreListView from './components/StoreListView';
 // ✅ 더미 데이터는 "fallback" 용도로만 사용
 import { stores as fallbackStores, Store, Category, StoreCategory } from './data/stores';
 
-console.log("🔥 App.tsx LOADED", new Date().toISOString());
+console.log('🔥 App.tsx LOADED', new Date().toISOString());
 
 type StoreWithCompat = Store & {
-  // stores.json이 category를 포함할 수도 / 안 할 수도 있어서 호환 필드 추가
   category?: StoreCategory;
   categories?: StoreCategory[];
 };
@@ -36,7 +35,6 @@ function normalizeStores(raw: any): StoreWithCompat[] {
         category,
       } as StoreWithCompat;
     })
-    // 최소 필수 필드가 없는 건 제거(지도/리스트 깨짐 방지)
     .filter((s) => typeof s?.id === 'number' && typeof s?.lat === 'number' && typeof s?.lng === 'number');
 }
 
@@ -50,7 +48,7 @@ export default function App() {
   const mapRef = useRef<any>(null);
 
   useEffect(() => {
-    console.log("🚀 fetching stores.json");
+    console.log('🚀 fetching stores.json');
     let cancelled = false;
 
     (async () => {
@@ -58,7 +56,6 @@ export default function App() {
       setLoadError(null);
 
       try {
-        // ✅ 캐시 회피(호스팅/브라우저 캐시 때문에 최신이 안 뜨는 케이스 방지)
         const res = await fetch('/stores.json?ts=' + Date.now(), { cache: 'no-store' });
         if (!res.ok) throw new Error(`stores.json fetch failed: ${res.status}`);
 
@@ -70,7 +67,6 @@ export default function App() {
           setIsLoading(false);
         }
       } catch (e: any) {
-        // ✅ 실패 시 fallback 더미 데이터라도 보여주기
         const normalizedFallback = normalizeStores(fallbackStores);
 
         if (!cancelled) {
@@ -102,93 +98,169 @@ export default function App() {
     }
   };
 
+  // 숫자 카드에 쓸 값들
+  const todayCount = filteredStores.length;
+
   return (
-    <div className="min-h-screen bg-[#FFF9F5]">
-      <header className="bg-white border-b border-gray-200 sticky top-0 z-50">
-        <div className="container mx-auto px-4 py-4">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-3">
-              <img src="/두바이쫀든쿠키.png" alt="Dubai Dessert" className="w-10 h-10" />
-              <div>
-                <h1 className="text-xl font-bold text-gray-900">Dubai Dessert</h1>
-                <p className="text-xs text-[#FF8C42] font-medium">실시간 디저트 트래킹</p>
+    <div className="min-h-screen bg-[#FFD400]">
+      {/* ===== Top Bar (기존 헤더 대체: 사진1 스타일) ===== */}
+      <header className="sticky top-0 z-50 bg-[#FFD400] border-b-2 border-black">
+        <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+          <div className="flex items-center gap-3">
+            <button className="w-10 h-10 border-2 border-black bg-white grid place-items-center">
+              ☰
+            </button>
+
+            <div className="flex items-center gap-2">
+              <div className="w-10 h-10 border-2 border-black bg-black grid place-items-center text-white">
+                🍪
+              </div>
+              <div className="leading-tight">
+                <div className="font-black tracking-tight text-lg">DESSERT</div>
+                <div className="text-[11px] font-semibold -mt-0.5">FINDER</div>
               </div>
             </div>
-            <nav className="flex items-center gap-6">
-              <button className="text-sm font-medium text-gray-700 hover:text-[#FF8C42] transition-colors">
-                지도
-              </button>
-              <button className="text-sm font-medium text-gray-700 hover:text-[#FF8C42] transition-colors">
-                판매처
-              </button>
-              <button className="text-sm font-medium text-gray-700 hover:text-[#FF8C42] transition-colors flex items-center gap-1">
-                <Bell className="w-4 h-4" />
-                알림설정
-              </button>
-            </nav>
           </div>
+
+          <nav className="flex items-center gap-2">
+            <button className="w-10 h-10 border-2 border-black bg-white grid place-items-center">
+              <Bell className="w-4 h-4" />
+            </button>
+            <button className="w-10 h-10 border-2 border-black bg-pink-500 text-white grid place-items-center">
+              👤
+            </button>
+          </nav>
         </div>
       </header>
 
-      <div className="bg-gradient-to-br from-[#FFF5EB] to-[#FFF9F5] py-12 md:py-16">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-10">
-            <div className="inline-block bg-[#FFE8D6] text-[#FF8C42] px-4 py-1.5 rounded-full text-sm font-bold mb-4">
-              ✨ 실시간 재고 업데이트
+      {/* ===== Hero (사진1 + 사진2 믹스) ===== */}
+      <section className="max-w-6xl mx-auto px-4 pt-6">
+        {/* (옵션) 로드 에러 배지 */}
+        {loadError ? (
+          <div className="mb-3 inline-flex items-center gap-2 border-2 border-black bg-white px-3 py-1 rounded-full text-xs font-semibold shadow-[3px_3px_0_#000]">
+            ⚠️ {loadError}
+          </div>
+        ) : null}
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          {/* LEFT: REAL TIME 카드 */}
+          <div className="md:col-span-2 h-[120px] rounded-xl border-4 border-black bg-gradient-to-r from-pink-500 via-orange-400 to-purple-500 shadow-[6px_6px_0_#000] flex flex-col justify-center px-6">
+            <div className="text-white text-4xl md:text-5xl font-black tracking-[0.06em]">
+              REAL TIME
             </div>
-            <h2 className="text-4xl md:text-5xl font-black text-gray-900 mb-3">서울에서 찾는</h2>
-            <h2 className="text-4xl md:text-5xl font-black bg-gradient-to-r from-[#FF8C42] to-[#FF6B1A] bg-clip-text text-transparent mb-5">
-              프리미엄 디저트
-            </h2>
-            <p className="text-gray-600 text-base md:text-lg">가장 가까운 판매처의 실시간 재고를 확인하고</p>
-            <p className="text-gray-600 text-base md:text-lg">신선한 디저트를 즐기세요</p>
+            <div className="text-white/90 text-xs font-semibold tracking-wider mt-1">
+              STOCK UPDATES
+            </div>
           </div>
 
-          <div className="max-w-4xl mx-auto mb-8">
+          {/* RIGHT: TODAY 카드 */}
+          <div className="h-[120px] rounded-xl border-4 border-black shadow-[6px_6px_0_#000] overflow-hidden">
+            <div className="h-full bg-gradient-to-r from-blue-600 to-purple-600 flex">
+              <div className="flex-1 bg-white flex flex-col justify-center px-4">
+                <div className="text-[11px] text-gray-500 font-bold tracking-widest">
+                  TODAY
+                </div>
+                <div className="text-4xl font-black leading-none mt-1">{todayCount}+</div>
+                <div className="text-[11px] font-bold tracking-widest mt-1">
+                  STORES
+                </div>
+              </div>
+
+              {/* 여기 이미지는 선택사항:
+                  public/images/hero_dessert.png 같은 파일을 두면 더 “포스터 느낌”으로 살아남
+              */}
+              <div className="w-[140px] flex items-center justify-center">
+                <img
+                  src="/images/hero_dessert.png"
+                  alt="dessert"
+                  className="w-[110px] h-[110px] object-contain drop-shadow-lg"
+                  onError={(e) => {
+                    // 이미지 없을 때 깨지지 않게
+                    (e.currentTarget as HTMLImageElement).style.display = 'none';
+                  }}
+                />
+                <div className="text-white/90 text-2xl font-black" aria-hidden>
+                  🍫
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* ===== Title line (사진2 타이포 느낌) ===== */}
+        <div className="mt-5 flex items-center gap-4">
+          <h2 className="text-3xl md:text-4xl font-black tracking-tight">디저트 재고</h2>
+          <div className="flex-1 h-[2px] bg-black" />
+          <div className="text-sm font-black">©24</div>
+        </div>
+
+        {/* ===== Filter + Search Row ===== */}
+        <div className="mt-4 flex flex-col md:flex-row md:items-center gap-3">
+          <div className="shrink-0">
+            {/* ✅ 기존 컴포넌트 그대로 */}
             <CategoryFilter activeCategory={activeCategory} onCategoryChange={setActiveCategory} />
           </div>
 
-          <div className="max-w-5xl mx-auto mb-8">
-            <div className="relative">
-              <MapPin className="absolute left-4 top-4 w-5 h-5 text-gray-400 z-10" />
-              <input
-                type="text"
-                placeholder="서울특별시에서 검색 중..."
-                className="w-full pl-12 pr-4 py-4 rounded-xl border-2 border-gray-200 focus:border-[#FF8C42] focus:outline-none text-gray-700 font-medium shadow-sm"
-                readOnly
-              />
-            </div>
-          </div>
-
-          <div className="max-w-6xl mx-auto">
-            <StoreMap
-              // StoreMap/StoreListView는 Store 타입을 받는데,
-              // 실제로는 StoreWithCompat가 Store를 포함하므로 캐스팅해서 전달
-              stores={filteredStores as unknown as Store[]}
-              activeCategory={activeCategory}   // ✅ 이 줄 추가
-              onSelectStore={setSelectedStore}
-              onMapReady={(map) => {
-                mapRef.current = map;
-              }}
+          {/* Search (기존 화면 감성 섞기: 라운드+굵은 라인) */}
+          <div className="md:ml-auto flex items-center gap-2 bg-white border-2 border-black rounded-full px-4 py-3 shadow-[4px_4px_0_#000] max-w-xl w-full md:w-[420px]">
+            <Search className="w-4 h-4" />
+            <input
+              type="text"
+              placeholder="Search"
+              className="w-full bg-transparent outline-none text-sm font-semibold"
+              readOnly
             />
           </div>
         </div>
-      </div>
+      </section>
 
+      {/* ===== Map Section ===== */}
+      <section className="max-w-6xl mx-auto px-4 mt-5">
+        <div className="relative h-[280px] md:h-[340px] rounded-xl border-4 border-black overflow-hidden bg-white shadow-[6px_6px_0_#000]">
+          <StoreMap
+            stores={filteredStores as unknown as Store[]}
+            activeCategory={activeCategory} // ✅ 기존 props 유지
+            onSelectStore={setSelectedStore}
+            onMapReady={(map) => {
+              mapRef.current = map;
+            }}
+          />
+          <button
+            className="absolute right-3 bottom-3 w-11 h-11 border-2 border-black bg-white grid place-items-center shadow-[3px_3px_0_#000]"
+            title="현재 위치"
+          >
+            <MapPin className="w-4 h-4" />
+          </button>
+        </div>
+
+        {/* 로딩 표시 */}
+        {isLoading ? (
+          <div className="mt-3 inline-flex items-center gap-2 border-2 border-black bg-white px-3 py-1 rounded-full text-xs font-semibold shadow-[3px_3px_0_#000]">
+            ⏳ stores loading...
+          </div>
+        ) : null}
+      </section>
+
+      {/* ===== Nearby Section ===== */}
       {!isLoading && (
-        <StoreListView
-          stores={filteredStores as unknown as Store[]}
-          category={activeCategory}
-          onStoreSelect={setSelectedStore}
-          onZoomToStore={handleZoomToStore}
-        />
+        <section className="max-w-6xl mx-auto px-4 mt-8 pb-10">
+          <div className="flex items-center gap-4 mb-3">
+            <h3 className="text-lg font-black tracking-wide">NEARBY STORES</h3>
+            <div className="flex-1 h-[2px] bg-black" />
+            <div className="text-sm font-black">{filteredStores.length}</div>
+          </div>
+
+          <StoreListView
+            stores={filteredStores as unknown as Store[]}
+            category={activeCategory}
+            onStoreSelect={setSelectedStore}
+            onZoomToStore={handleZoomToStore}
+          />
+        </section>
       )}
 
-      <footer className="bg-white border-t border-gray-200 py-8">
-        <div className="container mx-auto px-4 text-center">
-          <p className="text-gray-600 text-sm">© 2026 Dubai Dessert. 모든 디저트 정보는 실시간으로 업데이트됩니다.</p>
-        </div>
-      </footer>
-
+      {/* ✅ 기존 모달 유지 */}
       <StoreDetailModal store={selectedStore} onClose={() => setSelectedStore(null)} />
     </div>
+  );
+}
