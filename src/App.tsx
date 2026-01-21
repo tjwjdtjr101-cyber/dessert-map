@@ -165,7 +165,6 @@ export default function App() {
               // StoreMap/StoreListView는 Store 타입을 받는데,
               // 실제로는 StoreWithCompat가 Store를 포함하므로 캐스팅해서 전달
               stores={filteredStores as unknown as Store[]}
-              activeCategory={activeCategory}   // ✅ 이 줄 추가
               onSelectStore={setSelectedStore}
               onMapReady={(map) => {
                 mapRef.current = map;
