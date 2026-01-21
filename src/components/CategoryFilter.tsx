@@ -39,7 +39,7 @@ export default function CategoryFilter({ activeCategory, onCategoryChange }: Cat
             ].join(' ')}
             aria-pressed={isActive}
           >
-            <span className="text-[11px] leading-none">{cat.emoji}</span>
+            <span className="text-[18px] leading-none">{cat.emoji}</span>
             <span className="leading-tight">
               <span className="block text-[12px]">{cat.ko}</span>
               <span className="block text-[10px] opacity-80 tracking-widest">{cat.en}</span>
