@@ -5,7 +5,6 @@ import StoreDetailModal from './components/StoreDetailModal';
 import CategoryFilter from './components/CategoryFilter';
 import StoreListView from './components/StoreListView';
 
-// ✅ 더미 데이터는 "fallback" 용도로만 사용
 import { stores as fallbackStores, Store, Category, StoreCategory } from './data/stores';
 
 console.log('🔥 App.tsx LOADED', new Date().toISOString());
@@ -44,7 +43,10 @@ export default function App() {
   const [loadError, setLoadError] = useState<string | null>(null);
 
   const [selectedStore, setSelectedStore] = useState<Store | null>(null);
-  const [activeCategory, setActiveCategory] = useState<Category>('all');
+
+  // ✅ 마커 과밀 완화: 처음엔 dubai로 시작(원하면 'all'로 바꿔도 됨)
+  const [activeCategory, setActiveCategory] = useState<Category>('dubai');
+
   const mapRef = useRef<any>(null);
 
   useEffect(() => {
@@ -56,7 +58,6 @@ export default function App() {
       setLoadError(null);
 
       try {
-        // ✅ 캐시 회피
         const res = await fetch('/stores.json?ts=' + Date.now(), { cache: 'no-store' });
         if (!res.ok) throw new Error(`stores.json fetch failed: ${res.status}`);
 
@@ -99,12 +100,12 @@ export default function App() {
     }
   };
 
-  // ✅ 1번 디자인의 TODAY 숫자
-  const todayCount = filteredStores.length;
+  // ✅ 1번 이미지처럼 보이게: 상한 걸어서 24+ 느낌 유지
+  const todayCount = Math.min(filteredStores.length, 24);
 
   return (
     <div className="min-h-screen bg-[#FFD400]">
-      {/* ===== Top App Bar (사진1 느낌) ===== */}
+      {/* Top Bar */}
       <header className="sticky top-0 z-50 bg-[#FFD400] border-b-2 border-black">
         <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
           <div className="flex items-center gap-3">
@@ -134,9 +135,8 @@ export default function App() {
         </div>
       </header>
 
-      {/* ===== HERO (✅ 1번 디자인: 포스터 + TODAY 카드) ===== */}
+      {/* HERO */}
       <section className="max-w-6xl mx-auto px-4 pt-6">
-        {/* 에러 배지(있으면만) */}
         {loadError ? (
           <div className="mb-4 inline-flex items-center gap-2 border-2 border-black bg-white px-3 py-1 rounded-full text-xs font-bold shadow-[3px_3px_0_#000]">
             ⚠️ {loadError}
@@ -144,54 +144,53 @@ export default function App() {
         ) : null}
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 items-stretch">
-          {/* LEFT: Poster block */}
-          <div className="md:col-span-2 rounded-xl border-4 border-black bg-[#FFD400] shadow-[6px_6px_0_#000] p-6 md:p-8">
-            <div className="font-black tracking-[0.24em] text-xs md:text-sm">REAL TIME</div>
+          {/* Poster */}
+          <div className="md:col-span-2 rounded-[12px] border-[3px] border-black bg-[#FFD400] shadow-[4px_4px_0_#000] px-8 py-10">
+            <div className="font-black tracking-[0.28em] text-xs md:text-sm">REAL TIME</div>
 
-            <div className="mt-4 font-black leading-[0.88] text-black">
-              <div className="text-[54px] md:text-[80px] tracking-tight">DESSERT</div>
-              <div className="text-[54px] md:text-[80px] tracking-tight">STOCK</div>
+            <div className="mt-6 font-black leading-[0.82] text-black">
+              <div className="text-[64px] md:text-[92px] tracking-tight">DESSERT</div>
+              <div className="text-[64px] md:text-[92px] tracking-tight">STOCK</div>
             </div>
 
-            <div className="mt-6 h-[3px] bg-black w-full" />
-            <div className="mt-4 font-black tracking-[0.40em] text-xs md:text-sm">SEOUL · 2026</div>
+            <div className="mt-8 h-[2px] bg-black w-full" />
+            <div className="mt-5 font-black tracking-[0.42em] text-xs md:text-sm">SEOUL · 2026</div>
           </div>
 
-          {/* RIGHT: TODAY card */}
-          <div className="rounded-xl border-4 border-black bg-white shadow-[6px_6px_0_#000] overflow-hidden">
-            <div className="bg-black text-white px-4 py-3 font-black tracking-[0.28em] text-xs">
+          {/* Today */}
+          <div className="rounded-[12px] border-[3px] border-black bg-white shadow-[4px_4px_0_#000] overflow-hidden">
+            <div className="bg-black text-white px-4 py-2 font-black tracking-[0.30em] text-[11px]">
               TODAY
             </div>
 
-            <div className="p-5 flex flex-col gap-3">
-              <div className="text-5xl font-black leading-none">{todayCount}+</div>
-              <div className="text-xs font-black tracking-[0.28em]">STORES</div>
+            <div className="p-4">
+              <div className="text-[56px] font-black leading-none">{todayCount}+</div>
+              <div className="mt-1 text-[11px] font-black tracking-[0.30em]">STORES</div>
 
-              {/* 작은 아이콘 라벨 (유럽 포스터 느낌 유지) */}
-              <div className="mt-4 border-2 border-black rounded-lg p-3 flex items-center justify-between">
+              <div className="mt-6 border-2 border-black rounded-[10px] px-4 py-3 flex items-center justify-between">
                 <div className="text-[11px] font-black tracking-[0.22em]">FEATURED</div>
-                <div className="text-2xl">🥐</div>
+                <div className="text-xl">🥐</div>
               </div>
             </div>
           </div>
         </div>
 
-        {/* ===== Title line ===== */}
-        <div className="mt-6 flex items-center gap-4">
-          <h2 className="text-3xl md:text-4xl font-black tracking-tight">디저트 재고</h2>
-          <div className="flex-1 h-[2px] bg-black" />
-          <div className="text-sm font-black">©24</div>
+        {/* Title line */}
+        <div className="mt-6 flex items-end gap-4">
+          <h2 className="text-4xl md:text-5xl font-black tracking-tight">디저트 재고</h2>
+          <div className="flex-1 h-[2px] bg-black mb-2" />
+          <div className="text-sm font-black mb-2">©24</div>
         </div>
 
-        {/* ===== Filters (너가 수정한 CategoryFilter 그대로 사용) ===== */}
+        {/* Filters */}
         <div className="mt-4">
           <CategoryFilter activeCategory={activeCategory} onCategoryChange={setActiveCategory} />
         </div>
       </section>
 
-      {/* ===== Map ===== */}
+      {/* Map */}
       <section className="max-w-6xl mx-auto px-4 mt-5">
-        <div className="relative h-[280px] md:h-[340px] rounded-xl border-4 border-black overflow-hidden bg-white shadow-[6px_6px_0_#000]">
+        <div className="relative h-[280px] md:h-[340px] rounded-[12px] border-[3px] border-black overflow-hidden bg-white shadow-[4px_4px_0_#000]">
           <StoreMap
             stores={filteredStores as unknown as Store[]}
             activeCategory={activeCategory}
@@ -209,7 +208,7 @@ export default function App() {
         ) : null}
       </section>
 
-      {/* ===== List ===== */}
+      {/* List */}
       {!isLoading && (
         <section className="max-w-6xl mx-auto px-4 mt-8 pb-10">
           <div className="flex items-center gap-4 mb-3">
