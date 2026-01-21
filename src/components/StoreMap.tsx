@@ -1,13 +1,9 @@
 import { useEffect, useRef, useState } from 'react';
-import { Store } from '../data/stores';
-import { Store, Category } from '../data/stores';
+import { Store, Category, StoreCategory } from '../data/stores';
 
 interface StoreMapProps {
-  // ✅ 기존 props 유지 (부모가 뭐를 넘기든 상관없이 StoreMap이 직접 runtimeStores를 가져오게 함)
-  // 부모가 넘기는 필터된 stores는 유지(지금은 runtimeStores 기반이라 참고용)
+  // 부모가 넘기는 stores는 "참고/호환" 용도 (현재는 runtimeStores 기준 렌더)
   stores: Store[];
-  activeCategory: Category; // ✅ 추가
-  // ✅ 카테고리 상태를 받아서 지도도 필터링
   activeCategory: Category;
   onSelectStore: (store: Store) => void;
   onMapReady?: (mapInstance: any) => void;
@@ -19,46 +15,50 @@ declare global {
   }
 }
 
-export default function StoreMap({ stores, activeCategory, onSelectStore, onMapReady }: StoreMapProps) {
+type AnyStore = any;
+
+export default function StoreMap({ activeCategory, onSelectStore, onMapReady }: StoreMapProps) {
   const mapRef = useRef<HTMLDivElement>(null);
   const mapInstanceRef = useRef<any>(null);
   const markersRef = useRef<any[]>([]);
   const userMarkerRef = useRef<any>(null);
 
-  const [userLocation, setUserLocation] = useState<{ lat: number; lng: number } | null>(null);
   const [isMapLoaded, setIsMapLoaded] = useState(false);
   const [mapError, setMapError] = useState<string | null>(null);
 
-  // ✅ StoreMap이 직접 stores.json을 로드해서 사용
-  const [runtimeStores, setRuntimeStores] = useState<Store[]>([]);
+  // ✅ StoreMap이 직접 stores.json 로드
+  const [runtimeStores, setRuntimeStores] = useState<AnyStore[]>([]);
 
   /**
-   * ✅ stores.json 로드 (StoreMap에서 직접)
+   * ✅ stores.json 로드
    */
   useEffect(() => {
+    let cancelled = false;
+
     (async () => {
       try {
         console.log('🚀 StoreMap fetching /stores.json');
         const res = await fetch('/stores.json?ts=' + Date.now(), { cache: 'no-store' });
         if (!res.ok) throw new Error(`stores.json fetch failed: ${res.status}`);
-
         const data = await res.json();
-        if (Array.isArray(data)) {
-          setRuntimeStores(data);
-          console.log('✅ StoreMap loaded stores:', data.length);
-        } else {
-          setRuntimeStores([]);
-          console.warn('⚠️ stores.json is not an array');
+
+        if (!cancelled) {
+          setRuntimeStores(Array.isArray(data) ? data : []);
+          console.log('✅ StoreMap loaded stores:', Array.isArray(data) ? data.length : 0);
         }
       } catch (e) {
         console.error('❌ StoreMap failed to load stores.json', e);
-        setRuntimeStores([]);
+        if (!cancelled) setRuntimeStores([]);
       }
     })();
+
+    return () => {
+      cancelled = true;
+    };
   }, []);
 
   /**
-   * ✅ [기존] 네이버 지도 스크립트 로드/준비 완료 체크
+   * ✅ 네이버 지도 로드 확인
    */
   useEffect(() => {
     console.log('현재 접속 URL:', window.location.href);
@@ -80,138 +80,116 @@ export default function StoreMap({ stores, activeCategory, onSelectStore, onMapR
     const waitForMaps = () => {
       if (window.naver?.maps) {
         console.log('naver.maps 객체 감지됨');
-
-        if (typeof window.naver.maps.onJSContentLoaded === 'function') {
-          window.naver.maps.onJSContentLoaded = () => {
-            console.log('네이버 지도 JS Content Loaded');
-            window.clearTimeout(timeoutId);
-            setIsMapLoaded(true);
-          };
-        } else {
-          window.clearTimeout(timeoutId);
-          setIsMapLoaded(true);
-        }
+        window.clearTimeout(timeoutId);
+        setIsMapLoaded(true);
         return;
       }
-
       window.setTimeout(waitForMaps, 100);
     };
 
     waitForMaps();
-
     return () => window.clearTimeout(timeoutId);
   }, []);
 
   /**
-   * 지도 생성 (1회)
+   * ✅ 지도 생성 (1회)
    */
   useEffect(() => {
     if (!mapRef.current || !window.naver?.maps || !isMapLoaded) return;
     if (mapInstanceRef.current) return;
 
-    const mapOptions = {
+    const map = new window.naver.maps.Map(mapRef.current, {
       center: new window.naver.maps.LatLng(37.5665, 126.978),
       zoom: 12,
       zoomControl: true,
       zoomControlOptions: {
         position: window.naver.maps.Position.TOP_RIGHT,
       },
-    };
+    });
 
-    const map = new window.naver.maps.Map(mapRef.current, mapOptions);
     mapInstanceRef.current = map;
     onMapReady?.(map);
 
-    // 📍 내 위치 버튼
+    // 📍 내 위치 버튼 (사진1 느낌: 굵은 보더 + 쉐도우)
     const locationButton = document.createElement('button');
+    locationButton.type = 'button';
     locationButton.innerHTML = '📍';
     locationButton.style.cssText = `
       position: absolute;
-      bottom: 20px;
-      right: 20px;
-      width: 50px;
-      height: 50px;
-      background-color: #FF8C42;
-      color: white;
-      border: none;
+      bottom: 14px;
+      right: 14px;
+      width: 46px;
+      height: 46px;
+      background: #ffffff;
+      border: 3px solid #000000;
       border-radius: 10px;
-      font-size: 24px;
+      font-size: 22px;
       cursor: pointer;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+      box-shadow: 4px 4px 0 #000;
       z-index: 1000;
-      transition: all 0.3s ease;
     `;
 
-    locationButton.addEventListener('mouseenter', () => {
-      locationButton.style.backgroundColor = '#FF7A2E';
-      locationButton.style.transform = 'scale(1.1)';
-    });
-
-    locationButton.addEventListener('mouseleave', () => {
-      locationButton.style.backgroundColor = '#FF8C42';
-      locationButton.style.transform = 'scale(1)';
-    });
-
     locationButton.addEventListener('click', () => {
-      if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition((position) => {
-          const { latitude, longitude } = position.coords;
-          const newLocation = { lat: latitude, lng: longitude };
-          setUserLocation(newLocation);
+      if (!navigator.geolocation) return;
 
-          map.setCenter(new window.naver.maps.LatLng(latitude, longitude));
-          map.setZoom(15);
+      navigator.geolocation.getCurrentPosition((position) => {
+        const { latitude, longitude } = position.coords;
 
-          if (userMarkerRef.current) {
-            userMarkerRef.current.setMap(null);
-          }
+        map.setCenter(new window.naver.maps.LatLng(latitude, longitude));
+        map.setZoom(15);
 
-          const userMarker = new window.naver.maps.Marker({
-            position: new window.naver.maps.LatLng(latitude, longitude),
-            map: map,
-            icon: {
-              content: `
-                <div style="width: 28px; height: 28px; position: relative;">
-                  <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="14" cy="14" r="8" fill="#3B82F6"/>
-                    <circle cx="14" cy="14" r="12" stroke="#3B82F6" stroke-width="3" fill="none"/>
-                  </svg>
-                </div>
-              `,
-              anchor: new window.naver.maps.Point(14, 14),
-            },
-          });
+        // 기존 사용자 마커 제거
+        if (userMarkerRef.current) {
+          userMarkerRef.current.setMap(null);
+          userMarkerRef.current = null;
+        }
 
-          userMarkerRef.current = userMarker;
+        // 사용자 마커 생성
+        const userMarker = new window.naver.maps.Marker({
+          position: new window.naver.maps.LatLng(latitude, longitude),
+          map,
+          icon: {
+            content: `
+              <div style="width: 28px; height: 28px; position: relative;">
+                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="14" cy="14" r="8" fill="#3B82F6"/>
+                  <circle cx="14" cy="14" r="12" stroke="#3B82F6" stroke-width="3" fill="none"/>
+                </svg>
+              </div>
+            `,
+            anchor: new window.naver.maps.Point(14, 14),
+          },
         });
-      }
+
+        userMarkerRef.current = userMarker;
+      });
     });
 
-    if (mapRef.current) {
-      mapRef.current.appendChild(locationButton);
-    }
+    mapRef.current.appendChild(locationButton);
 
     return () => {
-      markersRef.current.forEach((marker) => marker.setMap(null));
+      // 마커 정리
+      markersRef.current.forEach((m) => m.setMap(null));
       markersRef.current = [];
       if (userMarkerRef.current) {
         userMarkerRef.current.setMap(null);
         userMarkerRef.current = null;
       }
+      // 버튼 제거(안전)
+      try {
+        mapRef.current?.removeChild(locationButton);
+      } catch {}
     };
-  }, [onMapReady, isMapLoaded]);
+  }, [isMapLoaded, onMapReady]);
 
   /**
-   * 마커 렌더링
-   * - ✅ runtimeStores(=stores.json) 기준으로 렌더
-   * - ✅ runtimeStores 기준으로 렌더
-   * - ✅ activeCategory 기준으로 필터링
+   * ✅ 마커 렌더링 (runtimeStores 기준 + activeCategory 필터)
    */
   useEffect(() => {
-    if (!mapInstanceRef.current || !window.naver?.maps || !isMapLoaded || !Array.isArray(runtimeStores)) return;
+    if (!mapInstanceRef.current || !window.naver?.maps || !isMapLoaded) return;
 
     // 기존 마커 제거
-    markersRef.current.forEach((marker) => marker.setMap(null));
+    markersRef.current.forEach((m) => m.setMap(null));
     markersRef.current = [];
 
     const categoryEmojis: Record<string, string> = {
@@ -221,34 +199,32 @@ export default function StoreMap({ stores, activeCategory, onSelectStore, onMapR
       cake: '🎂',
     };
 
-    runtimeStores.forEach((store: any) => {
-    // ✅ 카테고리 필터 적용
     const storesToRender =
       activeCategory === 'all'
         ? runtimeStores
-        : runtimeStores.filter((s: any) => {
-            const cats = Array.isArray(s.categories) ? s.categories : s.category ? [s.category] : [];
-            return cats.includes(activeCategory);
+        : runtimeStores.filter((s: AnyStore) => {
+            const cats: StoreCategory[] = Array.isArray(s?.categories)
+              ? s.categories
+              : s?.category
+                ? [s.category]
+                : [];
+            return cats.includes(activeCategory as StoreCategory);
           });
 
     console.log('🧩 Map category:', activeCategory, 'rendering:', storesToRender.length);
 
-    storesToRender.forEach((store: any) => {
-      // ✅ 좌표 방어
-      if (store.lat == null || store.lng == null) return;
-      const lat = Number(store.lat);
-      const lng = Number(store.lng);
+    storesToRender.forEach((store: AnyStore) => {
+      // 좌표 방어
+      const lat = Number(store?.lat);
+      const lng = Number(store?.lng);
       if (!Number.isFinite(lat) || !Number.isFinite(lng)) return;
 
-      // ✅ category 방어 (category 없으면 categories[0])
-      // ✅ category 방어
-      const cat = store.category ?? store.categories?.[0] ?? 'dubai';
+      const cat = (store?.category ?? store?.categories?.[0] ?? 'dubai') as string;
       const emoji = categoryEmojis[String(cat)] || '🍪';
 
-      // ✅ price/status 방어
-      const safePrice = typeof store.price === 'number' ? store.price : Number(store.price);
+      const safePrice = typeof store?.price === 'number' ? store.price : Number(store?.price);
       const priceText = Number.isFinite(safePrice) ? safePrice.toLocaleString() : '-';
-      const safeStatus = store.status ?? 'unknown';
+      const safeStatus = store?.status ?? 'unknown';
 
       const marker = new window.naver.maps.Marker({
         position: new window.naver.maps.LatLng(lat, lng),
@@ -259,12 +235,12 @@ export default function StoreMap({ stores, activeCategory, onSelectStore, onMapR
               <svg width="40" height="48" viewBox="0 0 40 48" xmlns="http://www.w3.org/2000/svg">
                 <defs>
                   <filter id="shadow-${store.id}" x="-50%" y="-50%" width="200%" height="200%">
-                    <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.4"/>
+                    <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.35"/>
                   </filter>
                 </defs>
-                <circle cx="20" cy="18" r="17" fill="white" stroke="#FF8C42" stroke-width="2.5" filter="url(#shadow-${store.id})"/>
+                <circle cx="20" cy="18" r="17" fill="white" stroke="#000" stroke-width="3" filter="url(#shadow-${store.id})"/>
                 <text x="20" y="26" font-size="22" text-anchor="middle" dominant-baseline="middle">${emoji}</text>
-                <polygon points="20,42 14,28 26,28" fill="#FF8C42"/>
+                <polygon points="20,42 14,28 26,28" fill="#000"/>
               </svg>
             </div>
           `,
@@ -274,77 +250,78 @@ export default function StoreMap({ stores, activeCategory, onSelectStore, onMapR
 
       const infoWindow = new window.naver.maps.InfoWindow({
         content: `
-          <div style="padding: 16px; width: 280px; font-family: system-ui, -apple-system, sans-serif;">
-            <div style="margin-bottom: 12px; padding-bottom: 12px; border-bottom: 2px solid #FF8C42;">
-              <h3 style="font-weight: bold; font-size: 18px; color: #111827; margin: 0 0 4px 0;">${store.name ?? ''}</h3>
-              <p style="font-size: 12px; color: #6b7280; margin: 0;">${store.address ?? ''}</p>
+          <div style="padding: 14px; width: 280px; background:#fff; border:3px solid #000; box-shadow:4px 4px 0 #000; border-radius:12px; font-family: system-ui, -apple-system, sans-serif;">
+            <div style="margin-bottom: 10px; padding-bottom: 10px; border-bottom: 2px solid #000;">
+              <h3 style="font-weight: 900; font-size: 18px; color: #111827; margin: 0 0 4px 0;">${store?.name ?? ''}</h3>
+              <p style="font-size: 12px; color: #6b7280; margin: 0;">${store?.address ?? ''}</p>
             </div>
+
             <div style="margin-bottom: 12px;">
               ${
-                store.rating
-                  ? `<p style="font-size: 14px; margin: 0 0 8px 0;"><span style="color: #fbbf24;">⭐</span> <span style="font-weight: 600;">${store.rating}</span></p>`
+                store?.rating
+                  ? `<p style="font-size: 14px; margin: 0 0 8px 0;"><span style="color:#fbbf24;">⭐</span> <span style="font-weight:800;">${store.rating}</span></p>`
                   : ''
               }
-              <p style="font-size: 14px; color: #374151; margin: 0 0 8px 0;"><span style="font-weight: 600;">가격:</span> ${priceText}원</p>
-              <div style="display: flex; align-items: center; gap: 8px;">
-                <span style="font-weight: 600; font-size: 14px; color: #374151;">상태:</span>
+              <p style="font-size: 14px; color: #111827; margin: 0 0 8px 0;">
+                <span style="font-weight: 800;">가격:</span> ${priceText}원
+              </p>
+
+              <div style="display:flex; align-items:center; gap:8px;">
+                <span style="font-weight:800; font-size:14px; color:#111827;">상태:</span>
                 <span style="
                   font-size: 12px;
-                  font-weight: bold;
-                  padding: 4px 8px;
+                  font-weight: 900;
+                  padding: 4px 10px;
+                  border: 2px solid #000;
                   border-radius: 9999px;
                   ${
                     safeStatus === 'available'
-                      ? 'background-color: #d1fae5; color: #065f46;'
+                      ? 'background:#d1fae5; color:#065f46;'
                       : safeStatus === 'soldout'
-                      ? 'background-color: #fee2e2; color: #991b1b;'
-                      : 'background-color: #fed7aa; color: #9a3412;'
+                        ? 'background:#fee2e2; color:#991b1b;'
+                        : 'background:#fed7aa; color:#9a3412;'
                   }
                 ">
                   ${safeStatus === 'available' ? '판매중' : safeStatus === 'soldout' ? '품절' : '확인필요'}
                 </span>
               </div>
             </div>
-            <div style="display: flex; flex-direction: column; gap: 8px;">
+
+            <div style="display:flex; flex-direction:column; gap:8px;">
               <button
                 id="detail-btn-${store.id}"
                 style="
                   width: 100%;
-                  background-color: #FF8C42;
-                  color: white;
-                  font-weight: bold;
-                  padding: 8px;
-                  border-radius: 8px;
-                  border: none;
+                  background: #000;
+                  color: #fff;
+                  font-weight: 900;
+                  padding: 10px;
+                  border-radius: 10px;
+                  border: 3px solid #000;
                   cursor: pointer;
                   font-size: 14px;
-                  transition: background-color 0.2s;
                 "
-                onmouseover="this.style.backgroundColor='#FF7A2E'"
-                onmouseout="this.style.backgroundColor='#FF8C42'"
               >
                 상세보기
               </button>
+
               <a
-                href="https://map.naver.com/search/${encodeURIComponent(store.address ?? '')}"
+                href="https://map.naver.com/search/${encodeURIComponent(store?.address ?? '')}"
                 target="_blank"
                 style="
                   width: 100%;
-                  background-color: #f3f4f6;
-                  color: #374151;
-                  font-weight: bold;
-                  padding: 8px;
-                  border-radius: 8px;
-                  border: none;
+                  background: #fff;
+                  color: #111827;
+                  font-weight: 900;
+                  padding: 10px;
+                  border-radius: 10px;
+                  border: 3px solid #000;
                   cursor: pointer;
                   font-size: 14px;
                   text-align: center;
                   text-decoration: none;
                   display: block;
-                  transition: background-color 0.2s;
                 "
-                onmouseover="this.style.backgroundColor='#e5e7eb'"
-                onmouseout="this.style.backgroundColor='#f3f4f6'"
               >
                 길찾기
               </a>
@@ -360,52 +337,34 @@ export default function StoreMap({ stores, activeCategory, onSelectStore, onMapR
       window.naver.maps.Event.addListener(marker, 'click', () => {
         if (infoWindow.getMap()) {
           infoWindow.close();
-        } else {
-          infoWindow.open(mapInstanceRef.current, marker);
-
-          setTimeout(() => {
-            const detailBtn = document.getElementById(`detail-btn-${store.id}`);
-            if (detailBtn) {
-              detailBtn.addEventListener('click', () => {
-                onSelectStore(store as Store);
-                infoWindow.close();
-              });
-            }
-          }, 100);
+          return;
         }
+
+        infoWindow.open(mapInstanceRef.current, marker);
+
+        // 상세보기 버튼 연결
+        setTimeout(() => {
+          const detailBtn = document.getElementById(`detail-btn-${store.id}`);
+          if (detailBtn) {
+            detailBtn.onclick = () => {
+              onSelectStore(store as Store);
+              infoWindow.close();
+            };
+          }
+        }, 80);
       });
 
       markersRef.current.push(marker);
     });
-  }, [runtimeStores, onSelectStore, isMapLoaded]);
   }, [runtimeStores, activeCategory, onSelectStore, isMapLoaded]);
 
   if (mapError) {
     return (
-      <div className="w-full h-[500px] rounded-xl overflow-hidden shadow-xl bg-red-50 flex items-center justify-center">
-        <div className="text-center p-8 max-w-2xl">
-          <div className="text-6xl mb-4">❌</div>
-          <h3 className="text-xl font-bold text-red-800 mb-2">지도 인증 실패</h3>
-          <p className="text-red-600 mb-4 whitespace-pre-line">{mapError}</p>
-          <div className="text-sm text-gray-700 bg-white p-4 rounded-lg text-left">
-            <p className="font-semibold mb-3 text-base">해결 방법:</p>
-            <ol className="list-decimal list-inside space-y-2">
-              <li className="mb-2">
-                <strong>현재 URL을 복사하세요</strong> (브라우저 주소창)
-              </li>
-              <li className="mb-2">
-                <strong>네이버 클라우드 플랫폼</strong> → <strong>AI·NAVER API</strong> → <strong>Application</strong>
-              </li>
-              <li className="mb-2">
-                <strong>서비스 환경</strong>에서 <strong>Web 서비스 URL</strong>에 현재 URL 추가
-              </li>
-              <li className="mb-2">또는 클라이언트 ID가 <strong>Web Dynamic Map</strong> 서비스용인지 확인</li>
-            </ol>
-            <div className="mt-4 p-3 bg-yellow-50 border border-yellow-200 rounded">
-              <p className="text-xs font-semibold text-yellow-800 mb-1">💡 TIP</p>
-              <p className="text-xs text-yellow-700">Bolt 환경은 프리뷰(iframe) 대신 새 탭에서 열어 테스트하세요.</p>
-            </div>
-          </div>
+      <div className="w-full h-full flex items-center justify-center bg-red-50">
+        <div className="text-center p-6 max-w-2xl">
+          <div className="text-5xl mb-3">❌</div>
+          <h3 className="text-xl font-black text-red-800 mb-2">지도 인증 실패</h3>
+          <p className="text-red-600 whitespace-pre-line">{mapError}</p>
         </div>
       </div>
     );
@@ -413,12 +372,14 @@ export default function StoreMap({ stores, activeCategory, onSelectStore, onMapR
 
   if (!isMapLoaded) {
     return (
-      <div className="w-full h-[500px] rounded-xl overflow-hidden shadow-xl bg-gray-50 flex items-center justify-center">
+      <div className="w-full h-full flex items-center justify-center bg-gray-50">
         <div className="text-center">
-          <div className="animate-spin rounded-full h-16 w-16 border-4 border-[#FF8C42] border-t-transparent mx-auto mb-4"></div>
-          <p className="text-gray-600 font-medium">지도를 불러오는 중...</p>
+          <div className="animate-spin rounded-full h-14 w-14 border-4 border-black border-t-transparent mx-auto mb-3"></div>
+          <p className="text-gray-700 font-semibold">지도를 불러오는 중...</p>
         </div>
       </div>
     );
   }
 
+  return <div ref={mapRef} className="w-full h-full" />;
+}
