@@ -23,17 +23,17 @@ export default function CategoryFilter({ activeCategory, onCategoryChange }: Cat
           <button
             key={cat.id}
             onClick={() => onCategoryChange(cat.id)}
-            className={[
-              'flex items-center gap-2',
-              'px-4 py-2',
-              'rounded-full',
-              'border border-black/70',
-              'bg-[#F6F1E6]',
-              'shadow-[0_6px_14px_rgba(0,0,0,0.12)]',
-              'font-extrabold text-[11px] tracking-wide whitespace-nowrap',
-              'transition',
-              isActive ? 'bg-black/85 text-white' : 'text-black hover:bg-white/70',
-            ].join(' ')}
+className={[
+  'flex items-center gap-2',
+  'px-3 py-1.5',                 // ✅ 더 작게
+  'rounded-full',
+  'border border-black/70',
+  'bg-[#F6F1E6]',
+  'shadow-[0_4px_10px_rgba(0,0,0,0.10)]',
+  'font-extrabold text-[10px] tracking-wide whitespace-nowrap', // ✅ 글자 더 작게
+  'transition',
+  isActive ? 'bg-black/85 text-white' : 'text-black hover:bg-white/70',
+].join(' ')}
             aria-pressed={isActive}
           >
             <span className="text-base leading-none">{cat.emoji}</span>
