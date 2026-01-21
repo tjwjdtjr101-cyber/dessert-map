@@ -113,7 +113,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-[#F7C600] text-[#111] pb-20">
+    <div className="min-h-screen retro-paper text-[#111] pb-20">
       {/* Top App Bar */}
       <header className="sticky top-0 z-50 bg-[#F7C600] border-b-2 border-black">
         <div className="max-w-6xl mx-auto px-4 h-14 flex items-center justify-between">
