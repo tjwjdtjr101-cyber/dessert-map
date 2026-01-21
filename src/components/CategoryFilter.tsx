@@ -5,7 +5,6 @@ interface CategoryFilterProps {
   onCategoryChange: (category: Category) => void;
 }
 
-// ✅ 중복 제거: 데이터는 1번만 정의하고, 한글/영문 라벨 둘 다 보이게
 const categories: Array<{ id: Category; ko: string; en: string; emoji: string }> = [
   { id: 'all', ko: '전체', en: 'ALL', emoji: '🌟' },
   { id: 'dubai', ko: '두바이 쿠키', en: 'DUBAI', emoji: '🍪' },
@@ -27,8 +26,8 @@ export default function CategoryFilter({ activeCategory, onCategoryChange }: Cat
             className={[
               'flex items-center gap-2',
               'px-4 py-2',
-              'border-2 border-black',
-              'shadow-[2px_2px_0_#111]',
+              'border-[3px] border-black',
+              'shadow-[3px_3px_0_#000]',
               'font-black text-xs tracking-wide whitespace-nowrap',
               'transition-transform',
               'active:translate-x-[1px] active:translate-y-[1px]',
@@ -37,8 +36,6 @@ export default function CategoryFilter({ activeCategory, onCategoryChange }: Cat
             aria-pressed={isActive}
           >
             <span className="text-base leading-none">{cat.emoji}</span>
-
-            {/* ✅ 사진2 포스터 느낌: 타이포를 두 줄로(ko/en) */}
             <span className="leading-tight">
               <span className="block text-[12px]">{cat.ko}</span>
               <span className="block text-[10px] opacity-80 tracking-widest">{cat.en}</span>
