@@ -24,3 +24,6 @@ body {
   box-shadow: 3px 3px 0 #000;
   background: #fff;
 }
+
+* { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+html, body { font-family: "Montserrat", system-ui, sans-serif; }
