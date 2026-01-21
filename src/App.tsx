@@ -4,7 +4,45 @@ import { Bell, Menu, User, Home, Search, Map as MapIcon, MoreHorizontal, Plus } 
 import StoreMap from './components/StoreMap';
 import StoreDetailModal from './components/StoreDetailModal';
 import CategoryFilter from './components/CategoryFilter';
-@@ -45,6 +45,8 @@ export default function App() {
+import StoreListView from './components/StoreListView';
+
+// ✅ 더미 데이터는 "fallback" 용도로만 사용
+import { stores as fallbackStores, Store, Category, StoreCategory } from './data/stores';
+
+console.log("🔥 App.tsx LOADED", new Date().toISOString());
+
+type StoreWithCompat = Store & {
+  // stores.json이 category를 포함할 수도 / 안 할 수도 있어서 호환 필드 추가
+  category?: StoreCategory;
+  categories?: StoreCategory[];
+};
+
+function normalizeStores(raw: any): StoreWithCompat[] {
+  const arr: any[] = Array.isArray(raw) ? raw : [];
+  return arr
+    .map((s) => {
+      const categories: StoreCategory[] =
+        Array.isArray(s?.categories) && s.categories.length > 0
+          ? s.categories
+          : s?.category
+            ? [s.category]
+            : [];
+
+      const category: StoreCategory | undefined =
+        (s?.category as StoreCategory) ?? (categories[0] as StoreCategory) ?? undefined;
+
+      return {
+        ...s,
+        categories,
+        category,
+      } as StoreWithCompat;
+    })
+    // 최소 필수 필드가 없는 건 제거(지도/리스트 깨짐 방지)
+    .filter((s) => typeof s?.id === 'number' && typeof s?.lat === 'number' && typeof s?.lng === 'number');
+}
+
+export default function App() {
+  const [stores, setStores] = useState<StoreWithCompat[]>([]);
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const [loadError, setLoadError] = useState<string | null>(null);
 
@@ -13,7 +51,42 @@ import CategoryFilter from './components/CategoryFilter';
   const [selectedStore, setSelectedStore] = useState<Store | null>(null);
   const [activeCategory, setActiveCategory] = useState<Category>('all');
   const mapRef = useRef<any>(null);
-@@ -87,14 +89,22 @@ export default function App() {
+
+  useEffect(() => {
+    console.log("🚀 fetching stores.json");
+    let cancelled = false;
+
+    (async () => {
+      setIsLoading(true);
+      setLoadError(null);
+
+      try {
+        // ✅ 캐시 회피(호스팅/브라우저 캐시 때문에 최신이 안 뜨는 케이스 방지)
+        const res = await fetch('/stores.json?ts=' + Date.now(), { cache: 'no-store' });
+        if (!res.ok) throw new Error(`stores.json fetch failed: ${res.status}`);
+
+        const data = await res.json();
+        const normalized = normalizeStores(data);
+
+        if (!cancelled) {
+          setStores(normalized);
+          setIsLoading(false);
+        }
+      } catch (e: any) {
+        // ✅ 실패 시 fallback 더미 데이터라도 보여주기
+        const normalizedFallback = normalizeStores(fallbackStores);
+
+        if (!cancelled) {
+          setLoadError(e?.message ?? 'failed to load stores.json');
+          setStores(normalizedFallback);
+          setIsLoading(false);
+        }
+      }
+    })();
+
+    return () => {
+      cancelled = true;
+    };
   }, []);
 
   const filteredStores = useMemo(() => {
@@ -41,7 +114,8 @@ import CategoryFilter from './components/CategoryFilter';
 
   const handleZoomToStore = (lat: number, lng: number) => {
     if (mapRef.current) {
-@@ -103,92 +113,145 @@ export default function App() {
+      mapRef.current.setView([lat, lng], 16);
+    }
   };
 
   return (
@@ -258,3 +332,4 @@ import CategoryFilter from './components/CategoryFilter';
 
       <StoreDetailModal store={selectedStore} onClose={() => setSelectedStore(null)} />
     </div>
+  );
