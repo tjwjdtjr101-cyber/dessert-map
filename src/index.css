@@ -35,3 +35,19 @@ body {
   box-shadow: 3px 3px 0 #000;
   background: #fff;
 }
+
+
+/* ✅ Naver Map zoom control smaller (mobile-friendly) */
+.naver_map_control .zoom_control,
+.naver_map_control .zoom_control button,
+.naver_map_control .zoom_control a,
+.naver_map_control .zoom_control div {
+  transform: scale(0.85);
+  transform-origin: top right;
+}
+
+/* 네이버 지도 컨트롤이 컨테이너 밖으로 나가거나 너무 튀지 않게 */
+.naver_map_control {
+  right: 10px !important;
+  top: 10px !important;
+}
