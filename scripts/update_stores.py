@@ -25,6 +25,10 @@ DISTRICTS = [
 ]
 
 CATEGORIES = {
+    "dubai": ["두바이쫀득쿠키", "두바이 쿠키", "두바이 초콜릿 쿠키", "피스타치오 카다이프 쿠키", "카다이프 쿠키"],
+    "cake": ["조각케이크", "홀케이크", "생크림케이크", "케이크 맛집"],
+    "bungeoppang": ["붕어빵", "팥붕어빵", "슈붕", "크림붕어빵"],
+    "goguma": ["군고구마", "고구마 간식", "군고구마 맛집"],
     "dubai": ["두바이쫀득쿠키"],
     "cake": ["딸기케이크"],
     "bungeoppang": ["붕어빵", "팥붕", "슈붕", ""],
@@ -257,4 +261,3 @@ with open(out_path, "w", encoding="utf-8") as f:
     json.dump(stores, f, ensure_ascii=False, indent=2)
 
 print(f"✅ total stores: {len(stores)}, today new: {new_added}")
-print("✅ category_counts:", dict(category_counts))
