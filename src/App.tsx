@@ -158,7 +158,8 @@ export default function App() {
           </div>
 
           {/* Today */}
-          <div className="rounded-[12px] border-[3px] border-black bg-white shadow-[4px_4px_0_#000] overflow-hidden">
+<div className="rounded-[18px] border border-black/70 bg-[#F6F1E6]
+shadow-[0_10px_30px_rgba(0,0,0,0.15)] overflow-hidden">
             <div className="bg-black text-white px-4 py-2 font-black tracking-[0.30em] text-[11px]">
               TODAY
             </div>
