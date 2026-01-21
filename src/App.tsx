@@ -96,7 +96,7 @@ export default function App() {
           - 모바일: 100%
           - 데스크탑에서도 레퍼런스처럼: 420px 고정폭 느낌
           - 원하면 md:max-w-6xl 로 바꾸면 “웹 확장 버전” 됨 */}
-      <div className="mx-auto w-full max-w-[420px] md:max-w-[480px] px-3 pb-10">
+      <div className="mx-auto w-full max-w-[420px] md:max-w-6xl px-3 md:px-6 pb-10">
         {/* Top Bar */}
         <header className="sticky top-0 z-50 pt-3">
           <div className="rounded-[16px] bg-white/70 backdrop-blur border border-black/60 shadow-[0_10px_30px_rgba(0,0,0,0.15)]">
