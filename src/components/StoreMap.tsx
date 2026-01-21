@@ -112,18 +112,18 @@ export default function StoreMap({ activeCategory, onSelectStore, onMapReady }: 
           map,
           icon: {
             content: `
-  <div style="
-    width:32px;height:32px;border-radius:9999px;
-    background:rgba(255,255,255,0.92);
-    border:1px solid rgba(0,0,0,0.35);
-    box-shadow:0 8px 18px rgba(0,0,0,0.14);
-    display:flex;align-items:center;justify-content:center;
-    font-size:17px;
-  ">
-    <span style="transform: translateY(-0.5px);">${emoji}</span>
-  </div>
-`,
-anchor: new window.naver.maps.Point(16, 16),
+                <div style="
+                  width:32px;height:32px;border-radius:9999px;
+                  background:rgba(255,255,255,0.92);
+                  border:1px solid rgba(0,0,0,0.35);
+                  box-shadow:0 8px 18px rgba(0,0,0,0.14);
+                  display:flex;align-items:center;justify-content:center;
+                  font-size:17px;
+                ">
+                  <span style="transform: translateY(-0.5px);">${emoji}</span>
+                </div>
+              `,
+              anchor: new window.naver.maps.Point(16, 16),
           },
         });
 
