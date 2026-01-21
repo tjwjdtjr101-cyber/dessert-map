@@ -14,7 +14,7 @@ interface CategoryFilterProps {
 }
 
 const categories: Array<{ id: Category; ko: string; en: string; emoji: string }> = [
-  { id: 'all', ko: '전체', en: 'ALL', emoji: '🌟' },
+  { id: 'all', ko: '전체', en: 'ALL', emoji: 'ALL' },
   { id: 'dubai', ko: '두바이 쿠키', en: 'DUBAI', emoji: '🍪' },
   { id: 'bungeoppang', ko: '붕어빵', en: 'BUNGEOPPANG', emoji: '🐟' },
   { id: 'goguma', ko: '군고구마', en: 'GOGUMA', emoji: '🍠' },
