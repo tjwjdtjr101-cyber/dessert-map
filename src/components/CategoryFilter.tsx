@@ -15,7 +15,7 @@ const categories: Array<{ id: Category; ko: string; en: string; emoji: string }>
 
 export default function CategoryFilter({ activeCategory, onCategoryChange }: CategoryFilterProps) {
   return (
-    <div className="flex gap-1.5 overflow-x-auto pb-1 scrollbar-hide">
+    <div className="flex gap-2 overflow-x-auto pb-1 scrollbar-hide">
       {categories.map((cat) => {
         const isActive = activeCategory === cat.id;
 
