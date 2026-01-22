@@ -70,3 +70,27 @@ body {
   transform: scale(0.9);
   transform-origin: bottom right;
 }
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+  /* ✅ App 배경과 동일한 컬러로 맞춤 */
+  background: radial-gradient(
+    900px 420px at 20% 0%,
+    #FFE7A3 0%,
+    #FFD86B 40%,
+    #F8C44E 100%
+  );
+
+  /* ✅ 모바일 스크롤 바운스 흰색 방지 */
+  overscroll-behavior: none;
+}
+
+body {
+  overflow-x: hidden;
+}
