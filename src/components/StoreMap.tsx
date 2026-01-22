@@ -193,7 +193,15 @@ export default function StoreMap({ activeCategory, onSelectStore, onMapReady }: 
                     <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.35"/>
                   </filter>
                 </defs>
-                <circle cx="20" cy="18" r="17" fill="#fff" filter="url(#shadow-${store.id})"/>
+                <circle
+                  cx="20"
+                  cy="18"
+                  r="17"
+                  fill="#fff"
+                  stroke="#BFA68A"
+                  stroke-width="2"
+                  filter="url(#shadow-${store.id})"
+                />
                 <text x="20" y="26" font-size="22" text-anchor="middle" dominant-baseline="middle">${emoji}</text>
                 <polygon points="20,42 14,28 26,28" fill="#fff"/>
               </svg>
