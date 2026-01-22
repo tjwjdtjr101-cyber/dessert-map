@@ -6803,5 +6803,92 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 397,
+    "name": "셀렉티드닉스",
+    "address": "서울특별시 강남구 테헤란로4길 37 1층",
+    "district": "강남구",
+    "lat": 37.496193,
+    "lng": 127.030907,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 398,
+    "name": "서울붕어베이커리 서초",
+    "address": "서울특별시 서초구 강남대로 399",
+    "district": "서초구",
+    "lat": 37.498957,
+    "lng": 127.024812,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 399,
+    "name": "브리즈서울 한남",
+    "address": "서울특별시 용산구 이태원로55가길 22 1층 브리즈서울",
+    "district": "용산구",
+    "lat": 37.53746,
+    "lng": 127.000015,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 400,
+    "name": "CU 강풀만화거리점",
+    "address": "서울특별시 강동구 천호대로168가길 57 1층",
+    "district": "강동구",
+    "lat": 37.535671,
+    "lng": 127.129117,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 401,
+    "name": "왼손 우동짜장탕수육",
+    "address": "서울특별시 동대문구 이문로 61 1층",
+    "district": "동대문구",
+    "lat": 37.592855,
+    "lng": 127.057662,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
