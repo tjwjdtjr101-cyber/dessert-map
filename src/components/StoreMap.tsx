@@ -198,12 +198,12 @@ export default function StoreMap({ activeCategory, onSelectStore, onMapReady }: 
                   cy="18"
                   r="17"
                   fill="#fff"
-                  stroke="#F9EFDF"
+                  stroke="#D6CAAA"
                   stroke-width="2"
                   filter="url(#shadow-${store.id})"
                 />
                 <text x="20" y="26" font-size="22" text-anchor="middle" dominant-baseline="middle">${emoji}</text>
-                <polygon points="20,46 13,35 27,35" fill="#F9EFDF"/>
+                <polygon points="20,46 13,35 27,35" fill="#D6CAAA"/>
               </svg>
             </div>
           `,
