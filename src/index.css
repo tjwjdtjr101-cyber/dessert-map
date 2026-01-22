@@ -49,3 +49,24 @@ body {
   right: 10px !important;
   top: 10px !important;
 }
+
+
+:root{
+  --hero-yellow:#FCC038;
+  --cream:#F9EFDF;
+  --beige-soft:#EEE1CD;
+  --beige-sand:#D6CAAA;
+  --brown-warm:#CC964F;
+  --brown-deep:#7E5B3B;
+  --brown-neutral:#AC998C;
+  --charcoal:#2D271E;
+}
+
+/* (선택) 네이버 지도 줌 컨트롤이 너무 크면 살짝 축소
+   - 네이버 DOM 클래스가 환경별로 다를 수 있어서 “완벽 보장”은 아니지만,
+     RIGHT_BOTTOM으로 내려도 큰 경우에 도움 됨. */
+.naver_map_control,
+.naver_map_control * {
+  transform: scale(0.9);
+  transform-origin: bottom right;
+}
