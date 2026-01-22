@@ -16,10 +16,13 @@ const createEmojiIcon = (emoji: string, bgColor: string = 'white') => {
       </defs>
 
       <!-- ✅ 검정 아웃라인 → 배경톤 아웃라인 -->
-      <circle cx="20" cy="18" r="17"
+      <circle
+        cx="20"
+        cy="18"
+        r="17"
         fill="${bgColor}"
-        stroke="${OUTLINE}"
-        stroke-width="2"
+        stroke="#000000"
+        stroke-width="3"
         filter="url(#${safeId})"
       />
       <text x="20" y="26" font-size="22" text-anchor="middle" dominant-baseline="middle">${emoji}</text>
