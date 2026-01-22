@@ -1,5 +1,4 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { Bell } from 'lucide-react';
 import StoreMap from './components/StoreMap';
 import StoreDetailModal from './components/StoreDetailModal';
 import CategoryFilter from './components/CategoryFilter';
@@ -22,6 +21,7 @@ function normalizeStores(raw: any): StoreWithCompat[] {
           : s?.category
             ? [s.category]
             : [];
+
       const category: StoreCategory | undefined =
         (s?.category as StoreCategory) ?? (categories[0] as StoreCategory) ?? undefined;
 
@@ -32,29 +32,24 @@ function normalizeStores(raw: any): StoreWithCompat[] {
 
 export default function App() {
   const [stores, setStores] = useState<StoreWithCompat[]>([]);
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState<boolean>(true);
   const [loadError, setLoadError] = useState<string | null>(null);
 
   const [selectedStore, setSelectedStore] = useState<Store | null>(null);
-
-  // ✅ 모바일에서 지도 마커 과밀 방지용: 기본 dubai(원하면 'all'로 변경)
-  const [activeCategory, setActiveCategory] = useState<Category>('dubai');
+  const [activeCategory, setActiveCategory] = useState<Category>('all');
 
   const mapRef = useRef<any>(null);
 
   useEffect(() => {
     let cancelled = false;
-
     (async () => {
       setIsLoading(true);
       setLoadError(null);
-
       try {
         const res = await fetch('/stores.json?ts=' + Date.now(), { cache: 'no-store' });
         if (!res.ok) throw new Error(`stores.json fetch failed: ${res.status}`);
         const data = await res.json();
         const normalized = normalizeStores(data);
-
         if (!cancelled) {
           setStores(normalized);
           setIsLoading(false);
@@ -68,7 +63,6 @@ export default function App() {
         }
       }
     })();
-
     return () => {
       cancelled = true;
     };
@@ -87,75 +81,63 @@ export default function App() {
     if (mapRef.current) mapRef.current.setView([lat, lng], 16);
   };
 
-  // ✅ 레퍼런스처럼 24+ 느낌
-  const todayCount = Math.min(filteredStores.length, 24);
-
   return (
-    <div className="min-h-screen bg-[radial-gradient(900px_420px_at_20%_0%,#FFE7A3_0%,#FFD86B_40%,#F8C44E_100%)]">
-      {/* ✅ 모바일 미리보기처럼 보이게 전체 폭 제한
-          - 모바일: 100%
-          - 데스크탑에서도 레퍼런스처럼: 420px 고정폭 느낌
-          - 원하면 md:max-w-6xl 로 바꾸면 “웹 확장 버전” 됨 */}
-      <div className="mx-auto w-full max-w-[420px] md:max-w-6xl px-3 md:px-6 pb-10">
-        
+    <div className="min-h-screen bg-[var(--cream)] text-[var(--charcoal)]">
+      {/* 페이지 폭은 기존대로 쓰고, 섹션 색만 팔레트로 맞춤 */}
+      <div className="mx-auto w-full max-w-[420px] px-4 pb-10">
 
-
-        {/* HERO (모바일 1열) */}
-        <section className="mt-4">
-          {/* Poster */}
-          <div className="rounded-[18px] border border-black/70 bg-[#F7C95A] shadow-[0_10px_30px_rgba(0,0,0,0.15)] px-6 py-7">
-            <div className="font-extrabold tracking-[0.18em] text-[11px]">REAL TIME</div>
-
-            <div className="mt-5 font-black leading-[0.92] text-black">
-              <div className="text-[52px] tracking-tight">DESSERT</div>
-              <div className="text-[52px] tracking-tight">STOCK</div>
-            </div>
-
-            <div className="mt-6 h-px bg-black/70 w-full" />
-            <div className="mt-4 font-extrabold tracking-[0.24em] text-[11px]">SEOUL · 2026</div>
+        {/* (선택) 에러 표시 */}
+        {loadError ? (
+          <div className="mt-4 rounded-xl border border-[var(--brown-neutral)] bg-white/60 px-3 py-2 text-xs font-bold">
+            ⚠ {loadError}
           </div>
+        ) : null}
 
-          
-          {/* Title line */}
-          <div className="mt-5 flex items-end gap-3">
-            <h2 className="text-4xl font-black tracking-tight">디저트 재고</h2>
-            <div className="flex-1 h-px bg-black/60 mb-2" />
-            <div className="text-[12px] font-black mb-2 text-black/80">©24</div>
-          </div>
+        {/* ====== “디저트 재고” 라인 ====== */}
+        <div className="mt-6 flex items-end gap-3">
+          <h2 className="text-3xl font-black tracking-tight">디저트 재고</h2>
+          <div className="flex-1 h-px bg-[var(--brown-neutral)] mb-2" />
+          <div className="text-[12px] font-black mb-2 text-[var(--brown-neutral)]">©24</div>
+        </div>
 
-          {/* Filters */}
-          <div className="mt-1">
-            <CategoryFilter activeCategory={activeCategory} onCategoryChange={setActiveCategory} />
-          </div>
-        </section>
+        {/* ====== 카테고리 ====== */}
+        <div className="mt-3">
+          <CategoryFilter activeCategory={activeCategory} onCategoryChange={setActiveCategory} />
+        </div>
 
-        {/* Map */}
-        <section className="mt-4">
-          <div className="relative h-[240px] rounded-[18px] border border-black/70 overflow-hidden bg-white/70 shadow-[0_10px_30px_rgba(0,0,0,0.15)]">
-            <StoreMap
-              stores={filteredStores as unknown as Store[]}
-              activeCategory={activeCategory}
-              onSelectStore={setSelectedStore}
-              onMapReady={(map) => {
-                mapRef.current = map;
-              }}
-            />
-          </div>
+        {/* ====== 지도 (팔레트 톤 카드) ====== */}
+        <div
+          className="
+            mt-3 relative h-[220px]
+            rounded-[18px] overflow-hidden
+            bg-[var(--cream)]
+            border border-[var(--brown-neutral)]
+            shadow-[0_10px_30px_rgba(45,39,30,0.18)]
+          "
+        >
+          <StoreMap
+            stores={filteredStores as unknown as Store[]}
+            activeCategory={activeCategory}
+            onSelectStore={setSelectedStore}
+            onMapReady={(map) => {
+              mapRef.current = map;
+            }}
+          />
+        </div>
 
-          {isLoading ? (
-            <div className="mt-3 inline-flex items-center gap-2 border border-black/60 bg-white/70 px-3 py-1 rounded-full text-[11px] font-bold shadow-[0_10px_30px_rgba(0,0,0,0.15)]">
-              ⏳ loading...
-            </div>
-          ) : null}
-        </section>
+        {isLoading ? (
+          <div className="mt-3 text-xs font-bold text-[var(--brown-neutral)]">loading…</div>
+        ) : null}
 
-        {/* List */}
+        {/* ====== 리스트 ====== */}
         {!isLoading && (
-          <section className="mt-6">
+          <div className="mt-7">
             <div className="flex items-center gap-3 mb-3">
               <h3 className="text-[13px] font-black tracking-[0.12em]">NEARBY STORES</h3>
-              <div className="flex-1 h-px bg-black/60" />
-              <div className="text-[12px] font-black text-black/80">{filteredStores.length}</div>
+              <div className="flex-1 h-px bg-[var(--brown-neutral)]" />
+              <div className="text-[12px] font-black text-[var(--brown-neutral)]">
+                {filteredStores.length}
+              </div>
             </div>
 
             <StoreListView
@@ -164,7 +146,7 @@ export default function App() {
               onStoreSelect={setSelectedStore}
               onZoomToStore={handleZoomToStore}
             />
-          </section>
+          </div>
         )}
 
         <StoreDetailModal store={selectedStore} onClose={() => setSelectedStore(null)} />
