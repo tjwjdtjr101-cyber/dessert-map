@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
+import { Bell } from 'lucide-react';
 import StoreMap from './components/StoreMap';
 import StoreDetailModal from './components/StoreDetailModal';
 import CategoryFilter from './components/CategoryFilter';
@@ -36,7 +37,7 @@ export default function App() {
 
   const [selectedStore, setSelectedStore] = useState<Store | null>(null);
 
-  // 기본 dubai 유지 (과밀 방지)
+  // ✅ 모바일에서 지도 마커 과밀 방지용: 기본 dubai(원하면 'all'로 변경)
   const [activeCategory, setActiveCategory] = useState<Category>('dubai');
 
   const mapRef = useRef<any>(null);
@@ -86,39 +87,84 @@ export default function App() {
     if (mapRef.current) mapRef.current.setView([lat, lng], 16);
   };
 
-  const count = filteredStores.length;
+  // ✅ 레퍼런스처럼 24+ 느낌
+  const todayCount = Math.min(filteredStores.length, 24);
 
   return (
-    <div className="min-h-screen bg-[#F4EEE3]">
-      {/* ✅ 레퍼런스처럼 전체 톤 + 종이 질감 느낌(가벼운) */}
-      <div className="mx-auto w-full max-w-[980px] px-4 md:px-8 py-8">
-        {/* 에러 배지(작게) */}
+    <div className="min-h-screen bg-[radial-gradient(900px_420px_at_20%_0%,#FFE7A3_0%,#FFD86B_40%,#F8C44E_100%)]">
+      {/* ✅ 모바일 미리보기처럼 보이게 전체 폭 제한 */}
+      <div className="mx-auto w-full max-w-[420px] md:max-w-6xl px-3 md:px-6 pb-10">
+        {/* Top Bar */}
+        <header className="sticky top-0 z-50 pt-3">
+          <div className="rounded-[16px] bg-white/70 backdrop-blur border border-black/60 shadow-[0_10px_30px_rgba(0,0,0,0.15)]">
+            <div className="px-3 py-2 flex items-center justify-between">
+              <div className="flex items-center gap-2">
+                <button className="w-9 h-9 rounded-[12px] border border-black/60 bg-white grid place-items-center">
+                  ☰
+                </button>
+
+                <div className="flex items-center gap-2">
+                  <div className="w-9 h-9 rounded-[12px] border border-black/60 bg-black grid place-items-center text-white">
+                    🍪
+                  </div>
+                  <div className="leading-tight">
+                    <div className="font-black tracking-tight text-[14px]">DESSERT</div>
+                    <div className="text-[10px] font-semibold -mt-0.5">FINDER</div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="flex items-center gap-2">
+                <button className="w-9 h-9 rounded-[12px] border border-black/60 bg-white grid place-items-center">
+                  <Bell className="w-4 h-4" />
+                </button>
+                <button className="w-9 h-9 rounded-[12px] border border-black/60 bg-rose-500 text-white grid place-items-center">
+                  👤
+                </button>
+              </div>
+            </div>
+          </div>
+        </header>
+       
+
+        {/* Error badge */}
         {loadError ? (
-          <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-black/20 bg-white/60 px-3 py-1 text-[11px] font-bold">
+          <div className="mt-3 inline-flex items-center gap-2 border border-black/60 bg-white/70 px-3 py-1 rounded-full text-[11px] font-bold shadow-[0_10px_30px_rgba(0,0,0,0.15)]">
             ⚠️ {loadError}
           </div>
         ) : null}
 
-        {/* ✅ 섹션 헤더: 디저트 재고 라인 + 우측 카운트 */}
-        <div className="flex items-end gap-4">
-          <h2 className="text-[34px] md:text-[38px] font-black tracking-tight text-[#2D271E]">
-            디저트 재고
-          </h2>
-          <div className="flex-1 h-px bg-black/20 mb-3" />
-          <div className="flex items-center gap-2 mb-2 text-[#2D271E]">
-            <span className="inline-block w-2 h-2 rounded-full bg-black/30" />
-            <span className="text-[14px] font-black">{count}</span>
-          </div>
-        </div>
-
-        {/* ✅ 필터(레퍼런스 pill 탭) */}
-        <div className="mt-3">
-          <CategoryFilter activeCategory={activeCategory} onCategoryChange={setActiveCategory} />
-        </div>
-
-        {/* ✅ 지도 카드 */}
+        {/* HERO */}
         <section className="mt-4">
-          <div className="relative h-[220px] md:h-[260px] rounded-[18px] border border-black/15 overflow-hidden bg-white/50 shadow-[0_18px_40px_rgba(0,0,0,0.12)]">
+          {/* Poster */}
+          <div className="rounded-[18px] border border-black/70 bg-[#F7C95A] shadow-[0_10px_30px_rgba(0,0,0,0.15)] px-6 py-7">
+            <div className="font-extrabold tracking-[0.18em] text-[11px]">REAL TIME</div>
+
+            <div className="mt-5 font-black leading-[0.92] text-black">
+              <div className="text-[52px] tracking-tight">DESSERT</div>
+              <div className="text-[52px] tracking-tight">STOCK</div>
+            </div>
+
+            <div className="mt-6 h-px bg-black/70 w-full" />
+            <div className="mt-4 font-extrabold tracking-[0.24em] text-[11px]">SEOUL · 2026</div>
+          </div>
+
+          {/* Title line */}
+          <div className="mt-5 flex items-end gap-3">
+            <h2 className="text-4xl font-black tracking-tight">디저트 재고</h2>
+            <div className="flex-1 h-px bg-black/60 mb-2" />
+            <div className="text-[12px] font-black mb-2 text-black/80">©24</div>
+          </div>
+
+          {/* Filters */}
+          <div className="mt-1">
+            <CategoryFilter activeCategory={activeCategory} onCategoryChange={setActiveCategory} />
+          </div>
+        </section>
+
+        {/* Map */}
+        <section className="mt-4">
+          <div className="relative h-[240px] rounded-[18px] border border-black/70 overflow-hidden bg-white/70 shadow-[0_10px_30px_rgba(0,0,0,0.15)]">
             <StoreMap
               stores={filteredStores as unknown as Store[]}
               activeCategory={activeCategory}
@@ -130,21 +176,19 @@ export default function App() {
           </div>
 
           {isLoading ? (
-            <div className="mt-3 inline-flex items-center gap-2 rounded-full border border-black/15 bg-white/60 px-3 py-1 text-[11px] font-bold text-[#2D271E]">
+            <div className="mt-3 inline-flex items-center gap-2 border border-black/60 bg-white/70 px-3 py-1 rounded-full text-[11px] font-bold shadow-[0_10px_30px_rgba(0,0,0,0.15)]">
               ⏳ loading...
             </div>
           ) : null}
         </section>
 
-        {/* ✅ 리스트 헤더: NEARBY STORES 라인 + 우측 카운트 */}
+        {/* List */}
         {!isLoading && (
-          <section className="mt-8">
-            <div className="flex items-center gap-4 mb-4">
-              <h3 className="text-[14px] md:text-[15px] font-black tracking-[0.14em] text-[#2D271E]">
-                NEARBY STORES
-              </h3>
-              <div className="flex-1 h-px bg-black/20" />
-              <div className="text-[14px] font-black text-[#2D271E]">{count}</div>
+          <section className="mt-6">
+            <div className="flex items-center gap-3 mb-3">
+              <h3 className="text-[13px] font-black tracking-[0.12em]">NEARBY STORES</h3>
+              <div className="flex-1 h-px bg-black/60" />
+              <div className="text-[12px] font-black text-black/80">{filteredStores.length}</div>
             </div>
 
             <StoreListView
@@ -159,5 +203,3 @@ export default function App() {
         <StoreDetailModal store={selectedStore} onClose={() => setSelectedStore(null)} />
       </div>
     </div>
-  );
-}
