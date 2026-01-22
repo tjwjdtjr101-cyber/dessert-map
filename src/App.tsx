@@ -1,17 +1,13 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { MapPin, Bell } from 'lucide-react';
+import { Bell } from 'lucide-react';
 import StoreMap from './components/StoreMap';
 import StoreDetailModal from './components/StoreDetailModal';
 import CategoryFilter from './components/CategoryFilter';
 import StoreListView from './components/StoreListView';
 
-// ✅ 더미 데이터는 "fallback" 용도로만 사용
 import { stores as fallbackStores, Store, Category, StoreCategory } from './data/stores';
 
-console.log("🔥 App.tsx LOADED", new Date().toISOString());
-
 type StoreWithCompat = Store & {
-  // stores.json이 category를 포함할 수도 / 안 할 수도 있어서 호환 필드 추가
   category?: StoreCategory;
   categories?: StoreCategory[];
 };
@@ -26,31 +22,27 @@ function normalizeStores(raw: any): StoreWithCompat[] {
           : s?.category
             ? [s.category]
             : [];
-
       const category: StoreCategory | undefined =
         (s?.category as StoreCategory) ?? (categories[0] as StoreCategory) ?? undefined;
 
-      return {
-        ...s,
-        categories,
-        category,
-      } as StoreWithCompat;
+      return { ...s, categories, category } as StoreWithCompat;
     })
-    // 최소 필수 필드가 없는 건 제거(지도/리스트 깨짐 방지)
     .filter((s) => typeof s?.id === 'number' && typeof s?.lat === 'number' && typeof s?.lng === 'number');
 }
 
 export default function App() {
   const [stores, setStores] = useState<StoreWithCompat[]>([]);
-  const [isLoading, setIsLoading] = useState<boolean>(true);
+  const [isLoading, setIsLoading] = useState(true);
   const [loadError, setLoadError] = useState<string | null>(null);
 
   const [selectedStore, setSelectedStore] = useState<Store | null>(null);
-  const [activeCategory, setActiveCategory] = useState<Category>('all');
+
+  // ✅ 모바일에서 지도 마커 과밀 방지용: 기본 dubai(원하면 'all'로 변경)
+  const [activeCategory, setActiveCategory] = useState<Category>('dubai');
+
   const mapRef = useRef<any>(null);
 
   useEffect(() => {
-    console.log("🚀 fetching stores.json");
     let cancelled = false;
 
     (async () => {
@@ -58,10 +50,8 @@ export default function App() {
       setLoadError(null);
 
       try {
-        // ✅ 캐시 회피(호스팅/브라우저 캐시 때문에 최신이 안 뜨는 케이스 방지)
         const res = await fetch('/stores.json?ts=' + Date.now(), { cache: 'no-store' });
         if (!res.ok) throw new Error(`stores.json fetch failed: ${res.status}`);
-
         const data = await res.json();
         const normalized = normalizeStores(data);
 
@@ -70,9 +60,7 @@ export default function App() {
           setIsLoading(false);
         }
       } catch (e: any) {
-        // ✅ 실패 시 fallback 더미 데이터라도 보여주기
         const normalizedFallback = normalizeStores(fallbackStores);
-
         if (!cancelled) {
           setLoadError(e?.message ?? 'failed to load stores.json');
           setStores(normalizedFallback);
@@ -88,7 +76,6 @@ export default function App() {
 
   const filteredStores = useMemo(() => {
     if (activeCategory === 'all') return stores;
-
     const cat = activeCategory as StoreCategory;
     return stores.filter((s) => {
       const categories = s.categories ?? (s.category ? [s.category] : []);
@@ -97,70 +84,107 @@ export default function App() {
   }, [stores, activeCategory]);
 
   const handleZoomToStore = (lat: number, lng: number) => {
-    if (mapRef.current) {
-      mapRef.current.setView([lat, lng], 16);
-    }
+    if (mapRef.current) mapRef.current.setView([lat, lng], 16);
   };
 
+  // ✅ 레퍼런스처럼 24+ 느낌
+  const todayCount = Math.min(filteredStores.length, 24);
+
   return (
-    <div className="min-h-screen bg-[#FFF9F5]">
-      <header className="bg-white border-b border-gray-200 sticky top-0 z-50">
-        <div className="container mx-auto px-4 py-4">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-3">
-              <img src="/두바이쫀든쿠키.png" alt="Dubai Dessert" className="w-10 h-10" />
-              <div>
-                <h1 className="text-xl font-bold text-gray-900">Dubai Dessert</h1>
-                <p className="text-xs text-[#FF8C42] font-medium">실시간 디저트 트래킹</p>
+    <div className="min-h-screen bg-[radial-gradient(900px_420px_at_20%_0%,#FFE7A3_0%,#FFD86B_40%,#F8C44E_100%)]">
+      {/* ✅ 모바일 미리보기처럼 보이게 전체 폭 제한
+          - 모바일: 100%
+          - 데스크탑에서도 레퍼런스처럼: 420px 고정폭 느낌
+          - 원하면 md:max-w-6xl 로 바꾸면 “웹 확장 버전” 됨 */}
+      <div className="mx-auto w-full max-w-[420px] md:max-w-6xl px-3 md:px-6 pb-10">
+        {/* Top Bar */}
+        <header className="sticky top-0 z-50 pt-3">
+          <div className="rounded-[16px] bg-white/70 backdrop-blur border border-black/60 shadow-[0_10px_30px_rgba(0,0,0,0.15)]">
+            <div className="px-3 py-2 flex items-center justify-between">
+              <div className="flex items-center gap-2">
+                <button className="w-9 h-9 rounded-[12px] border border-black/60 bg-white grid place-items-center">
+                  ☰
+                </button>
+
+                <div className="flex items-center gap-2">
+                  <div className="w-9 h-9 rounded-[12px] border border-black/60 bg-black grid place-items-center text-white">
+                    🍪
+                  </div>
+                  <div className="leading-tight">
+                    <div className="font-black tracking-tight text-[14px]">DESSERT</div>
+                    <div className="text-[10px] font-semibold -mt-0.5">FINDER</div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="flex items-center gap-2">
+                <button className="w-9 h-9 rounded-[12px] border border-black/60 bg-white grid place-items-center">
+                  <Bell className="w-4 h-4" />
+                </button>
+                <button className="w-9 h-9 rounded-[12px] border border-black/60 bg-rose-500 text-white grid place-items-center">
+                  👤
+                </button>
               </div>
             </div>
-            <nav className="flex items-center gap-6">
-              <button className="text-sm font-medium text-gray-700 hover:text-[#FF8C42] transition-colors">
-                지도
-              </button>
-              <button className="text-sm font-medium text-gray-700 hover:text-[#FF8C42] transition-colors">
-                판매처
-              </button>
-              <button className="text-sm font-medium text-gray-700 hover:text-[#FF8C42] transition-colors flex items-center gap-1">
-                <Bell className="w-4 h-4" />
-                알림설정
-              </button>
-            </nav>
           </div>
-        </div>
-      </header>
+        </header>
 
-      <div className="bg-gradient-to-br from-[#FFF5EB] to-[#FFF9F5] py-12 md:py-16">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-10">
-            <div className="inline-block bg-[#FFE8D6] text-[#FF8C42] px-4 py-1.5 rounded-full text-sm font-bold mb-4">
-              ✨ 실시간 재고 업데이트
+        {/* Error badge */}
+        {loadError ? (
+          <div className="mt-3 inline-flex items-center gap-2 border border-black/60 bg-white/70 px-3 py-1 rounded-full text-[11px] font-bold shadow-[0_10px_30px_rgba(0,0,0,0.15)]">
+            ⚠️ {loadError}
+          </div>
+        ) : null}
+
+        {/* HERO (모바일 1열) */}
+        <section className="mt-4">
+          {/* Poster */}
+          <div className="rounded-[18px] border border-black/70 bg-[#F7C95A] shadow-[0_10px_30px_rgba(0,0,0,0.15)] px-6 py-7">
+            <div className="font-extrabold tracking-[0.18em] text-[11px]">REAL TIME</div>
+
+            <div className="mt-5 font-black leading-[0.92] text-black">
+              <div className="text-[52px] tracking-tight">DESSERT</div>
+              <div className="text-[52px] tracking-tight">STOCK</div>
             </div>
-            <h2 className="text-4xl md:text-5xl font-black text-gray-900 mb-3">서울에서 찾는</h2>
-            <h2 className="text-4xl md:text-5xl font-black bg-gradient-to-r from-[#FF8C42] to-[#FF6B1A] bg-clip-text text-transparent mb-5">
-              프리미엄 디저트
-            </h2>
-            <p className="text-gray-600 text-base md:text-lg">가장 가까운 판매처의 실시간 재고를 확인하고</p>
-            <p className="text-gray-600 text-base md:text-lg">신선한 디저트를 즐기세요</p>
+
+            <div className="mt-6 h-px bg-black/70 w-full" />
+            <div className="mt-4 font-extrabold tracking-[0.24em] text-[11px]">SEOUL · 2026</div>
           </div>
 
-          <div className="max-w-4xl mx-auto mb-8">
+          {/* Today */}
+          <div className="mt-3 rounded-[18px] border border-black/70 bg-[#F6F1E6] shadow-[0_10px_30px_rgba(0,0,0,0.15)] overflow-hidden">
+            <div className="bg-black/85 text-white px-4 py-2 font-extrabold tracking-[0.24em] text-[11px]">
+              TODAY
+            </div>
+
+            <div className="p-5">
+              <div className="text-[52px] font-black leading-none text-black">{todayCount}+</div>
+              <div className="mt-1 text-[11px] font-extrabold tracking-[0.24em] text-black/80">STORES</div>
+
+              <div className="mt-5 border border-black/60 rounded-[14px] px-4 py-3 flex items-center justify-between bg-white/60">
+                <div className="text-[11px] font-extrabold tracking-[0.2em] text-black/80">FEATURED</div>
+                <div className="text-xl">🥐</div>
+              </div>
+            </div>
+          </div>
+
+          {/* Title line */}
+          <div className="mt-5 flex items-end gap-3">
+            <h2 className="text-4xl font-black tracking-tight">디저트 재고</h2>
+            <div className="flex-1 h-px bg-black/60 mb-2" />
+            <div className="text-[12px] font-black mb-2 text-black/80">©24</div>
+          </div>
+
+          {/* Filters */}
+          <div className="mt-2">
+          <div className="mt-1">
             <CategoryFilter activeCategory={activeCategory} onCategoryChange={setActiveCategory} />
           </div>
+        </section>
 
-          <div className="max-w-5xl mx-auto mb-8">
-            <div className="relative">
-              <MapPin className="absolute left-4 top-4 w-5 h-5 text-gray-400 z-10" />
-              <input
-                type="text"
-                placeholder="서울특별시에서 검색 중..."
-                className="w-full pl-12 pr-4 py-4 rounded-xl border-2 border-gray-200 focus:border-[#FF8C42] focus:outline-none text-gray-700 font-medium shadow-sm"
-                readOnly
-              />
-            </div>
-          </div>
-
-          <div className="max-w-6xl mx-auto">
+        {/* Map */}
+        <section className="mt-4">
+          <div className="relative h-[240px] rounded-[18px] border border-black/70 overflow-hidden bg-white/70 shadow-[0_10px_30px_rgba(0,0,0,0.15)]">
             <StoreMap
               stores={filteredStores as unknown as Store[]}
               activeCategory={activeCategory}
@@ -170,27 +194,32 @@ export default function App() {
               }}
             />
           </div>
-        </div>
+
+          {isLoading ? (
+            <div className="mt-3 inline-flex items-center gap-2 border border-black/60 bg-white/70 px-3 py-1 rounded-full text-[11px] font-bold shadow-[0_10px_30px_rgba(0,0,0,0.15)]">
+              ⏳ loading...
+            </div>
+          ) : null}
+        </section>
+
+        {/* List */}
+        {!isLoading && (
+          <section className="mt-6">
+            <div className="flex items-center gap-3 mb-3">
+              <h3 className="text-[13px] font-black tracking-[0.12em]">NEARBY STORES</h3>
+              <div className="flex-1 h-px bg-black/60" />
+              <div className="text-[12px] font-black text-black/80">{filteredStores.length}</div>
+            </div>
+
+            <StoreListView
+              stores={filteredStores as unknown as Store[]}
+              category={activeCategory}
+              onStoreSelect={setSelectedStore}
+              onZoomToStore={handleZoomToStore}
+            />
+          </section>
+        )}
+
+        <StoreDetailModal store={selectedStore} onClose={() => setSelectedStore(null)} />
       </div>
-
-      {!isLoading && (
-        <StoreListView
-          stores={filteredStores as unknown as Store[]}
-          category={activeCategory}
-          onStoreSelect={setSelectedStore}
-          onZoomToStore={handleZoomToStore}
-        />
-      )}
-
-      <footer className="bg-white border-t border-gray-200 py-8">
-        <div className="container mx-auto px-4 text-center">
-          <p className="text-gray-600 text-sm">
-            © 2026 Dubai Dessert. 모든 디저트 정보는 실시간으로 업데이트됩니다.
-          </p>
-        </div>
-      </footer>
-
-      <StoreDetailModal store={selectedStore} onClose={() => setSelectedStore(null)} />
     </div>
-  );
-}
