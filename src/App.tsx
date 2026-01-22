@@ -92,10 +92,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-[radial-gradient(900px_420px_at_20%_0%,#FFE7A3_0%,#FFD86B_40%,#F8C44E_100%)]">
-      {/* ✅ 모바일 미리보기처럼 보이게 전체 폭 제한
-          - 모바일: 100%
-          - 데스크탑에서도 레퍼런스처럼: 420px 고정폭 느낌
-          - 원하면 md:max-w-6xl 로 바꾸면 “웹 확장 버전” 됨 */}
+      {/* ✅ 모바일 미리보기처럼 보이게 전체 폭 제한 */}
       <div className="mx-auto w-full max-w-[420px] md:max-w-6xl px-3 md:px-6 pb-10">
         {/* Top Bar */}
         <header className="sticky top-0 z-50 pt-3">
@@ -136,7 +133,7 @@ export default function App() {
           </div>
         ) : null}
 
-        {/* HERO (모바일 1열) */}
+        {/* HERO */}
         <section className="mt-4">
           {/* Poster */}
           <div className="rounded-[18px] border border-black/70 bg-[#F7C95A] shadow-[0_10px_30px_rgba(0,0,0,0.15)] px-6 py-7">
@@ -161,6 +158,7 @@ export default function App() {
               <div className="text-[52px] font-black leading-none text-black">{todayCount}+</div>
               <div className="mt-1 text-[11px] font-extrabold tracking-[0.24em] text-black/80">STORES</div>
 
+              {/* (원하면 제거 가능) FEATURED */}
               <div className="mt-5 border border-black/60 rounded-[14px] px-4 py-3 flex items-center justify-between bg-white/60">
                 <div className="text-[11px] font-extrabold tracking-[0.2em] text-black/80">FEATURED</div>
                 <div className="text-xl">🥐</div>
@@ -176,7 +174,6 @@ export default function App() {
           </div>
 
           {/* Filters */}
-          <div className="mt-2">
           <div className="mt-1">
             <CategoryFilter activeCategory={activeCategory} onCategoryChange={setActiveCategory} />
           </div>
@@ -223,3 +220,5 @@ export default function App() {
         <StoreDetailModal store={selectedStore} onClose={() => setSelectedStore(null)} />
       </div>
     </div>
+  );
+}
