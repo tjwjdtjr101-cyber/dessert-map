@@ -198,7 +198,7 @@ export default function StoreMap({ activeCategory, onSelectStore, onMapReady }: 
                   cy="18"
                   r="17"
                   fill="#fff"
-                  stroke="#BFA68A"
+                  stroke="#F9EFDF"
                   stroke-width="2"
                   filter="url(#shadow-${store.id})"
                 />
