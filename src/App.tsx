@@ -94,37 +94,6 @@ export default function App() {
     <div className="min-h-screen bg-[radial-gradient(900px_420px_at_20%_0%,#FFE7A3_0%,#FFD86B_40%,#F8C44E_100%)]">
       {/* ✅ 모바일 미리보기처럼 보이게 전체 폭 제한 */}
       <div className="mx-auto w-full max-w-[420px] md:max-w-6xl px-3 md:px-6 pb-10">
-        {/* Top Bar */}
-        <header className="sticky top-0 z-50 pt-3">
-          <div className="rounded-[16px] bg-white/70 backdrop-blur border border-black/60 shadow-[0_10px_30px_rgba(0,0,0,0.15)]">
-            <div className="px-3 py-2 flex items-center justify-between">
-              <div className="flex items-center gap-2">
-                <button className="w-9 h-9 rounded-[12px] border border-black/60 bg-white grid place-items-center">
-                  ☰
-                </button>
-
-                <div className="flex items-center gap-2">
-                  <div className="w-9 h-9 rounded-[12px] border border-black/60 bg-black grid place-items-center text-white">
-                    🍪
-                  </div>
-                  <div className="leading-tight">
-                    <div className="font-black tracking-tight text-[14px]">DESSERT</div>
-                    <div className="text-[10px] font-semibold -mt-0.5">FINDER</div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="flex items-center gap-2">
-                <button className="w-9 h-9 rounded-[12px] border border-black/60 bg-white grid place-items-center">
-                  <Bell className="w-4 h-4" />
-                </button>
-                <button className="w-9 h-9 rounded-[12px] border border-black/60 bg-rose-500 text-white grid place-items-center">
-                  👤
-                </button>
-              </div>
-            </div>
-          </div>
-        </header>
        
 
         {/* Error badge */}
@@ -204,3 +173,4 @@ export default function App() {
       </div>
     </div>
   );
+}
