@@ -18,7 +18,7 @@ const createEmojiIcon = (emoji: string, bgColor: string = 'white') => {
         cx="20"
         cy="18"
         r="17"
-        fill="${bgColor}"
+        fill="#AC998C"
         stroke="#AC998C"
         stroke-width="2"
         filter="url(#${safeId})"
