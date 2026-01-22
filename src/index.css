@@ -6,12 +6,34 @@
 :root {
   font-family: "Montserrat", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
   text-rendering: geometricPrecision;
+
+  --hero-yellow:#FCC038;
+  --cream:#F9EFDF;
+  --beige-soft:#EEE1CD;
+  --beige-sand:#D6CAAA;
+  --brown-warm:#CC964F;
+  --brown-deep:#7E5B3B;
+  --brown-neutral:#AC998C;
+  --charcoal:#2D271E;
 }
 
+/* ✅ 여기부터가 핵심: 상단 흰 여백/오버스크롤 흰색 방지 */
 html,
-body {
+body,
+#root {
+  width: 100%;
+  height: 100%;
   margin: 0;
   padding: 0;
+
+  /* App.tsx에서 쓰는 배경과 동일하게 */
+  background: radial-gradient(900px 420px at 20% 0%, #FFE7A3 0%, #FFD86B 40%, #F8C44E 100%);
+}
+
+/* 모바일/크롬에서 튕길 때 흰색 보이는 것 방지 */
+body {
+  overflow-x: hidden;
+  overscroll-behavior-y: none;
 }
 
 * {
@@ -28,12 +50,11 @@ body {
   display: none;
 }
 
-/* ✅ (선택) 두바이 마커 이미지에만 라인/쉐도우 주고 싶을 때 */
+/* ✅ (선택) 두바이 마커 이미지도 “검정” 대신 배경톤에 맞게 */
 .dubai-marker {
-  border: 1px solid rgba(0,0,0,0.35);
+  border: 1px solid var(--brown-neutral);
   box-shadow: 0 8px 18px rgba(0,0,0,0.14);
 }
-
 
 /* ✅ Naver Map zoom control smaller (mobile-friendly) */
 .naver_map_control .zoom_control,
@@ -50,18 +71,6 @@ body {
   top: 10px !important;
 }
 
-
-:root{
-  --hero-yellow:#FCC038;
-  --cream:#F9EFDF;
-  --beige-soft:#EEE1CD;
-  --beige-sand:#D6CAAA;
-  --brown-warm:#CC964F;
-  --brown-deep:#7E5B3B;
-  --brown-neutral:#AC998C;
-  --charcoal:#2D271E;
-}
-
 /* (선택) 네이버 지도 줌 컨트롤이 너무 크면 살짝 축소
    - 네이버 DOM 클래스가 환경별로 다를 수 있어서 “완벽 보장”은 아니지만,
      RIGHT_BOTTOM으로 내려도 큰 경우에 도움 됨. */
@@ -69,28 +78,4 @@ body {
 .naver_map_control * {
   transform: scale(0.9);
   transform-origin: bottom right;
-}
-
-html,
-body,
-#root {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-
-  /* ✅ App 배경과 동일한 컬러로 맞춤 */
-  background: radial-gradient(
-    900px 420px at 20% 0%,
-    #FFE7A3 0%,
-    #FFD86B 40%,
-    #F8C44E 100%
-  );
-
-  /* ✅ 모바일 스크롤 바운스 흰색 방지 */
-  overscroll-behavior: none;
-}
-
-body {
-  overflow-x: hidden;
 }
