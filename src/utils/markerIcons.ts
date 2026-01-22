@@ -26,7 +26,7 @@ const createEmojiIcon = (emoji: string, bgColor: string = 'white') => {
         filter="url(#${safeId})"
       />
       <text x="20" y="26" font-size="22" text-anchor="middle" dominant-baseline="middle">${emoji}</text>
-      <polygon points="20,42 14,28 26,28" fill="${OUTLINE}"/>
+      <polygon points="20,42 14,28 26,28" fill="#000000"/>
     </svg>
   `;
 
