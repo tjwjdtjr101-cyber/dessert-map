@@ -6890,5 +6890,94 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 402,
+    "name": "더차 강남점",
+    "address": "서울특별시 강남구 강남대로110길 19-1 3층",
+    "district": "강남구",
+    "lat": 37.50395,
+    "lng": 127.026448,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 403,
+    "name": "KSPO DOME",
+    "address": "서울특별시 송파구 올림픽로 424",
+    "district": "송파구",
+    "lat": 37.519244,
+    "lng": 127.127516,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 404,
+    "name": "한정선",
+    "address": "서울특별시 성동구 연무장길 43-1 1층",
+    "district": "성동구",
+    "lat": 37.542865,
+    "lng": 127.054196,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 405,
+    "name": "카페 베이지크",
+    "address": "서울특별시 광진구 뚝섬로24길 21 1층 베이지크",
+    "district": "광진구",
+    "lat": 37.535475,
+    "lng": 127.063441,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 406,
+    "name": "금면옥 원기회복 칼국수 장한평본점",
+    "address": "서울특별시 동대문구 장한로 37 1층 101호",
+    "district": "동대문구",
+    "lat": 37.564567,
+    "lng": 127.066437,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
