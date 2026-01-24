@@ -3625,7 +3625,9 @@
     "lat": 37.526209,
     "lng": 126.928534,
     "categories": [
-      "dubai"
+      "dubai",
+      "bungeoppang",
+      "goguma"
     ],
     "category": "dubai",
     "status": "available",
@@ -6969,6 +6971,41 @@
     "district": "동대문구",
     "lat": 37.564567,
     "lng": 127.066437,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 407,
+    "name": "페리카페",
+    "address": "서울특별시 광진구 광나루로36길 40 1층 102호",
+    "district": "광진구",
+    "lat": 37.543177,
+    "lng": 127.086134,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 408,
+    "name": "그라운드시소 이스트",
+    "address": "서울특별시 광진구 아차산로 402 이스트폴 2F 그라운드시소 이스트",
+    "district": "광진구",
+    "lat": 37.536697,
+    "lng": 127.087822,
     "categories": [
       "bungeoppang",
       "goguma"
