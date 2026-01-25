@@ -7016,5 +7016,56 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 409,
+    "name": "마가렛 연남",
+    "address": "서울특별시 마포구 성미산로29길 10 1층",
+    "district": "마포구",
+    "lat": 37.564593,
+    "lng": 126.922812,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 410,
+    "name": "오소리 베이커리 어린이대공원 본점",
+    "address": "서울특별시 광진구 능동로 177 1~3층",
+    "district": "광진구",
+    "lat": 37.546511,
+    "lng": 127.07351,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 411,
+    "name": "빈앤도우",
+    "address": "서울특별시 광진구 면목로 17-1 1층",
+    "district": "광진구",
+    "lat": 37.555871,
+    "lng": 127.075673,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
