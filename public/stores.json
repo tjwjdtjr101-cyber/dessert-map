@@ -7067,5 +7067,91 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 412,
+    "name": "쩰리네 과자점",
+    "address": "서울특별시 서초구 언남11길 20 1층",
+    "district": "서초구",
+    "lat": 37.475057,
+    "lng": 127.043624,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 413,
+    "name": "서울붕어베이커리 서초",
+    "address": "서울특별시 서초구 서운로 178",
+    "district": "서초구",
+    "lat": 37.499004,
+    "lng": 127.024918,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 414,
+    "name": "소보로빵집",
+    "address": "서울특별시 용산구 한강대로62길 26 1층4호",
+    "district": "용산구",
+    "lat": 37.533875,
+    "lng": 126.973576,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 415,
+    "name": "하르당 상일동역점",
+    "address": "서울특별시 강동구 고덕로 390",
+    "district": "강동구",
+    "lat": 37.556773,
+    "lng": 127.169018,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 416,
+    "name": "맹자네떡복이",
+    "address": "서울특별시 동대문구 망우로16길 5",
+    "district": "동대문구",
+    "lat": 37.58969,
+    "lng": 127.061852,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
