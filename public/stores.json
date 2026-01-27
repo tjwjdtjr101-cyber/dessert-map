@@ -7153,5 +7153,40 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 417,
+    "name": "난지 한강공원",
+    "address": "서울특별시 마포구 한강난지로 162 한강공원 난지안내센터",
+    "district": "마포구",
+    "lat": 37.567257,
+    "lng": 126.874407,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 418,
+    "name": "달콩쌤 디저트",
+    "address": "서울특별시 동대문구 한천로38다길 30 1층 달콩쌤디저트",
+    "district": "동대문구",
+    "lat": 37.577365,
+    "lng": 127.069038,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
