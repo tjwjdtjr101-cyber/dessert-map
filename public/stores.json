@@ -7222,5 +7222,59 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 421,
+    "name": "성수다락",
+    "address": "서울특별시 성동구 뚝섬로9길 20 2층",
+    "district": "성동구",
+    "lat": 37.539896,
+    "lng": 127.056259,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 422,
+    "name": "아이엠치과병원",
+    "address": "서울특별시 강동구 올림픽로 664 대우 한강 베네시티",
+    "district": "강동구",
+    "lat": 37.540697,
+    "lng": 127.124496,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 423,
+    "name": "꽃게장집 간장게장 무한리필 청량리본점",
+    "address": "서울특별시 동대문구 약령시로 104-1 2층",
+    "district": "동대문구",
+    "lat": 37.582907,
+    "lng": 127.041632,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
