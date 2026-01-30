@@ -7276,5 +7276,75 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 424,
+    "name": "aT센터",
+    "address": "서울특별시 서초구 강남대로 27",
+    "district": "서초구",
+    "lat": 37.46826,
+    "lng": 127.038999,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 425,
+    "name": "상수당",
+    "address": "서울특별시 마포구 독막로 67 1층 좌측호",
+    "district": "마포구",
+    "lat": 37.547942,
+    "lng": 126.920999,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 426,
+    "name": "뚝섬한강공원 눈썰매장",
+    "address": "서울특별시 광진구 자양동 112 뚝섬 한강공원 수영장",
+    "district": "광진구",
+    "lat": 37.529971,
+    "lng": 127.066874,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 427,
+    "name": "스트릿1988 용두동아제약점",
+    "address": "서울특별시 동대문구 무학로23길 8 1층 102호",
+    "district": "동대문구",
+    "lat": 37.572561,
+    "lng": 127.030121,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
