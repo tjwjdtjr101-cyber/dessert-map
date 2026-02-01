@@ -7623,5 +7623,58 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 444,
+    "name": "하이디라오 서초지점",
+    "address": "서울특별시 서초구 서초대로77길 54 2층 하이디라오 훠궈",
+    "district": "서초구",
+    "lat": 37.502579,
+    "lng": 127.024851,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 445,
+    "name": "고미디저트 연남점",
+    "address": "서울특별시 마포구 동교로38안길 11 1.5층",
+    "district": "마포구",
+    "lat": 37.56232,
+    "lng": 126.924764,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 446,
+    "name": "히사시돈부리 연남본점",
+    "address": "서울특별시 마포구 동교로38길 33-16 지하1층",
+    "district": "마포구",
+    "lat": 37.561886,
+    "lng": 126.926302,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
