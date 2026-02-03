@@ -5164,7 +5164,8 @@
     "lat": 37.526782,
     "lng": 127.039802,
     "categories": [
-      "cake"
+      "cake",
+      "dubai"
     ],
     "category": "cake",
     "status": "available",
@@ -7671,6 +7672,163 @@
       "goguma"
     ],
     "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 447,
+    "name": "하우모찌",
+    "address": "서울특별시 송파구 오금로18길 12 지하1층",
+    "district": "송파구",
+    "lat": 37.509838,
+    "lng": 127.110367,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 448,
+    "name": "파란만잔 가락시장역점",
+    "address": "서울특별시 송파구 중대로 109 1층 101호",
+    "district": "송파구",
+    "lat": 37.493713,
+    "lng": 127.120514,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 449,
+    "name": "몽촌 닭갈비",
+    "address": "서울특별시 송파구 석촌호수로 298 104호, 105호",
+    "district": "송파구",
+    "lat": 37.511626,
+    "lng": 127.107996,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 450,
+    "name": "은혜야채",
+    "address": "서울특별시 송파구 송파대로37길 69-4 석촌시장 거리가게 1호 은혜야채",
+    "district": "송파구",
+    "lat": 37.49945,
+    "lng": 127.104696,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 451,
+    "name": "스케줄 성수",
+    "address": "서울특별시 성동구 아차산로 104 2층",
+    "district": "성동구",
+    "lat": 37.544445,
+    "lng": 127.055451,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 452,
+    "name": "올리브영 N 성수",
+    "address": "서울특별시 성동구 연무장7길 13 팩토리얼 성수",
+    "district": "성동구",
+    "lat": 37.544212,
+    "lng": 127.054429,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 453,
+    "name": "에브리커피 신용산점",
+    "address": "서울특별시 용산구 한강대로44길 17 코너",
+    "district": "용산구",
+    "lat": 37.530857,
+    "lng": 126.970892,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 454,
+    "name": "IFC몰",
+    "address": "서울특별시 영등포구 국제금융로 10 IFC몰 B1",
+    "district": "영등포구",
+    "lat": 37.525191,
+    "lng": 126.925801,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 455,
+    "name": "오르앤지드",
+    "address": "서울특별시 동대문구 답십리로30길 49 1층 카페 오르앤지드",
+    "district": "동대문구",
+    "lat": 37.573242,
+    "lng": 127.047688,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
     "status": "available",
     "price": 5500,
     "rating": 4.6,
