@@ -7887,5 +7887,75 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 459,
+    "name": "어글리베이커리",
+    "address": "서울특별시 마포구 월드컵로13길 73 1층 어글리 베이커리",
+    "district": "마포구",
+    "lat": 37.555034,
+    "lng": 126.906038,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 460,
+    "name": "바나프레소 당산점",
+    "address": "서울특별시 영등포구 양평로 76",
+    "district": "영등포구",
+    "lat": 37.535721,
+    "lng": 126.898743,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 461,
+    "name": "여의도 요정",
+    "address": "서울특별시 영등포구 여의대로 70 지하1층 104호",
+    "district": "영등포구",
+    "lat": 37.524842,
+    "lng": 126.924197,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 462,
+    "name": "현대붕어빵",
+    "address": "서울특별시 광진구 아차산로29길 12 1층 현대붕어빵",
+    "district": "광진구",
+    "lat": 37.541484,
+    "lng": 127.068409,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
