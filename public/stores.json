@@ -7957,5 +7957,58 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 463,
+    "name": "마들젠 글루텐프리 슈가프리 케이크샵",
+    "address": "서울특별시 서초구 강남대로18길 15-6 1층",
+    "district": "서초구",
+    "lat": 37.472186,
+    "lng": 127.039857,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 464,
+    "name": "푸하하크림빵",
+    "address": "서울특별시 마포구 양화로19길 22-25 1층",
+    "district": "마포구",
+    "lat": 37.558948,
+    "lng": 126.924446,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 465,
+    "name": "써브웨이 신설동역점",
+    "address": "서울특별시 동대문구 왕산로 15-1",
+    "district": "동대문구",
+    "lat": 37.576529,
+    "lng": 127.025294,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
