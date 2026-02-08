@@ -8063,5 +8063,23 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 469,
+    "name": "다이닝원 청량리점",
+    "address": "서울특별시 동대문구 고산자로32길 78 한양수자인그라시엘 2층",
+    "district": "동대문구",
+    "lat": 37.577511,
+    "lng": 127.042912,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
