@@ -8081,5 +8081,111 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 470,
+    "name": "설빙 가락시장역점",
+    "address": "서울특별시 송파구 중대로 109 지상2층",
+    "district": "송파구",
+    "lat": 37.493735,
+    "lng": 127.120568,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 471,
+    "name": "고방채 서여의도 KBS 3호점",
+    "address": "서울특별시 영등포구 국회대로62길 25 한국교육시설안전원 1층 고방채 서여의도 KBS 3호점",
+    "district": "영등포구",
+    "lat": 37.526235,
+    "lng": 126.917693,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 472,
+    "name": "강동아트센터",
+    "address": "서울특별시 강동구 동남로 870 강동아트센터",
+    "district": "강동구",
+    "lat": 37.55108,
+    "lng": 127.157635,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 473,
+    "name": "비스타 워커힐 서울 더뷔페",
+    "address": "서울특별시 광진구 워커힐로 177 비스타 워커힐 서울 1층",
+    "district": "광진구",
+    "lat": 37.554355,
+    "lng": 127.111262,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 474,
+    "name": "바나프레소 답십리역점",
+    "address": "서울특별시 동대문구 천호대로 289 104호",
+    "district": "동대문구",
+    "lat": 37.566813,
+    "lng": 127.053219,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 475,
+    "name": "롯데시네마 청량리점",
+    "address": "서울특별시 동대문구 왕산로 214 7층",
+    "district": "동대문구",
+    "lat": 37.580692,
+    "lng": 127.047561,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
