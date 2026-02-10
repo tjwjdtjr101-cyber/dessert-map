@@ -248,7 +248,8 @@
     "lat": 37.525215,
     "lng": 127.027602,
     "categories": [
-      "cake"
+      "cake",
+      "dubai"
     ],
     "category": "cake",
     "status": "available",
@@ -5467,7 +5468,8 @@
     "lat": 37.546553,
     "lng": 127.042309,
     "categories": [
-      "cake"
+      "cake",
+      "dubai"
     ],
     "category": "cake",
     "status": "available",
@@ -5732,7 +5734,8 @@
     "lat": 37.53375,
     "lng": 127.002148,
     "categories": [
-      "cake"
+      "cake",
+      "dubai"
     ],
     "category": "cake",
     "status": "available",
@@ -8182,6 +8185,316 @@
       "goguma"
     ],
     "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 476,
+    "name": "스탠다드브레드 도산",
+    "address": "서울특별시 강남구 도산대로53길 13 1층",
+    "district": "강남구",
+    "lat": 37.524058,
+    "lng": 127.038282,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 477,
+    "name": "누뗀",
+    "address": "서울특별시 서초구 청계산로 119 지하1층~2층",
+    "district": "서초구",
+    "lat": 37.453751,
+    "lng": 127.05127,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 478,
+    "name": "카페 이수",
+    "address": "서울특별시 서초구 논현로27길 81 1층",
+    "district": "서초구",
+    "lat": 37.478268,
+    "lng": 127.040545,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 479,
+    "name": "코스트코코리아 양재점",
+    "address": "서울특별시 서초구 양재대로 159",
+    "district": "서초구",
+    "lat": 37.461903,
+    "lng": 127.036223,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 480,
+    "name": "모어댄버터",
+    "address": "서울특별시 송파구 송파대로 467 1층 모어댄버터",
+    "district": "송파구",
+    "lat": 37.507795,
+    "lng": 127.10445,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 481,
+    "name": "샤롯데씨어터",
+    "address": "서울특별시 송파구 올림픽로 240",
+    "district": "송파구",
+    "lat": 37.510576,
+    "lng": 127.099863,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 482,
+    "name": "더블유오앤",
+    "address": "서울특별시 마포구 잔다리로6길 20-9 1층, B1층",
+    "district": "마포구",
+    "lat": 37.551852,
+    "lng": 126.920544,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 483,
+    "name": "블러",
+    "address": "서울특별시 마포구 토정로 28-10 4층",
+    "district": "마포구",
+    "lat": 37.545028,
+    "lng": 126.914208,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 484,
+    "name": "코코로카라",
+    "address": "서울특별시 마포구 연남로1길 41",
+    "district": "마포구",
+    "lat": 37.559803,
+    "lng": 126.920945,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 485,
+    "name": "AVEK CHERI 아벡쉐리",
+    "address": "서울특별시 용산구 이태원로 247 1,2층",
+    "district": "용산구",
+    "lat": 37.536928,
+    "lng": 127.000278,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 486,
+    "name": "엄마와나,마앤나",
+    "address": "서울특별시 영등포구 영신로 219 코오롱 스타폴리스 1층 마앤나 cafe",
+    "district": "영등포구",
+    "lat": 37.527284,
+    "lng": 126.902761,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 487,
+    "name": "고방채 동여의도 본점",
+    "address": "서울특별시 영등포구 여의대방로65길 20 1층 고방채",
+    "district": "영등포구",
+    "lat": 37.520211,
+    "lng": 126.929415,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 488,
+    "name": "카페 화선연 성내",
+    "address": "서울특별시 강동구 성내로6길 14-20 1층 102호 화선연 성내",
+    "district": "강동구",
+    "lat": 37.529867,
+    "lng": 127.121886,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 489,
+    "name": "낸시스",
+    "address": "서울특별시 강동구 동남로75길 13-21 101호 낸시스",
+    "district": "강동구",
+    "lat": 37.553332,
+    "lng": 127.155557,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 490,
+    "name": "해피베어데이 현대백화점 천호점",
+    "address": "서울특별시 강동구 천호대로 1005 지하 2층 해피베어데이",
+    "district": "강동구",
+    "lat": 37.538907,
+    "lng": 127.124135,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 491,
+    "name": "카페롱",
+    "address": "서울특별시 광진구 광나루로 360 1층 카페롱",
+    "district": "광진구",
+    "lat": 37.547889,
+    "lng": 127.070029,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 492,
+    "name": "팔당숯불갈비",
+    "address": "서울특별시 광진구 자양번영로 25-1",
+    "district": "광진구",
+    "lat": 37.531994,
+    "lng": 127.074995,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 493,
+    "name": "카페 에이유",
+    "address": "서울특별시 동대문구 경희대로1가길 12 1층",
+    "district": "동대문구",
+    "lat": 37.592348,
+    "lng": 127.051581,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
     "status": "available",
     "price": 5500,
     "rating": 4.6,
