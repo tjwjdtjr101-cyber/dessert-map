@@ -8500,5 +8500,73 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 494,
+    "name": "카페 아뜰리에",
+    "address": "서울특별시 서초구 방배천로4길 48 1층",
+    "district": "서초구",
+    "lat": 37.477263,
+    "lng": 126.985118,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 495,
+    "name": "르빵 송파점",
+    "address": "서울특별시 송파구 백제고분로41길 12 향나무빌딩",
+    "district": "송파구",
+    "lat": 37.507234,
+    "lng": 127.108146,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 496,
+    "name": "칠커피바 국회의사당역점",
+    "address": "서울특별시 영등포구 국회대로66길 11-4 105호, 106호",
+    "district": "영등포구",
+    "lat": 37.528717,
+    "lng": 126.919777,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 497,
+    "name": "다쿠앤젤라",
+    "address": "서울특별시 광진구 능동로29길 5",
+    "district": "광진구",
+    "lat": 37.554444,
+    "lng": 127.077504,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
