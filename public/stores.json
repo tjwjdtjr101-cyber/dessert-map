@@ -3733,7 +3733,8 @@
     "lat": 37.523694,
     "lng": 126.896446,
     "categories": [
-      "cake"
+      "cake",
+      "dubai"
     ],
     "category": "cake",
     "status": "available",
@@ -8563,6 +8564,108 @@
       "dubai"
     ],
     "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 498,
+    "name": "카페자몽",
+    "address": "서울특별시 강남구 삼성로 546 1층 101호",
+    "district": "강남구",
+    "lat": 37.510349,
+    "lng": 127.055064,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 499,
+    "name": "카페345",
+    "address": "서울특별시 마포구 홍익로2길 7 1층",
+    "district": "마포구",
+    "lat": 37.554232,
+    "lng": 126.92336,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 500,
+    "name": "베이커리 손유",
+    "address": "서울특별시 영등포구 양평로 136 유니언호텔 1층 베이커리손유",
+    "district": "영등포구",
+    "lat": 37.538647,
+    "lng": 126.892961,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 501,
+    "name": "밀라즈",
+    "address": "서울특별시 영등포구 가마산로 395 1층 101호",
+    "district": "영등포구",
+    "lat": 37.503441,
+    "lng": 126.900888,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 502,
+    "name": "오뜨르베이커리",
+    "address": "서울특별시 강동구 올림픽로62길 34 1층 오뜨르베이커리",
+    "district": "강동구",
+    "lat": 37.536366,
+    "lng": 127.124725,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 503,
+    "name": "뺑비",
+    "address": "서울특별시 동대문구 답십리로69길 49 .1층",
+    "district": "동대문구",
+    "lat": 37.574483,
+    "lng": 127.073948,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
     "status": "available",
     "price": 5500,
     "rating": 4.6,
