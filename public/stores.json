@@ -8671,5 +8671,91 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 504,
+    "name": "바나프레소 잠실새내점",
+    "address": "서울특별시 송파구 석촌호수로 64",
+    "district": "송파구",
+    "lat": 37.510683,
+    "lng": 127.085467,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 505,
+    "name": "크림라벨 서울숲 본점",
+    "address": "서울특별시 성동구 서울숲2길 34 1층",
+    "district": "성동구",
+    "lat": 37.546599,
+    "lng": 127.04229,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 506,
+    "name": "장인닭갈비 홍대점",
+    "address": "서울특별시 마포구 어울마당로 111-1 1층",
+    "district": "마포구",
+    "lat": 37.55491,
+    "lng": 126.922863,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 507,
+    "name": "데이아워",
+    "address": "서울특별시 강동구 풍성로54길 33 1층 데이아워",
+    "district": "강동구",
+    "lat": 37.528011,
+    "lng": 127.133506,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 508,
+    "name": "파리바게뜨 신설동역점",
+    "address": "서울특별시 동대문구 왕산로 10 교보재단 빌딩 교보재단빌딩",
+    "district": "동대문구",
+    "lat": 37.57595,
+    "lng": 127.024857,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
