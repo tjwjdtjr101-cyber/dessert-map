@@ -8757,5 +8757,94 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 509,
+    "name": "김보람 초콜릿 연남직영점",
+    "address": "서울특별시 마포구 연희로 31 1층 김보람 초콜릿 홍대연남점",
+    "district": "마포구",
+    "lat": 37.561659,
+    "lng": 126.926856,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 510,
+    "name": "코스트코코리아 양평점",
+    "address": "서울특별시 영등포구 선유로 156",
+    "district": "영등포구",
+    "lat": 37.527646,
+    "lng": 126.892191,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 511,
+    "name": "백년화편",
+    "address": "서울특별시 강동구 양재대로81길 32",
+    "district": "강동구",
+    "lat": 37.523262,
+    "lng": 127.132536,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 512,
+    "name": "개인취향",
+    "address": "서울특별시 광진구 긴고랑로26길 14 1층",
+    "district": "광진구",
+    "lat": 37.559851,
+    "lng": 127.085118,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 513,
+    "name": "롯데백화점 청량리점",
+    "address": "서울특별시 동대문구 왕산로 214",
+    "district": "동대문구",
+    "lat": 37.580736,
+    "lng": 127.047512,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
