@@ -8846,5 +8846,59 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 514,
+    "name": "던킨 원더스 강남",
+    "address": "서울특별시 서초구 강남대로 373 홍우빌딩 1층",
+    "district": "서초구",
+    "lat": 37.49607,
+    "lng": 127.02815,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 515,
+    "name": "노틀던",
+    "address": "서울특별시 성동구 서울숲2길 11 1층",
+    "district": "성동구",
+    "lat": 37.547361,
+    "lng": 127.040015,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 516,
+    "name": "경동시장",
+    "address": "서울특별시 동대문구 고산자로36길 3",
+    "district": "동대문구",
+    "lat": 37.578952,
+    "lng": 127.039098,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
