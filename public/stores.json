@@ -8900,5 +8900,56 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 517,
+    "name": "디끌레",
+    "address": "서울특별시 서초구 신반포로42길 11 1층 101호",
+    "district": "서초구",
+    "lat": 37.509946,
+    "lng": 127.018752,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 518,
+    "name": "어라운드데이",
+    "address": "서울특별시 성동구 서울숲2길 24-1 어라운드데이",
+    "district": "성동구",
+    "lat": 37.546891,
+    "lng": 127.041249,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 519,
+    "name": "조이아베이크샵",
+    "address": "서울특별시 강동구 천중로12길 1 성우스타팰리스 103동 1층",
+    "district": "강동구",
+    "lat": 37.545089,
+    "lng": 127.127586,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
