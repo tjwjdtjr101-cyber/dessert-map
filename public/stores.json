@@ -8951,5 +8951,58 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 520,
+    "name": "엔커피 문정역점",
+    "address": "서울특별시 송파구 법원로 114 E-B 163호",
+    "district": "송파구",
+    "lat": 37.485799,
+    "lng": 127.120699,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 521,
+    "name": "투떰즈업",
+    "address": "서울특별시 마포구 희우정로16길 53 1층",
+    "district": "마포구",
+    "lat": 37.554922,
+    "lng": 126.904832,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 522,
+    "name": "생어거스틴 성내점",
+    "address": "서울특별시 강동구 강동대로 143-64 스퀘어100 , 1층",
+    "district": "강동구",
+    "lat": 37.528072,
+    "lng": 127.120157,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
