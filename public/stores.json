@@ -9004,5 +9004,41 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 523,
+    "name": "망원시장",
+    "address": "서울특별시 마포구 포은로6길 27 2층",
+    "district": "마포구",
+    "lat": 37.556551,
+    "lng": 126.906069,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 524,
+    "name": "CGV 영등포",
+    "address": "서울특별시 영등포구 영중로 15 타임스퀘어 4F~8F (CGV 영등포타임스퀘어)",
+    "district": "영등포구",
+    "lat": 37.516958,
+    "lng": 126.902438,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
