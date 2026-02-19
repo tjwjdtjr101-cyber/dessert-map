@@ -9040,5 +9040,75 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 525,
+    "name": "CGV 왕십리",
+    "address": "서울특별시 성동구 왕십리광장로 17",
+    "district": "성동구",
+    "lat": 37.562203,
+    "lng": 127.03813,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 526,
+    "name": "서울월드컵경기장",
+    "address": "서울특별시 마포구 월드컵로 240",
+    "district": "마포구",
+    "lat": 37.568289,
+    "lng": 126.897273,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 527,
+    "name": "미미고찹쌀꽈배기 강동구청점",
+    "address": "서울특별시 강동구 성내로 7 1층 미미고",
+    "district": "강동구",
+    "lat": 37.530591,
+    "lng": 127.121789,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 528,
+    "name": "띵베이크샵",
+    "address": "서울특별시 동대문구 고산자로36길 3 경동시장 신관 3층 청년몰 70117호 띵베이크샵",
+    "district": "동대문구",
+    "lat": 37.579328,
+    "lng": 127.03939,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
