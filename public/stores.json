@@ -9110,5 +9110,57 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 529,
+    "name": "하우스엠",
+    "address": "서울특별시 강남구 논현로26길 42 1층",
+    "district": "강남구",
+    "lat": 37.483807,
+    "lng": 127.045563,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 530,
+    "name": "디뮤지엄",
+    "address": "서울특별시 성동구 왕십리로 83-21 디뮤지엄",
+    "district": "성동구",
+    "lat": 37.543826,
+    "lng": 127.044218,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 531,
+    "name": "도화아파트먼트 한강로",
+    "address": "서울특별시 용산구 한강대로21길 17-17",
+    "district": "용산구",
+    "lat": 37.526232,
+    "lng": 126.963653,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
