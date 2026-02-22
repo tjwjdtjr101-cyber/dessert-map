@@ -9162,5 +9162,41 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 532,
+    "name": "트라가 강남역점",
+    "address": "서울특별시 서초구 강남대로55길 24 2층 201호 트라가",
+    "district": "서초구",
+    "lat": 37.495625,
+    "lng": 127.025689,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 533,
+    "name": "서울상상나라",
+    "address": "서울특별시 광진구 능동로 216 서울상상나라",
+    "district": "광진구",
+    "lat": 37.550642,
+    "lng": 127.077568,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
