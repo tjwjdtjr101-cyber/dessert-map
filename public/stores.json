@@ -9198,5 +9198,40 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 534,
+    "name": "히얼커피",
+    "address": "서울특별시 마포구 월드컵북로42가길 11 상가 1층 B101호 here커피",
+    "district": "마포구",
+    "lat": 37.574866,
+    "lng": 126.897841,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 535,
+    "name": "강동오아로피부과의원",
+    "address": "서울특별시 강동구 고덕로 262 효성해링턴타워 4층",
+    "district": "강동구",
+    "lat": 37.554747,
+    "lng": 127.154661,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
