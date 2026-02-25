@@ -9233,5 +9233,57 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 536,
+    "name": "장인닭갈비 강남점",
+    "address": "서울특별시 강남구 테헤란로1길 19",
+    "district": "강남구",
+    "lat": 37.499655,
+    "lng": 127.027494,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 537,
+    "name": "세컨브레스",
+    "address": "서울특별시 서초구 양재천로 95-2 1층",
+    "district": "서초구",
+    "lat": 37.476084,
+    "lng": 127.039793,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 538,
+    "name": "터틀힙 잠실",
+    "address": "서울특별시 송파구 백제고분로45길 20 제1층 101호",
+    "district": "송파구",
+    "lat": 37.509917,
+    "lng": 127.109512,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
