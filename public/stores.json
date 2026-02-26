@@ -3819,7 +3819,8 @@
     "lat": 37.495604,
     "lng": 126.896638,
     "categories": [
-      "cake"
+      "cake",
+      "dubai"
     ],
     "category": "cake",
     "status": "available",
@@ -8697,7 +8698,8 @@
     "lat": 37.546599,
     "lng": 127.04229,
     "categories": [
-      "dubai"
+      "dubai",
+      "cake"
     ],
     "category": "dubai",
     "status": "available",
@@ -9280,6 +9282,143 @@
       "cake"
     ],
     "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 539,
+    "name": "카페 로얄마카롱 신사역점",
+    "address": "서울특별시 강남구 도산대로1길 6 지하1층",
+    "district": "강남구",
+    "lat": 37.517147,
+    "lng": 127.020427,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 540,
+    "name": "뷰클런즈",
+    "address": "서울특별시 송파구 백제고분로43길 10 1층",
+    "district": "송파구",
+    "lat": 37.508345,
+    "lng": 127.109604,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 541,
+    "name": "성수율 카페",
+    "address": "서울특별시 성동구 성수이로16길 31",
+    "district": "성동구",
+    "lat": 37.540295,
+    "lng": 127.060042,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 542,
+    "name": "클래식 해례커피",
+    "address": "서울특별시 성동구 연무장길 28-20 1층",
+    "district": "성동구",
+    "lat": 37.542812,
+    "lng": 127.052368,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 543,
+    "name": "라프레플루트 성수",
+    "address": "서울특별시 성동구 서울숲2길 8-8 2층",
+    "district": "성동구",
+    "lat": 37.547252,
+    "lng": 127.039443,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 544,
+    "name": "미도인 홍대",
+    "address": "서울특별시 마포구 잔다리로2길 19 1층",
+    "district": "마포구",
+    "lat": 37.551692,
+    "lng": 126.920972,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 545,
+    "name": "낫배드커피 한남",
+    "address": "서울특별시 용산구 이태원로49길 37 낫배드커피 한남",
+    "district": "용산구",
+    "lat": 37.537231,
+    "lng": 126.998377,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 546,
+    "name": "바이웨이 베이커스 영등포점",
+    "address": "서울특별시 영등포구 당산로27길 16 1층 BYWAY BAKERS 영등포점",
+    "district": "영등포구",
+    "lat": 37.525224,
+    "lng": 126.89484,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
     "status": "available",
     "price": 5500,
     "rating": 4.6,
