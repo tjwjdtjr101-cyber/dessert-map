@@ -9442,5 +9442,76 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 548,
+    "name": "뚜흐느솔",
+    "address": "서울특별시 성동구 성수이로 123 1층, 2층",
+    "district": "성동구",
+    "lat": 37.545985,
+    "lng": 127.057421,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 549,
+    "name": "호텔 나루 서울 엠갤러리",
+    "address": "서울특별시 마포구 마포대로 8 호텔 나루 서울 엠갤러리",
+    "district": "마포구",
+    "lat": 37.53745,
+    "lng": 126.94428,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 550,
+    "name": "여의도 한강공원",
+    "address": "서울특별시 영등포구 여의동로 330 한강사업본부 여의도안내센터",
+    "district": "영등포구",
+    "lat": 37.526323,
+    "lng": 126.934827,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 551,
+    "name": "멜로우피부과의원 천호점",
+    "address": "서울특별시 강동구 천호대로 1024 4층 401호, 402호, 403호, 404호, 405호, 439호",
+    "district": "강동구",
+    "lat": 37.537671,
+    "lng": 127.125401,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
