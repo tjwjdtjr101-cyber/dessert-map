@@ -9513,5 +9513,58 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 552,
+    "name": "SETEC",
+    "address": "서울특별시 강남구 남부순환로 3104 SETEC",
+    "district": "강남구",
+    "lat": 37.495683,
+    "lng": 127.071967,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 553,
+    "name": "플디 성수점",
+    "address": "서울특별시 성동구 상원길 44",
+    "district": "성동구",
+    "lat": 37.547947,
+    "lng": 127.048529,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 554,
+    "name": "영화장",
+    "address": "서울특별시 동대문구 휘경로 3-8",
+    "district": "동대문구",
+    "lat": 37.596569,
+    "lng": 127.06095,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
