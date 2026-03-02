@@ -9566,5 +9566,93 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 555,
+    "name": "더카카오",
+    "address": "서울특별시 서초구 강남대로10길 36 1층",
+    "district": "서초구",
+    "lat": 37.468987,
+    "lng": 127.041378,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 556,
+    "name": "따롱이훠궈 강남점",
+    "address": "서울특별시 서초구 서초대로73길 9 2층",
+    "district": "서초구",
+    "lat": 37.498315,
+    "lng": 127.025232,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 557,
+    "name": "센트럴사이트 연남점",
+    "address": "서울특별시 마포구 연희로 29-1 센트럴사이트",
+    "district": "마포구",
+    "lat": 37.561549,
+    "lng": 126.926852,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 558,
+    "name": "닥터재일치과의원",
+    "address": "서울특별시 강동구 올림픽로 796 2층",
+    "district": "강동구",
+    "lat": 37.552055,
+    "lng": 127.128515,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 559,
+    "name": "뚝섬한강공원",
+    "address": "서울특별시 광진구 자양동 704-1",
+    "district": "광진구",
+    "lat": 37.529452,
+    "lng": 127.070677,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
