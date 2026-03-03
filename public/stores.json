@@ -9654,5 +9654,76 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 560,
+    "name": "서울붕어베이커리 역삼",
+    "address": "서울특별시 강남구 논현로85길 52 101-1호 서울붕어베이커리 역삼",
+    "district": "강남구",
+    "lat": 37.498086,
+    "lng": 127.033583,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 561,
+    "name": "티엔미미 강남점",
+    "address": "서울특별시 서초구 사임당로 143 104-1, 104-2, 104-3호",
+    "district": "서초구",
+    "lat": 37.491811,
+    "lng": 127.025368,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 562,
+    "name": "티엔미미 홍대점",
+    "address": "서울특별시 마포구 양화로 144 머큐어 앰버서더 호텔 4층",
+    "district": "마포구",
+    "lat": 37.555324,
+    "lng": 126.922409,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 563,
+    "name": "서울풍물시장",
+    "address": "서울특별시 동대문구 천호대로4길 21 서울풍물시장",
+    "district": "동대문구",
+    "lat": 37.572688,
+    "lng": 127.025417,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
