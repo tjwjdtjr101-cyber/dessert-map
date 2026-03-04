@@ -9725,5 +9725,41 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 564,
+    "name": "누와",
+    "address": "서울특별시 강남구 강남대로 652 신사스퀘어 2층 누와",
+    "district": "강남구",
+    "lat": 37.519604,
+    "lng": 127.019076,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 565,
+    "name": "죠죠 성수점",
+    "address": "서울특별시 성동구 연무장17길 7 1층",
+    "district": "성동구",
+    "lat": 37.541482,
+    "lng": 127.060979,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
