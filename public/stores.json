@@ -9761,5 +9761,58 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 566,
+    "name": "bd버거 성수역연무장길 점심저녁",
+    "address": "서울특별시 성동구 성수이로14길 7 2층",
+    "district": "성동구",
+    "lat": 37.541097,
+    "lng": 127.056466,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 567,
+    "name": "뉴욕베이글 상암본점",
+    "address": "서울특별시 마포구 매봉산로 72 1층",
+    "district": "마포구",
+    "lat": 37.578069,
+    "lng": 126.893656,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 568,
+    "name": "슬로아의원 강동고덕",
+    "address": "서울특별시 강동구 고덕비즈밸리로 38 KS빌딩 2, 3층",
+    "district": "강동구",
+    "lat": 37.566271,
+    "lng": 127.159622,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
