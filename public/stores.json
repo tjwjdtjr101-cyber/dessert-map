@@ -9814,5 +9814,22 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 569,
+    "name": "바나프레소 군자역점",
+    "address": "서울특별시 광진구 천호대로 538",
+    "district": "광진구",
+    "lat": 37.557452,
+    "lng": 127.077949,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
