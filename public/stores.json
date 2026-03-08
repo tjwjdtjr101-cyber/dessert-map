@@ -76,7 +76,9 @@
     "lat": 37.527371,
     "lng": 127.038829,
     "categories": [
-      "dubai"
+      "dubai",
+      "bungeoppang",
+      "goguma"
     ],
     "category": "dubai",
     "status": "available",
@@ -9824,6 +9826,60 @@
     "lng": 127.077949,
     "categories": [
       "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 570,
+    "name": "메가박스 코엑스점",
+    "address": "서울특별시 강남구 영동대로 513 코엑스",
+    "district": "강남구",
+    "lat": 37.512613,
+    "lng": 127.058744,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 571,
+    "name": "올리브영N 성수",
+    "address": "서울특별시 성동구 연무장7길 13 팩토리얼 성수",
+    "district": "성동구",
+    "lat": 37.544212,
+    "lng": 127.054429,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 572,
+    "name": "고우가 여의도점",
+    "address": "서울특별시 영등포구 여의대로 24 FKI타워 전경련회관 지하1층",
+    "district": "영등포구",
+    "lat": 37.522197,
+    "lng": 126.919965,
+    "categories": [
+      "bungeoppang",
+      "goguma"
     ],
     "category": "bungeoppang",
     "status": "available",
