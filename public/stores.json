@@ -9887,5 +9887,56 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 573,
+    "name": "달쥬과일상점 이수12호점",
+    "address": "서울특별시 서초구 방배중앙로21길 26 1층",
+    "district": "서초구",
+    "lat": 37.492346,
+    "lng": 126.985138,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 574,
+    "name": "클래식 해례커피 성수본점",
+    "address": "서울특별시 성동구 연무장길 28-20 1층",
+    "district": "성동구",
+    "lat": 37.542812,
+    "lng": 127.052368,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 575,
+    "name": "청자다방 용마폭포점",
+    "address": "서울특별시 중랑구 용마산로 248 1층 104호",
+    "district": "중랑구",
+    "lat": 37.575212,
+    "lng": 127.0886,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
