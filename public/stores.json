@@ -9938,5 +9938,77 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 576,
+    "name": "베통 강남",
+    "address": "서울특별시 서초구 신반포로 176 신세계백화점 강남점 지하1층",
+    "district": "서초구",
+    "lat": 37.504987,
+    "lng": 127.004494,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 577,
+    "name": "오우드 성수",
+    "address": "서울특별시 성동구 성수이로24길 36 2층",
+    "district": "성동구",
+    "lat": 37.544103,
+    "lng": 127.061923,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 578,
+    "name": "케이트의원 홍대입구역",
+    "address": "서울특별시 마포구 양화로 148 7층",
+    "district": "마포구",
+    "lat": 37.555666,
+    "lng": 126.922765,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 579,
+    "name": "성수완당",
+    "address": "서울특별시 광진구 아차산로26길 13 1층",
+    "district": "광진구",
+    "lat": 37.540681,
+    "lng": 127.066169,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
