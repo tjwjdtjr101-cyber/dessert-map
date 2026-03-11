@@ -10010,5 +10010,59 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 580,
+    "name": "마이아트뮤지엄",
+    "address": "서울특별시 강남구 테헤란로 518 섬유센터빌딩 B1층",
+    "district": "강남구",
+    "lat": 37.507592,
+    "lng": 127.060482,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 581,
+    "name": "황금콩밭",
+    "address": "서울특별시 마포구 마포대로16길 9",
+    "district": "마포구",
+    "lat": 37.55096,
+    "lng": 126.956713,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 582,
+    "name": "디에스타의원 강동천호",
+    "address": "서울특별시 강동구 천호대로 1053 이안강동컴홈스테이1차 304호",
+    "district": "강동구",
+    "lat": 37.537369,
+    "lng": 127.128979,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
