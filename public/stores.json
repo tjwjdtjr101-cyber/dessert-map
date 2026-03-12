@@ -10064,5 +10064,246 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 583,
+    "name": "라크림",
+    "address": "서울특별시 강남구 학동로4길 43-12 지상1층",
+    "district": "강남구",
+    "lat": 37.508653,
+    "lng": 127.025024,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 584,
+    "name": "흐르르",
+    "address": "서울특별시 서초구 잠원로 201-12",
+    "district": "서초구",
+    "lat": 37.520527,
+    "lng": 127.013766,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 585,
+    "name": "카페 쿠도",
+    "address": "서울특별시 송파구 가락로17길 6 1층",
+    "district": "송파구",
+    "lat": 37.502676,
+    "lng": 127.110272,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 586,
+    "name": "오르빗 올림픽공원점",
+    "address": "서울특별시 송파구 양재대로71길 42 1층 101호",
+    "district": "송파구",
+    "lat": 37.511853,
+    "lng": 127.12243,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 587,
+    "name": "롯데백화점 에비뉴엘 잠실점",
+    "address": "서울특별시 송파구 올림픽로 300 롯데백화점에비뉴엘월드타워점",
+    "district": "송파구",
+    "lat": 37.51287,
+    "lng": 127.101852,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 588,
+    "name": "할리아사이",
+    "address": "서울특별시 성동구 연무장길 56 1층",
+    "district": "성동구",
+    "lat": 37.54234,
+    "lng": 127.05536,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 589,
+    "name": "르모멍",
+    "address": "서울특별시 성동구 성수일로12길 19-1 1층",
+    "district": "성동구",
+    "lat": 37.548437,
+    "lng": 127.053452,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 590,
+    "name": "하츠베이커리 성수점",
+    "address": "서울특별시 성동구 연무장길 37-14 1층 2층 3층",
+    "district": "성동구",
+    "lat": 37.543291,
+    "lng": 127.05376,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 591,
+    "name": "모나포레",
+    "address": "서울특별시 강동구 양재대로 1360 지1층 B130호",
+    "district": "강동구",
+    "lat": 37.527474,
+    "lng": 127.137045,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 592,
+    "name": "굽굳",
+    "address": "서울특별시 강동구 풍성로52길 8 1층 101호",
+    "district": "강동구",
+    "lat": 37.529533,
+    "lng": 127.132259,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 593,
+    "name": "카페위켄드",
+    "address": "서울특별시 광진구 자양번영로1길 37 1층",
+    "district": "광진구",
+    "lat": 37.530768,
+    "lng": 127.07268,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 594,
+    "name": "스테이 템포",
+    "address": "서울특별시 동대문구 경희대로4길 38 1층, 지하1층",
+    "district": "동대문구",
+    "lat": 37.591872,
+    "lng": 127.054433,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 595,
+    "name": "원더월커피로스터스",
+    "address": "서울특별시 동대문구 답십리로 80 1층 원더월 커피 로스터스",
+    "district": "동대문구",
+    "lat": 37.574736,
+    "lng": 127.049521,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 596,
+    "name": "서울뼈구이 본점",
+    "address": "서울특별시 동대문구 왕산로 274-1",
+    "district": "동대문구",
+    "lat": 37.585098,
+    "lng": 127.051316,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
