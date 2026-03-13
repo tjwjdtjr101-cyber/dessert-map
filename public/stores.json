@@ -10305,5 +10305,75 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 597,
+    "name": "SADDLER HAUS",
+    "address": "서울특별시 강남구 도산대로17길 10 B1 새들러하우스",
+    "district": "강남구",
+    "lat": 37.519389,
+    "lng": 127.024942,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 598,
+    "name": "멜브런",
+    "address": "서울특별시 마포구 신촌로 62 1층",
+    "district": "마포구",
+    "lat": 37.55636,
+    "lng": 126.932684,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 599,
+    "name": "크리모 케이크",
+    "address": "서울특별시 강동구 천호대로191길 17 1층 102호",
+    "district": "강동구",
+    "lat": 37.535413,
+    "lng": 127.143684,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 600,
+    "name": "연세진치과의원 강동",
+    "address": "서울특별시 강동구 양재대로 1360 포레온스테이션5 2층 (84,85호)",
+    "district": "강동구",
+    "lat": 37.527474,
+    "lng": 127.137045,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
