@@ -10375,5 +10375,23 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 601,
+    "name": "영등포자이디그니티",
+    "address": "서울특별시 영등포구 선유서로26길 9 영광교회",
+    "district": "영등포구",
+    "lat": 37.524836,
+    "lng": 126.887232,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
