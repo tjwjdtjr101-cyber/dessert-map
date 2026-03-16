@@ -10393,5 +10393,58 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 602,
+    "name": "커피사피엔스 여의도시그니티점",
+    "address": "서울특별시 영등포구 은행로 60-1 1층 113호",
+    "district": "영등포구",
+    "lat": 37.530036,
+    "lng": 126.92528,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 603,
+    "name": "영등포자이디그니티",
+    "address": "서울특별시 영등포구 영등포로11길 19",
+    "district": "영등포구",
+    "lat": 37.525191,
+    "lng": 126.886599,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 604,
+    "name": "밴스의원 천호",
+    "address": "서울특별시 강동구 천호대로 1037 세우빌딩 5층",
+    "district": "강동구",
+    "lat": 37.537839,
+    "lng": 127.127355,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
