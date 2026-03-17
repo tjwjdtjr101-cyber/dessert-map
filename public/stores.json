@@ -10446,5 +10446,58 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 605,
+    "name": "인더스윗츠",
+    "address": "서울특별시 마포구 마포대로11길 94 1층 인더스윗츠",
+    "district": "마포구",
+    "lat": 37.548941,
+    "lng": 126.949113,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 606,
+    "name": "우동 카덴",
+    "address": "서울특별시 마포구 양화로7안길 2-1",
+    "district": "마포구",
+    "lat": 37.551708,
+    "lng": 126.915012,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 607,
+    "name": "남도보쌈파전",
+    "address": "서울특별시 동대문구 장한로 160 대진빌딩 1층, 남도보쌈파전",
+    "district": "동대문구",
+    "lat": 37.574725,
+    "lng": 127.072234,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
