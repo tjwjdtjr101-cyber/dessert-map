@@ -10499,5 +10499,23 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 608,
+    "name": "예스24라이브홀",
+    "address": "서울특별시 광진구 구천면로 20",
+    "district": "광진구",
+    "lat": 37.545736,
+    "lng": 127.10799,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
