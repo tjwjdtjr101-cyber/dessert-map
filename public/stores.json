@@ -10517,5 +10517,58 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 609,
+    "name": "봉은사",
+    "address": "서울특별시 강남구 봉은사로 531 봉은사",
+    "district": "강남구",
+    "lat": 37.51492,
+    "lng": 127.057655,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 610,
+    "name": "리움미술관",
+    "address": "서울특별시 용산구 이태원로55길 60-16",
+    "district": "용산구",
+    "lat": 37.538014,
+    "lng": 126.99941,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 611,
+    "name": "카페 퍼즐 &amp; TS",
+    "address": "서울특별시 영등포구 양평로 96 1층, 2층",
+    "district": "영등포구",
+    "lat": 37.536625,
+    "lng": 126.896739,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
