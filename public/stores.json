@@ -10570,5 +10570,41 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 612,
+    "name": "잠실종합운동장잠실야구장",
+    "address": "서울특별시 송파구 올림픽로 19-2 서울종합운동장",
+    "district": "송파구",
+    "lat": 37.511986,
+    "lng": 127.071839,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 613,
+    "name": "응봉산",
+    "address": "서울특별시 성동구 금호동4가 1540 응봉산",
+    "district": "성동구",
+    "lat": 37.547827,
+    "lng": 127.029725,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
