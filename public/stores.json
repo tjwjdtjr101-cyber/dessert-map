@@ -10606,5 +10606,39 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 614,
+    "name": "아크 홍대점",
+    "address": "서울특별시 마포구 신촌로2길 5-8 1층",
+    "district": "마포구",
+    "lat": 37.557791,
+    "lng": 126.9278,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 615,
+    "name": "클락워크 안암점",
+    "address": "서울특별시 동대문구 안암로 108 1층 클락워크",
+    "district": "동대문구",
+    "lat": 37.585046,
+    "lng": 127.031846,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
