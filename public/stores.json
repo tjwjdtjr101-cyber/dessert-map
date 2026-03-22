@@ -10640,5 +10640,23 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 616,
+    "name": "밴스의원 홍대입구역",
+    "address": "서울특별시 마포구 양화로 148 탑라인타워 5층, 6층 밴스의원 홍대",
+    "district": "마포구",
+    "lat": 37.555614,
+    "lng": 126.922663,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
