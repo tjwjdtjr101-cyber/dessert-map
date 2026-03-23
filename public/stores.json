@@ -10658,5 +10658,22 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 617,
+    "name": "왕왕왕드리",
+    "address": "서울특별시 영등포구 경인로114나길 6 VIP 호텔 1층 왕왕왕드리 카페",
+    "district": "영등포구",
+    "lat": 37.517562,
+    "lng": 126.91343,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
