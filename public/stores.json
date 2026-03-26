@@ -10781,5 +10781,158 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 624,
+    "name": "힉스커피",
+    "address": "서울특별시 강남구 강남대로110길 51 1층",
+    "district": "강남구",
+    "lat": 37.503731,
+    "lng": 127.029161,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 625,
+    "name": "썬플라워베이크샵 강남일원본점",
+    "address": "서울특별시 강남구 개포로128길 33 1층 102호 썬플라워베이크샵",
+    "district": "강남구",
+    "lat": 37.493096,
+    "lng": 127.08418,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 626,
+    "name": "브레드사우루스",
+    "address": "서울특별시 서초구 강남대로91길 12 지하1층",
+    "district": "서초구",
+    "lat": 37.512065,
+    "lng": 127.019914,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 627,
+    "name": "민카인드",
+    "address": "서울특별시 서초구 홍씨마을길 3",
+    "district": "서초구",
+    "lat": 37.455002,
+    "lng": 127.065272,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 628,
+    "name": "키친205 신세계백화점 강남점",
+    "address": "서울특별시 서초구 신반포로 176 지하1층 키친205",
+    "district": "서초구",
+    "lat": 37.504417,
+    "lng": 127.004257,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 629,
+    "name": "카페 퓨엔테",
+    "address": "서울특별시 용산구 청파로43길 53 1층 카페퓨엔테",
+    "district": "용산구",
+    "lat": 37.543883,
+    "lng": 126.96774,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 630,
+    "name": "이케아 강동점 스웨디시 카페",
+    "address": "서울특별시 강동구 고덕비즈밸리로 51",
+    "district": "강동구",
+    "lat": 37.566059,
+    "lng": 127.156782,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 631,
+    "name": "마니달오 길동점",
+    "address": "서울특별시 강동구 양재대로112길 8 1층",
+    "district": "강동구",
+    "lat": 37.536769,
+    "lng": 127.140326,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 632,
+    "name": "디저트다운",
+    "address": "서울특별시 광진구 아차산로21길 77 1층 디저트다운",
+    "district": "광진구",
+    "lat": 37.54533,
+    "lng": 127.066636,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
