@@ -10934,5 +10934,22 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 633,
+    "name": "커피데스크 영동대교북단점",
+    "address": "서울특별시 광진구 동일로 56 7동 상가 1층 705호",
+    "district": "광진구",
+    "lat": 37.537774,
+    "lng": 127.061893,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
