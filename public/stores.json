@@ -10951,5 +10951,41 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 634,
+    "name": "코엑스아티움 우리은행홀",
+    "address": "서울특별시 강남구 영동대로 513 코엑스아티움 5층",
+    "district": "강남구",
+    "lat": 37.509841,
+    "lng": 127.061684,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 635,
+    "name": "예술의전당 한가람미술관",
+    "address": "서울특별시 서초구 남부순환로 2406 예술의전당 한가람미술관",
+    "district": "서초구",
+    "lat": 37.48033,
+    "lng": 127.014255,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
