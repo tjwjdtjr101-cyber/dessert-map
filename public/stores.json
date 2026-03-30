@@ -8649,7 +8649,9 @@
     "lat": 37.536366,
     "lng": 127.124725,
     "categories": [
-      "dubai"
+      "dubai",
+      "bungeoppang",
+      "goguma"
     ],
     "category": "dubai",
     "status": "available",
@@ -10977,6 +10979,60 @@
     "district": "서초구",
     "lat": 37.48033,
     "lng": 127.014255,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 636,
+    "name": "석촌호수",
+    "address": "서울특별시 송파구 잠실동",
+    "district": "송파구",
+    "lat": 37.509525,
+    "lng": 127.102135,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 637,
+    "name": "비파티세리 공덕점",
+    "address": "서울특별시 마포구 마포대로14길 4 1층",
+    "district": "마포구",
+    "lat": 37.548701,
+    "lng": 126.955104,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 638,
+    "name": "홍릉시험림(홍릉숲)",
+    "address": "서울특별시 동대문구 회기로 57",
+    "district": "동대문구",
+    "lat": 37.591658,
+    "lng": 127.042692,
     "categories": [
       "bungeoppang",
       "goguma"
