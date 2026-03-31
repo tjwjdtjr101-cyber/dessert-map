@@ -11043,5 +11043,59 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 639,
+    "name": "영등포 여의도 봄꽃축제",
+    "address": "서울특별시 영등포구 여의서로 60-2 여의서로윤중로 벚꽃길",
+    "district": "영등포구",
+    "lat": 37.532207,
+    "lng": 126.920986,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 640,
+    "name": "비스타 워커힐 서울 피자힐",
+    "address": "서울특별시 광진구 워커힐로 177 워커힐 호텔앤리조트",
+    "district": "광진구",
+    "lat": 37.553911,
+    "lng": 127.109173,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 641,
+    "name": "장안동 먹깨비 간장게장 해물아구찜",
+    "address": "서울특별시 동대문구 장한로 92 1층",
+    "district": "동대문구",
+    "lat": 37.568709,
+    "lng": 127.069708,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
