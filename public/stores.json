@@ -11131,5 +11131,126 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 644,
+    "name": "아크로드서초아파트(2029년02월예정)",
+    "address": "서울특별시 서초구 사임당로 137",
+    "district": "서초구",
+    "lat": 37.49217,
+    "lng": 127.023908,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 645,
+    "name": "설빙 송파헬리오시티점",
+    "address": "서울특별시 송파구 가락로12길 4 2층",
+    "district": "송파구",
+    "lat": 37.499794,
+    "lng": 127.105199,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 646,
+    "name": "밴스의원 홍대입구역",
+    "address": "서울특별시 마포구 양화로 148 탑라인타워 5층,6층 밴스의원 홍대",
+    "district": "마포구",
+    "lat": 37.555614,
+    "lng": 126.922663,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 647,
+    "name": "토스트커피하우스센트레",
+    "address": "서울특별시 용산구 후암로 75 1층",
+    "district": "용산구",
+    "lat": 37.552502,
+    "lng": 126.976567,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 648,
+    "name": "카페설리번 당산점",
+    "address": "서울특별시 영등포구 당산로 241 유니언타운 1층 카페 설리번",
+    "district": "영등포구",
+    "lat": 37.535238,
+    "lng": 126.902651,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 649,
+    "name": "바나프레소 천호현대점",
+    "address": "서울특별시 강동구 올림픽로70길 25",
+    "district": "강동구",
+    "lat": 37.539426,
+    "lng": 127.125034,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 650,
+    "name": "달마루",
+    "address": "서울특별시 광진구 아차산로73길 44",
+    "district": "광진구",
+    "lat": 37.546645,
+    "lng": 127.102643,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
