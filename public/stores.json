@@ -11252,5 +11252,22 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 651,
+    "name": "카페 더 브리즈",
+    "address": "서울특별시 송파구 가락로42길 6 1층",
+    "district": "송파구",
+    "lat": 37.512396,
+    "lng": 127.120273,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
