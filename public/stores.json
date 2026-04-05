@@ -11269,5 +11269,76 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 652,
+    "name": "코엑스 Hall B",
+    "address": "서울특별시 강남구 영동대로 513 코엑스",
+    "district": "강남구",
+    "lat": 37.512303,
+    "lng": 127.059037,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 653,
+    "name": "합정공감",
+    "address": "서울특별시 마포구 양화로6길 49 2F",
+    "district": "마포구",
+    "lat": 37.548927,
+    "lng": 126.917017,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 654,
+    "name": "프리모 커피",
+    "address": "서울특별시 용산구 원효로41길 12 1층",
+    "district": "용산구",
+    "lat": 37.534293,
+    "lng": 126.958355,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 655,
+    "name": "윤중로벚꽃길",
+    "address": "서울특별시 영등포구 여의도동",
+    "district": "영등포구",
+    "lat": 37.532485,
+    "lng": 126.91986,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
