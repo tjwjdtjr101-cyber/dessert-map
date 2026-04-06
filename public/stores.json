@@ -11340,5 +11340,41 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 656,
+    "name": "빕스 강동아이파크더리버점",
+    "address": "서울특별시 강동구 고덕비즈밸리로 51 3층",
+    "district": "강동구",
+    "lat": 37.56666,
+    "lng": 127.157329,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 657,
+    "name": "중랑천벚꽃길",
+    "address": "서울특별시 동대문구 장안동",
+    "district": "동대문구",
+    "lat": 37.567265,
+    "lng": 127.074904,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
