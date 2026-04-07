@@ -11376,5 +11376,40 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 658,
+    "name": "양재천",
+    "address": "서울특별시 강남구 대치동",
+    "district": "강남구",
+    "lat": 37.488103,
+    "lng": 127.057423,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 659,
+    "name": "카페틸리",
+    "address": "서울특별시 강동구 천호옛12길 15 1층",
+    "district": "강동구",
+    "lat": 37.534884,
+    "lng": 127.125475,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
