@@ -4196,7 +4196,8 @@
     "lat": 37.5363,
     "lng": 127.126121,
     "categories": [
-      "cake"
+      "cake",
+      "dubai"
     ],
     "category": "cake",
     "status": "available",
@@ -11406,6 +11407,78 @@
       "dubai"
     ],
     "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 660,
+    "name": "경의선숲길",
+    "address": "서울특별시 마포구 연남동",
+    "district": "마포구",
+    "lat": 37.561957,
+    "lng": 126.922982,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 661,
+    "name": "문화비축기지",
+    "address": "서울특별시 마포구 증산로 87",
+    "district": "마포구",
+    "lat": 37.571105,
+    "lng": 126.894119,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 662,
+    "name": "제너리스의원 천호점",
+    "address": "서울특별시 강동구 올림픽로 658 2층 201호",
+    "district": "강동구",
+    "lat": 37.540017,
+    "lng": 127.12431,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 663,
+    "name": "경희수산",
+    "address": "서울특별시 동대문구 경희대로1길 11 1층",
+    "district": "동대문구",
+    "lat": 37.591642,
+    "lng": 127.051487,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
     "status": "available",
     "price": 5500,
     "rating": 4.6,
