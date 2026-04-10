@@ -12131,5 +12131,110 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 700,
+    "name": "파이어랩 베이커리",
+    "address": "서울특별시 강남구 선릉로92길 37-4 101호",
+    "district": "강남구",
+    "lat": 37.50625,
+    "lng": 127.05187,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 701,
+    "name": "강남 밴스의원",
+    "address": "서울특별시 서초구 강남대로 411 DS타워 12층~13층",
+    "district": "서초구",
+    "lat": 37.499162,
+    "lng": 127.026531,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 702,
+    "name": "이구홈 성수",
+    "address": "서울특별시 성동구 연무장길 57",
+    "district": "성동구",
+    "lat": 37.542558,
+    "lng": 127.05578,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 703,
+    "name": "silhouette coffee",
+    "address": "서울특별시 마포구 독막로8길 33-5 1층",
+    "district": "마포구",
+    "lat": 37.546385,
+    "lng": 126.91801,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 704,
+    "name": "N서울타워",
+    "address": "서울특별시 용산구 남산공원길 105",
+    "district": "용산구",
+    "lat": 37.551217,
+    "lng": 126.988247,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 705,
+    "name": "카페 플럼프",
+    "address": "서울특별시 광진구 뚝섬로 672 1층",
+    "district": "광진구",
+    "lat": 37.531813,
+    "lng": 127.084252,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
