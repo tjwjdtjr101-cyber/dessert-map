@@ -12236,5 +12236,22 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 706,
+    "name": "썸이프",
+    "address": "서울특별시 마포구 백범로16안길 3 2층&루프탑(3F)",
+    "district": "마포구",
+    "lat": 37.546714,
+    "lng": 126.942215,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
