@@ -12253,5 +12253,41 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 707,
+    "name": "강동헤리티지자이",
+    "address": "서울특별시 강동구 천중로 264 강동 헤리티지 자이",
+    "district": "강동구",
+    "lat": 37.539806,
+    "lng": 127.148841,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 708,
+    "name": "빕스 어린이대공원점",
+    "address": "서울특별시 광진구 광나루로 410 KCC파크타운 2층",
+    "district": "광진구",
+    "lat": 37.546576,
+    "lng": 127.075045,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
