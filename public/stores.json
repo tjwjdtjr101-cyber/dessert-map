@@ -11709,7 +11709,9 @@
     "lat": 37.540156,
     "lng": 127.059939,
     "categories": [
-      "dubai"
+      "dubai",
+      "bungeoppang",
+      "goguma"
     ],
     "category": "dubai",
     "status": "available",
@@ -12279,6 +12281,24 @@
     "district": "광진구",
     "lat": 37.546576,
     "lng": 127.075045,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 709,
+    "name": "윔센터 강남",
+    "address": "서울특별시 서초구 서초대로77길 17 Block 77 지하 1층",
+    "district": "서초구",
+    "lat": 37.499554,
+    "lng": 127.025752,
     "categories": [
       "bungeoppang",
       "goguma"
