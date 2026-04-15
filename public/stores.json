@@ -12309,5 +12309,58 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 710,
+    "name": "빌라드블루 성수",
+    "address": "서울특별시 성동구 서울숲2길 46-10 1층",
+    "district": "성동구",
+    "lat": 37.546161,
+    "lng": 127.0435,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 711,
+    "name": "이오김밥 서울숲점",
+    "address": "서울특별시 성동구 서울숲4길 22-7 1층",
+    "district": "성동구",
+    "lat": 37.547007,
+    "lng": 127.043256,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 712,
+    "name": "스탠다드번",
+    "address": "서울특별시 용산구 한강대로 37 106, 107, 108, 109호",
+    "district": "용산구",
+    "lat": 37.52482,
+    "lng": 126.963354,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
