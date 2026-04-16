@@ -12362,5 +12362,160 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 713,
+    "name": "치즈앤",
+    "address": "서울특별시 강남구 압구정로42길 49 1층",
+    "district": "강남구",
+    "lat": 37.525673,
+    "lng": 127.034547,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 714,
+    "name": "로아스토어카페 서초점",
+    "address": "서울특별시 서초구 반포대로27길 13 지하1층",
+    "district": "서초구",
+    "lat": 37.489669,
+    "lng": 127.007745,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 715,
+    "name": "카페 아브르드팡 오목교점",
+    "address": "서울특별시 영등포구 영등포로3길 3 101호, 102호",
+    "district": "영등포구",
+    "lat": 37.523709,
+    "lng": 126.883096,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 716,
+    "name": "KBS홀",
+    "address": "서울특별시 영등포구 여의공원로 13 한국방송공사",
+    "district": "영등포구",
+    "lat": 37.525917,
+    "lng": 126.915268,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 717,
+    "name": "해피유어데이",
+    "address": "서울특별시 강동구 양재대로135길 4-23 1층 104호",
+    "district": "강동구",
+    "lat": 37.549765,
+    "lng": 127.143351,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 718,
+    "name": "FFEE",
+    "address": "서울특별시 광진구 동일로 124 지상1층",
+    "district": "광진구",
+    "lat": 37.543451,
+    "lng": 127.064966,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 719,
+    "name": "블리스테이블 스타시티몰점",
+    "address": "서울특별시 광진구 아차산로 262 B101-1호",
+    "district": "광진구",
+    "lat": 37.538579,
+    "lng": 127.072444,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 720,
+    "name": "과일판다 장안본점",
+    "address": "서울특별시 동대문구 천호대로91길 41 102호",
+    "district": "동대문구",
+    "lat": 37.563494,
+    "lng": 127.069464,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 721,
+    "name": "순대실록 한국외대점",
+    "address": "서울특별시 동대문구 이문로 120 상가동 1층 A133-1, A134호",
+    "district": "동대문구",
+    "lat": 37.597236,
+    "lng": 127.061775,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
