@@ -12517,5 +12517,59 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 722,
+    "name": "목구멍 사당역점",
+    "address": "서울특별시 서초구 방배천로2길 21 성현빌딩 1층 목구멍",
+    "district": "서초구",
+    "lat": 37.477074,
+    "lng": 126.983932,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 723,
+    "name": "록갈비 합정점",
+    "address": "서울특별시 마포구 독막로 51 1층 록갈비",
+    "district": "마포구",
+    "lat": 37.548062,
+    "lng": 126.91899,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 724,
+    "name": "톤즈의원 건대입구역",
+    "address": "서울특별시 광진구 아차산로 212 더포디움830 206-209호",
+    "district": "광진구",
+    "lat": 37.540821,
+    "lng": 127.066678,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
