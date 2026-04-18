@@ -10093,7 +10093,8 @@
     "lat": 37.520527,
     "lng": 127.013766,
     "categories": [
-      "bungeoppang"
+      "bungeoppang",
+      "dubai"
     ],
     "category": "bungeoppang",
     "status": "available",
@@ -12561,6 +12562,77 @@
     "district": "광진구",
     "lat": 37.540821,
     "lng": 127.066678,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 725,
+    "name": "롯데호텔월드 델리카한스",
+    "address": "서울특별시 송파구 올림픽로 240 롯데호텔월드 1층",
+    "district": "송파구",
+    "lat": 37.511386,
+    "lng": 127.099859,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 726,
+    "name": "제스티살룬 성수",
+    "address": "서울특별시 성동구 서울숲4길 13 1층 제스티살룬",
+    "district": "성동구",
+    "lat": 37.547592,
+    "lng": 127.042389,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 727,
+    "name": "에일크루 피자펍 홍대점",
+    "address": "서울특별시 마포구 와우산로37길 7 에일크루",
+    "district": "마포구",
+    "lat": 37.555921,
+    "lng": 126.930458,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 728,
+    "name": "도원반점 이문외대점",
+    "address": "서울특별시 동대문구 이문로 120 A동 201, 202호",
+    "district": "동대문구",
+    "lat": 37.597501,
+    "lng": 127.061261,
     "categories": [
       "bungeoppang",
       "goguma"
