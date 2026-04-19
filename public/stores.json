@@ -12643,5 +12643,112 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 729,
+    "name": "서관면옥 삼성점",
+    "address": "서울특별시 강남구 삼성로 541 1층, 2층",
+    "district": "강남구",
+    "lat": 37.509956,
+    "lng": 127.054535,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 730,
+    "name": "식자재유통센터 대치한티점",
+    "address": "서울특별시 강남구 선릉로 312 내제1층 제1호, 제20호",
+    "district": "강남구",
+    "lat": 37.497673,
+    "lng": 127.052791,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 731,
+    "name": "단막 사당점",
+    "address": "서울특별시 서초구 방배천로2길 39 1층",
+    "district": "서초구",
+    "lat": 37.476847,
+    "lng": 126.985041,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 732,
+    "name": "손정보쌈 당산역점",
+    "address": "서울특별시 영등포구 양평로 68 1층 101호",
+    "district": "영등포구",
+    "lat": 37.535321,
+    "lng": 126.899431,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 733,
+    "name": "갓잇 올림픽공원점",
+    "address": "서울특별시 강동구 성안로 14 1층 갓잇",
+    "district": "강동구",
+    "lat": 37.525079,
+    "lng": 127.129597,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 734,
+    "name": "할머니냉면",
+    "address": "서울특별시 동대문구 왕산로37길 53",
+    "district": "동대문구",
+    "lat": 37.582337,
+    "lng": 127.04369,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
