@@ -12750,5 +12750,112 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 735,
+    "name": "비스포킷 까사 논현점",
+    "address": "서울특별시 강남구 봉은사로29길 10 1, 2층",
+    "district": "강남구",
+    "lat": 37.508471,
+    "lng": 127.034757,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 736,
+    "name": "어로드 커피",
+    "address": "서울특별시 마포구 성암로15길 74 지하1층, 1층",
+    "district": "마포구",
+    "lat": 37.575604,
+    "lng": 126.896487,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 737,
+    "name": "서울크루즈",
+    "address": "서울특별시 영등포구 여의도한강공원길 231 여의도 유람선터미널",
+    "district": "영등포구",
+    "lat": 37.530028,
+    "lng": 126.933345,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 738,
+    "name": "다람 강동본점",
+    "address": "서울특별시 강동구 양재대로85길 29 1층",
+    "district": "강동구",
+    "lat": 37.524603,
+    "lng": 127.132929,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 739,
+    "name": "짬뽕가온 구의점",
+    "address": "서울특별시 광진구 아차산로 461 1층",
+    "district": "광진구",
+    "lat": 37.539868,
+    "lng": 127.093304,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 740,
+    "name": "더몰트하우스 청량리역점",
+    "address": "서울특별시 동대문구 고산자로32길 78 청량리역 한양수자인 그라시엘 2층 209호~211호",
+    "district": "동대문구",
+    "lat": 37.577479,
+    "lng": 127.043807,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
