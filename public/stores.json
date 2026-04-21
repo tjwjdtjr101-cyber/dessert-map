@@ -12857,5 +12857,112 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 741,
+    "name": "천장지구 카페",
+    "address": "서울특별시 강남구 언주로150길 51 2층",
+    "district": "강남구",
+    "lat": 37.522169,
+    "lng": 127.038365,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 742,
+    "name": "코엑스 Hall D",
+    "address": "서울특별시 강남구 영동대로 513 코엑스",
+    "district": "강남구",
+    "lat": 37.512231,
+    "lng": 127.058935,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 743,
+    "name": "달맞이광장바베큐 성수점",
+    "address": "서울특별시 성동구 아차산로 82 1층",
+    "district": "성동구",
+    "lat": 37.545188,
+    "lng": 127.053272,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 744,
+    "name": "화산숯불구이",
+    "address": "서울특별시 마포구 독막로3길 17 1층",
+    "district": "마포구",
+    "lat": 37.549184,
+    "lng": 126.916754,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 745,
+    "name": "만월다방 시네마",
+    "address": "서울특별시 마포구 와우산로 76 2층",
+    "district": "마포구",
+    "lat": 37.551127,
+    "lng": 126.923541,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 746,
+    "name": "목구멍 장안점",
+    "address": "서울특별시 동대문구 장한로2길 36 1층",
+    "district": "동대문구",
+    "lat": 37.561791,
+    "lng": 127.067269,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
