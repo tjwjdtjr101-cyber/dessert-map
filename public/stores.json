@@ -12196,7 +12196,8 @@
     "lat": 37.546385,
     "lng": 126.91801,
     "categories": [
-      "bungeoppang"
+      "bungeoppang",
+      "dubai"
     ],
     "category": "bungeoppang",
     "status": "available",
@@ -12959,6 +12960,77 @@
       "goguma"
     ],
     "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 747,
+    "name": "반포 한강공원",
+    "address": "서울특별시 서초구 신반포로11길 40 한강공원 반포 안내센터",
+    "district": "서초구",
+    "lat": 37.510017,
+    "lng": 126.995032,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 748,
+    "name": "블루스퀘어",
+    "address": "서울특별시 용산구 이태원로 294",
+    "district": "용산구",
+    "lat": 37.540617,
+    "lng": 127.002273,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 749,
+    "name": "경송 천호본점",
+    "address": "서울특별시 강동구 천호대로159길 22 1층 경송",
+    "district": "강동구",
+    "lat": 37.538563,
+    "lng": 127.127966,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 750,
+    "name": "바이웨이 베이커스 청량리점",
+    "address": "서울특별시 동대문구 왕산로 272-1 1층",
+    "district": "동대문구",
+    "lat": 37.584877,
+    "lng": 127.051114,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
     "status": "available",
     "price": 5500,
     "rating": 4.6,
