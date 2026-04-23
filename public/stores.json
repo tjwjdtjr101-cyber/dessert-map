@@ -13036,5 +13036,59 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 751,
+    "name": "올림픽공원",
+    "address": "서울특별시 송파구 올림픽로 424",
+    "district": "송파구",
+    "lat": 37.520934,
+    "lng": 127.122959,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 752,
+    "name": "천수냉면 본점",
+    "address": "서울특별시 영등포구 가마산로71길 8 1층",
+    "district": "영등포구",
+    "lat": 37.506602,
+    "lng": 126.909495,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 753,
+    "name": "한사발포차 청량리점",
+    "address": "서울특별시 동대문구 천호대로35길 82 1층",
+    "district": "동대문구",
+    "lat": 37.576814,
+    "lng": 127.042821,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
