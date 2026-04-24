@@ -13090,5 +13090,59 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 754,
+    "name": "서관면옥 교대본점",
+    "address": "서울특별시 서초구 서초대로56길 11",
+    "district": "서초구",
+    "lat": 37.493994,
+    "lng": 127.017283,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 755,
+    "name": "서관면옥 홍대점",
+    "address": "서울특별시 마포구 월드컵북로5길 41 106호~107호",
+    "district": "마포구",
+    "lat": 37.556269,
+    "lng": 126.916807,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 756,
+    "name": "샤브온당 세종대점",
+    "address": "서울특별시 광진구 광나루로 386 1층 샤브온당 세종대점",
+    "district": "광진구",
+    "lat": 37.547448,
+    "lng": 127.072461,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
