@@ -13144,5 +13144,77 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 757,
+    "name": "듀블럭 이수역점",
+    "address": "서울특별시 서초구 방배천로24길 7 1층",
+    "district": "서초구",
+    "lat": 37.485006,
+    "lng": 126.983908,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 758,
+    "name": "사운드클라스카 성수",
+    "address": "서울특별시 성동구 연무장15길 11 B동 301호",
+    "district": "성동구",
+    "lat": 37.542773,
+    "lng": 127.059172,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 759,
+    "name": "무월식탁 타임스퀘어점",
+    "address": "서울특별시 영등포구 영중로 15 타임스퀘어 4층",
+    "district": "영등포구",
+    "lat": 37.517109,
+    "lng": 126.903991,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 760,
+    "name": "규카츠정 천호점",
+    "address": "서울특별시 강동구 올림픽로70길 57 2층",
+    "district": "강동구",
+    "lat": 37.539193,
+    "lng": 127.126758,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
