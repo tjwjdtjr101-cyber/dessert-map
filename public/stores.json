@@ -13216,5 +13216,113 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 761,
+    "name": "핫코베이커리",
+    "address": "서울특별시 강남구 봉은사로44길 25 1층 핫코 베이커리",
+    "district": "강남구",
+    "lat": 37.507568,
+    "lng": 127.040607,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 762,
+    "name": "해설 성수",
+    "address": "서울특별시 성동구 연무장3길 9-14 지하1층",
+    "district": "성동구",
+    "lat": 37.544795,
+    "lng": 127.051601,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 763,
+    "name": "육산장 홍대본점",
+    "address": "서울특별시 마포구 와우산로21길 31-11 1층",
+    "district": "마포구",
+    "lat": 37.551992,
+    "lng": 126.922092,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 764,
+    "name": "쌍미곱창 용산점",
+    "address": "서울특별시 용산구 한강대로15길 19-20 1층",
+    "district": "용산구",
+    "lat": 37.525688,
+    "lng": 126.962862,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 765,
+    "name": "송월냉면",
+    "address": "서울특별시 강동구 천중로18길 57 1층",
+    "district": "강동구",
+    "lat": 37.54238,
+    "lng": 127.129585,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 766,
+    "name": "굴림샤브&amp;콩국수",
+    "address": "서울특별시 광진구 능동로 172 105호, 106호",
+    "district": "광진구",
+    "lat": 37.545956,
+    "lng": 127.073974,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
