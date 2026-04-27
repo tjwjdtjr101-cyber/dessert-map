@@ -13324,5 +13324,113 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 767,
+    "name": "82올리언즈 강남점",
+    "address": "서울특별시 강남구 강남대로98길 28 1층",
+    "district": "강남구",
+    "lat": 37.500872,
+    "lng": 127.028738,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 768,
+    "name": "후라토식당 신사점",
+    "address": "서울특별시 강남구 압구정로10길 43 지상 2층",
+    "district": "강남구",
+    "lat": 37.52079,
+    "lng": 127.022274,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 769,
+    "name": "패왕훠궈",
+    "address": "서울특별시 서초구 강남대로65길 7 5층, 6층",
+    "district": "서초구",
+    "lat": 37.500268,
+    "lng": 127.025349,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 770,
+    "name": "쏘쏘사라다 잠실새내역점",
+    "address": "서울특별시 송파구 백제고분로7길 56 1층",
+    "district": "송파구",
+    "lat": 37.510682,
+    "lng": 127.084987,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 771,
+    "name": "시오사쿠",
+    "address": "서울특별시 강동구 강동대로51길 28 1층",
+    "district": "강동구",
+    "lat": 37.524817,
+    "lng": 127.130174,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 772,
+    "name": "오늘동 청량리본점",
+    "address": "서울특별시 동대문구 답십리로 61-1 1층",
+    "district": "동대문구",
+    "lat": 37.575929,
+    "lng": 127.048102,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
