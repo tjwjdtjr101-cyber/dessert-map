@@ -13432,5 +13432,40 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 773,
+    "name": "디프커피온더바",
+    "address": "서울특별시 송파구 위례성대로16길 14 청라빌딩 1층 디프커피온더바",
+    "district": "송파구",
+    "lat": 37.51162,
+    "lng": 127.124544,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 774,
+    "name": "모센트 용산점",
+    "address": "서울특별시 용산구 한강대로52길 25-14 1층 모센트",
+    "district": "용산구",
+    "lat": 37.532242,
+    "lng": 126.973124,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
