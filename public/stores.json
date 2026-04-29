@@ -13467,5 +13467,77 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 775,
+    "name": "뱅뱅막국수",
+    "address": "서울특별시 강남구 도곡로 112 서한빌딩, 1층",
+    "district": "강남구",
+    "lat": 37.489726,
+    "lng": 127.032798,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 776,
+    "name": "유월의 보리 양재점",
+    "address": "서울특별시 서초구 남부순환로 2652 대명빌딩 1층",
+    "district": "서초구",
+    "lat": 37.485274,
+    "lng": 127.040868,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 777,
+    "name": "롯데뮤지엄",
+    "address": "서울특별시 송파구 올림픽로 300 롯데월드타워 7층",
+    "district": "송파구",
+    "lat": 37.512492,
+    "lng": 127.102829,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 778,
+    "name": "더백테라스",
+    "address": "서울특별시 용산구 한강대로40길 26 3층",
+    "district": "용산구",
+    "lat": 37.52999,
+    "lng": 126.970643,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
