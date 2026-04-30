@@ -13539,5 +13539,181 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 779,
+    "name": "블리스라운드 역삼점",
+    "address": "서울특별시 강남구 테헤란로25길 7 창성재단빌딩 1층",
+    "district": "강남구",
+    "lat": 37.501032,
+    "lng": 127.035188,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 780,
+    "name": "시베리안빙수킹&amp;카페 본점",
+    "address": "서울특별시 강남구 테헤란로43길 29 1층 시베리안빙수킹",
+    "district": "강남구",
+    "lat": 37.505151,
+    "lng": 127.044072,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 781,
+    "name": "르봉구떼",
+    "address": "서울특별시 강남구 언주로164길 34-2 1층",
+    "district": "강남구",
+    "lat": 37.525199,
+    "lng": 127.036238,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 782,
+    "name": "라뚜셩트",
+    "address": "서울특별시 서초구 방배로25길 50 1층",
+    "district": "서초구",
+    "lat": 37.487913,
+    "lng": 126.990218,
+    "categories": [
+      "dubai",
+      "cake"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 783,
+    "name": "찰싹 방배본점",
+    "address": "서울특별시 서초구 효령로31길 10 1층 찰싹 방배본점",
+    "district": "서초구",
+    "lat": 37.481748,
+    "lng": 126.996705,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 784,
+    "name": "청류",
+    "address": "서울특별시 송파구 법원로 128 SK V1 B동 219, 220호",
+    "district": "송파구",
+    "lat": 37.486675,
+    "lng": 127.120717,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 785,
+    "name": "소각커피 홍대본점",
+    "address": "서울특별시 마포구 월드컵북로 24 1층 101호",
+    "district": "마포구",
+    "lat": 37.556936,
+    "lng": 126.91977,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 786,
+    "name": "도온 서울역점",
+    "address": "서울특별시 용산구 후암로57길 13 1층",
+    "district": "용산구",
+    "lat": 37.552895,
+    "lng": 126.974114,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 787,
+    "name": "평창진부막국수 당산점",
+    "address": "서울특별시 영등포구 양평로 52 B1층",
+    "district": "영등포구",
+    "lat": 37.534656,
+    "lng": 126.900882,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 788,
+    "name": "윤스브로",
+    "address": "서울특별시 강동구 구천면로16길 3 1층 102호",
+    "district": "강동구",
+    "lat": 37.541614,
+    "lng": 127.122583,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
