@@ -13715,5 +13715,77 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 789,
+    "name": "평안면옥",
+    "address": "서울특별시 서초구 반포대로28길 31 1층",
+    "district": "서초구",
+    "lat": 37.490956,
+    "lng": 127.010124,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 790,
+    "name": "광주요 한남점",
+    "address": "서울특별시 용산구 한남대로20길 28 1층 광주요",
+    "district": "용산구",
+    "lat": 37.534915,
+    "lng": 127.008572,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 791,
+    "name": "유월의 보리 본점",
+    "address": "서울특별시 광진구 능동로 68 이튼타워리버1차 상가 1층 112호, 113호",
+    "district": "광진구",
+    "lat": 37.536958,
+    "lng": 127.069572,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 792,
+    "name": "거복이식당 회기 본점",
+    "address": "서울특별시 동대문구 경희대로3길 6",
+    "district": "동대문구",
+    "lat": 37.592768,
+    "lng": 127.052178,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
