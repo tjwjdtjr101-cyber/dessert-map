@@ -13787,5 +13787,76 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 793,
+    "name": "파티세리 후르츠",
+    "address": "서울특별시 강남구 선릉로155길 13-1 1층 파티세리 후르츠",
+    "district": "강남구",
+    "lat": 37.525205,
+    "lng": 127.038517,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 794,
+    "name": "세븐버거스 어 위크 서울숲본점",
+    "address": "서울특별시 성동구 왕십리로10길 5-6 1층",
+    "district": "성동구",
+    "lat": 37.547174,
+    "lng": 127.045423,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 795,
+    "name": "제주스 홈플러스 영등포점",
+    "address": "서울특별시 영등포구 당산로 42 홈플러스 영등포점 2층",
+    "district": "영등포구",
+    "lat": 37.518238,
+    "lng": 126.895898,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 796,
+    "name": "후라토식당 여의도직영점",
+    "address": "서울특별시 영등포구 국제금융로2길 32 여의도 파이낸스타워 3층 후라토식당",
+    "district": "영등포구",
+    "lat": 37.523817,
+    "lng": 126.924147,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
