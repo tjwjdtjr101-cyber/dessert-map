@@ -13858,5 +13858,130 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 797,
+    "name": "서래케이크",
+    "address": "서울특별시 서초구 서래로7길 15",
+    "district": "서초구",
+    "lat": 37.498674,
+    "lng": 126.997408,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 798,
+    "name": "케르반 파미에스테이션",
+    "address": "서울특별시 서초구 사평대로 205 2층 에프피 216호",
+    "district": "서초구",
+    "lat": 37.503462,
+    "lng": 127.005069,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 799,
+    "name": "삼동소바 송파방이점",
+    "address": "서울특별시 송파구 위례성대로12길 9 1층",
+    "district": "송파구",
+    "lat": 37.512877,
+    "lng": 127.122701,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 800,
+    "name": "무신사 메가스토어 성수",
+    "address": "서울특별시 성동구 성수이로 62",
+    "district": "성동구",
+    "lat": 37.540241,
+    "lng": 127.055848,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 801,
+    "name": "비캔드",
+    "address": "서울특별시 마포구 망원로10길 11-12 1,2층",
+    "district": "마포구",
+    "lat": 37.557226,
+    "lng": 126.907382,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 802,
+    "name": "여의도 이크루즈",
+    "address": "서울특별시 영등포구 여의동로 290 이크루즈 매표소",
+    "district": "영등포구",
+    "lat": 37.524915,
+    "lng": 126.937967,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 803,
+    "name": "혜성칼국수",
+    "address": "서울특별시 동대문구 왕산로 247-1",
+    "district": "동대문구",
+    "lat": 37.583401,
+    "lng": 127.048964,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
