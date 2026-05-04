@@ -13983,5 +13983,200 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 804,
+    "name": "꽁크 압구정본점",
+    "address": "서울특별시 강남구 압구정로54길 4 1층",
+    "district": "강남구",
+    "lat": 37.527691,
+    "lng": 127.039603,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 805,
+    "name": "도프피자 베이커스 양재본점",
+    "address": "서울특별시 서초구 동산로2길 41 1층 도프피자베이커스",
+    "district": "서초구",
+    "lat": 37.46829,
+    "lng": 127.043072,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 806,
+    "name": "서리재 방배점",
+    "address": "서울특별시 서초구 방배로33길 6 1층",
+    "district": "서초구",
+    "lat": 37.492251,
+    "lng": 126.990387,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 807,
+    "name": "킴스델리마켓 롯데백화점 잠실점",
+    "address": "서울특별시 송파구 올림픽로 240 지하1층",
+    "district": "송파구",
+    "lat": 37.512336,
+    "lng": 127.098191,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 808,
+    "name": "홍팥집 문정점",
+    "address": "서울특별시 송파구 새말로 154 아이원빌딩",
+    "district": "송파구",
+    "lat": 37.484446,
+    "lng": 127.130639,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 809,
+    "name": "고미디저트 연남점",
+    "address": "서울특별시 마포구 동교로38안길 11 1.5층",
+    "district": "마포구",
+    "lat": 37.562373,
+    "lng": 126.924743,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 810,
+    "name": "연주방 어페어",
+    "address": "서울특별시 마포구 동교로46길 13 지1층",
+    "district": "마포구",
+    "lat": 37.562391,
+    "lng": 126.925637,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 811,
+    "name": "홍대간장게장 홍일품",
+    "address": "서울특별시 마포구 독막로 47-1 홍대간장게장 홍일품",
+    "district": "마포구",
+    "lat": 37.54808,
+    "lng": 126.918717,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 812,
+    "name": "오잇",
+    "address": "서울특별시 용산구 신흥로 95 오잇 (OEAT)",
+    "district": "용산구",
+    "lat": 37.545529,
+    "lng": 126.985043,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 813,
+    "name": "샤브20 강동고덕점",
+    "address": "서울특별시 강동구 고덕로 425 2층",
+    "district": "강동구",
+    "lat": 37.557559,
+    "lng": 127.172959,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 814,
+    "name": "오래",
+    "address": "서울특별시 동대문구 사가정로15길 5 오래",
+    "district": "동대문구",
+    "lat": 37.57814,
+    "lng": 127.059395,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
