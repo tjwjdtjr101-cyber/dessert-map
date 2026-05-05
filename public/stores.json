@@ -14178,5 +14178,149 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 815,
+    "name": "차지 강남플래그십점",
+    "address": "서울특별시 서초구 강남대로 407 1층",
+    "district": "서초구",
+    "lat": 37.499025,
+    "lng": 127.026595,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 816,
+    "name": "돼지명가 방이동점",
+    "address": "서울특별시 송파구 오금로15길 10 1층 101호",
+    "district": "송파구",
+    "lat": 37.512478,
+    "lng": 127.109482,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 817,
+    "name": "카츠연가 성수",
+    "address": "서울특별시 성동구 연무장길 41-22 지하1층",
+    "district": "성동구",
+    "lat": 37.543341,
+    "lng": 127.054248,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 818,
+    "name": "한사발포차 연남점",
+    "address": "서울특별시 마포구 동교로 259 1층",
+    "district": "마포구",
+    "lat": 37.563029,
+    "lng": 126.924885,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 819,
+    "name": "봉마루집 합정점",
+    "address": "서울특별시 마포구 양화로6길 103 1층",
+    "district": "마포구",
+    "lat": 37.54842,
+    "lng": 126.919856,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 820,
+    "name": "토끼정 용산 아이파크몰",
+    "address": "서울특별시 용산구 한강대로23길 55 아이파크몰 6층 토끼정",
+    "district": "용산구",
+    "lat": 37.529772,
+    "lng": 126.964742,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 821,
+    "name": "용호동낙지 여의도점",
+    "address": "서울특별시 영등포구 국제금융로2길 17 시티플라자 2층 용호동낙지 여의도점",
+    "district": "영등포구",
+    "lat": 37.524042,
+    "lng": 126.926036,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 822,
+    "name": "상록회관연탄구이 문래점",
+    "address": "서울특별시 영등포구 도림로139길 17 1층",
+    "district": "영등포구",
+    "lat": 37.513414,
+    "lng": 126.892467,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
