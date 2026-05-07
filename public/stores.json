@@ -14429,5 +14429,111 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 829,
+    "name": "노크 커피바 선릉",
+    "address": "서울특별시 강남구 역삼로67길 15 102호",
+    "district": "강남구",
+    "lat": 37.502359,
+    "lng": 127.052829,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 830,
+    "name": "한강텐트대여 피크닉109 잠원점",
+    "address": "서울특별시 서초구 잠원로 209-1 1층 101호",
+    "district": "서초구",
+    "lat": 37.520489,
+    "lng": 127.014554,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 831,
+    "name": "텍사스로드하우스 잠실본점",
+    "address": "서울특별시 송파구 오금로 87 1층",
+    "district": "송파구",
+    "lat": 37.514552,
+    "lng": 127.10744,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 832,
+    "name": "락희안 여의도점",
+    "address": "서울특별시 영등포구 여의대로 70 2층 208호",
+    "district": "영등포구",
+    "lat": 37.524842,
+    "lng": 126.924197,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 833,
+    "name": "트리플에이커피 강동고덕점",
+    "address": "서울특별시 강동구 고덕로98길 99 1층 104호",
+    "district": "강동구",
+    "lat": 37.554015,
+    "lng": 127.179723,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 834,
+    "name": "범카츠 건대역점",
+    "address": "서울특별시 광진구 아차산로 212 101호",
+    "district": "광진구",
+    "lat": 37.540821,
+    "lng": 127.066678,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
