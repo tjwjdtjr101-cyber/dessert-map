@@ -14535,5 +14535,112 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 835,
+    "name": "금돈옥 방배점",
+    "address": "서울특별시 서초구 서초대로 63 1~2층",
+    "district": "서초구",
+    "lat": 37.486654,
+    "lng": 126.989211,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 836,
+    "name": "헤세드 송리단길점",
+    "address": "서울특별시 송파구 백제고분로45길 9 1층",
+    "district": "송파구",
+    "lat": 37.509375,
+    "lng": 127.110223,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 837,
+    "name": "할리아사이",
+    "address": "서울특별시 성동구 연무장길 56 1층",
+    "district": "성동구",
+    "lat": 37.542369,
+    "lng": 127.055377,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 838,
+    "name": "미트볼라운지 한남본점",
+    "address": "서울특별시 용산구 이태원로54길 36 미트볼라운지",
+    "district": "용산구",
+    "lat": 37.536786,
+    "lng": 127.001608,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 839,
+    "name": "한강텐트대여 써니텐트 여의도점",
+    "address": "서울특별시 영등포구 여의나루로 117 서울상가 1층 써니텐트 여의도점",
+    "district": "영등포구",
+    "lat": 37.526156,
+    "lng": 126.931093,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 840,
+    "name": "소사면옥",
+    "address": "서울특별시 광진구 능동로 270 1층",
+    "district": "광진구",
+    "lat": 37.554068,
+    "lng": 127.07807,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
