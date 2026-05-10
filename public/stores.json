@@ -14731,5 +14731,131 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 846,
+    "name": "유원",
+    "address": "서울특별시 강남구 언주로148길 14 다동 2층 (논현동 , 청호불교문화원)",
+    "district": "강남구",
+    "lat": 37.520083,
+    "lng": 127.035733,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 847,
+    "name": "심플라워",
+    "address": "서울특별시 서초구 양재동 232-4",
+    "district": "서초구",
+    "lat": 37.466431,
+    "lng": 127.040148,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 848,
+    "name": "함평육회 사당역점",
+    "address": "서울특별시 서초구 방배천로4길 11 1층 함평육회",
+    "district": "서초구",
+    "lat": 37.478071,
+    "lng": 126.983457,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 849,
+    "name": "우대포 위례본점",
+    "address": "서울특별시 송파구 위례광장로 120 155호",
+    "district": "송파구",
+    "lat": 37.474491,
+    "lng": 127.141706,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 850,
+    "name": "곱 문래본점",
+    "address": "서울특별시 영등포구 당산로 34 1층 118호",
+    "district": "영등포구",
+    "lat": 37.517584,
+    "lng": 126.896382,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 851,
+    "name": "포포앤미루",
+    "address": "서울특별시 강동구 양재대로89가길 30 3층",
+    "district": "강동구",
+    "lat": 37.525285,
+    "lng": 127.13426,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 852,
+    "name": "오스테리아 오알오",
+    "address": "서울특별시 광진구 능동로 282 1,2층",
+    "district": "광진구",
+    "lat": 37.554946,
+    "lng": 127.078621,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
