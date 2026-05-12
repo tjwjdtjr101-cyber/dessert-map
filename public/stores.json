@@ -14981,5 +14981,95 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 860,
+    "name": "후라토식당 GFC역삼직영점",
+    "address": "서울특별시 강남구 테헤란로 152 지하 1층 P9호",
+    "district": "강남구",
+    "lat": 37.500026,
+    "lng": 127.036546,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 861,
+    "name": "솥내음 삼성점",
+    "address": "서울특별시 강남구 영동대로106길 41 동영빌딩 지상1층 102~103호",
+    "district": "강남구",
+    "lat": 37.514231,
+    "lng": 127.064496,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 862,
+    "name": "부국정",
+    "address": "서울특별시 용산구 한강대로62가길 8-2 1층",
+    "district": "용산구",
+    "lat": 37.534621,
+    "lng": 126.974349,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 863,
+    "name": "한강텐트대여 피크닉109 광나루점",
+    "address": "서울특별시 강동구 천중로 6 1층 104호",
+    "district": "강동구",
+    "lat": 37.545855,
+    "lng": 127.122318,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 864,
+    "name": "로운 샤브샤브 청량리점",
+    "address": "서울특별시 동대문구 왕산로 214 롯데백화점 청량리점 지하 2층",
+    "district": "동대문구",
+    "lat": 37.580532,
+    "lng": 127.047327,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
