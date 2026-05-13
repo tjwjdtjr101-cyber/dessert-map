@@ -15071,5 +15071,77 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 865,
+    "name": "요거브릭 석촌호수점",
+    "address": "서울특별시 송파구 백제고분로33길 11 1층",
+    "district": "송파구",
+    "lat": 37.503822,
+    "lng": 127.098648,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 866,
+    "name": "삐딱 연남점",
+    "address": "서울특별시 마포구 동교로34길 6 1층",
+    "district": "마포구",
+    "lat": 37.560961,
+    "lng": 126.92469,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 867,
+    "name": "콩두50",
+    "address": "서울특별시 영등포구 여의대로 24 FKI타워 50층",
+    "district": "영등포구",
+    "lat": 37.522178,
+    "lng": 126.919944,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 868,
+    "name": "화로상회 천호점",
+    "address": "서울특별시 강동구 천호대로157길 18 2층 201호 화로상회 천호점",
+    "district": "강동구",
+    "lat": 37.538501,
+    "lng": 127.127501,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
