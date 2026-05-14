@@ -15143,5 +15143,214 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 869,
+    "name": "레자미오네뜨 현대백화점 무역센터점",
+    "address": "서울특별시 강남구 테헤란로 517 현대백화점 무역센터점 B1",
+    "district": "강남구",
+    "lat": 37.508876,
+    "lng": 127.059647,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 870,
+    "name": "시마스시 코엑스몰점",
+    "address": "서울특별시 강남구 영동대로 513 스타필드 코엑스몰 지하1층",
+    "district": "강남구",
+    "lat": 37.511645,
+    "lng": 127.059127,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 871,
+    "name": "감성커피 테라스점",
+    "address": "서울특별시 송파구 중대로12길 9",
+    "district": "송파구",
+    "lat": 37.49393,
+    "lng": 127.12365,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 872,
+    "name": "모피크",
+    "address": "서울특별시 성동구 왕십리로8길 18-1 1층",
+    "district": "성동구",
+    "lat": 37.545998,
+    "lng": 127.04669,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 873,
+    "name": "크림라벨 마포도화점",
+    "address": "서울특별시 마포구 삼개로 20 1층 102호",
+    "district": "마포구",
+    "lat": 37.538663,
+    "lng": 126.947095,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 874,
+    "name": "페어베리바나나",
+    "address": "서울특별시 마포구 어울마당로 136 1층 102호",
+    "district": "마포구",
+    "lat": 37.555987,
+    "lng": 126.92492,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 875,
+    "name": "도깨비집 홍대",
+    "address": "서울특별시 마포구 와우산로 71 1층, 2층",
+    "district": "마포구",
+    "lat": 37.55085,
+    "lng": 126.92288,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 876,
+    "name": "사실빙 신길점",
+    "address": "서울특별시 영등포구 신길로28길 25 121동 비206호",
+    "district": "영등포구",
+    "lat": 37.502802,
+    "lng": 126.91276,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 877,
+    "name": "후우",
+    "address": "서울특별시 영등포구 선유로54길 5-4 1층",
+    "district": "영등포구",
+    "lat": 37.5365,
+    "lng": 126.899504,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 878,
+    "name": "오마이버터",
+    "address": "서울특별시 강동구 천중로15가길 32 1층",
+    "district": "강동구",
+    "lat": 37.545236,
+    "lng": 127.130337,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 879,
+    "name": "헤어 제3공간",
+    "address": "서울특별시 광진구 아차산로33길 53 2층",
+    "district": "광진구",
+    "lat": 37.542665,
+    "lng": 127.070802,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 880,
+    "name": "코시 건대점",
+    "address": "서울특별시 광진구 아차산로 197 1층",
+    "district": "광진구",
+    "lat": 37.541906,
+    "lng": 127.0655,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
