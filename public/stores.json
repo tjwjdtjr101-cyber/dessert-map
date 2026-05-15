@@ -15352,5 +15352,94 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 881,
+    "name": "노티드 잠실롯데월드몰점",
+    "address": "서울특별시 송파구 올림픽로 300 롯데월드몰 5층 F05호~11호",
+    "district": "송파구",
+    "lat": 37.513565,
+    "lng": 127.104905,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 882,
+    "name": "바리아토",
+    "address": "서울특별시 마포구 동교로 16 1층 101호",
+    "district": "마포구",
+    "lat": 37.551772,
+    "lng": 126.904483,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 883,
+    "name": "피지피지",
+    "address": "서울특별시 마포구 와우산로17길 19-18 1층",
+    "district": "마포구",
+    "lat": 37.549559,
+    "lng": 126.92132,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 884,
+    "name": "행복한우",
+    "address": "서울특별시 광진구 구의강변로 30 목림빌딩",
+    "district": "광진구",
+    "lat": 37.533807,
+    "lng": 127.091828,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 885,
+    "name": "장어랑 장한평점",
+    "address": "서울특별시 동대문구 장한로 21 1층",
+    "district": "동대문구",
+    "lat": 37.563492,
+    "lng": 127.065663,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
