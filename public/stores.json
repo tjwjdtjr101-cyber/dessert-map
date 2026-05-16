@@ -15441,5 +15441,59 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 886,
+    "name": "세광양대창 교대본점",
+    "address": "서울특별시 서초구 반포대로28길 79 1, 2층",
+    "district": "서초구",
+    "lat": 37.491981,
+    "lng": 127.012624,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 887,
+    "name": "사토규카츠 성수직영점",
+    "address": "서울특별시 성동구 연무장길 37-22 2층",
+    "district": "성동구",
+    "lat": 37.543461,
+    "lng": 127.053835,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 888,
+    "name": "느루 연남점",
+    "address": "서울특별시 마포구 동교로32길 3 3층",
+    "district": "마포구",
+    "lat": 37.560856,
+    "lng": 126.92455,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
