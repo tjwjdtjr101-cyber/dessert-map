@@ -15638,5 +15638,113 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 897,
+    "name": "도원반점 강남역직영점",
+    "address": "서울특별시 강남구 역삼로5길 22 지상1층",
+    "district": "강남구",
+    "lat": 37.495344,
+    "lng": 127.032037,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 898,
+    "name": "단막 석촌호수점",
+    "address": "서울특별시 송파구 백제고분로41길 40",
+    "district": "송파구",
+    "lat": 37.509116,
+    "lng": 127.106125,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 899,
+    "name": "박만배아리랑보쌈 방이점",
+    "address": "서울특별시 송파구 위례성대로18길 12 1층",
+    "district": "송파구",
+    "lat": 37.511232,
+    "lng": 127.125827,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 900,
+    "name": "젠젠 성수점",
+    "address": "서울특별시 성동구 연무장11길 10 우리큐브 빌딩 1층 젠젠카페",
+    "district": "성동구",
+    "lat": 37.542866,
+    "lng": 127.057412,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 901,
+    "name": "텐쿠라",
+    "address": "서울특별시 용산구 한강대로15길 9 1층",
+    "district": "용산구",
+    "lat": 37.525708,
+    "lng": 126.964007,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 902,
+    "name": "광진구청",
+    "address": "서울특별시 광진구 아차산로 400",
+    "district": "광진구",
+    "lat": 37.536224,
+    "lng": 127.087398,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
