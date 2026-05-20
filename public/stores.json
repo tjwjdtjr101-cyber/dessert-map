@@ -15835,5 +15835,41 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 908,
+    "name": "삼동소바 여의도점",
+    "address": "서울특별시 영등포구 의사당대로 127 지하1층 B108호",
+    "district": "영등포구",
+    "lat": 37.520424,
+    "lng": 126.926568,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 909,
+    "name": "커먼그라운드",
+    "address": "서울특별시 광진구 아차산로 200",
+    "district": "광진구",
+    "lat": 37.541385,
+    "lng": 127.065581,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
