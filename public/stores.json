@@ -15871,5 +15871,181 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 910,
+    "name": "카페포레",
+    "address": "서울특별시 강남구 테헤란로33길 15 1층~2층",
+    "district": "강남구",
+    "lat": 37.502777,
+    "lng": 127.039138,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 911,
+    "name": "봉피양 강남점",
+    "address": "서울특별시 서초구 강남대로 359 208호, 209호, 210호",
+    "district": "서초구",
+    "lat": 37.494678,
+    "lng": 127.0288,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 912,
+    "name": "앤티크커피 잠실점",
+    "address": "서울특별시 송파구 백제고분로41길 21-16 1층 앤티크커피 잠실점",
+    "district": "송파구",
+    "lat": 37.507609,
+    "lng": 127.106336,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 913,
+    "name": "월스트릿휘낭시에",
+    "address": "서울특별시 성동구 성수이로12길 8-1 1층 월스트릿휘낭시에",
+    "district": "성동구",
+    "lat": 37.539773,
+    "lng": 127.056173,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 914,
+    "name": "이자와 왕십리 엔터식스점",
+    "address": "서울특별시 성동구 왕십리광장로 17 4층",
+    "district": "성동구",
+    "lat": 37.561409,
+    "lng": 127.038481,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 915,
+    "name": "제주삼다돈",
+    "address": "서울특별시 마포구 양화로11길 66",
+    "district": "마포구",
+    "lat": 37.552154,
+    "lng": 126.913174,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 916,
+    "name": "영커피 강동구청점",
+    "address": "서울특별시 강동구 성내로6길 20 1층 109호",
+    "district": "강동구",
+    "lat": 37.528801,
+    "lng": 127.122317,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 917,
+    "name": "본옥",
+    "address": "서울특별시 강동구 강동대로 177 103, 104호",
+    "district": "강동구",
+    "lat": 37.52523,
+    "lng": 127.126473,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 918,
+    "name": "강변테크노마트핸드폰성지 용감이네",
+    "address": "서울특별시 광진구 광나루로56길 85 제6층 D-21호",
+    "district": "광진구",
+    "lat": 37.535726,
+    "lng": 127.095709,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 919,
+    "name": "준오헤어 청량리역점",
+    "address": "서울특별시 동대문구 고산자로32길 78 1층 준오헤어",
+    "district": "동대문구",
+    "lat": 37.577696,
+    "lng": 127.043024,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
