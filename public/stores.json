@@ -16047,5 +16047,77 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 920,
+    "name": "흑우정 강남역본점",
+    "address": "서울특별시 서초구 강남대로69길 10 서호빌딩 지하1층",
+    "district": "서초구",
+    "lat": 37.501663,
+    "lng": 127.024193,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 921,
+    "name": "하카타 호르몬",
+    "address": "서울특별시 마포구 독막로5길 26 1층",
+    "district": "마포구",
+    "lat": 37.549135,
+    "lng": 126.918568,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 922,
+    "name": "함흥냉면",
+    "address": "서울특별시 영등포구 영등포로42길 6",
+    "district": "영등포구",
+    "lat": 37.518982,
+    "lng": 126.906791,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 923,
+    "name": "매란방 청량리역점",
+    "address": "서울특별시 동대문구 왕산로 214 , 3층 305호",
+    "district": "동대문구",
+    "lat": 37.580658,
+    "lng": 127.049096,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
