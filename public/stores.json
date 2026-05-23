@@ -16119,5 +16119,94 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 924,
+    "name": "봉계타 현대백화점 무역센터점",
+    "address": "서울특별시 강남구 테헤란로 517 현대백화점 무역센터점 10층",
+    "district": "강남구",
+    "lat": 37.508526,
+    "lng": 127.059807,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 925,
+    "name": "온기",
+    "address": "서울특별시 서초구 주흥길 16 103호",
+    "district": "서초구",
+    "lat": 37.504708,
+    "lng": 127.020224,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 926,
+    "name": "요쇼쿠 서울숲 본점",
+    "address": "서울특별시 성동구 서울숲4길 26-10 2층",
+    "district": "성동구",
+    "lat": 37.54694,
+    "lng": 127.043433,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 927,
+    "name": "서용관",
+    "address": "서울특별시 용산구 한강대로 69 상가동 114호",
+    "district": "용산구",
+    "lat": 37.527625,
+    "lng": 126.965339,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 928,
+    "name": "철산장",
+    "address": "서울특별시 영등포구 경인로77가길 12 1층",
+    "district": "영등포구",
+    "lat": 37.511927,
+    "lng": 126.892321,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
