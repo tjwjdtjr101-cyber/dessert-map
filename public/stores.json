@@ -16208,5 +16208,95 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 929,
+    "name": "정선콩국수 소소정",
+    "address": "서울특별시 서초구 동광로 68 1층 정선콩국수 소소정",
+    "district": "서초구",
+    "lat": 37.492556,
+    "lng": 126.990011,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 930,
+    "name": "펍지 성수",
+    "address": "서울특별시 성동구 왕십리로4길 5",
+    "district": "성동구",
+    "lat": 37.545694,
+    "lng": 127.045383,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 931,
+    "name": "한양숙육 마포역본점",
+    "address": "서울특별시 마포구 토정로35길 26 1층",
+    "district": "마포구",
+    "lat": 37.540769,
+    "lng": 126.944663,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 932,
+    "name": "봉이밥 올림픽공원점",
+    "address": "서울특별시 강동구 성안로 15 1층",
+    "district": "강동구",
+    "lat": 37.525337,
+    "lng": 127.129356,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 933,
+    "name": "준오헤어 건대역1호점",
+    "address": "서울특별시 광진구 능동로 110 스타시티 영존 건물 지상3층",
+    "district": "광진구",
+    "lat": 37.540085,
+    "lng": 127.071073,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
