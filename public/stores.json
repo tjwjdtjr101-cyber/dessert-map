@@ -16298,5 +16298,129 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 934,
+    "name": "분지로 롯데월드몰점",
+    "address": "서울특별시 송파구 올림픽로 300 롯데월드몰 5층",
+    "district": "송파구",
+    "lat": 37.51257,
+    "lng": 127.102562,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 935,
+    "name": "마포진짜원조최대포 본점",
+    "address": "서울특별시 마포구 백범로 105",
+    "district": "마포구",
+    "lat": 37.547625,
+    "lng": 126.943055,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 936,
+    "name": "용산역카페 빵앗간토끼",
+    "address": "서울특별시 용산구 한강대로15길 19-26 B1층 용산역카페 빵앗간토끼",
+    "district": "용산구",
+    "lat": 37.525568,
+    "lng": 126.962701,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 937,
+    "name": "프루티헤어 용산점",
+    "address": "서울특별시 용산구 한강대로 66 호반써밋에이디션 2층 210호",
+    "district": "용산구",
+    "lat": 37.526437,
+    "lng": 126.965839,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 938,
+    "name": "혼미 여의도직영점",
+    "address": "서울특별시 영등포구 여의대방로67길 21 3층 혼미 여의도직영점",
+    "district": "영등포구",
+    "lat": 37.520553,
+    "lng": 126.929487,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 939,
+    "name": "치슈앙",
+    "address": "서울특별시 강동구 올림픽로 800 1층 107호",
+    "district": "강동구",
+    "lat": 37.552314,
+    "lng": 127.128599,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 940,
+    "name": "회기돈",
+    "address": "서울특별시 동대문구 회기로 150-1 1,2층 회기돈",
+    "district": "동대문구",
+    "lat": 37.591141,
+    "lng": 127.052931,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
