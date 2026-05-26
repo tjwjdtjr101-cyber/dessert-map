@@ -16422,5 +16422,76 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 941,
+    "name": "쯔루하시 후게츠 도산점",
+    "address": "서울특별시 강남구 언주로172길 65 휴빌딩 2층",
+    "district": "강남구",
+    "lat": 37.526874,
+    "lng": 127.039094,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 942,
+    "name": "밍키즈디저트",
+    "address": "서울특별시 서초구 방배로 254 1층 107호",
+    "district": "서초구",
+    "lat": 37.495906,
+    "lng": 126.988723,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 943,
+    "name": "송계옥 교대점",
+    "address": "서울특별시 서초구 서초대로48길 33 1층",
+    "district": "서초구",
+    "lat": 37.491581,
+    "lng": 127.012038,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 944,
+    "name": "VS라인의원 잠실점",
+    "address": "서울특별시 송파구 올림픽로 114 서경빌딩 3층 VS라인의원 잠실점",
+    "district": "송파구",
+    "lat": 37.511417,
+    "lng": 127.08321,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
