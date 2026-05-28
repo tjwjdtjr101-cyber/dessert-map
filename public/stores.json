@@ -506,7 +506,8 @@
     "lat": 37.51649,
     "lng": 127.023854,
     "categories": [
-      "goguma"
+      "goguma",
+      "bungeoppang"
     ],
     "category": "goguma",
     "status": "available",
@@ -16558,6 +16559,92 @@
     "categories": [
       "bungeoppang",
       "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 949,
+    "name": "뚜레쥬르 강남직영점",
+    "address": "서울특별시 강남구 강남대로 438 (역삼동, 스타플렉스) 105,106,107호",
+    "district": "강남구",
+    "lat": 37.501677,
+    "lng": 127.026201,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 950,
+    "name": "모찌방앗간 연남본점",
+    "address": "서울특별시 마포구 양화로23길 24 1층",
+    "district": "마포구",
+    "lat": 37.55949,
+    "lng": 126.925162,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 951,
+    "name": "문래오름",
+    "address": "서울특별시 영등포구 도림로135길 8 1층",
+    "district": "영등포구",
+    "lat": 37.513896,
+    "lng": 126.894005,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 952,
+    "name": "영커피 경동시장점",
+    "address": "서울특별시 동대문구 경동시장로 22 1층 영커피",
+    "district": "동대문구",
+    "lat": 37.580931,
+    "lng": 127.040692,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 953,
+    "name": "컴포즈커피 답십리래미안점",
+    "address": "서울특별시 동대문구 답십리로 140 세기프라자 1층 107호 컴포즈커피 답십리래미안점",
+    "district": "동대문구",
+    "lat": 37.572645,
+    "lng": 127.055547,
+    "categories": [
+      "bungeoppang"
     ],
     "category": "bungeoppang",
     "status": "available",
