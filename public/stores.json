@@ -16724,5 +16724,75 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 958,
+    "name": "뉴욕베이글&amp;피자 상암본점",
+    "address": "서울특별시 마포구 매봉산로 72 1층",
+    "district": "마포구",
+    "lat": 37.578069,
+    "lng": 126.893656,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 959,
+    "name": "구구구",
+    "address": "서울특별시 용산구 대사관로31길 25 1층",
+    "district": "용산구",
+    "lat": 37.534483,
+    "lng": 127.005818,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 960,
+    "name": "구운베이커리",
+    "address": "서울특별시 영등포구 선유로23길 14 1층",
+    "district": "영등포구",
+    "lat": 37.523111,
+    "lng": 126.888676,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 961,
+    "name": "더타코부스 여의도역점",
+    "address": "서울특별시 영등포구 의사당대로 108 1층 101호",
+    "district": "영등포구",
+    "lat": 37.521155,
+    "lng": 126.923935,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
