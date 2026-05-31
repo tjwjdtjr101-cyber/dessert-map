@@ -16794,5 +16794,182 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 962,
+    "name": "순정갈비 선릉직영점",
+    "address": "서울특별시 강남구 선릉로90길 56 1층 104호, 105호",
+    "district": "강남구",
+    "lat": 37.505041,
+    "lng": 127.053863,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 963,
+    "name": "선바위메밀장터",
+    "address": "서울특별시 서초구 강남대로18길 15-11",
+    "district": "서초구",
+    "lat": 37.472471,
+    "lng": 127.039595,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 964,
+    "name": "아임도넛 홍대점",
+    "address": "서울특별시 마포구 와우산로21길 14 1층",
+    "district": "마포구",
+    "lat": 37.552487,
+    "lng": 126.923152,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 965,
+    "name": "토스트커피하우스센트레",
+    "address": "서울특별시 용산구 후암로 75 1층",
+    "district": "용산구",
+    "lat": 37.552507,
+    "lng": 126.976592,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 966,
+    "name": "용산토리",
+    "address": "서울특별시 용산구 한강대로38가길 7-18 1층",
+    "district": "용산구",
+    "lat": 37.529797,
+    "lng": 126.970002,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 967,
+    "name": "어피럽",
+    "address": "서울특별시 강동구 성안로 25 1층",
+    "district": "강동구",
+    "lat": 37.526149,
+    "lng": 127.129722,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 968,
+    "name": "사토규카츠 건대본점",
+    "address": "서울특별시 광진구 아차산로29길 26 2층",
+    "district": "광진구",
+    "lat": 37.542016,
+    "lng": 127.068742,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 969,
+    "name": "나이스카페인클럽 답십리역점",
+    "address": "서울특별시 동대문구 천호대로 301 1층 110호",
+    "district": "동대문구",
+    "lat": 37.565992,
+    "lng": 127.054376,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 970,
+    "name": "한우정육소 용두동직영점",
+    "address": "서울특별시 동대문구 고산자로31길 6 1층",
+    "district": "동대문구",
+    "lat": 37.576814,
+    "lng": 127.037604,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 971,
+    "name": "영동교집 장안직영점",
+    "address": "서울특별시 동대문구 천호대로83길 32",
+    "district": "동대문구",
+    "lat": 37.563379,
+    "lng": 127.065288,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
