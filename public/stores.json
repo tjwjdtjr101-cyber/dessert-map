@@ -16971,5 +16971,95 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 972,
+    "name": "텍사스로드하우스 잠실본점",
+    "address": "서울특별시 송파구 오금로 87 1층 텍사스로드하우스 잠실본점",
+    "district": "송파구",
+    "lat": 37.51463,
+    "lng": 127.107429,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 973,
+    "name": "실비옥",
+    "address": "서울특별시 성동구 아차산로 126 지하1층 B107호",
+    "district": "성동구",
+    "lat": 37.543496,
+    "lng": 127.05806,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 974,
+    "name": "마요네즈 남영점",
+    "address": "서울특별시 용산구 한강대로80길 11-22 . 1층",
+    "district": "용산구",
+    "lat": 37.543521,
+    "lng": 126.973418,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 975,
+    "name": "대관원",
+    "address": "서울특별시 영등포구 당산로37길 1",
+    "district": "영등포구",
+    "lat": 37.529433,
+    "lng": 126.897938,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 976,
+    "name": "골뱅이나라 청량리역1호점",
+    "address": "서울특별시 동대문구 홍릉로 8 1층",
+    "district": "동대문구",
+    "lat": 37.580992,
+    "lng": 127.045124,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
