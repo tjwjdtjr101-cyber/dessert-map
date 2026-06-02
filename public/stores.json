@@ -17061,5 +17061,148 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 977,
+    "name": "정희 강남역점",
+    "address": "서울특별시 강남구 강남대로102길 15 지상1층",
+    "district": "강남구",
+    "lat": 37.502217,
+    "lng": 127.027006,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 978,
+    "name": "남경막국수 가족1",
+    "address": "서울특별시 송파구 석촌호수로 74 잠실엘타워 1층 남경막국수",
+    "district": "송파구",
+    "lat": 37.509678,
+    "lng": 127.085438,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 979,
+    "name": "갈꾸집 왕십리본점",
+    "address": "서울특별시 성동구 마조로7길 14 2층",
+    "district": "성동구",
+    "lat": 37.5609,
+    "lng": 127.039781,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 980,
+    "name": "우월소곱창 마포직영점",
+    "address": "서울특별시 마포구 마포대로 73 1층 111, 112, 113호",
+    "district": "마포구",
+    "lat": 37.542238,
+    "lng": 126.948966,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 981,
+    "name": "아이디헤어 용산해링턴점",
+    "address": "서울특별시 용산구 서빙고로 17 용산센트럴파크해링턴스퀘어 몰C 2층 84,85",
+    "district": "용산구",
+    "lat": 37.525784,
+    "lng": 126.968553,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 982,
+    "name": "애플하우스",
+    "address": "서울특별시 영등포구 양산로 16 1층 6호",
+    "district": "영등포구",
+    "lat": 37.525709,
+    "lng": 126.884777,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 983,
+    "name": "도모카레 천호본점",
+    "address": "서울특별시 강동구 천호대로 977 도모카레 천호본점",
+    "district": "강동구",
+    "lat": 37.539847,
+    "lng": 127.121297,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 984,
+    "name": "원보양꼬치 건대본점",
+    "address": "서울특별시 광진구 동일로18길 23",
+    "district": "광진구",
+    "lat": 37.539808,
+    "lng": 127.06427,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
