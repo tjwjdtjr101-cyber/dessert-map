@@ -17204,5 +17204,77 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 985,
+    "name": "최가네 숯불구이",
+    "address": "서울특별시 용산구 한강대로21길 17-5 1층(한강로3가)",
+    "district": "용산구",
+    "lat": 37.52666,
+    "lng": 126.963969,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 986,
+    "name": "이자와 여의도직영점",
+    "address": "서울특별시 영등포구 여의나루로 42 203호, 204호 이자와",
+    "district": "영등포구",
+    "lat": 37.52147,
+    "lng": 126.924974,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 987,
+    "name": "유앤아이의원 천호점",
+    "address": "서울특별시 강동구 천호대로 1024 지하1층",
+    "district": "강동구",
+    "lat": 37.537626,
+    "lng": 127.125327,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 988,
+    "name": "청량함박 일본인이 만든 함박&amp;카레",
+    "address": "서울특별시 동대문구 홍릉로1가길 27",
+    "district": "동대문구",
+    "lat": 37.581567,
+    "lng": 127.042661,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
