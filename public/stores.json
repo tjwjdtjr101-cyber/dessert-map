@@ -17276,5 +17276,95 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 989,
+    "name": "모울",
+    "address": "서울특별시 강남구 도산대로11길 32 2층",
+    "district": "강남구",
+    "lat": 37.519544,
+    "lng": 127.022575,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 990,
+    "name": "기댈빙",
+    "address": "서울특별시 성동구 서울숲2길 19-8 1층",
+    "district": "성동구",
+    "lat": 37.547221,
+    "lng": 127.041084,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 991,
+    "name": "달맞이광장바베큐 남영점",
+    "address": "서울특별시 용산구 한강대로 292 1층",
+    "district": "용산구",
+    "lat": 37.544329,
+    "lng": 126.972462,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 992,
+    "name": "계도 IFC몰",
+    "address": "서울특별시 영등포구 국제금융로 10 L3층",
+    "district": "영등포구",
+    "lat": 37.525572,
+    "lng": 126.926614,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 993,
+    "name": "나래족발 강동점",
+    "address": "서울특별시 강동구 진황도로43길 3 1층",
+    "district": "강동구",
+    "lat": 37.535791,
+    "lng": 127.13818,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
