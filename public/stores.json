@@ -17366,5 +17366,76 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 994,
+    "name": "진미막창 방이점",
+    "address": "서울특별시 송파구 오금로 152 1층",
+    "district": "송파구",
+    "lat": 37.51034,
+    "lng": 127.11147,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 995,
+    "name": "우동키노야 합정점",
+    "address": "서울특별시 마포구 양화로 45 몰동 지1층 B1103, B1104호",
+    "district": "마포구",
+    "lat": 37.551357,
+    "lng": 126.913412,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 996,
+    "name": "오븐딥",
+    "address": "서울특별시 용산구 신흥로 62 1층 지워진간판",
+    "district": "용산구",
+    "lat": 37.543839,
+    "lng": 126.987407,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 997,
+    "name": "김숙성 이태원점",
+    "address": "서울특별시 용산구 이태원로19길 12 제2호",
+    "district": "용산구",
+    "lat": 37.535002,
+    "lng": 126.991955,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
