@@ -17437,5 +17437,41 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 998,
+    "name": "석암생소금구이 성수점",
+    "address": "서울특별시 성동구 아차산로 97 1층 104호",
+    "district": "성동구",
+    "lat": 37.54525,
+    "lng": 127.054873,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 999,
+    "name": "크리스탈제이드 IFC몰점",
+    "address": "서울특별시 영등포구 국제금융로 10 IFC몰 L3층 314호",
+    "district": "영등포구",
+    "lat": 37.525622,
+    "lng": 126.925554,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
