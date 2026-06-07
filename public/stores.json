@@ -17473,5 +17473,77 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1000,
+    "name": "충무식",
+    "address": "서울특별시 서초구 법원로2길 7-4 1동 지하1층 102호",
+    "district": "서초구",
+    "lat": 37.494012,
+    "lng": 127.011656,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1001,
+    "name": "고기꾼김춘배 홍대숲길점",
+    "address": "서울특별시 마포구 서강로13길 31-2",
+    "district": "마포구",
+    "lat": 37.554278,
+    "lng": 126.932217,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1002,
+    "name": "솔솥 한남점",
+    "address": "서울특별시 용산구 이태원로54가길 26 지하 1층",
+    "district": "용산구",
+    "lat": 37.536785,
+    "lng": 127.001398,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1003,
+    "name": "크리스탈제이드 현대백화점 천호점",
+    "address": "서울특별시 강동구 천호대로 1005 현대백화점 천호점 12층",
+    "district": "강동구",
+    "lat": 37.538641,
+    "lng": 127.124576,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
