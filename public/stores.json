@@ -17545,5 +17545,113 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1004,
+    "name": "선바위메밀장터",
+    "address": "서울특별시 서초구 강남대로18길 15-11 메밀장터 양재점",
+    "district": "서초구",
+    "lat": 37.472471,
+    "lng": 127.039595,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1005,
+    "name": "석암생소금구이 사당점",
+    "address": "서울특별시 서초구 방배천로2안길 7 1층",
+    "district": "서초구",
+    "lat": 37.477381,
+    "lng": 126.983743,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1006,
+    "name": "석암생소금구이 방이역점",
+    "address": "서울특별시 송파구 양재대로71길 12 1층",
+    "district": "송파구",
+    "lat": 37.510591,
+    "lng": 127.125648,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1007,
+    "name": "잘빠진메밀 신용산직영점",
+    "address": "서울특별시 용산구 한강대로21길 29-12 1층",
+    "district": "용산구",
+    "lat": 37.526935,
+    "lng": 126.96315,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1008,
+    "name": "한사발포차 천호점",
+    "address": "서울특별시 강동구 올림픽로70길 56 지하1층, 1층",
+    "district": "강동구",
+    "lat": 37.539049,
+    "lng": 127.126668,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1009,
+    "name": "민지슈퍼 건대본점",
+    "address": "서울특별시 광진구 아차산로31길 37 1층",
+    "district": "광진구",
+    "lat": 37.542609,
+    "lng": 127.069943,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
