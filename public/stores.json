@@ -1759,7 +1759,9 @@
     "lng": 127.111663,
     "categories": [
       "dubai",
-      "cake"
+      "cake",
+      "bungeoppang",
+      "goguma"
     ],
     "category": "dubai",
     "status": "available",
@@ -17643,6 +17645,132 @@
     "district": "광진구",
     "lat": 37.542609,
     "lng": 127.069943,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1010,
+    "name": "설악골막국수 숯불닭갈비",
+    "address": "서울특별시 송파구 석촌호수로 170",
+    "district": "송파구",
+    "lat": 37.506557,
+    "lng": 127.095703,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1011,
+    "name": "매드포갈릭 상암MBC점",
+    "address": "서울특별시 마포구 성암로 255 mbc 몰 플라자 2층",
+    "district": "마포구",
+    "lat": 37.579817,
+    "lng": 126.891619,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1012,
+    "name": "안동실비 홍대본점",
+    "address": "서울특별시 마포구 동교로 125 1층",
+    "district": "마포구",
+    "lat": 37.555097,
+    "lng": 126.915902,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1013,
+    "name": "엉클피자 용산점",
+    "address": "서울특별시 용산구 한강대로11길 21 1층",
+    "district": "용산구",
+    "lat": 37.52526,
+    "lng": 126.962466,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1014,
+    "name": "매드포갈릭 용산아이파크몰점",
+    "address": "서울특별시 용산구 한강대로23길 55 용산아이파크몰 TASTE PARK 5층",
+    "district": "용산구",
+    "lat": 37.530325,
+    "lng": 126.964415,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1015,
+    "name": "퐁피두센터 한화",
+    "address": "서울특별시 영등포구 63로 50 63빌딩 별관",
+    "district": "영등포구",
+    "lat": 37.520424,
+    "lng": 126.939711,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1016,
+    "name": "매드포갈릭 건대스타시티점",
+    "address": "서울특별시 광진구 능동로 92 롯데백화점 9층",
+    "district": "광진구",
+    "lat": 37.539073,
+    "lng": 127.071148,
     "categories": [
       "bungeoppang",
       "goguma"
