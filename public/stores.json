@@ -4200,7 +4200,9 @@
     "lng": 127.126121,
     "categories": [
       "cake",
-      "dubai"
+      "dubai",
+      "bungeoppang",
+      "goguma"
     ],
     "category": "cake",
     "status": "available",
@@ -17771,6 +17773,131 @@
     "district": "광진구",
     "lat": 37.539073,
     "lng": 127.071148,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1017,
+    "name": "크리스탈제이드 상하이 팰리스 도곡점",
+    "address": "서울특별시 강남구 언주로30길 39 린스퀘어 지하1층",
+    "district": "강남구",
+    "lat": 37.488758,
+    "lng": 127.053454,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1018,
+    "name": "설악골막국수 숯불닭갈비",
+    "address": "서울특별시 송파구 석촌호수로 170 1층",
+    "district": "송파구",
+    "lat": 37.506543,
+    "lng": 127.095635,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1019,
+    "name": "펍마이마이",
+    "address": "서울특별시 송파구 백제고분로7길 24-7",
+    "district": "송파구",
+    "lat": 37.510314,
+    "lng": 127.081764,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1020,
+    "name": "수북동 by 윤경양식당",
+    "address": "서울특별시 성동구 서울숲2길 40 1층",
+    "district": "성동구",
+    "lat": 37.546426,
+    "lng": 127.043,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1021,
+    "name": "함평집 여의도점",
+    "address": "서울특별시 영등포구 여의나루로 60 B1 132호",
+    "district": "영등포구",
+    "lat": 37.5223,
+    "lng": 126.926225,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1022,
+    "name": "젤라또로플",
+    "address": "서울특별시 강동구 동남로81길 50 1층 101호",
+    "district": "강동구",
+    "lat": 37.55978,
+    "lng": 127.154143,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1023,
+    "name": "서가네 정육식당",
+    "address": "서울특별시 동대문구 휘경로2길 10 1층 2층",
+    "district": "동대문구",
+    "lat": 37.595655,
+    "lng": 127.060882,
     "categories": [
       "bungeoppang",
       "goguma"
