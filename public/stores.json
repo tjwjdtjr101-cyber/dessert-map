@@ -17908,5 +17908,76 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1024,
+    "name": "속초바다야",
+    "address": "서울특별시 서초구 방배천로2길 12 1층 101호",
+    "district": "서초구",
+    "lat": 37.47663,
+    "lng": 126.983544,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1025,
+    "name": "LOOOP 루프 베이커리 카페",
+    "address": "서울특별시 성동구 연무장5길 9-13 1층",
+    "district": "성동구",
+    "lat": 37.544255,
+    "lng": 127.052425,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1026,
+    "name": "글로리칼국수 성수점",
+    "address": "서울특별시 성동구 아차산로7길 11-1 지상1층, 지상2층",
+    "district": "성동구",
+    "lat": 37.546335,
+    "lng": 127.054456,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1027,
+    "name": "에프더블유브이 용산점",
+    "address": "서울특별시 용산구 한강대로52길 25-8 224-1호",
+    "district": "용산구",
+    "lat": 37.531911,
+    "lng": 126.972969,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
