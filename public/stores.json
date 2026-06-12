@@ -17979,5 +17979,41 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1028,
+    "name": "설농정",
+    "address": "서울특별시 강남구 논현로86길 28 설농정",
+    "district": "강남구",
+    "lat": 37.500183,
+    "lng": 127.039791,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1029,
+    "name": "63 스카이피크닉",
+    "address": "서울특별시 영등포구 63로 50 63빌딩 60층 63스카이피크닉",
+    "district": "영등포구",
+    "lat": 37.519821,
+    "lng": 126.940345,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
