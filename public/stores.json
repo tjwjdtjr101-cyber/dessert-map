@@ -18015,5 +18015,95 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1030,
+    "name": "인벤타리오 2026 문구페어",
+    "address": "서울특별시 강남구 영동대로 513 코엑스 2층 THE PLATZ HALL",
+    "district": "강남구",
+    "lat": 37.510583,
+    "lng": 127.059181,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1031,
+    "name": "맛자랑",
+    "address": "서울특별시 강남구 선릉로 524 107호 맛자랑",
+    "district": "강남구",
+    "lat": 37.506789,
+    "lng": 127.048239,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1032,
+    "name": "루트원헤어 홍대점",
+    "address": "서울특별시 마포구 와우산로 151 2층 루트원헤어 홍대점",
+    "district": "마포구",
+    "lat": 37.554654,
+    "lng": 126.929803,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1033,
+    "name": "공돈 자양점",
+    "address": "서울특별시 광진구 뚝섬로 477 4동 1층 405~408호",
+    "district": "광진구",
+    "lat": 37.536808,
+    "lng": 127.063448,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1034,
+    "name": "맨드살롱 경희대점",
+    "address": "서울특별시 동대문구 회기로21길 13 1층 맨드살롱 경희대점",
+    "district": "동대문구",
+    "lat": 37.592051,
+    "lng": 127.05318,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
