@@ -18105,5 +18105,131 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1035,
+    "name": "강남 대골뼈국",
+    "address": "서울특별시 강남구 강남대로110길 19-1 1층",
+    "district": "강남구",
+    "lat": 37.50395,
+    "lng": 127.026448,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1036,
+    "name": "산솔 신사본점",
+    "address": "서울특별시 서초구 나루터로12길 18 1층",
+    "district": "서초구",
+    "lat": 37.514662,
+    "lng": 127.017464,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1037,
+    "name": "그랜드 하얏트 서울 더 테라스 키친",
+    "address": "서울특별시 용산구 소월로 322 로비층",
+    "district": "용산구",
+    "lat": 37.539601,
+    "lng": 126.997452,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1038,
+    "name": "소울갈비 여의도점",
+    "address": "서울특별시 영등포구 의사당대로 38 103동 111호",
+    "district": "영등포구",
+    "lat": 37.526129,
+    "lng": 126.918972,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1039,
+    "name": "지미스테이블",
+    "address": "서울특별시 강동구 천중로50길 47 1층 103호",
+    "district": "강동구",
+    "lat": 37.538661,
+    "lng": 127.142382,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1040,
+    "name": "석암생소금구이 군자점",
+    "address": "서울특별시 광진구 능동로36길 30 1층 102호",
+    "district": "광진구",
+    "lat": 37.555782,
+    "lng": 127.080698,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1041,
+    "name": "석암생소금구이 건대점",
+    "address": "서울특별시 광진구 아차산로 212 1층 106호",
+    "district": "광진구",
+    "lat": 37.540904,
+    "lng": 127.066955,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
