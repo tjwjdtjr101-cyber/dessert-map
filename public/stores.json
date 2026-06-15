@@ -18231,5 +18231,112 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1042,
+    "name": "미소제과",
+    "address": "서울특별시 서초구 양재천로17길 16 1층 미소제과",
+    "district": "서초구",
+    "lat": 37.475943,
+    "lng": 127.03742,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1043,
+    "name": "옥된장 양재시민의숲점",
+    "address": "서울특별시 서초구 강남대로6길 28-9 1층",
+    "district": "서초구",
+    "lat": 37.467035,
+    "lng": 127.043149,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1044,
+    "name": "고집132 성수본점",
+    "address": "서울특별시 성동구 왕십리로8길 5 대영빌딩 1층",
+    "district": "성동구",
+    "lat": 37.546554,
+    "lng": 127.045137,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1045,
+    "name": "숯길등심 홍대본점",
+    "address": "서울특별시 마포구 와우산로38길 4 1층",
+    "district": "마포구",
+    "lat": 37.555524,
+    "lng": 126.931027,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1046,
+    "name": "호랭이곳간 공덕점",
+    "address": "서울특별시 마포구 마포대로8길 13 1층 101호 호랭이곳간",
+    "district": "마포구",
+    "lat": 37.546421,
+    "lng": 126.953975,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1047,
+    "name": "카가와 합정본점",
+    "address": "서울특별시 마포구 잔다리로 66 1층",
+    "district": "마포구",
+    "lat": 37.553716,
+    "lng": 126.917225,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
