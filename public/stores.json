@@ -18338,5 +18338,94 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1048,
+    "name": "솥내음 강남 역삼 선릉역점",
+    "address": "서울특별시 강남구 선릉로93길 8 2층",
+    "district": "강남구",
+    "lat": 37.505528,
+    "lng": 127.047765,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1049,
+    "name": "크란츠",
+    "address": "서울특별시 서초구 강남대로37길 53 2층",
+    "district": "서초구",
+    "lat": 37.484656,
+    "lng": 127.030566,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1050,
+    "name": "블리비의원 왕십리점",
+    "address": "서울특별시 성동구 고산자로 229 3층, 4층",
+    "district": "성동구",
+    "lat": 37.56054,
+    "lng": 127.034321,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1051,
+    "name": "여리빈네일 홍대점",
+    "address": "서울특별시 마포구 와우산로29마길 15 2층",
+    "district": "마포구",
+    "lat": 37.555396,
+    "lng": 126.926606,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1052,
+    "name": "88소곱탄 서울군자점",
+    "address": "서울특별시 광진구 천호대로110길 27 1층",
+    "district": "광진구",
+    "lat": 37.555976,
+    "lng": 127.07973,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
