@@ -18427,5 +18427,146 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1053,
+    "name": "클래스원의원",
+    "address": "서울특별시 강남구 강남대로 390 10층",
+    "district": "강남구",
+    "lat": 37.497901,
+    "lng": 127.028709,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1054,
+    "name": "CAFE OHMYGOODNESS",
+    "address": "서울특별시 서초구 효령로 423 스페이스다온 1층 102호 OMG coffee & dessert",
+    "district": "서초구",
+    "lat": 37.489239,
+    "lng": 127.029954,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1055,
+    "name": "코리야",
+    "address": "서울특별시 성동구 왕십리로4길 10-20 B1층",
+    "district": "성동구",
+    "lat": 37.545525,
+    "lng": 127.046409,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1056,
+    "name": "성수 베이킹 스튜디오",
+    "address": "서울특별시 성동구 서울숲2길 46 B1층",
+    "district": "성동구",
+    "lat": 37.546266,
+    "lng": 127.043703,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1057,
+    "name": "일등식당",
+    "address": "서울특별시 마포구 방울내로 82",
+    "district": "마포구",
+    "lat": 37.560601,
+    "lng": 126.904352,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1058,
+    "name": "총각네야채가게 목동1호점",
+    "address": "서울특별시 양천구 목동동로 387 광장2 종합상가",
+    "district": "양천구",
+    "lat": 37.535531,
+    "lng": 126.879772,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1059,
+    "name": "라우맨즈헤어",
+    "address": "서울특별시 강동구 양재대로91가길 53 2층",
+    "district": "강동구",
+    "lat": 37.525834,
+    "lng": 127.133387,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1060,
+    "name": "카페유림",
+    "address": "서울특별시 광진구 뚝섬로52길 66 1층",
+    "district": "광진구",
+    "lat": 37.529215,
+    "lng": 127.077668,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
