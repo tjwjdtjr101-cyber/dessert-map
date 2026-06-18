@@ -18568,5 +18568,75 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1061,
+    "name": "제이드앤워터 성수 LCDC점",
+    "address": "서울특별시 성동구 연무장17길 10 LCDC 4층",
+    "district": "성동구",
+    "lat": 37.541736,
+    "lng": 127.061564,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1062,
+    "name": "퍼스트커피랩 당산역점",
+    "address": "서울특별시 영등포구 당산로49길 12 1층",
+    "district": "영등포구",
+    "lat": 37.535954,
+    "lng": 126.90187,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1063,
+    "name": "진정한족발 본점",
+    "address": "서울특별시 강동구 천호옛14길 37 1층 진정한족발",
+    "district": "강동구",
+    "lat": 37.536092,
+    "lng": 127.1277,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1064,
+    "name": "카페 어치브",
+    "address": "서울특별시 동대문구 망우로18다길 19 1층",
+    "district": "동대문구",
+    "lat": 37.586467,
+    "lng": 127.060861,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
