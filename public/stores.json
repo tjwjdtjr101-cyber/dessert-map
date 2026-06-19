@@ -18638,5 +18638,76 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1065,
+    "name": "로에르츠",
+    "address": "서울특별시 송파구 송파대로36가길 13 1층",
+    "district": "송파구",
+    "lat": 37.500281,
+    "lng": 127.115356,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1066,
+    "name": "부농정육식당",
+    "address": "서울특별시 송파구 백제고분로28길 29 1층 부농정육식당",
+    "district": "송파구",
+    "lat": 37.500431,
+    "lng": 127.091365,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1067,
+    "name": "우동키노야 신용산본점",
+    "address": "서울특별시 용산구 한강대로7길 18-13 1층",
+    "district": "용산구",
+    "lat": 37.525073,
+    "lng": 126.962306,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1068,
+    "name": "대흥양다리바베큐 건대점",
+    "address": "서울특별시 광진구 아차산로30길 39 1층",
+    "district": "광진구",
+    "lat": 37.538735,
+    "lng": 127.067444,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
