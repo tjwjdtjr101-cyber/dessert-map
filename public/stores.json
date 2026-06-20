@@ -18709,5 +18709,94 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1069,
+    "name": "제주화로집 남부터미널점",
+    "address": "서울특별시 서초구 효령로55길 39 1층",
+    "district": "서초구",
+    "lat": 37.486586,
+    "lng": 127.014026,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1070,
+    "name": "늘봄한의원 마포 본점",
+    "address": "서울특별시 마포구 망원로 86 2층",
+    "district": "마포구",
+    "lat": 37.557465,
+    "lng": 126.906241,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1071,
+    "name": "블리비의원 건대점",
+    "address": "서울특별시 광진구 아차산로 237 삼진빌딩 2층",
+    "district": "광진구",
+    "lat": 37.540503,
+    "lng": 127.069756,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1072,
+    "name": "뮤게",
+    "address": "서울특별시 동대문구 전농로17길 36 1층",
+    "district": "동대문구",
+    "lat": 37.579283,
+    "lng": 127.055348,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1073,
+    "name": "육작",
+    "address": "서울특별시 동대문구 고산자로36길 3 3층",
+    "district": "동대문구",
+    "lat": 37.579198,
+    "lng": 127.039555,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
