@@ -18798,5 +18798,59 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1074,
+    "name": "진대감 선릉점",
+    "address": "서울특별시 강남구 테헤란로70길 25 백합힐 1층",
+    "district": "강남구",
+    "lat": 37.503996,
+    "lng": 127.053979,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1075,
+    "name": "퀸즈가든 강남역점",
+    "address": "서울특별시 서초구 강남대로53길 7 강남애니타워 지하1층",
+    "district": "서초구",
+    "lat": 37.494261,
+    "lng": 127.028272,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1076,
+    "name": "타코닷 망원시장본점",
+    "address": "서울특별시 마포구 월드컵로19길 51 1층",
+    "district": "마포구",
+    "lat": 37.555165,
+    "lng": 126.907553,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
