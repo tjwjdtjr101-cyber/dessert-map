@@ -18852,5 +18852,130 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1077,
+    "name": "뉴엔치과의원 강남본원",
+    "address": "서울특별시 서초구 강남대로 405 통영빌딩 3층",
+    "district": "서초구",
+    "lat": 37.498786,
+    "lng": 127.026712,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1078,
+    "name": "논두렁오리주물럭 잠실새내직영점",
+    "address": "서울특별시 송파구 백제고분로9길 23 1층",
+    "district": "송파구",
+    "lat": 37.50972,
+    "lng": 127.081671,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1079,
+    "name": "바다약방 용산점",
+    "address": "서울특별시 용산구 한강대로15길 19-19 2층",
+    "district": "용산구",
+    "lat": 37.525357,
+    "lng": 126.962792,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1080,
+    "name": "데이뷰의원 여의도",
+    "address": "서울특별시 영등포구 국제금융로2길 17 씨티플라자 11층",
+    "district": "영등포구",
+    "lat": 37.524064,
+    "lng": 126.926042,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1081,
+    "name": "버섯잔치집 본점",
+    "address": "서울특별시 강동구 성내로 52 성원빌딩",
+    "district": "강동구",
+    "lat": 37.528362,
+    "lng": 127.125747,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1082,
+    "name": "마노베이커리",
+    "address": "서울특별시 광진구 자양로 282-1 난빌딩 1층",
+    "district": "광진구",
+    "lat": 37.550997,
+    "lng": 127.09169,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1083,
+    "name": "동대문 닥터스피부과의원",
+    "address": "서울특별시 동대문구 왕산로 186 우남SL타워300 2층 본관, 별관",
+    "district": "동대문구",
+    "lat": 37.579395,
+    "lng": 127.044073,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
