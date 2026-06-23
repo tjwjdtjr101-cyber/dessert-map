@@ -18977,5 +18977,148 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1084,
+    "name": "오또상라멘 압구정본점",
+    "address": "서울특별시 강남구 논현로175길 40 1층 102호, 104호",
+    "district": "강남구",
+    "lat": 37.525023,
+    "lng": 127.025384,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1085,
+    "name": "양양집 신논현점",
+    "address": "서울특별시 서초구 사평대로56길 8 지상1층",
+    "district": "서초구",
+    "lat": 37.503243,
+    "lng": 127.022937,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1086,
+    "name": "무우키",
+    "address": "서울특별시 용산구 한강대로50길 24 2층",
+    "district": "용산구",
+    "lat": 37.531468,
+    "lng": 126.972054,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1087,
+    "name": "담솥 타임스퀘어점",
+    "address": "서울특별시 영등포구 영중로 15 타임스퀘어 3층 담솥 타임스퀘어점(305-1호)",
+    "district": "영등포구",
+    "lat": 37.51676,
+    "lng": 126.902666,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1088,
+    "name": "청운보쌈 당산점",
+    "address": "서울특별시 영등포구 양평로12길 9 1층",
+    "district": "영등포구",
+    "lat": 37.53574,
+    "lng": 126.900627,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1089,
+    "name": "카페이츠",
+    "address": "서울특별시 광진구 자양로18길 45 2층",
+    "district": "광진구",
+    "lat": 37.538128,
+    "lng": 127.086077,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1090,
+    "name": "춘천골닭갈비 건대본점",
+    "address": "서울특별시 광진구 아차산로 221 1층",
+    "district": "광진구",
+    "lat": 37.54115,
+    "lng": 127.068252,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1091,
+    "name": "깐깐 구의이스트폴점",
+    "address": "서울특별시 광진구 아차산로 402 2층 1a호",
+    "district": "광진구",
+    "lat": 37.536697,
+    "lng": 127.087822,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
