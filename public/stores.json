@@ -19120,5 +19120,58 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1092,
+    "name": "CHOP헤어 잠실점",
+    "address": "서울특별시 송파구 올림픽로12길 4 경중빌딩 3층 미용실",
+    "district": "송파구",
+    "lat": 37.511234,
+    "lng": 127.082814,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1093,
+    "name": "서교가든숯불갈비",
+    "address": "서울특별시 마포구 잔다리로 83 1층",
+    "district": "마포구",
+    "lat": 37.554686,
+    "lng": 126.915782,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1094,
+    "name": "캄웨이브 카페",
+    "address": "서울특별시 동대문구 휘경로 33-3 1층",
+    "district": "동대문구",
+    "lat": 37.595223,
+    "lng": 127.063582,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
