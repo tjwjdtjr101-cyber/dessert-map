@@ -4784,7 +4784,8 @@
     "lat": 37.529656,
     "lng": 127.082611,
     "categories": [
-      "cake"
+      "cake",
+      "dubai"
     ],
     "category": "cake",
     "status": "available",
@@ -19168,6 +19169,113 @@
       "dubai"
     ],
     "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1095,
+    "name": "소보키 강남점",
+    "address": "서울특별시 강남구 봉은사로18길 80 1층",
+    "district": "강남구",
+    "lat": 37.501615,
+    "lng": 127.02733,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1096,
+    "name": "진밀옥 교대직영점",
+    "address": "서울특별시 서초구 서초대로50길 104 코랜드빌딩",
+    "district": "서초구",
+    "lat": 37.488555,
+    "lng": 127.013797,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1097,
+    "name": "마차이 방이점",
+    "address": "서울특별시 송파구 올림픽로32길 58 1층",
+    "district": "송파구",
+    "lat": 37.512048,
+    "lng": 127.112493,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1098,
+    "name": "덕스",
+    "address": "서울특별시 마포구 양화로 186 LC TOWER B3F",
+    "district": "마포구",
+    "lat": 37.557873,
+    "lng": 126.925824,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1099,
+    "name": "양양집 구의점",
+    "address": "서울특별시 광진구 아차산로 457 1층",
+    "district": "광진구",
+    "lat": 37.539616,
+    "lng": 127.092927,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1100,
+    "name": "트리플에이커피 장한평역점",
+    "address": "서울특별시 동대문구 천호대로85길 18 1층",
+    "district": "동대문구",
+    "lat": 37.562776,
+    "lng": 127.066434,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
     "status": "available",
     "price": 5500,
     "rating": 4.6,
