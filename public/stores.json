@@ -19317,5 +19317,77 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1103,
+    "name": "똑순이아구찜 잠실 직영점",
+    "address": "서울특별시 송파구 위례성대로 48 101호",
+    "district": "송파구",
+    "lat": 37.515319,
+    "lng": 127.11768,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1104,
+    "name": "얼루브 반지공방 성수",
+    "address": "서울특별시 성동구 서울숲6길 14 3층 302호",
+    "district": "성동구",
+    "lat": 37.547525,
+    "lng": 127.043007,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1105,
+    "name": "사와참숯화로",
+    "address": "서울특별시 용산구 이태원로 199 1층",
+    "district": "용산구",
+    "lat": 37.534818,
+    "lng": 126.996235,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1106,
+    "name": "분지로 사운즈한남점",
+    "address": "서울특별시 용산구 대사관로 35 사운즈 한남 1층",
+    "district": "용산구",
+    "lat": 37.53375,
+    "lng": 127.002148,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
