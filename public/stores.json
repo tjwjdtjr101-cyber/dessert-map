@@ -19389,5 +19389,59 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1107,
+    "name": "아도의원 강남",
+    "address": "서울특별시 강남구 봉은사로 110 RDL타워 3-4층",
+    "district": "강남구",
+    "lat": 37.50458,
+    "lng": 127.025819,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1108,
+    "name": "진구곱창 강남역본점",
+    "address": "서울특별시 서초구 서초대로75길 37 1층 진구곱창",
+    "district": "서초구",
+    "lat": 37.500743,
+    "lng": 127.024877,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1109,
+    "name": "그리지하우스",
+    "address": "서울특별시 송파구 백제고분로41길 43-17 1층",
+    "district": "송파구",
+    "lat": 37.508739,
+    "lng": 127.104957,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
