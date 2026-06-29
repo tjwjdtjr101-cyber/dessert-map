@@ -19443,5 +19443,146 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1110,
+    "name": "준오헤어 가든강남구청역점",
+    "address": "서울특별시 강남구 선릉로 703 4층",
+    "district": "강남구",
+    "lat": 37.517692,
+    "lng": 127.040766,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1111,
+    "name": "카페 오마이굿니스",
+    "address": "서울특별시 서초구 효령로 423 스페이스다온 1층 102호 OMG coffee & dessert",
+    "district": "서초구",
+    "lat": 37.489239,
+    "lng": 127.029954,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1112,
+    "name": "로피",
+    "address": "서울특별시 송파구 백제고분로45길 3 2층",
+    "district": "송파구",
+    "lat": 37.509077,
+    "lng": 127.110695,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1113,
+    "name": "요거브릭 석촌호수점",
+    "address": "서울특별시 송파구 백제고분로33길 11 1층",
+    "district": "송파구",
+    "lat": 37.503793,
+    "lng": 127.098683,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1114,
+    "name": "으쌰라곱창 잠실새내점",
+    "address": "서울특별시 송파구 백제고분로7길 32-11 1층",
+    "district": "송파구",
+    "lat": 37.510352,
+    "lng": 127.08274,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1115,
+    "name": "성수온실 성수본점",
+    "address": "서울특별시 성동구 왕십리로4길 26-14 2, 3층",
+    "district": "성동구",
+    "lat": 37.546876,
+    "lng": 127.046865,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1116,
+    "name": "쿠시노주방",
+    "address": "서울특별시 마포구 동교로 218-1 지하 1층 쿠시노주방",
+    "district": "마포구",
+    "lat": 37.559505,
+    "lng": 126.923946,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1117,
+    "name": "블리스테이블 스타시티몰점",
+    "address": "서울특별시 광진구 아차산로 262 B101-1호",
+    "district": "광진구",
+    "lat": 37.538715,
+    "lng": 127.072573,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
