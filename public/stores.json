@@ -19584,5 +19584,94 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1118,
+    "name": "청담쭈꾸미 신논현 본점",
+    "address": "서울특별시 강남구 봉은사로1길 6 2층 201호",
+    "district": "강남구",
+    "lat": 37.505191,
+    "lng": 127.025243,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1119,
+    "name": "소극적 한남본점",
+    "address": "서울특별시 용산구 대사관로31길 7 2층",
+    "district": "용산구",
+    "lat": 37.533676,
+    "lng": 127.005674,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1120,
+    "name": "죠죠 문래점",
+    "address": "서울특별시 영등포구 도림로139길 4-2 1층 죠죠",
+    "district": "영등포구",
+    "lat": 37.514562,
+    "lng": 126.893266,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1121,
+    "name": "로니로티 천호점",
+    "address": "서울특별시 강동구 천호대로 1027 동원천호빌딩 2층",
+    "district": "강동구",
+    "lat": 37.538123,
+    "lng": 127.126386,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1122,
+    "name": "메종원스이어 롯데백화점 청량리점",
+    "address": "서울특별시 동대문구 왕산로 214 지하2층",
+    "district": "동대문구",
+    "lat": 37.580869,
+    "lng": 127.047426,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
