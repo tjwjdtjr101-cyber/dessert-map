@@ -19673,5 +19673,112 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1123,
+    "name": "마니달오 논현점",
+    "address": "서울특별시 강남구 학동로3길 7 1층",
+    "district": "강남구",
+    "lat": 37.511985,
+    "lng": 127.022484,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1124,
+    "name": "라스트춘선 문정점",
+    "address": "서울특별시 송파구 법원로 114 A동 1층 119호",
+    "district": "송파구",
+    "lat": 37.485841,
+    "lng": 127.121215,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1125,
+    "name": "진미막창 방이점",
+    "address": "서울특별시 송파구 오금로 152 1층",
+    "district": "송파구",
+    "lat": 37.510377,
+    "lng": 127.111525,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1126,
+    "name": "포레스트 서울숲",
+    "address": "서울특별시 성동구 서울숲2길 20-12 1층~4층",
+    "district": "성동구",
+    "lat": 37.546799,
+    "lng": 127.040731,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1127,
+    "name": "프리미엄 규카츠 규도 마포공덕 본점",
+    "address": "서울특별시 마포구 마포대로 33 오벨리스크 APT 상가 지하1층 138호",
+    "district": "마포구",
+    "lat": 37.539913,
+    "lng": 126.945456,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1128,
+    "name": "블리비의원 청량리점",
+    "address": "서울특별시 동대문구 왕산로 190 2층",
+    "district": "동대문구",
+    "lat": 37.579515,
+    "lng": 127.044447,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
