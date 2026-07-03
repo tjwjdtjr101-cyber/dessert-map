@@ -19780,5 +19780,148 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1129,
+    "name": "뽀송의원 강남",
+    "address": "서울특별시 서초구 강남대로 429 7층",
+    "district": "서초구",
+    "lat": 37.500907,
+    "lng": 127.025844,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1130,
+    "name": "논두렁오리주물럭 잠실새내직영점",
+    "address": "서울특별시 송파구 백제고분로9길 23 1층",
+    "district": "송파구",
+    "lat": 37.509677,
+    "lng": 127.081734,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1131,
+    "name": "네모네",
+    "address": "서울특별시 성동구 상원2길 6 1층, B1층",
+    "district": "성동구",
+    "lat": 37.545622,
+    "lng": 127.047197,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1132,
+    "name": "에스팩토리",
+    "address": "서울특별시 성동구 연무장15길 11 SFACTORY",
+    "district": "성동구",
+    "lat": 37.54266,
+    "lng": 127.059489,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1133,
+    "name": "어차 연남점",
+    "address": "서울특별시 마포구 양화로23길 20 3층",
+    "district": "마포구",
+    "lat": 37.559291,
+    "lng": 126.925299,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1134,
+    "name": "여의도한강공원 수영장",
+    "address": "서울특별시 영등포구 여의도동 82-3 한강공원 여의도 수영장",
+    "district": "영등포구",
+    "lat": 37.533811,
+    "lng": 126.919065,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1135,
+    "name": "아이언맨즈헤어 곱슬아이롱펌 건대점",
+    "address": "서울특별시 광진구 동일로22길 70 2층",
+    "district": "광진구",
+    "lat": 37.541352,
+    "lng": 127.067971,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1136,
+    "name": "돈벼락김치삼겹살 장안동본점",
+    "address": "서울특별시 동대문구 장한로26길 24 1층",
+    "district": "동대문구",
+    "lat": 37.571514,
+    "lng": 127.072967,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
