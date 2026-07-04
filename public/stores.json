@@ -19923,5 +19923,95 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1137,
+    "name": "미도인 강남",
+    "address": "서울특별시 강남구 강남대로102길 16 지상 1층",
+    "district": "강남구",
+    "lat": 37.502119,
+    "lng": 127.027167,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1138,
+    "name": "짚뿔닭발 강남역점",
+    "address": "서울특별시 강남구 테헤란로1길 28-3 1, 2층",
+    "district": "강남구",
+    "lat": 37.500467,
+    "lng": 127.027633,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1139,
+    "name": "그냥찌개집 사당역점",
+    "address": "서울특별시 서초구 방배천로 12 1층",
+    "district": "서초구",
+    "lat": 37.477793,
+    "lng": 126.982896,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1140,
+    "name": "규엔당 성수본점",
+    "address": "서울특별시 성동구 연무장7가길 10 2층",
+    "district": "성동구",
+    "lat": 37.542888,
+    "lng": 127.055299,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1141,
+    "name": "나드리슈퍼",
+    "address": "서울특별시 마포구 와우산로21길 20-6 1층",
+    "district": "마포구",
+    "lat": 37.552611,
+    "lng": 126.922971,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
