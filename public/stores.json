@@ -20013,5 +20013,113 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1142,
+    "name": "석촌회뜨는중",
+    "address": "서울특별시 송파구 백제고분로41길 6-7 1층",
+    "district": "송파구",
+    "lat": 37.506975,
+    "lng": 127.108888,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1143,
+    "name": "T 팩토리 성수",
+    "address": "서울특별시 성동구 연무장1길 7-1",
+    "district": "성동구",
+    "lat": 37.544836,
+    "lng": 127.050606,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1144,
+    "name": "몬몬 몬자야끼",
+    "address": "서울특별시 성동구 연무장3길 10-1 2층",
+    "district": "성동구",
+    "lat": 37.544574,
+    "lng": 127.051847,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1145,
+    "name": "소코아 홍대점",
+    "address": "서울특별시 마포구 와우산로15길 49 1층 소코아 홍대점",
+    "district": "마포구",
+    "lat": 37.548625,
+    "lng": 126.920878,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1146,
+    "name": "베이비펌킨",
+    "address": "서울특별시 용산구 한강대로10길 13 3층",
+    "district": "용산구",
+    "lat": 37.523973,
+    "lng": 126.96425,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1147,
+    "name": "YBM어학원 건대센터",
+    "address": "서울특별시 광진구 아차산로 241 연한빌딩 3층",
+    "district": "광진구",
+    "lat": 37.540467,
+    "lng": 127.070188,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
