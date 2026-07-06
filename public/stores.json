@@ -20121,5 +20121,95 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1148,
+    "name": "냉325",
+    "address": "서울특별시 강남구 언주로81길 8 1층 2호",
+    "district": "강남구",
+    "lat": 37.500344,
+    "lng": 127.042817,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1149,
+    "name": "카페 마트리",
+    "address": "서울특별시 성동구 서울숲4길 17 3층 (퓨마건물)",
+    "district": "성동구",
+    "lat": 37.547365,
+    "lng": 127.042915,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1150,
+    "name": "호시히카리 여의도점",
+    "address": "서울특별시 영등포구 국제금융로2길 32 파이낸스타워 2층 207호, 208호",
+    "district": "영등포구",
+    "lat": 37.523882,
+    "lng": 126.924138,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1151,
+    "name": "아이디헤어 올림픽둔촌점",
+    "address": "서울특별시 강동구 양재대로 1300 포레온스테이션9, 2층 아이디헤어 올림픽둔촌점",
+    "district": "강동구",
+    "lat": 37.520222,
+    "lng": 127.138967,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1152,
+    "name": "아이언맨즈헤어 아이롱펌 회기점",
+    "address": "서울특별시 동대문구 이문로 45 2층",
+    "district": "동대문구",
+    "lat": 37.591486,
+    "lng": 127.056744,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
