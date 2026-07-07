@@ -20211,5 +20211,184 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1153,
+    "name": "카이센동 우니도 본점",
+    "address": "서울특별시 강남구 압구정로2길 15 1층 우니도",
+    "district": "강남구",
+    "lat": 37.520659,
+    "lng": 127.019928,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1154,
+    "name": "크란츠",
+    "address": "서울특별시 서초구 강남대로37길 53 2층",
+    "district": "서초구",
+    "lat": 37.484682,
+    "lng": 127.030538,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1155,
+    "name": "방배양곱창 반포점",
+    "address": "서울특별시 서초구 신반포로 213 B층 19~21호",
+    "district": "서초구",
+    "lat": 37.507269,
+    "lng": 127.007289,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1156,
+    "name": "질할브로스 송파점",
+    "address": "서울특별시 송파구 백제고분로45길 25 1층",
+    "district": "송파구",
+    "lat": 37.510161,
+    "lng": 127.108659,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1157,
+    "name": "파작 북성수점",
+    "address": "서울특별시 성동구 광나루로4가길 2 1층",
+    "district": "성동구",
+    "lat": 37.549613,
+    "lng": 127.054144,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1158,
+    "name": "하하하성수",
+    "address": "서울특별시 성동구 뚝섬로 389 1층",
+    "district": "성동구",
+    "lat": 37.539179,
+    "lng": 127.054156,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1159,
+    "name": "월화갈비 문래본점",
+    "address": "서울특별시 영등포구 경인로79길 17 1층",
+    "district": "영등포구",
+    "lat": 37.513316,
+    "lng": 126.893532,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1160,
+    "name": "오베르캄프 본점",
+    "address": "서울특별시 강동구 성내로14길 48 1층",
+    "district": "강동구",
+    "lat": 37.525993,
+    "lng": 127.125968,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1161,
+    "name": "엄마순대",
+    "address": "서울특별시 광진구 뚝섬로 472",
+    "district": "광진구",
+    "lat": 37.536637,
+    "lng": 127.062891,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1162,
+    "name": "암파스타레 롯데백화점 청량리점",
+    "address": "서울특별시 동대문구 왕산로 214 7층",
+    "district": "동대문구",
+    "lat": 37.581014,
+    "lng": 127.048202,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
