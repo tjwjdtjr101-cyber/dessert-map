@@ -20390,5 +20390,41 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1163,
+    "name": "파작 여의도점",
+    "address": "서울특별시 영등포구 63로 50 퐁피두센터 G층",
+    "district": "영등포구",
+    "lat": 37.519657,
+    "lng": 126.939939,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1164,
+    "name": "올데이디스코",
+    "address": "서울특별시 광진구 군자로 154-1 1층",
+    "district": "광진구",
+    "lat": 37.554833,
+    "lng": 127.076328,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
