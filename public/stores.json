@@ -20426,5 +20426,58 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1165,
+    "name": "원플레이 잠실점",
+    "address": "서울특별시 송파구 백제고분로7길 20 2층, 3층",
+    "district": "송파구",
+    "lat": 37.510511,
+    "lng": 127.081029,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1166,
+    "name": "멧커피 홍대점",
+    "address": "서울특별시 마포구 어울마당로5길 42 1층, 3층",
+    "district": "마포구",
+    "lat": 37.549873,
+    "lng": 126.918418,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1167,
+    "name": "63뷔페 파빌리온 더 프리미엄",
+    "address": "서울특별시 영등포구 63로 50",
+    "district": "영등포구",
+    "lat": 37.519816,
+    "lng": 126.940314,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
