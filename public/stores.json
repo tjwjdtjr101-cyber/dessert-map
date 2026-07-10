@@ -20479,5 +20479,111 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1168,
+    "name": "네모네",
+    "address": "서울특별시 성동구 왕십리로6길 21 1층",
+    "district": "성동구",
+    "lat": 37.545668,
+    "lng": 127.047194,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1169,
+    "name": "코시 성수점",
+    "address": "서울특별시 성동구 상원1길 31 1층",
+    "district": "성동구",
+    "lat": 37.546416,
+    "lng": 127.047487,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1170,
+    "name": "고봉당 홍대점",
+    "address": "서울특별시 마포구 어울마당로 132-1 지하1층",
+    "district": "마포구",
+    "lat": 37.555796,
+    "lng": 126.924798,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1171,
+    "name": "남산요이",
+    "address": "서울특별시 용산구 한강대로46길 19 2층",
+    "district": "용산구",
+    "lat": 37.531104,
+    "lng": 126.971323,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1172,
+    "name": "카페 해피유어데이",
+    "address": "서울특별시 강동구 양재대로135길 4-23 1층 104호",
+    "district": "강동구",
+    "lat": 37.549765,
+    "lng": 127.143351,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1173,
+    "name": "리애 프리미엄 올림픽공원직영점",
+    "address": "서울특별시 강동구 성내로18길 46 1층 1-1호",
+    "district": "강동구",
+    "lat": 37.52502,
+    "lng": 127.128078,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
