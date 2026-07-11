@@ -20585,5 +20585,95 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1174,
+    "name": "서울집",
+    "address": "서울특별시 서초구 서운로 220 대지프라자 1층 5호, 6호",
+    "district": "서초구",
+    "lat": 37.502716,
+    "lng": 127.021787,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1175,
+    "name": "고쿠텐 잠실새내점",
+    "address": "서울특별시 송파구 올림픽로8길 20 잠실아이파크 103,104호",
+    "district": "송파구",
+    "lat": 37.509904,
+    "lng": 127.080042,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1176,
+    "name": "수제비먹는닭갈비 본점",
+    "address": "서울특별시 성동구 왕십리로21다길 39 1층",
+    "district": "성동구",
+    "lat": 37.559655,
+    "lng": 127.033229,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1177,
+    "name": "영등포 청온칼국수",
+    "address": "서울특별시 영등포구 영등포로 216 제9호 내제1층 가호",
+    "district": "영등포구",
+    "lat": 37.519643,
+    "lng": 126.905372,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1178,
+    "name": "풍년비빔국수",
+    "address": "서울특별시 강동구 천호옛길 96 2층",
+    "district": "강동구",
+    "lat": 37.537097,
+    "lng": 127.12618,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
