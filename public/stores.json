@@ -20675,5 +20675,58 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1179,
+    "name": "비아트 성수",
+    "address": "서울특별시 성동구 아차산로5길 24-45 2층",
+    "district": "성동구",
+    "lat": 37.547144,
+    "lng": 127.054261,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1180,
+    "name": "쿠로이야",
+    "address": "서울특별시 용산구 이태원로16길 14-4 지하1층",
+    "district": "용산구",
+    "lat": 37.533525,
+    "lng": 126.991032,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1181,
+    "name": "썸머러너",
+    "address": "서울특별시 강동구 천호대로 989 1층 102호",
+    "district": "강동구",
+    "lat": 37.539361,
+    "lng": 127.122319,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
