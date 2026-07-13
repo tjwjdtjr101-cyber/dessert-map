@@ -16349,7 +16349,9 @@
     "lat": 37.525568,
     "lng": 126.962701,
     "categories": [
-      "dubai"
+      "dubai",
+      "bungeoppang",
+      "goguma"
     ],
     "category": "dubai",
     "status": "available",
@@ -20723,6 +20725,59 @@
       "dubai"
     ],
     "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1182,
+    "name": "모찌방앗간 망원점",
+    "address": "서울특별시 마포구 포은로 97 1층",
+    "district": "마포구",
+    "lat": 37.555662,
+    "lng": 126.904855,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1183,
+    "name": "조블라 홍대점",
+    "address": "서울특별시 마포구 어울마당로 136-10 1층",
+    "district": "마포구",
+    "lat": 37.55573,
+    "lng": 126.925149,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1184,
+    "name": "올데이우동 연남점",
+    "address": "서울특별시 마포구 성미산로29길 30 2층",
+    "district": "마포구",
+    "lat": 37.565341,
+    "lng": 126.922213,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
     "status": "available",
     "price": 5500,
     "rating": 4.6,
