@@ -20908,5 +20908,130 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1192,
+    "name": "다미곱창 신사직영점",
+    "address": "서울특별시 강남구 강남대로152길 24 1층",
+    "district": "강남구",
+    "lat": 37.517495,
+    "lng": 127.021429,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1193,
+    "name": "정서불안 김햄찌 팝업스토어 '오늘도 출근햄니다'",
+    "address": "서울특별시 서초구 신반포로 176 신세계 강남 센트럴 1층 오픈스테이지",
+    "district": "서초구",
+    "lat": 37.503895,
+    "lng": 127.004752,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1194,
+    "name": "옥돌현옥",
+    "address": "서울특별시 송파구 법원로 55 송파아이파크 D존 1층 옥돌현옥",
+    "district": "송파구",
+    "lat": 37.479864,
+    "lng": 127.121761,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1195,
+    "name": "이태원사랑채",
+    "address": "서울특별시 용산구 이태원로19길 6-10 1층",
+    "district": "용산구",
+    "lat": 37.534738,
+    "lng": 126.992399,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1196,
+    "name": "삐딱 문래점",
+    "address": "서울특별시 영등포구 경인로79길 19 1층",
+    "district": "영등포구",
+    "lat": 37.513414,
+    "lng": 126.893321,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1197,
+    "name": "머즐스 서울",
+    "address": "서울특별시 강동구 상암로63길 53 1층",
+    "district": "강동구",
+    "lat": 37.548814,
+    "lng": 127.153997,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1198,
+    "name": "화기애애 본점",
+    "address": "서울특별시 광진구 아차산로31길 16 1,2층 화기애애",
+    "district": "광진구",
+    "lat": 37.541821,
+    "lng": 127.06967,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
