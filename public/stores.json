@@ -21033,5 +21033,127 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1199,
+    "name": "카페아일랜드&amp;베이커리 잠실1호점",
+    "address": "서울특별시 송파구 올림픽로35길 93 상가 1층 105호",
+    "district": "송파구",
+    "lat": 37.517927,
+    "lng": 127.10462,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1200,
+    "name": "까사부사노 송파점",
+    "address": "서울특별시 송파구 백제고분로45길 24 1층 101호",
+    "district": "송파구",
+    "lat": 37.510155,
+    "lng": 127.109017,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1201,
+    "name": "카페 테바",
+    "address": "서울특별시 마포구 마포대로 204 102호",
+    "district": "마포구",
+    "lat": 37.552231,
+    "lng": 126.956637,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1202,
+    "name": "브래드밀레",
+    "address": "서울특별시 영등포구 시흥대로 595 대림뉴스테이 108호",
+    "district": "영등포구",
+    "lat": 37.48594,
+    "lng": 126.90346,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1203,
+    "name": "원조호수삼계탕",
+    "address": "서울특별시 영등포구 도림로 276 원조호수삼계탕",
+    "district": "영등포구",
+    "lat": 37.502658,
+    "lng": 126.904389,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1204,
+    "name": "몽이네분식",
+    "address": "서울특별시 강동구 구천면로 345-1 102호",
+    "district": "강동구",
+    "lat": 37.549928,
+    "lng": 127.137219,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1205,
+    "name": "백세삼계탕 강동점",
+    "address": "서울특별시 강동구 양재대로 1401",
+    "district": "강동구",
+    "lat": 37.5313,
+    "lng": 127.137061,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
