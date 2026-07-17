@@ -21155,5 +21155,95 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1206,
+    "name": "야키니쿠 규",
+    "address": "서울특별시 강남구 테헤란로81길 60-5 1층",
+    "district": "강남구",
+    "lat": 37.510631,
+    "lng": 127.056086,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1207,
+    "name": "주도락 강남점",
+    "address": "서울특별시 강남구 강남대로96길 18 1층 101호",
+    "district": "강남구",
+    "lat": 37.499933,
+    "lng": 127.028471,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1208,
+    "name": "3대삼계장인",
+    "address": "서울특별시 서초구 반포대로28길 56-3 1층",
+    "district": "서초구",
+    "lat": 37.49137,
+    "lng": 127.01153,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1209,
+    "name": "지호한방삼계탕 어린이대공원점",
+    "address": "서울특별시 광진구 능동로 262 1층",
+    "district": "광진구",
+    "lat": 37.553328,
+    "lng": 127.077681,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1210,
+    "name": "짚뿔닭발 건대점",
+    "address": "서울특별시 광진구 동일로22길 58 1층",
+    "district": "광진구",
+    "lat": 37.541573,
+    "lng": 127.067365,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
