@@ -21245,5 +21245,113 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1211,
+    "name": "미래옥",
+    "address": "서울특별시 강남구 선릉로129길 25 1층",
+    "district": "강남구",
+    "lat": 37.515789,
+    "lng": 127.039474,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1212,
+    "name": "미담재 교대역점",
+    "address": "서울특별시 서초구 서초중앙로24길 27 지하1층",
+    "district": "서초구",
+    "lat": 37.495418,
+    "lng": 127.016417,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1213,
+    "name": "히츠노야 잠실점",
+    "address": "서울특별시 송파구 올림픽로 300 에비뉴엘동 6층",
+    "district": "송파구",
+    "lat": 37.51257,
+    "lng": 127.102562,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1214,
+    "name": "트라가 잠실점",
+    "address": "서울특별시 송파구 올림픽로35가길 9 232호, 233호",
+    "district": "송파구",
+    "lat": 37.517395,
+    "lng": 127.103684,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1215,
+    "name": "평상집 강동성내점",
+    "address": "서울특별시 강동구 올림픽로48길 28 1층",
+    "district": "강동구",
+    "lat": 37.528943,
+    "lng": 127.121498,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1216,
+    "name": "어구어구 건대본점",
+    "address": "서울특별시 광진구 능동로13길 65 1층",
+    "district": "광진구",
+    "lat": 37.544616,
+    "lng": 127.069243,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
