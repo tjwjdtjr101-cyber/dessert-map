@@ -21353,5 +21353,77 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1217,
+    "name": "애슐리퀸즈 NC 송파점",
+    "address": "서울특별시 송파구 충민로 66 가든파이브라이프 NC백화점 영관 7층 애슐리퀸즈",
+    "district": "송파구",
+    "lat": 37.47743,
+    "lng": 127.125842,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1218,
+    "name": "cafe heulg 카페 흙",
+    "address": "서울특별시 용산구 한강대로49길 14",
+    "district": "용산구",
+    "lat": 37.533121,
+    "lng": 126.970142,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1219,
+    "name": "양키스그릴 문래점",
+    "address": "서울특별시 영등포구 도림로 434-9",
+    "district": "영등포구",
+    "lat": 37.514786,
+    "lng": 126.894989,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1220,
+    "name": "빛의 시어터",
+    "address": "서울특별시 광진구 워커힐로 177 워커힐호텔 B1층",
+    "district": "광진구",
+    "lat": 37.555428,
+    "lng": 127.110729,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
