@@ -21425,5 +21425,77 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1221,
+    "name": "진전복삼계탕 본점",
+    "address": "서울특별시 강남구 언주로133길 18 B1",
+    "district": "강남구",
+    "lat": 37.51629,
+    "lng": 127.033744,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1222,
+    "name": "정순함박 잠실 본점",
+    "address": "서울특별시 송파구 올림픽로35길 112 장미B상가 제1동 지하층 40-2호",
+    "district": "송파구",
+    "lat": 37.517819,
+    "lng": 127.101723,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1223,
+    "name": "보승회관 길동역점",
+    "address": "서울특별시 강동구 양재대로 1457 부에노빌딩 1층",
+    "district": "강동구",
+    "lat": 37.535868,
+    "lng": 127.139076,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1224,
+    "name": "최원석의돼지한판&amp;화식한우 구의점",
+    "address": "서울특별시 광진구 아차산로 478",
+    "district": "광진구",
+    "lat": 37.540389,
+    "lng": 127.094963,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
