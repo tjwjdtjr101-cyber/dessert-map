@@ -21568,5 +21568,41 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1229,
+    "name": "키세카츠 신사역점",
+    "address": "서울특별시 강남구 논현로149길 52 1층 101호",
+    "district": "강남구",
+    "lat": 37.517291,
+    "lng": 127.024367,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1230,
+    "name": "살아있네",
+    "address": "서울특별시 용산구 한강대로84길 11-8 1층",
+    "district": "용산구",
+    "lat": 37.543979,
+    "lng": 126.97335,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
