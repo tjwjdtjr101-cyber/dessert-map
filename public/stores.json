@@ -21604,5 +21604,59 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1231,
+    "name": "대진 도원참치 강남역점",
+    "address": "서울특별시 강남구 테헤란로 113 목화밀라트 지하1층 도원참치 강남역",
+    "district": "강남구",
+    "lat": 37.498865,
+    "lng": 127.029647,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1232,
+    "name": "종로대성식당",
+    "address": "서울특별시 마포구 동교로38길 33-6 지1층",
+    "district": "마포구",
+    "lat": 37.561455,
+    "lng": 126.925883,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1233,
+    "name": "형제특수부위 영등포구청역점",
+    "address": "서울특별시 영등포구 당산로32길 5 1층",
+    "district": "영등포구",
+    "lat": 37.526453,
+    "lng": 126.897448,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
