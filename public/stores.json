@@ -21658,5 +21658,95 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1234,
+    "name": "오몬자 성수점",
+    "address": "서울특별시 성동구 연무장길 31-1 상가동 3층 301호",
+    "district": "성동구",
+    "lat": 37.543268,
+    "lng": 127.052977,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1235,
+    "name": "모모의기묘한모험",
+    "address": "서울특별시 용산구 이태원로27가길 51 모모의 기묘한 모험",
+    "district": "용산구",
+    "lat": 37.534858,
+    "lng": 126.992365,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1236,
+    "name": "정희 IFC몰점",
+    "address": "서울특별시 영등포구 국제금융로 10 ifc몰 L3층",
+    "district": "영등포구",
+    "lat": 37.525106,
+    "lng": 126.925672,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1237,
+    "name": "갤럭시 로봇파크",
+    "address": "서울특별시 강동구 아리수로61길 103 로봇아레나",
+    "district": "강동구",
+    "lat": 37.565446,
+    "lng": 127.147743,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1238,
+    "name": "콤마짐 구의역점",
+    "address": "서울특별시 광진구 아차산로 355 B1층",
+    "district": "광진구",
+    "lat": 37.537336,
+    "lng": 127.082591,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
