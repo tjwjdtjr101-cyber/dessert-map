@@ -21748,5 +21748,59 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1239,
+    "name": "미담재 양재역점",
+    "address": "서울특별시 서초구 남부순환로 2644 1층",
+    "district": "서초구",
+    "lat": 37.485074,
+    "lng": 127.039753,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1240,
+    "name": "여의도 스마일삼겹 본점",
+    "address": "서울특별시 영등포구 국제금융로8길 34 1층 108호, 109호",
+    "district": "영등포구",
+    "lat": 37.520184,
+    "lng": 126.927275,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1241,
+    "name": "도원반점 천호점",
+    "address": "서울특별시 강동구 올림픽로78길 60 이스턴스퀘어동 지하 1층 B101- 5호",
+    "district": "강동구",
+    "lat": 37.541043,
+    "lng": 127.126602,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
