@@ -21802,5 +21802,59 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1242,
+    "name": "서울집",
+    "address": "서울특별시 서초구 서운로 220 대지프라자 1층 5호, 6호",
+    "district": "서초구",
+    "lat": 37.502571,
+    "lng": 127.02175,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1243,
+    "name": "이가자헤어비스 포레온 둔촌동역점",
+    "address": "서울특별시 강동구 양재대로 1360 포레온스테이션5 2층 2017호",
+    "district": "강동구",
+    "lat": 37.526912,
+    "lng": 127.136918,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1244,
+    "name": "새참집",
+    "address": "서울특별시 광진구 능동로36길 16 2층",
+    "district": "광진구",
+    "lat": 37.555948,
+    "lng": 127.079929,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
