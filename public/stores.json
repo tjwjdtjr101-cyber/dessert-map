@@ -21856,5 +21856,23 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1245,
+    "name": "쿠마스시 용산본점",
+    "address": "서울특별시 용산구 한강대로 49 2층 202호 쿠마스시 용산본점",
+    "district": "용산구",
+    "lat": 37.525543,
+    "lng": 126.96401,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
