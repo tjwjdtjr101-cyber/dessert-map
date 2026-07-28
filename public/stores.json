@@ -21874,5 +21874,59 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1246,
+    "name": "고수닭갈비",
+    "address": "서울특별시 강남구 강남대로96길 12 지천빌딩 지하1층",
+    "district": "강남구",
+    "lat": 37.499774,
+    "lng": 127.028172,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1247,
+    "name": "보따리타코",
+    "address": "서울특별시 성동구 아차산로7가길 27 1층",
+    "district": "성동구",
+    "lat": 37.54672,
+    "lng": 127.05515,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1248,
+    "name": "기와집 능이백숙삼계탕 본점",
+    "address": "서울특별시 광진구 면목로 32 1층 기와집능이백숙",
+    "district": "광진구",
+    "lat": 37.556901,
+    "lng": 127.076424,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
