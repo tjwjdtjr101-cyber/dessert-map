@@ -21928,5 +21928,59 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1249,
+    "name": "도래집 강남점",
+    "address": "서울특별시 강남구 강남대로98길 8 1층",
+    "district": "강남구",
+    "lat": 37.500556,
+    "lng": 127.02737,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1250,
+    "name": "카레나이스 여의도점",
+    "address": "서울특별시 영등포구 국제금융로2길 32 여의도파이낸스타워 2층 204호",
+    "district": "영등포구",
+    "lat": 37.523882,
+    "lng": 126.924138,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1251,
+    "name": "최원석의돼지한판&amp;서해쭈꾸미 건대1호점",
+    "address": "서울특별시 광진구 아차산로 199 성빌딩",
+    "district": "광진구",
+    "lat": 37.541821,
+    "lng": 127.065729,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
