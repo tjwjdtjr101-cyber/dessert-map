@@ -3158,7 +3158,8 @@
     "lat": 37.5447,
     "lng": 126.97294,
     "categories": [
-      "cake"
+      "cake",
+      "dubai"
     ],
     "category": "cake",
     "status": "available",
@@ -21972,6 +21973,42 @@
     "district": "광진구",
     "lat": 37.541821,
     "lng": 127.065729,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1252,
+    "name": "춘천한옥집",
+    "address": "서울특별시 강남구 강남대로102길 29 지하1층",
+    "district": "강남구",
+    "lat": 37.502967,
+    "lng": 127.027596,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1253,
+    "name": "회기왕갈비탕",
+    "address": "서울특별시 동대문구 이문로 54 1층 회기왕갈비탕",
+    "district": "동대문구",
+    "lat": 37.592092,
+    "lng": 127.057517,
     "categories": [
       "bungeoppang",
       "goguma"
