@@ -22019,5 +22019,59 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1254,
+    "name": "신사만장어",
+    "address": "서울특별시 강남구 도산대로1길 10",
+    "district": "강남구",
+    "lat": 37.517401,
+    "lng": 127.020148,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1255,
+    "name": "뚜띠쿠치나 용두점",
+    "address": "서울특별시 동대문구 무학로 140",
+    "district": "동대문구",
+    "lat": 37.576829,
+    "lng": 127.030746,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1256,
+    "name": "마장동김씨 장안점",
+    "address": "서울특별시 동대문구 장한로 74 1층",
+    "district": "동대문구",
+    "lat": 37.567441,
+    "lng": 127.068837,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
