@@ -22073,5 +22073,23 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1257,
+    "name": "브루브루 천호점",
+    "address": "서울특별시 강동구 올림픽로78길 60 102동 104호, 105호, 106호",
+    "district": "강동구",
+    "lat": 37.540888,
+    "lng": 127.127981,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
