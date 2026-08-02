@@ -22091,5 +22091,113 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1258,
+    "name": "만천리상회",
+    "address": "서울특별시 강남구 삼성로 766 B1층 만천리상회",
+    "district": "강남구",
+    "lat": 37.523167,
+    "lng": 127.048216,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1259,
+    "name": "유월의 보리 방배점",
+    "address": "서울특별시 서초구 방배로 199 1층",
+    "district": "서초구",
+    "lat": 37.491113,
+    "lng": 126.991158,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1260,
+    "name": "송파파크하비오워터킹덤워터파크&amp;찜질스파",
+    "address": "서울특별시 송파구 송파대로 111 202동 지하1층",
+    "district": "송파구",
+    "lat": 37.480248,
+    "lng": 127.12476,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1261,
+    "name": "코코넛박스 카페",
+    "address": "서울특별시 마포구 홍익로3길 20 지하 2층",
+    "district": "마포구",
+    "lat": 37.553525,
+    "lng": 126.921704,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1262,
+    "name": "러셀 도넛 둔촌본점",
+    "address": "서울특별시 강동구 양재대로89길 60 1층 102호 러셀도넛",
+    "district": "강동구",
+    "lat": 37.52729,
+    "lng": 127.132348,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1263,
+    "name": "숙성부심 군자본점",
+    "address": "서울특별시 광진구 능동로 267 1층",
+    "district": "광진구",
+    "lat": 37.553909,
+    "lng": 127.077443,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
