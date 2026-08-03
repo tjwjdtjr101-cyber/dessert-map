@@ -22199,5 +22199,183 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1264,
+    "name": "후라토식당 교대역점",
+    "address": "서울특별시 서초구 반포대로28길 65-16 지하1층",
+    "district": "서초구",
+    "lat": 37.492235,
+    "lng": 127.011662,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1265,
+    "name": "해화로 수산시장 The 야장포차",
+    "address": "서울특별시 송파구 오금로15길 9-12 2층",
+    "district": "송파구",
+    "lat": 37.513159,
+    "lng": 127.10935,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1266,
+    "name": "고기꾼김춘배 홍대본점",
+    "address": "서울특별시 마포구 홍익로3길 36 3층",
+    "district": "마포구",
+    "lat": 37.552834,
+    "lng": 126.921552,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1267,
+    "name": "상암회관 본점",
+    "address": "서울특별시 마포구 월드컵북로 434 상암IT타워 지하1층 푸드코트",
+    "district": "마포구",
+    "lat": 37.581653,
+    "lng": 126.885957,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1268,
+    "name": "카페 오이이",
+    "address": "서울특별시 용산구 신흥로2길 78 1층",
+    "district": "용산구",
+    "lat": 37.543334,
+    "lng": 126.988141,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1269,
+    "name": "바보섬 용산",
+    "address": "서울특별시 용산구 한강대로42길 8 1층, 2층",
+    "district": "용산구",
+    "lat": 37.530651,
+    "lng": 126.970038,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1270,
+    "name": "파란만잔 여의도점",
+    "address": "서울특별시 영등포구 국제금융로8길 19 1층 112, 113호",
+    "district": "영등포구",
+    "lat": 37.520895,
+    "lng": 126.929251,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1271,
+    "name": "비와별닭갈비 타임스퀘어 직영점",
+    "address": "서울특별시 영등포구 영중로 15 3층",
+    "district": "영등포구",
+    "lat": 37.516718,
+    "lng": 126.902799,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1272,
+    "name": "탐라육해 건대본점",
+    "address": "서울특별시 광진구 아차산로33길 36 1층",
+    "district": "광진구",
+    "lat": 37.541837,
+    "lng": 127.070667,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1273,
+    "name": "봄담아 청량리점",
+    "address": "서울특별시 동대문구 고산자로34길 70 청량리역 해링턴플레이스 B동 2층 216~219호",
+    "district": "동대문구",
+    "lat": 37.578001,
+    "lng": 127.042171,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
