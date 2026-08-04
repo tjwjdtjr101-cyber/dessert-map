@@ -22377,5 +22377,112 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1274,
+    "name": "홍수회전훠궈",
+    "address": "서울특별시 강남구 강남대로94길 14 2층 1호",
+    "district": "강남구",
+    "lat": 37.499297,
+    "lng": 127.028587,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1275,
+    "name": "테이크 어 브레드",
+    "address": "서울특별시 송파구 송파대로 167 테라타워 B동 지하 1층 178",
+    "district": "송파구",
+    "lat": 37.484835,
+    "lng": 127.121039,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1276,
+    "name": "피지피지 PZPZ",
+    "address": "서울특별시 마포구 와우산로17길 19-18 1층",
+    "district": "마포구",
+    "lat": 37.549559,
+    "lng": 126.92132,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1277,
+    "name": "이태원사랑해",
+    "address": "서울특별시 용산구 이태원로27가길 52 지하",
+    "district": "용산구",
+    "lat": 37.535062,
+    "lng": 126.992403,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1278,
+    "name": "자루야키용산로 신용산본점",
+    "address": "서울특별시 용산구 한강대로40가길 13",
+    "district": "용산구",
+    "lat": 37.53076,
+    "lng": 126.971388,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1279,
+    "name": "양은이네 영등포역점",
+    "address": "서울특별시 영등포구 영신로19길 1 2층",
+    "district": "영등포구",
+    "lat": 37.514597,
+    "lng": 126.907532,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
