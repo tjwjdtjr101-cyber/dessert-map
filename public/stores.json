@@ -22484,5 +22484,94 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1280,
+    "name": "송돝",
+    "address": "서울특별시 송파구 오금로13길 7 1층",
+    "district": "송파구",
+    "lat": 37.513275,
+    "lng": 127.108337,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1281,
+    "name": "브럭시 롯데월드몰점",
+    "address": "서울특별시 송파구 올림픽로 300 롯데월드몰 지하1층",
+    "district": "송파구",
+    "lat": 37.513612,
+    "lng": 127.104217,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1282,
+    "name": "쿠로코식당 연남점",
+    "address": "서울특별시 마포구 동교로27길 83 1층",
+    "district": "마포구",
+    "lat": 37.561247,
+    "lng": 126.920043,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1283,
+    "name": "이제해",
+    "address": "서울특별시 용산구 신흥로 62 1층",
+    "district": "용산구",
+    "lat": 37.543839,
+    "lng": 126.987407,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1284,
+    "name": "김숙성 성내점",
+    "address": "서울특별시 강동구 천호옛14길 35 1층 101호",
+    "district": "강동구",
+    "lat": 37.535985,
+    "lng": 127.127481,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
