@@ -9342,7 +9342,9 @@
     "lat": 37.540295,
     "lng": 127.060042,
     "categories": [
-      "dubai"
+      "dubai",
+      "bungeoppang",
+      "goguma"
     ],
     "category": "dubai",
     "status": "available",
@@ -22563,6 +22565,42 @@
     "district": "강동구",
     "lat": 37.535985,
     "lng": 127.127481,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1285,
+    "name": "강남역 룸 이자카야 요이",
+    "address": "서울특별시 서초구 강남대로65길 10 2층, 3층",
+    "district": "서초구",
+    "lat": 37.500501,
+    "lng": 127.024964,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1286,
+    "name": "주도락 신용산본점",
+    "address": "서울특별시 용산구 한강대로46길 19 1층",
+    "district": "용산구",
+    "lat": 37.531082,
+    "lng": 126.971325,
     "categories": [
       "bungeoppang",
       "goguma"
