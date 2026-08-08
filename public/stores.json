@@ -22682,5 +22682,41 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1291,
+    "name": "강문 타임스퀘어점",
+    "address": "서울특별시 영등포구 영중로 15 B1층 B148호",
+    "district": "영등포구",
+    "lat": 37.517634,
+    "lng": 126.904279,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1292,
+    "name": "달빛에구운고등어 강동천호점",
+    "address": "서울특별시 강동구 천호대로 1053 이안강동컴홈스테이1차 B102호",
+    "district": "강동구",
+    "lat": 37.537369,
+    "lng": 127.128979,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
