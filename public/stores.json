@@ -22718,5 +22718,95 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1293,
+    "name": "촌닭닭한마리칼국수 사당역본점",
+    "address": "서울특별시 서초구 방배천로4길 26 지하1층, 1층",
+    "district": "서초구",
+    "lat": 37.477721,
+    "lng": 126.983932,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1294,
+    "name": "호앙비엣 방이점",
+    "address": "서울특별시 송파구 백제고분로51길 23 1층",
+    "district": "송파구",
+    "lat": 37.51659,
+    "lng": 127.112916,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1295,
+    "name": "피자네버슬립스 합정상수점",
+    "address": "서울특별시 마포구 양화로6길 73",
+    "district": "마포구",
+    "lat": 37.548618,
+    "lng": 126.918298,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1296,
+    "name": "롱베케이션",
+    "address": "서울특별시 마포구 동교로38길 33-10 2층",
+    "district": "마포구",
+    "lat": 37.561562,
+    "lng": 126.926175,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1297,
+    "name": "나스정형외과의원",
+    "address": "서울특별시 동대문구 고산자로 435 1층, 2층",
+    "district": "동대문구",
+    "lat": 37.578735,
+    "lng": 127.038046,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
