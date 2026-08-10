@@ -22808,5 +22808,76 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1298,
+    "name": "피양콩할마니",
+    "address": "서울특별시 강남구 삼성로81길 30",
+    "district": "강남구",
+    "lat": 37.504073,
+    "lng": 127.055282,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1299,
+    "name": "완도산회 특급포차 가락본점",
+    "address": "서울특별시 송파구 중대로9길 42",
+    "district": "송파구",
+    "lat": 37.496766,
+    "lng": 127.1187,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1300,
+    "name": "애플하우스",
+    "address": "서울특별시 영등포구 양산로 16 1층 6호",
+    "district": "영등포구",
+    "lat": 37.525737,
+    "lng": 126.884799,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1301,
+    "name": "CGV 고덕강일점",
+    "address": "서울특별시 강동구 고덕비즈밸리로 51 , 강동 아이파크 더리버몰 3층",
+    "district": "강동구",
+    "lat": 37.566484,
+    "lng": 127.157766,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
