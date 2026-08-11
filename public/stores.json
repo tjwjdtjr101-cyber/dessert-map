@@ -22879,5 +22879,76 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1302,
+    "name": "해정집",
+    "address": "서울특별시 마포구 양화로6길 45 1층 101호",
+    "district": "마포구",
+    "lat": 37.548929,
+    "lng": 126.916724,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1303,
+    "name": "쉐프조부띠끄 서울영등포점",
+    "address": "서울특별시 영등포구 양산로31길 4 1층",
+    "district": "영등포구",
+    "lat": 37.523069,
+    "lng": 126.904574,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1304,
+    "name": "연막창 영등포역점",
+    "address": "서울특별시 영등포구 영중로4길 32 1층",
+    "district": "영등포구",
+    "lat": 37.517875,
+    "lng": 126.909715,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1305,
+    "name": "고베규카츠 건대점",
+    "address": "서울특별시 광진구 아차산로33길 64",
+    "district": "광진구",
+    "lat": 37.543007,
+    "lng": 127.071164,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
