@@ -22950,5 +22950,22 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1306,
+    "name": "레자미오네뜨 서울숲점",
+    "address": "서울특별시 성동구 서울숲2길 44-13 지1층",
+    "district": "성동구",
+    "lat": 37.546119,
+    "lng": 127.043266,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
