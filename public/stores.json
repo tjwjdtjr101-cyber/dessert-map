@@ -23057,5 +23057,167 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1312,
+    "name": "신사하우스",
+    "address": "서울특별시 강남구 강남대로162길 27",
+    "district": "강남구",
+    "lat": 37.52041,
+    "lng": 127.020671,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1313,
+    "name": "화설 강남직영점",
+    "address": "서울특별시 서초구 서초대로73길 38 1층",
+    "district": "서초구",
+    "lat": 37.50068,
+    "lng": 127.024496,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1314,
+    "name": "오늘의곱창",
+    "address": "서울특별시 서초구 반포대로22길 79-6 1층 오늘의곱창",
+    "district": "서초구",
+    "lat": 37.491098,
+    "lng": 127.012633,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1315,
+    "name": "아눔헤어 잠실점",
+    "address": "서울특별시 송파구 올림픽로 106 3층",
+    "district": "송파구",
+    "lat": 37.511402,
+    "lng": 127.082572,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1316,
+    "name": "대박곱창구이",
+    "address": "서울특별시 영등포구 당산로30길 6-1 1층 대박곱창",
+    "district": "영등포구",
+    "lat": 37.525527,
+    "lng": 126.897351,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1317,
+    "name": "고부대 타임스퀘어점",
+    "address": "서울특별시 영등포구 영중로 15 타임스퀘어 B1F",
+    "district": "영등포구",
+    "lat": 37.51721,
+    "lng": 126.904657,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1318,
+    "name": "CGV 천호",
+    "address": "서울특별시 강동구 양재대로 1571 천호복합 상업시설 4층",
+    "district": "강동구",
+    "lat": 37.54554,
+    "lng": 127.142241,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1319,
+    "name": "우동키노야 건대점",
+    "address": "서울특별시 광진구 아차산로 218 1층 103호",
+    "district": "광진구",
+    "lat": 37.540853,
+    "lng": 127.067332,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1320,
+    "name": "만선애꿈 장안점",
+    "address": "서울특별시 동대문구 한천로 42 1층 만선애꿈",
+    "district": "동대문구",
+    "lat": 37.566494,
+    "lng": 127.062146,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
