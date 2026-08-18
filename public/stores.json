@@ -23219,5 +23219,76 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1321,
+    "name": "강남 곱",
+    "address": "서울특별시 강남구 역삼로3길 12",
+    "district": "강남구",
+    "lat": 37.49434,
+    "lng": 127.031503,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1322,
+    "name": "회주라수산 교대본점",
+    "address": "서울특별시 서초구 서초대로46길 97 1층",
+    "district": "서초구",
+    "lat": 37.490126,
+    "lng": 127.013355,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1323,
+    "name": "37.5 시그니처 타임스퀘어점",
+    "address": "서울특별시 영등포구 영중로 15 신세계백화점 타임스퀘어점 패션관 B1층",
+    "district": "영등포구",
+    "lat": 37.517804,
+    "lng": 126.905608,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1324,
+    "name": "무드베이킹",
+    "address": "서울특별시 동대문구 회기로23길 14 1층 무드베이킹",
+    "district": "동대문구",
+    "lat": 37.591372,
+    "lng": 127.054334,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
