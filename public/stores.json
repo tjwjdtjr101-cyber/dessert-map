@@ -23290,5 +23290,94 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1325,
+    "name": "코시 교대점",
+    "address": "서울특별시 서초구 서초대로48길 32 1층",
+    "district": "서초구",
+    "lat": 37.491444,
+    "lng": 127.011695,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1326,
+    "name": "원조마늘곱창 문래본점",
+    "address": "서울특별시 영등포구 경인로79길 17-1 1층",
+    "district": "영등포구",
+    "lat": 37.513351,
+    "lng": 126.893462,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1327,
+    "name": "미도인 건대",
+    "address": "서울특별시 광진구 아차산로33길 53 1층",
+    "district": "광진구",
+    "lat": 37.542648,
+    "lng": 127.07085,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1328,
+    "name": "브루앤바이트",
+    "address": "서울특별시 동대문구 경희대로3길 28 1층",
+    "district": "동대문구",
+    "lat": 37.592918,
+    "lng": 127.051064,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1329,
+    "name": "정찬순대국 답십리본점",
+    "address": "서울특별시 동대문구 천호대로 281 1층 11호",
+    "district": "동대문구",
+    "lat": 37.567247,
+    "lng": 127.053015,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
