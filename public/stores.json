@@ -23379,5 +23379,112 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1330,
+    "name": "오마치슌",
+    "address": "서울특별시 강남구 역삼로65길 20 1층",
+    "district": "강남구",
+    "lat": 37.502484,
+    "lng": 127.052547,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1331,
+    "name": "민성옥",
+    "address": "서울특별시 강남구 언주로 563 401동 104호",
+    "district": "강남구",
+    "lat": 37.508086,
+    "lng": 127.038605,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1332,
+    "name": "킴스델리마켓 송리단길점",
+    "address": "서울특별시 송파구 백제고분로45길 13 1층",
+    "district": "송파구",
+    "lat": 37.50956,
+    "lng": 127.109854,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1333,
+    "name": "오르노 성수점",
+    "address": "서울특별시 성동구 뚝섬로17가길 49 1층",
+    "district": "성동구",
+    "lat": 37.540816,
+    "lng": 127.058847,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1334,
+    "name": "청돈옥 홍대본점",
+    "address": "서울특별시 마포구 잔다리로6길 10 1층 청돈옥",
+    "district": "마포구",
+    "lat": 37.551988,
+    "lng": 126.919618,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1335,
+    "name": "미도인 파이낸스여의도",
+    "address": "서울특별시 영등포구 국제금융로2길 32 파이낸스타워 2층 202, 203호",
+    "district": "영등포구",
+    "lat": 37.523882,
+    "lng": 126.924138,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
