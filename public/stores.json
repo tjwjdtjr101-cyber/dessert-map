@@ -23486,5 +23486,95 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1336,
+    "name": "제주화로집 가락점",
+    "address": "서울특별시 송파구 중대로9길 34 1층",
+    "district": "송파구",
+    "lat": 37.496178,
+    "lng": 127.118683,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1337,
+    "name": "PREQUEL EXHIBITION I COSMOS",
+    "address": "서울특별시 송파구 올림픽로 300 롯데백화점에비뉴엘월드타워점 6F아트홀",
+    "district": "송파구",
+    "lat": 37.51257,
+    "lng": 127.102562,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1338,
+    "name": "화화돈 성수점",
+    "address": "서울특별시 성동구 연무장7가길 3 2층",
+    "district": "성동구",
+    "lat": 37.543237,
+    "lng": 127.054865,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1339,
+    "name": "옥된장 공덕점",
+    "address": "서울특별시 마포구 마포대로 92 효성해링턴스퀘어 B동 1층 16호",
+    "district": "마포구",
+    "lat": 37.542423,
+    "lng": 126.952363,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1340,
+    "name": "콘타이 용산아이파크몰점",
+    "address": "서울특별시 용산구 한강대로23길 55 용산현대아이파크몰 리빙파크 7층",
+    "district": "용산구",
+    "lat": 37.529772,
+    "lng": 126.964742,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
