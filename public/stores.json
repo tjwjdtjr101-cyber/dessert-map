@@ -23576,5 +23576,95 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1341,
+    "name": "누룩목블랙",
+    "address": "서울특별시 서초구 남부순환로347길 88 1층",
+    "district": "서초구",
+    "lat": 37.488189,
+    "lng": 127.030576,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1342,
+    "name": "문정본한우곱창",
+    "address": "서울특별시 송파구 법원로 114 C동 씨122호, 씨122-1호",
+    "district": "송파구",
+    "lat": 37.485984,
+    "lng": 127.12067,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1343,
+    "name": "해브 연남 파스타",
+    "address": "서울특별시 마포구 연희로1길 55 1층",
+    "district": "마포구",
+    "lat": 37.561283,
+    "lng": 126.92626,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1344,
+    "name": "강강술래 강동역점",
+    "address": "서울특별시 강동구 천호대로 1117 강강술래 강동역점",
+    "district": "강동구",
+    "lat": 37.535215,
+    "lng": 127.135689,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1345,
+    "name": "오코헤어스튜디오",
+    "address": "서울특별시 동대문구 휘경로 25 2층",
+    "district": "동대문구",
+    "lat": 37.595473,
+    "lng": 127.062751,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
