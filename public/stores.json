@@ -23666,5 +23666,41 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1346,
+    "name": "빨간의자집 강남역점",
+    "address": "서울특별시 강남구 테헤란로1길 28-13 1층 빨간의자집 강남역점",
+    "district": "강남구",
+    "lat": 37.500579,
+    "lng": 127.028463,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1347,
+    "name": "육미안 잠실점",
+    "address": "서울특별시 송파구 오금로11길 55 102, 103호",
+    "district": "송파구",
+    "lat": 37.515421,
+    "lng": 127.113123,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
