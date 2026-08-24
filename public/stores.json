@@ -23702,5 +23702,130 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1348,
+    "name": "라크림",
+    "address": "서울특별시 강남구 학동로4길 43-12 지상1층",
+    "district": "강남구",
+    "lat": 37.508607,
+    "lng": 127.024993,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1349,
+    "name": "솥내음 강남 신사 가로수길점",
+    "address": "서울특별시 강남구 강남대로152길 15 2층 솥내음",
+    "district": "강남구",
+    "lat": 37.517452,
+    "lng": 127.02067,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1350,
+    "name": "가우리집",
+    "address": "서울특별시 서초구 청두곶길 5 1층",
+    "district": "서초구",
+    "lat": 37.47714,
+    "lng": 126.985246,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1351,
+    "name": "조 말론 런던 팝업스토어 성수",
+    "address": "서울특별시 성동구 연무장길 96 1층",
+    "district": "성동구",
+    "lat": 37.540955,
+    "lng": 127.059758,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1352,
+    "name": "순대일번지 망원본점",
+    "address": "서울특별시 마포구 월드컵로 117",
+    "district": "마포구",
+    "lat": 37.558642,
+    "lng": 126.907488,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1353,
+    "name": "문래 지름길",
+    "address": "서울특별시 영등포구 도림로139가길 8 1층",
+    "district": "영등포구",
+    "lat": 37.513835,
+    "lng": 126.89318,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1354,
+    "name": "혼술바 고도 군자점",
+    "address": "서울특별시 광진구 능동로 324-1 지하1층",
+    "district": "광진구",
+    "lat": 37.55855,
+    "lng": 127.08046,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
