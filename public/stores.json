@@ -23827,5 +23827,58 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1355,
+    "name": "육몽 방이직영점",
+    "address": "서울특별시 송파구 오금로15길 9-13 지하1층,지상1~2층",
+    "district": "송파구",
+    "lat": 37.513172,
+    "lng": 127.10905,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1356,
+    "name": "뉴욕베이글&amp;피자 상암본점",
+    "address": "서울특별시 마포구 매봉산로 72 1층",
+    "district": "마포구",
+    "lat": 37.57808,
+    "lng": 126.893656,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1357,
+    "name": "커피한약방 청량리점",
+    "address": "서울특별시 동대문구 왕산로35길 38",
+    "district": "동대문구",
+    "lat": 37.581406,
+    "lng": 127.042951,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
