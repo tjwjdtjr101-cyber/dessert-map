@@ -23880,5 +23880,95 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1358,
+    "name": "소뭉집 방이직영점",
+    "address": "서울특별시 송파구 오금로11길 26 2층 201호",
+    "district": "송파구",
+    "lat": 37.514966,
+    "lng": 127.110046,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1359,
+    "name": "진도켄 성수점",
+    "address": "서울특별시 성동구 왕십리로4가길 3 2층",
+    "district": "성동구",
+    "lat": 37.545553,
+    "lng": 127.045994,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1360,
+    "name": "똘래미 남영본점",
+    "address": "서울특별시 용산구 한강대로 264 1층",
+    "district": "용산구",
+    "lat": 37.54181,
+    "lng": 126.973124,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1361,
+    "name": "예빈당 여의도한강공원점",
+    "address": "서울특별시 영등포구 여의도한강공원길 231 서울크루즈 2층",
+    "district": "영등포구",
+    "lat": 37.529671,
+    "lng": 126.933749,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1362,
+    "name": "하이웨이서울 영등포 타임스퀘어점",
+    "address": "서울특별시 영등포구 영중로 15 영등포 타임스퀘어 4층 409호",
+    "district": "영등포구",
+    "lat": 37.517385,
+    "lng": 126.903656,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
