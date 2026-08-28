@@ -23970,5 +23970,182 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1363,
+    "name": "베이징덕 압구정 본점",
+    "address": "서울특별시 강남구 논현로 874 1층",
+    "district": "강남구",
+    "lat": 37.526565,
+    "lng": 127.028806,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1364,
+    "name": "카페다희아세",
+    "address": "서울특별시 서초구 동산로13길 40 1층 101호",
+    "district": "서초구",
+    "lat": 37.473384,
+    "lng": 127.044175,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1365,
+    "name": "청도미나리식당 신논현점",
+    "address": "서울특별시 서초구 사평대로 362 지층",
+    "district": "서초구",
+    "lat": 37.503657,
+    "lng": 127.022652,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1366,
+    "name": "르셀 베이커리 한양대점",
+    "address": "서울특별시 성동구 왕십리로 229 1층",
+    "district": "성동구",
+    "lat": 37.557359,
+    "lng": 127.041791,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1367,
+    "name": "친구훠궈 홍대점",
+    "address": "서울특별시 마포구 홍익로 19 2층",
+    "district": "마포구",
+    "lat": 37.554058,
+    "lng": 126.922542,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1368,
+    "name": "양은이네 마포직영점",
+    "address": "서울특별시 마포구 토정로 295 102호",
+    "district": "마포구",
+    "lat": 37.541115,
+    "lng": 126.942258,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1369,
+    "name": "빵굽는쉐프의 꿈",
+    "address": "서울특별시 용산구 소월로20길 24",
+    "district": "용산구",
+    "lat": 37.545444,
+    "lng": 126.98524,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1370,
+    "name": "용산봉숭아",
+    "address": "서울특별시 용산구 한강대로15길 18 1층",
+    "district": "용산구",
+    "lat": 37.526193,
+    "lng": 126.963527,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1371,
+    "name": "직화장인 용산점",
+    "address": "서울특별시 용산구 한강대로 58-1 1층",
+    "district": "용산구",
+    "lat": 37.525875,
+    "lng": 126.965063,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1372,
+    "name": "카페 아르무아",
+    "address": "서울특별시 광진구 동일로22길 117-27 아르무아",
+    "district": "광진구",
+    "lat": 37.541767,
+    "lng": 127.070926,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
