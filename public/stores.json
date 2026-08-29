@@ -24165,5 +24165,59 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1374,
+    "name": "용가회전훠궈 잠실방이점",
+    "address": "서울특별시 송파구 오금로11길 12 5층",
+    "district": "송파구",
+    "lat": 37.514409,
+    "lng": 127.108553,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1375,
+    "name": "오르드비 상왕십리역점",
+    "address": "서울특별시 성동구 왕십리로 410 센트라스 상가 i동 1층 118호",
+    "district": "성동구",
+    "lat": 37.566362,
+    "lng": 127.023975,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1376,
+    "name": "더쿠라 용산",
+    "address": "서울특별시 용산구 한강대로38가길 9 1층",
+    "district": "용산구",
+    "lat": 37.52961,
+    "lng": 126.970109,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
