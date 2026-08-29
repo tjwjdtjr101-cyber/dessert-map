@@ -24147,5 +24147,23 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1373,
+    "name": "리차드하우스 연남",
+    "address": "서울특별시 마포구 동교로46길 36 1층",
+    "district": "마포구",
+    "lat": 37.562127,
+    "lng": 126.92659,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
