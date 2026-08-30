@@ -24219,5 +24219,94 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1377,
+    "name": "삼신 가로수길점",
+    "address": "서울특별시 강남구 강남대로156길 46 2층, 3층",
+    "district": "강남구",
+    "lat": 37.519009,
+    "lng": 127.022628,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1378,
+    "name": "브샤브샤 성수본점",
+    "address": "서울특별시 성동구 왕십리로10길 5-9 1층",
+    "district": "성동구",
+    "lat": 37.547244,
+    "lng": 127.045265,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1379,
+    "name": "비포블루밍 앤 롤시엘 용산아이파크몰점",
+    "address": "서울특별시 용산구 한강대로23길 55 용산아이파크몰 3층 리빙파크 도파민스테이션",
+    "district": "용산구",
+    "lat": 37.529772,
+    "lng": 126.964742,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1380,
+    "name": "을지깐깐 타임스퀘어점",
+    "address": "서울특별시 영등포구 영중로 15 지상4층 408호",
+    "district": "영등포구",
+    "lat": 37.517358,
+    "lng": 126.903586,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1381,
+    "name": "샤브토랑 장안직영점",
+    "address": "서울특별시 동대문구 장한로 146 1층",
+    "district": "동대문구",
+    "lat": 37.573435,
+    "lng": 127.07207,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
