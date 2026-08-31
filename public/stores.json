@@ -24308,5 +24308,77 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1382,
+    "name": "기운",
+    "address": "서울특별시 강남구 학동로2길 28 1층 101호",
+    "district": "강남구",
+    "lat": 37.509613,
+    "lng": 127.022913,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1383,
+    "name": "일떼라쪼 당산본점",
+    "address": "서울특별시 영등포구 양평로 8 3층",
+    "district": "영등포구",
+    "lat": 37.532506,
+    "lng": 126.90517,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1384,
+    "name": "25센치꼬치앤오뎅바 영등포직영점",
+    "address": "서울특별시 영등포구 영중로4길 25-1 1층",
+    "district": "영등포구",
+    "lat": 37.517796,
+    "lng": 126.909239,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1385,
+    "name": "장안1수변공원",
+    "address": "서울특별시 동대문구",
+    "district": "동대문구",
+    "lat": 37.56704,
+    "lng": 127.075384,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
