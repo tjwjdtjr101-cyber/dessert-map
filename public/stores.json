@@ -24380,5 +24380,59 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1386,
+    "name": "비단구술 강남본점",
+    "address": "서울특별시 서초구 서초대로77길 41 1층",
+    "district": "서초구",
+    "lat": 37.501273,
+    "lng": 127.025119,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1387,
+    "name": "후라토식당 용산점",
+    "address": "서울특별시 용산구 한강대로30길 25 아스테리움 용산 지하1층 B102호",
+    "district": "용산구",
+    "lat": 37.527504,
+    "lng": 126.968528,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1388,
+    "name": "신홍러우 여의도점",
+    "address": "서울특별시 영등포구 국제금융로 39 브라이튼 여의도 B1F 102호",
+    "district": "영등포구",
+    "lat": 37.524515,
+    "lng": 126.929882,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
