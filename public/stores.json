@@ -24434,5 +24434,129 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1389,
+    "name": "소당깨오겹집 교대본점",
+    "address": "서울특별시 서초구 서초대로50길 84-3 2층 소당깨오겹집",
+    "district": "서초구",
+    "lat": 37.48944,
+    "lng": 127.013646,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1390,
+    "name": "갈포갈비 왕십리점",
+    "address": "서울특별시 성동구 행당로17길 22 1층",
+    "district": "성동구",
+    "lat": 37.560236,
+    "lng": 127.03321,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1391,
+    "name": "샤브야키 왕십리점",
+    "address": "서울특별시 성동구 마조로 66 2층 205호-209호",
+    "district": "성동구",
+    "lat": 37.563544,
+    "lng": 127.042238,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1392,
+    "name": "모찌방앗간 망원점",
+    "address": "서울특별시 마포구 포은로 97 1층",
+    "district": "마포구",
+    "lat": 37.55568,
+    "lng": 126.904885,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1393,
+    "name": "대물섬",
+    "address": "서울특별시 용산구 독서당로 65-11 1층",
+    "district": "용산구",
+    "lat": 37.534056,
+    "lng": 127.008119,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1394,
+    "name": "고청담 용산점",
+    "address": "서울특별시 용산구 한강대로 100 아모레퍼시픽 본사 B1F",
+    "district": "용산구",
+    "lat": 37.528791,
+    "lng": 126.968673,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1395,
+    "name": "서핑브레드",
+    "address": "서울특별시 강동구 진황도로 214 신성둔 촌미소지움 상가동 101, 102호",
+    "district": "강동구",
+    "lat": 37.527338,
+    "lng": 127.144139,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
