@@ -24558,5 +24558,77 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1396,
+    "name": "청기와타운 강남점",
+    "address": "서울특별시 강남구 강남대로78길 8 1층",
+    "district": "강남구",
+    "lat": 37.494789,
+    "lng": 127.030039,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1397,
+    "name": "꼬꼬랜드",
+    "address": "서울특별시 마포구 와우산로19길 18 1,2층",
+    "district": "마포구",
+    "lat": 37.551318,
+    "lng": 126.922163,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1398,
+    "name": "트라가 여의도점",
+    "address": "서울특별시 영등포구 국제금융로8길 16 신영증권 본점 지하1층 비132호",
+    "district": "영등포구",
+    "lat": 37.521301,
+    "lng": 126.928897,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1399,
+    "name": "아라골뱅이",
+    "address": "서울특별시 광진구 자양로22길 18 1층 아라골뱅이",
+    "district": "광진구",
+    "lat": 37.539529,
+    "lng": 127.084275,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
