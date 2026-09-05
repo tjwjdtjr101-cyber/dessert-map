@@ -24630,5 +24630,77 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1400,
+    "name": "치폴레 강남점",
+    "address": "서울특별시 서초구 강남대로 423 1층",
+    "district": "서초구",
+    "lat": 37.500321,
+    "lng": 127.026113,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1401,
+    "name": "옥소반 잠실새내점",
+    "address": "서울특별시 송파구 백제고분로9길 10 1층",
+    "district": "송파구",
+    "lat": 37.509193,
+    "lng": 127.080414,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1402,
+    "name": "신흥갈비",
+    "address": "서울특별시 용산구 소월로20길 46 1층",
+    "district": "용산구",
+    "lat": 37.544594,
+    "lng": 126.984796,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1403,
+    "name": "손정보쌈 서울장안점",
+    "address": "서울특별시 동대문구 장한로 126 1층 손정보쌈 서울장안점",
+    "district": "동대문구",
+    "lat": 37.571551,
+    "lng": 127.071623,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
