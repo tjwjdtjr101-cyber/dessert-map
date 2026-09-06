@@ -24702,5 +24702,40 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1404,
+    "name": "영커피 고대안암점",
+    "address": "서울특별시 동대문구 안암로 118-14 1층",
+    "district": "동대문구",
+    "lat": 37.585717,
+    "lng": 127.033205,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1405,
+    "name": "외대이문바른정형외과의원",
+    "address": "서울특별시 동대문구 휘경로 12-1 지하1층, 1, 2, 3층",
+    "district": "동대문구",
+    "lat": 37.595781,
+    "lng": 127.061389,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
