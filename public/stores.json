@@ -24737,5 +24737,113 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1406,
+    "name": "준오헤어 강남역스퀘어2호점",
+    "address": "서울특별시 강남구 테헤란로 101 지하2층 B201호",
+    "district": "강남구",
+    "lat": 37.49871,
+    "lng": 127.028094,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1407,
+    "name": "할머니의 부뚜막 강남역점",
+    "address": "서울특별시 서초구 강남대로 359 대우도씨에빛2 1층 112, 113호",
+    "district": "서초구",
+    "lat": 37.494667,
+    "lng": 127.02858,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1408,
+    "name": "우동키노야 합정점",
+    "address": "서울특별시 마포구 양화로 45 몰동 지1층 B1103, B1104호",
+    "district": "마포구",
+    "lat": 37.551307,
+    "lng": 126.913371,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1409,
+    "name": "계도 IFC몰",
+    "address": "서울특별시 영등포구 국제금융로 10 L3층",
+    "district": "영등포구",
+    "lat": 37.525184,
+    "lng": 126.925632,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1410,
+    "name": "골수 여의도점",
+    "address": "서울특별시 영등포구 여의대로 70 2층",
+    "district": "영등포구",
+    "lat": 37.524842,
+    "lng": 126.924197,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1411,
+    "name": "정육곳간 길동점",
+    "address": "서울특별시 강동구 양재대로 1422 1층",
+    "district": "강동구",
+    "lat": 37.532781,
+    "lng": 127.138651,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
