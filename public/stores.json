@@ -24953,5 +24953,94 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1418,
+    "name": "고메램 교대점",
+    "address": "서울특별시 서초구 반포대로28길 70 2층",
+    "district": "서초구",
+    "lat": 37.491609,
+    "lng": 127.012229,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1419,
+    "name": "양키스 버거앤피자",
+    "address": "서울특별시 영등포구 도림로 434-1 1층 양키스피자",
+    "district": "영등포구",
+    "lat": 37.514574,
+    "lng": 126.894836,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1420,
+    "name": "참새방앗간",
+    "address": "서울특별시 동대문구 왕산로37길 50 참새방앗간",
+    "district": "동대문구",
+    "lat": 37.582184,
+    "lng": 127.043958,
+    "categories": [
+      "bungeoppang"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1421,
+    "name": "전시회 제기본점",
+    "address": "서울특별시 동대문구 왕산로 131 2층 전시회",
+    "district": "동대문구",
+    "lat": 37.57837,
+    "lng": 127.038043,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1422,
+    "name": "뜯갈비 회기역점",
+    "address": "서울특별시 동대문구 회기로 162-1 1층",
+    "district": "동대문구",
+    "lat": 37.590516,
+    "lng": 127.054113,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
