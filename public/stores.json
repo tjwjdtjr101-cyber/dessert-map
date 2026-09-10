@@ -11721,7 +11721,8 @@
     "categories": [
       "dubai",
       "bungeoppang",
-      "goguma"
+      "goguma",
+      "cake"
     ],
     "category": "dubai",
     "status": "available",
@@ -25032,6 +25033,95 @@
     "district": "동대문구",
     "lat": 37.590516,
     "lng": 127.054113,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1423,
+    "name": "지노스 뉴욕 피자 압구정점",
+    "address": "서울특별시 강남구 선릉로161길 18 2층",
+    "district": "강남구",
+    "lat": 37.527481,
+    "lng": 127.039024,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1424,
+    "name": "한성양꼬치 교대2호점",
+    "address": "서울특별시 서초구 서초대로50길 63",
+    "district": "서초구",
+    "lat": 37.490424,
+    "lng": 127.013705,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1425,
+    "name": "마마반 본점",
+    "address": "서울특별시 마포구 백범로 123 1층",
+    "district": "마포구",
+    "lat": 37.546819,
+    "lng": 126.944924,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1426,
+    "name": "시니스위츠",
+    "address": "서울특별시 용산구 청파로47가길 9-3 헤라클리오 1층 시니스위츠",
+    "district": "용산구",
+    "lat": 37.544418,
+    "lng": 126.967007,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1427,
+    "name": "오봉집 숙대입구점",
+    "address": "서울특별시 용산구 한강대로 274 1층",
+    "district": "용산구",
+    "lat": 37.542772,
+    "lng": 126.972891,
     "categories": [
       "bungeoppang",
       "goguma"
