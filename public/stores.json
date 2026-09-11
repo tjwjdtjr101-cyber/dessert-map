@@ -25132,5 +25132,58 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1428,
+    "name": "온더",
+    "address": "서울특별시 성동구 광나루로 315 1층",
+    "district": "성동구",
+    "lat": 37.548323,
+    "lng": 127.064919,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1429,
+    "name": "돝돝",
+    "address": "서울특별시 용산구 한강대로62다길 4 지1층, 1층, 2층",
+    "district": "용산구",
+    "lat": 37.533381,
+    "lng": 126.973775,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1430,
+    "name": "박만배아리랑보쌈 천호점",
+    "address": "서울특별시 강동구 진황도로 7-1 1층",
+    "district": "강동구",
+    "lat": 37.540001,
+    "lng": 127.12872,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
