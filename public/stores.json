@@ -25185,5 +25185,58 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1431,
+    "name": "우주횟집 본점",
+    "address": "서울특별시 송파구 올림픽로32길 22 1층",
+    "district": "송파구",
+    "lat": 37.514061,
+    "lng": 127.109443,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1432,
+    "name": "김숙성 신용산역점 별관",
+    "address": "서울특별시 용산구 한강대로38가길 23 1, 2층",
+    "district": "용산구",
+    "lat": 37.529908,
+    "lng": 126.970733,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1433,
+    "name": "이에나파이",
+    "address": "서울특별시 동대문구 고산자로 534 . 105호",
+    "district": "동대문구",
+    "lat": 37.58745,
+    "lng": 127.038118,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
