@@ -25238,5 +25238,58 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1434,
+    "name": "카페포모",
+    "address": "서울특별시 강남구 언주로124길 41 B1층",
+    "district": "강남구",
+    "lat": 37.513064,
+    "lng": 127.039101,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1435,
+    "name": "기아 언플러그드 그라운드",
+    "address": "서울특별시 성동구 상원4길 10",
+    "district": "성동구",
+    "lat": 37.546828,
+    "lng": 127.049347,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1436,
+    "name": "지노스 뉴욕 피자 이태원점",
+    "address": "서울특별시 용산구 녹사평대로40길 46 2층",
+    "district": "용산구",
+    "lat": 37.534405,
+    "lng": 126.988218,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
