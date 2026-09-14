@@ -25291,5 +25291,76 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1437,
+    "name": "노아이디어피자 신사점",
+    "address": "서울특별시 강남구 강남대로152길 65 지상1층",
+    "district": "강남구",
+    "lat": 37.518962,
+    "lng": 127.024333,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1438,
+    "name": "동어동락 삼성본점",
+    "address": "서울특별시 강남구 삼성로96길 7 1층",
+    "district": "강남구",
+    "lat": 37.508816,
+    "lng": 127.056447,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1439,
+    "name": "카페 르상스",
+    "address": "서울특별시 용산구 대사관로 35 사운즈 한남 1층",
+    "district": "용산구",
+    "lat": 37.533737,
+    "lng": 127.002087,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1440,
+    "name": "멘츠루 어린이대공원점",
+    "address": "서울특별시 광진구 광나루로 394 1층",
+    "district": "광진구",
+    "lat": 37.547275,
+    "lng": 127.073437,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
