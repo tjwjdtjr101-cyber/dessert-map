@@ -25362,5 +25362,77 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1441,
+    "name": "거대곰탕 서초점",
+    "address": "서울특별시 서초구 사임당로 157 B1층 B102호",
+    "district": "서초구",
+    "lat": 37.492472,
+    "lng": 127.026839,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1442,
+    "name": "무신사 뷰티 홍대",
+    "address": "서울특별시 마포구 홍익로 18 B1~3층",
+    "district": "마포구",
+    "lat": 37.554203,
+    "lng": 126.922908,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1443,
+    "name": "메종 드 플래터 스타시티서울 레스토랑",
+    "address": "서울특별시 강동구 구천면로 140 스타시티빌딩 7층",
+    "district": "강동구",
+    "lat": 37.542276,
+    "lng": 127.120465,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1444,
+    "name": "온정돈까스 경희대점",
+    "address": "서울특별시 동대문구 회기로13길 14 1층",
+    "district": "동대문구",
+    "lat": 37.59209,
+    "lng": 127.051103,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
