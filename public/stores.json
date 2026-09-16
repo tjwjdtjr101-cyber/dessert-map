@@ -25434,5 +25434,76 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1445,
+    "name": "양재한우정육식당",
+    "address": "서울특별시 서초구 남부순환로 2634-8 1층",
+    "district": "서초구",
+    "lat": 37.484942,
+    "lng": 127.038599,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1446,
+    "name": "두몽",
+    "address": "서울특별시 마포구 월드컵로17길 47 1층",
+    "district": "마포구",
+    "lat": 37.555199,
+    "lng": 126.907861,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1447,
+    "name": "한스 용산센트럴파크점",
+    "address": "서울특별시 용산구 서빙고로 17 센트럴파크 103동 108호",
+    "district": "용산구",
+    "lat": 37.525938,
+    "lng": 126.968478,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1448,
+    "name": "이가네양꼬치 구의역점",
+    "address": "서울특별시 광진구 자양로18길 59 두례빌딩 1층",
+    "district": "광진구",
+    "lat": 37.538295,
+    "lng": 127.086857,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
