@@ -25505,5 +25505,94 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1449,
+    "name": "범포구 방이본점",
+    "address": "서울특별시 송파구 올림픽로32길 19-15 1층",
+    "district": "송파구",
+    "lat": 37.514846,
+    "lng": 127.110193,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1450,
+    "name": "한강텐트대여 스마일피크닉 여의도",
+    "address": "서울특별시 영등포구 여의나루로 117 서울상가 1층 스마일 텐트",
+    "district": "영등포구",
+    "lat": 37.526233,
+    "lng": 126.931062,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1451,
+    "name": "육해공",
+    "address": "서울특별시 강동구 양재대로 1526",
+    "district": "강동구",
+    "lat": 37.54198,
+    "lng": 127.141831,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1452,
+    "name": "투썸플레이스 제기동역점",
+    "address": "서울특별시 동대문구 왕산로 91 1층",
+    "district": "동대문구",
+    "lat": 37.578622,
+    "lng": 127.033909,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1453,
+    "name": "윤차이 이문본점",
+    "address": "서울특별시 동대문구 이문로 120 A동 201, 202호",
+    "district": "동대문구",
+    "lat": 37.597501,
+    "lng": 127.061261,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
