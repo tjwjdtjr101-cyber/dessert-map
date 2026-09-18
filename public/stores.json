@@ -25594,5 +25594,41 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1454,
+    "name": "핫쵸 성수점",
+    "address": "서울특별시 성동구 왕십리로5길 9-20 1층",
+    "district": "성동구",
+    "lat": 37.546458,
+    "lng": 127.044069,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1455,
+    "name": "연남달빛 고기집&amp;술집 홍대본점",
+    "address": "서울특별시 마포구 월드컵북로6길 81 2층 연남달빛",
+    "district": "마포구",
+    "lat": 37.560079,
+    "lng": 126.922356,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
