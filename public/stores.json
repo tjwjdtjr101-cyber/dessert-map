@@ -25630,5 +25630,23 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1456,
+    "name": "하나마토 문래",
+    "address": "서울특별시 영등포구 경인로77가길 11-1 1층",
+    "district": "영등포구",
+    "lat": 37.511723,
+    "lng": 126.892332,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
