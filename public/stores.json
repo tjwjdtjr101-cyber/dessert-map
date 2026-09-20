@@ -25648,5 +25648,77 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1457,
+    "name": "부안육비",
+    "address": "서울특별시 서초구 남부순환로347길 101 1층",
+    "district": "서초구",
+    "lat": 37.488825,
+    "lng": 127.029906,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1458,
+    "name": "대홍집 잠실새내본점",
+    "address": "서울특별시 송파구 백제고분로7길 16-13",
+    "district": "송파구",
+    "lat": 37.509978,
+    "lng": 127.080905,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1459,
+    "name": "감골연탄집 선유도역점",
+    "address": "서울특별시 영등포구 선유로49길 15 1층",
+    "district": "영등포구",
+    "lat": 37.536216,
+    "lng": 126.895876,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1460,
+    "name": "용두동 쭈꾸미 본점",
+    "address": "서울특별시 동대문구 무학로36길 10 1층",
+    "district": "동대문구",
+    "lat": 37.577208,
+    "lng": 127.031075,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
