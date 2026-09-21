@@ -25720,5 +25720,77 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1461,
+    "name": "흑벽돌집 논현본점",
+    "address": "서울특별시 강남구 봉은사로33길 28 1층 흑벽돌집",
+    "district": "강남구",
+    "lat": 37.509859,
+    "lng": 127.035322,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1462,
+    "name": "태양곱창 본점",
+    "address": "서울특별시 송파구 오금로15길 14 1층 태양곱창 본점",
+    "district": "송파구",
+    "lat": 37.512781,
+    "lng": 127.109664,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1463,
+    "name": "뼈탄집 용산직영점",
+    "address": "서울특별시 용산구 백범로99길 62 1, 2층",
+    "district": "용산구",
+    "lat": 37.535847,
+    "lng": 126.972997,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1464,
+    "name": "방이편백 육분삼십 여의도 본점",
+    "address": "서울특별시 영등포구 의사당대로 108 2층 204호, 205호",
+    "district": "영등포구",
+    "lat": 37.521014,
+    "lng": 126.923992,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
