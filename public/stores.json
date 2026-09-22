@@ -25792,5 +25792,91 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1465,
+    "name": "더 바이킹",
+    "address": "서울특별시 서초구 사평대로 205 BP4-8호",
+    "district": "서초구",
+    "lat": 37.505057,
+    "lng": 127.009463,
+    "categories": [
+      "bungeoppang",
+      "goguma"
+    ],
+    "category": "bungeoppang",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1466,
+    "name": "시센",
+    "address": "서울특별시 마포구 양화로3길 37 2층",
+    "district": "마포구",
+    "lat": 37.550564,
+    "lng": 126.911218,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1467,
+    "name": "노들섬",
+    "address": "서울특별시 용산구 양녕로 445",
+    "district": "용산구",
+    "lat": 37.51767,
+    "lng": 126.958052,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1468,
+    "name": "피자에미치다 건대점",
+    "address": "서울특별시 광진구 아차산로29길 34 1층 피자에미치다 건대점",
+    "district": "광진구",
+    "lat": 37.542284,
+    "lng": 127.068913,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1469,
+    "name": "카페하인나 답십리점",
+    "address": "서울특별시 동대문구 전농로 43 1층",
+    "district": "동대문구",
+    "lat": 37.568779,
+    "lng": 127.056878,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
