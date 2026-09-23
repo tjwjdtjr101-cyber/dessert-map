@@ -25878,5 +25878,57 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1470,
+    "name": "팝 베이글",
+    "address": "서울특별시 송파구 백제고분로 426 1층 107호, 108호, 109호",
+    "district": "송파구",
+    "lat": 37.50891,
+    "lng": 127.111663,
+    "categories": [
+      "dubai",
+      "cake"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1471,
+    "name": "오차야 연남점",
+    "address": "서울특별시 마포구 동교로38길 38 2층",
+    "district": "마포구",
+    "lat": 37.561182,
+    "lng": 126.925656,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1472,
+    "name": "사계절집 구의본점",
+    "address": "서울특별시 광진구 광나루로 508 1층 102호,103호",
+    "district": "광진구",
+    "lat": 37.544803,
+    "lng": 127.085986,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
