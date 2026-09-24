@@ -25930,5 +25930,39 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1473,
+    "name": "굽굳 goob good",
+    "address": "서울특별시 강동구 풍성로52길 8 1층 101호",
+    "district": "강동구",
+    "lat": 37.529533,
+    "lng": 127.132259,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1474,
+    "name": "연막창 건대직영점",
+    "address": "서울특별시 광진구 동일로24길 101 1층 101호",
+    "district": "광진구",
+    "lat": 37.542416,
+    "lng": 127.070578,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
