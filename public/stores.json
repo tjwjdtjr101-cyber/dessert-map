@@ -26032,5 +26032,56 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1479,
+    "name": "규엔당 선릉점",
+    "address": "서울특별시 강남구 선릉로86길 26 2층",
+    "district": "강남구",
+    "lat": 37.50353,
+    "lng": 127.05186,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1480,
+    "name": "오차야",
+    "address": "서울특별시 마포구 와우산로13길 49 2층",
+    "district": "마포구",
+    "lat": 37.548459,
+    "lng": 126.920846,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1481,
+    "name": "육회한연어 건대점",
+    "address": "서울특별시 광진구 동일로22길 42 1층 육회한연어",
+    "district": "광진구",
+    "lat": 37.541908,
+    "lng": 127.066511,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
