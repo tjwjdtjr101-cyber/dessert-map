@@ -26083,5 +26083,56 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1482,
+    "name": "본노엘 성수본점",
+    "address": "서울특별시 성동구 상원길 64 1층",
+    "district": "성동구",
+    "lat": 37.549707,
+    "lng": 127.048023,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1483,
+    "name": "라온정 한상 샤브칼국수 올림픽공원 둔촌본점",
+    "address": "서울특별시 강동구 성안로 61 1층 라온정",
+    "district": "강동구",
+    "lat": 37.529094,
+    "lng": 127.131218,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1484,
+    "name": "일번지정육식당 장한평점",
+    "address": "서울특별시 동대문구 장한로 18 1층 일번지정육식당 장한평점",
+    "district": "동대문구",
+    "lat": 37.562773,
+    "lng": 127.065836,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
