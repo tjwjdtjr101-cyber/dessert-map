@@ -26253,5 +26253,56 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1492,
+    "name": "서초목살",
+    "address": "서울특별시 서초구 강남대로43길 15 1층",
+    "district": "서초구",
+    "lat": 37.487444,
+    "lng": 127.031525,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1493,
+    "name": "아웃오브오더",
+    "address": "서울특별시 성동구 아차산로13길 2 2층",
+    "district": "성동구",
+    "lat": 37.543418,
+    "lng": 127.060631,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1494,
+    "name": "구운베이커리",
+    "address": "서울특별시 영등포구 선유로23길 14 1층",
+    "district": "영등포구",
+    "lat": 37.523099,
+    "lng": 126.888675,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
