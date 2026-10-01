@@ -26092,7 +26092,8 @@
     "lat": 37.549707,
     "lng": 127.048023,
     "categories": [
-      "dubai"
+      "dubai",
+      "cake"
     ],
     "category": "dubai",
     "status": "available",
@@ -26299,6 +26300,74 @@
       "cake"
     ],
     "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1495,
+    "name": "로얄마카롱",
+    "address": "서울특별시 강남구 테헤란로25길 26 3층 로얄마카롱",
+    "district": "강남구",
+    "lat": 37.502245,
+    "lng": 127.035452,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1496,
+    "name": "네모네",
+    "address": "서울특별시 성동구 왕십리로6길 21 1층",
+    "district": "성동구",
+    "lat": 37.545611,
+    "lng": 127.047193,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1497,
+    "name": "사계절집 구의본점",
+    "address": "서울특별시 광진구 광나루로 508 1층 102호,103호",
+    "district": "광진구",
+    "lat": 37.544859,
+    "lng": 127.08591,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1498,
+    "name": "청량리조개구이찜",
+    "address": "서울특별시 동대문구 경동시장로10길 57",
+    "district": "동대문구",
+    "lat": 37.581426,
+    "lng": 127.044034,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
     "status": "available",
     "price": 5500,
     "rating": 4.6,
