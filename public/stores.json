@@ -26373,5 +26373,39 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1499,
+    "name": "해화옥 신논현 직영점",
+    "address": "서울특별시 강남구 봉은사로1길 29 1층",
+    "district": "강남구",
+    "lat": 37.506637,
+    "lng": 127.024315,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1500,
+    "name": "오늘보쌈칼국수 왕십리본점",
+    "address": "서울특별시 성동구 행당로17길 24-1 1층",
+    "district": "성동구",
+    "lat": 37.560546,
+    "lng": 127.033066,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
