@@ -26407,5 +26407,39 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1501,
+    "name": "오몬자",
+    "address": "서울특별시 강남구 봉은사로2길 19 1층",
+    "district": "강남구",
+    "lat": 37.503573,
+    "lng": 127.026198,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1502,
+    "name": "홍대 교도리",
+    "address": "서울특별시 마포구 와우산로 77 1층",
+    "district": "마포구",
+    "lat": 37.551355,
+    "lng": 126.923152,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
