@@ -26577,5 +26577,56 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1511,
+    "name": "멘츠루 사당점",
+    "address": "서울특별시 서초구 방배천로2길 10 1층",
+    "district": "서초구",
+    "lat": 37.476633,
+    "lng": 126.983317,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1512,
+    "name": "모토이시 잠실방이점",
+    "address": "서울특별시 송파구 오금로15길 13 1층",
+    "district": "송파구",
+    "lat": 37.512922,
+    "lng": 127.109552,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1513,
+    "name": "바오서울 성수",
+    "address": "서울특별시 성동구 연무장길 110 1층 103호",
+    "district": "성동구",
+    "lat": 37.540574,
+    "lng": 127.061322,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
