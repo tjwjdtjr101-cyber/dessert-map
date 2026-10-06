@@ -26492,5 +26492,90 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1506,
+    "name": "장심도 강남",
+    "address": "서울특별시 서초구 강남대로 363 B2층",
+    "district": "서초구",
+    "lat": 37.495116,
+    "lng": 127.02847,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1507,
+    "name": "더기와 합정점",
+    "address": "서울특별시 마포구 독막로3길 25 1층",
+    "district": "마포구",
+    "lat": 37.549584,
+    "lng": 126.91695,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1508,
+    "name": "샤브인서울 신용산본점",
+    "address": "서울특별시 용산구 한강대로62길 61 1층",
+    "district": "용산구",
+    "lat": 37.53212,
+    "lng": 126.973568,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1509,
+    "name": "더식당",
+    "address": "서울특별시 강동구 천호대로157길 24 2층",
+    "district": "강동구",
+    "lat": 37.53877,
+    "lng": 127.127549,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1510,
+    "name": "맨드살롱 회기점",
+    "address": "서울특별시 동대문구 경희대로4길 64 2층",
+    "district": "동대문구",
+    "lat": 37.591318,
+    "lng": 127.055626,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
