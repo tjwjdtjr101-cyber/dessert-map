@@ -26628,5 +26628,73 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1514,
+    "name": "트롬바커피",
+    "address": "서울특별시 강남구 선릉로126길 12 1층",
+    "district": "강남구",
+    "lat": 37.515264,
+    "lng": 127.043065,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1515,
+    "name": "호갱 왕십리 본점",
+    "address": "서울특별시 성동구 왕십리로24길 18 3층",
+    "district": "성동구",
+    "lat": 37.564018,
+    "lng": 127.034356,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1516,
+    "name": "케르반 레스토랑",
+    "address": "서울특별시 용산구 이태원로 192 1층",
+    "district": "용산구",
+    "lat": 37.534412,
+    "lng": 126.995408,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1517,
+    "name": "동대문대하구이사계절집 장안점",
+    "address": "서울특별시 동대문구 장한로6길 53 102호",
+    "district": "동대문구",
+    "lat": 37.562562,
+    "lng": 127.068908,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
