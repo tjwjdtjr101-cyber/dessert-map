@@ -26696,5 +26696,90 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1518,
+    "name": "매헌시민의숲",
+    "address": "서울특별시 서초구 매헌로 99",
+    "district": "서초구",
+    "lat": 37.471223,
+    "lng": 127.035055,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1519,
+    "name": "산고 스시바 방이본점",
+    "address": "서울특별시 송파구 올림픽로32길 22 지하1층",
+    "district": "송파구",
+    "lat": 37.514156,
+    "lng": 127.109415,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1520,
+    "name": "샤브인서울 성수점",
+    "address": "서울특별시 성동구 성수일로6길 53 유원지식산업센터 1층",
+    "district": "성동구",
+    "lat": 37.54408,
+    "lng": 127.055819,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1521,
+    "name": "테즈쿠리 홍대본점",
+    "address": "서울특별시 마포구 홍익로5안길 32 홍대가자2 빌딩 2층",
+    "district": "마포구",
+    "lat": 37.553477,
+    "lng": 126.921178,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1522,
+    "name": "우리소황소곱창 건대",
+    "address": "서울특별시 광진구 동일로22길 17 1층",
+    "district": "광진구",
+    "lat": 37.542445,
+    "lng": 127.065347,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
