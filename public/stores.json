@@ -26781,5 +26781,141 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1523,
+    "name": "츠지한 압구정",
+    "address": "서울특별시 강남구 도산대로53길 18-2 1층",
+    "district": "강남구",
+    "lat": 37.524144,
+    "lng": 127.038779,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1524,
+    "name": "야키토리잔잔 방이직영점",
+    "address": "서울특별시 송파구 오금로13길 9 1층 101호",
+    "district": "송파구",
+    "lat": 37.513448,
+    "lng": 127.108838,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1525,
+    "name": "리송 왕십리본점",
+    "address": "서울특별시 성동구 왕십리광장로 17 비트플렉스몰 지상3층 RE-03호",
+    "district": "성동구",
+    "lat": 37.561409,
+    "lng": 127.038481,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1526,
+    "name": "월리를 찾아라 체험관",
+    "address": "서울특별시 마포구 와우산로 86 1~4층",
+    "district": "마포구",
+    "lat": 37.552017,
+    "lng": 126.923721,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1527,
+    "name": "창성옥",
+    "address": "서울특별시 용산구 새창로 124-10 1층",
+    "district": "용산구",
+    "lat": 37.536386,
+    "lng": 126.960403,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1528,
+    "name": "유주키친",
+    "address": "서울특별시 영등포구 국제금융로 10 L1층",
+    "district": "영등포구",
+    "lat": 37.524939,
+    "lng": 126.925856,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1529,
+    "name": "피자에미치다 건대점",
+    "address": "서울특별시 광진구 아차산로29길 34 1층 피자에미치다 건대점",
+    "district": "광진구",
+    "lat": 37.542297,
+    "lng": 127.06886,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1530,
+    "name": "이자카야 우규 건대점",
+    "address": "서울특별시 광진구 아차산로33길 50 1층, 2층",
+    "district": "광진구",
+    "lat": 37.542476,
+    "lng": 127.070986,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
