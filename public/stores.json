@@ -26917,5 +26917,73 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1531,
+    "name": "류몽민 학동역점",
+    "address": "서울특별시 강남구 학동로25길 11 씨플레이스 2층 101호",
+    "district": "강남구",
+    "lat": 37.514391,
+    "lng": 127.028919,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1532,
+    "name": "서초경육",
+    "address": "서울특별시 서초구 강남대로37길 51 1층",
+    "district": "서초구",
+    "lat": 37.484601,
+    "lng": 127.030748,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1533,
+    "name": "간식창고",
+    "address": "서울특별시 은평구 은평로 33-6 1층 우측",
+    "district": "은평구",
+    "lat": 37.598633,
+    "lng": 126.911483,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1534,
+    "name": "들밥차반 천호역점",
+    "address": "서울특별시 강동구 올림픽로 660 지하1층 비101호",
+    "district": "강동구",
+    "lat": 37.540189,
+    "lng": 127.124472,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
