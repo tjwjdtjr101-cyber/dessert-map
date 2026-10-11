@@ -26985,5 +26985,73 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1535,
+    "name": "이치규 강남신논현점",
+    "address": "서울특별시 강남구 봉은사로4길 19 2층",
+    "district": "강남구",
+    "lat": 37.50351,
+    "lng": 127.026639,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1536,
+    "name": "토마라멘 용산본점",
+    "address": "서울특별시 용산구 원효로89길 13-14 1층",
+    "district": "용산구",
+    "lat": 37.540348,
+    "lng": 126.967719,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1537,
+    "name": "왕엄마김밥",
+    "address": "서울특별시 동대문구 경동시장로8길 47 1층",
+    "district": "동대문구",
+    "lat": 37.581166,
+    "lng": 127.043343,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1538,
+    "name": "에이블짐 용두역점",
+    "address": "서울특별시 동대문구 고산자로 406 지하1층",
+    "district": "동대문구",
+    "lat": 37.575783,
+    "lng": 127.038484,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
