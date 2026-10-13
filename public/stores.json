@@ -27087,5 +27087,73 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1541,
+    "name": "샤브인서울 압구정로데오점",
+    "address": "서울특별시 강남구 선릉로155길 12 2층",
+    "district": "강남구",
+    "lat": 37.525518,
+    "lng": 127.038802,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1542,
+    "name": "청도미나리식당 본점",
+    "address": "서울특별시 용산구 한강대로38가길 7-18 지하층",
+    "district": "용산구",
+    "lat": 37.529781,
+    "lng": 126.970028,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1543,
+    "name": "나정순할매쭈꾸미",
+    "address": "서울특별시 동대문구 무학로 144",
+    "district": "동대문구",
+    "lat": 37.5771,
+    "lng": 127.030687,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1544,
+    "name": "봄의정원 회기점",
+    "address": "서울특별시 동대문구 경희대로1길 35 봄의정원 회기점",
+    "district": "동대문구",
+    "lat": 37.591814,
+    "lng": 127.050282,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
