@@ -27155,5 +27155,56 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1545,
+    "name": "Boonie",
+    "address": "서울특별시 강동구 강동대로51길 50 1층",
+    "district": "강동구",
+    "lat": 37.525729,
+    "lng": 127.130655,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1546,
+    "name": "라쿤피자 건대본점",
+    "address": "서울특별시 광진구 능동로 23-14 1층 라쿤피자 건대본점",
+    "district": "광진구",
+    "lat": 37.533996,
+    "lng": 127.066919,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1547,
+    "name": "벨라루체웨딩홀 서울점",
+    "address": "서울특별시 동대문구 망우로 61 벨라루체웨딩홀 서울점",
+    "district": "동대문구",
+    "lat": 37.589908,
+    "lng": 127.05999,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
