@@ -27206,5 +27206,56 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1548,
+    "name": "연막창 잠실새내점",
+    "address": "서울특별시 송파구 백제고분로7길 28-11 1층",
+    "district": "송파구",
+    "lat": 37.510246,
+    "lng": 127.082229,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1549,
+    "name": "전나도 프리미엄 솥뚜껑구이 건대점",
+    "address": "서울특별시 광진구 아차산로33길 48",
+    "district": "광진구",
+    "lat": 37.542395,
+    "lng": 127.070941,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1550,
+    "name": "이에나파이",
+    "address": "서울특별시 동대문구 고산자로 534 . 105호",
+    "district": "동대문구",
+    "lat": 37.58743,
+    "lng": 127.038155,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
