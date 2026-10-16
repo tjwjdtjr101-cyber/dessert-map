@@ -27257,5 +27257,56 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1551,
+    "name": "오스테리아 에덴",
+    "address": "서울특별시 강남구 선릉로152길 37 1층",
+    "district": "강남구",
+    "lat": 37.52464,
+    "lng": 127.042681,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1552,
+    "name": "치쿠린 서울",
+    "address": "서울특별시 마포구 동교로 155 2층",
+    "district": "마포구",
+    "lat": 37.555751,
+    "lng": 126.919082,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1553,
+    "name": "회식의달인 건대점",
+    "address": "서울특별시 광진구 뚝섬로33길 45 1층",
+    "district": "광진구",
+    "lat": 37.536959,
+    "lng": 127.070153,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
