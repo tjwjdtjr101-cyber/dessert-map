@@ -27308,5 +27308,73 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1554,
+    "name": "효뜨 강남점",
+    "address": "서울특별시 강남구 강남대로 358 2층 202호",
+    "district": "강남구",
+    "lat": 37.495069,
+    "lng": 127.029809,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1555,
+    "name": "무사계",
+    "address": "서울특별시 송파구 백제고분로7길 53 1층",
+    "district": "송파구",
+    "lat": 37.510856,
+    "lng": 127.084804,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1556,
+    "name": "신이도가",
+    "address": "서울특별시 마포구 잔다리로 20-12 1층 신이도가",
+    "district": "마포구",
+    "lat": 37.551449,
+    "lng": 126.920945,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1557,
+    "name": "피피에스 신용산",
+    "address": "서울특별시 용산구 한강대로50길 24 1층",
+    "district": "용산구",
+    "lat": 37.531478,
+    "lng": 126.972074,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
