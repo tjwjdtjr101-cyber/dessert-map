@@ -27376,5 +27376,90 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1558,
+    "name": "테이크 잠실점",
+    "address": "서울특별시 송파구 올림픽로 240 롯데월드 B3층",
+    "district": "송파구",
+    "lat": 37.511088,
+    "lng": 127.098282,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1559,
+    "name": "뉴욕아파트먼트",
+    "address": "서울특별시 마포구 월드컵로3길 14",
+    "district": "마포구",
+    "lat": 37.550906,
+    "lng": 126.912261,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1560,
+    "name": "문래 골목집",
+    "address": "서울특별시 영등포구 도림로125길 34 1층",
+    "district": "영등포구",
+    "lat": 37.513387,
+    "lng": 126.893105,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1561,
+    "name": "와고숯불구이",
+    "address": "서울특별시 강동구 천호옛14길 37 1층",
+    "district": "강동구",
+    "lat": 37.53601,
+    "lng": 127.127581,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
+  },
+  {
+    "id": 1562,
+    "name": "장인닭갈비 건대점",
+    "address": "서울특별시 광진구 아차산로 241 1층 106호",
+    "district": "광진구",
+    "lat": 37.540425,
+    "lng": 127.07002,
+    "categories": [
+      "goguma"
+    ],
+    "category": "goguma",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
