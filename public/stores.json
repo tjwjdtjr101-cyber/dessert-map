@@ -27478,5 +27478,22 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1564,
+    "name": "대한제빵소",
+    "address": "서울특별시 마포구 월드컵북로 402 케이지아이티센터 1층 120, 121호 대한제빵소",
+    "district": "마포구",
+    "lat": 37.579947,
+    "lng": 126.889711,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
