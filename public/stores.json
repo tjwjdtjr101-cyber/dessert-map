@@ -27495,5 +27495,22 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1565,
+    "name": "블리스테이블 스타시티몰점",
+    "address": "서울특별시 광진구 아차산로 262 B101-1호 블리스테이블 스타시티몰점",
+    "district": "광진구",
+    "lat": 37.538766,
+    "lng": 127.072272,
+    "categories": [
+      "cake"
+    ],
+    "category": "cake",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
