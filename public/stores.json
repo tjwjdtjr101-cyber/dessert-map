@@ -27512,5 +27512,22 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1566,
+    "name": "프랑스루브르바게트 성수점",
+    "address": "서울특별시 성동구 연무장길 43-1 104호",
+    "district": "성동구",
+    "lat": 37.542929,
+    "lng": 127.054186,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
