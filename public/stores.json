@@ -27529,5 +27529,22 @@
     "rating": 4.6,
     "distance": "",
     "instagramHandle": ""
+  },
+  {
+    "id": 1567,
+    "name": "7카롱",
+    "address": "서울특별시 동대문구 경희대로4길 29 1층",
+    "district": "동대문구",
+    "lat": 37.592147,
+    "lng": 127.05416,
+    "categories": [
+      "dubai"
+    ],
+    "category": "dubai",
+    "status": "available",
+    "price": 5500,
+    "rating": 4.6,
+    "distance": "",
+    "instagramHandle": ""
   }
 ]
